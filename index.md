@@ -1,11 +1,6 @@
 ---
-Title: Case Studies
+Title: Home
 Template: grid
 ---
 
-# CUEiM Case Studies
-
-Welcome to the EiM Case Studies page. A list of the currently available topics is below.
-
-$$\int_{-x}^x f(y) dy$$
-
+# Cambridge University Ethics in Maths Project
