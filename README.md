@@ -1,5 +1,3 @@
-#Markdown Reference
-
 `# Header1`
 
 # Header1
