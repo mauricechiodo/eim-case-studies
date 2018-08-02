@@ -1,3 +1,7 @@
+Below are some examples of Markdown syntax which can be used with Pico:
+
+---
+
 `# Header1`
 
 # Header1
