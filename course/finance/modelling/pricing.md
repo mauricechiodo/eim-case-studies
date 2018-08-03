@@ -1,5 +1,6 @@
 ---
 title: Pricing
+Template: ListSubPages
 ---
 **Pricing**
 
