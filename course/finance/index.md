@@ -1,5 +1,5 @@
 ---
 Title: Finance and the Economic Crash
-Template: coursepage
+Template: ListSubPages
 ---
 
