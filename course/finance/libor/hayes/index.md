@@ -1,5 +1,6 @@
 ---
 Title: Tom Hayes
+Template: ListSubPages
 ---
 
 Tom hayes did bad things.
@@ -8,7 +9,7 @@ Tom hayes did bad things.
 
 [embed "https://youtu.be/YR12Z8f1Dh8"]
 
-$$\int dx = x$$
+$$ \int dx = x $$
 
 
 
