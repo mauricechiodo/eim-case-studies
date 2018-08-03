@@ -1,4 +1,4 @@
 ---
-Title: cdos
+Title: Collateralised Debt Obligations
 Template: ListSubPages
 ---
