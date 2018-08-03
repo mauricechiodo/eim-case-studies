@@ -1,8 +1,8 @@
 ---
-Title: Modelling
+Title: Modelling – Intro
 ---
 
-**Modelling**
+**Modelling – Intro**
 
 Modelling is an essential part of the modern financial world; however, it is open in many ways to abuse. Economics is in the precarious position of submitting quite readily to detailed mathematical models, and is in this regard often compared to physics. However, the laws of economics are broken much more freely; an over-reliance on any form of modelling, or the se of such modelling without being fully aware of its basis or consequences, can have dire effects. Two modellers, Emanuel Derman and Paul Wilmot, published the 'Modeller's Manifesto' in 2009, seeking to publicise the errors made in the design and use of models. It concludes with five promises to be made by the modeller, alluding to the medical Hippocratic Oath: 
 
