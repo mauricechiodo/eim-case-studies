@@ -1,5 +1,6 @@
 ---
 Title: LIBOR
+Template: ListSubPages
 ---
 
 # Libor
