@@ -1,6 +1,6 @@
 ---
 Title: Tom Hayes
-Template: ListSubPages
+Template: rootcoursepage
 ---
 
 Tom hayes did bad things.
