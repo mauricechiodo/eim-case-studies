@@ -37,6 +37,21 @@ A CDO2 is a CDO made from the tranches of other CDOs. This process can then be r
 
 There is no one way of constructing a CDO, in the same way as say building a house – first you lay the foundations then the bricks etc. Instead, there are different objectives to prioritize, and different lines of approach you can take. Frustratingly, the details of the CDOs we most want to see – that of the big investment banks who were so frequently selling these products – are not publicly available. Since there construction is of vast financial value, they are kept secret. 
 
+Building synthetic CDOs and CDO^2s
+CDO^2 are often made out of the “hard-to-sell pieces of the original CDOs” i.e. the riskiest tranches[9]. Moreover, many banks are buying their own CDOs.[9] 
+
+ProPublica also found 85 instances during 2006 and 2007 in which two CDOs bought pieces of each other. These trades, which involved $107 billion worth of CDOs, underscore the extent to which the market lacked real buyers.[9] 
+
+In the past, many banks have been fined for defrauding people into buying low quality mortgage backed securities in the run up to the 2008 financial crisis. [10][11]
+
+
+Building and risk assessing CDOs is tricky, but not compared to doing that for synthetic CDOs and CDO^2. A 2005 computational study using Monte Carlo simulations done by Nomura (an investment bank) shows that the loss distributions of CDO^2s are very sensitive to small changes in underlying assumptions. This makes intuitive sense, given that the reference pool of a CDO^2 has complex interdependence:
+
+A CDO-squared is very sensitive to the shape of loss distributions of the underlying CDO tranches. The shape of loss distribution reveals the degree of "tail risk," or the likelihood of extreme outcomes. In a CDO-squared, credit risk in the underlying CDO tranches is already "tranched" and another round of tranching is made at the master CDO level. Accordingly, the double-layer structure amplifies the sensitivity of a tranche to various parameters, such as default probability, subordination, etc.[8, pg 4]
+
+This creates issues as seemingly negligible alterations in the underlying assumptions of a credit rating agencies model can have a huge effect on the overall loss distributions, and therefore the ratings. In addition, since different agencies rate based on different things, and underlying assumptions can change agency to agency.
+
+(input the graph)
 
 
 
