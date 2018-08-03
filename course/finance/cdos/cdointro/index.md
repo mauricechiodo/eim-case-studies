@@ -5,7 +5,7 @@ Title: CDO Intro and Construction (Jack)
 
 
 
-
+For the full in depth document click here (link to full report)
 
 ###CDOs DRAFT
 
@@ -18,6 +18,17 @@ The tranches are constructed by considering total accumulated loss. Say for exam
 The asset pool does not have to be made up of mortgages, it can be any fixed income asset e.g. credit card loans, bonds etc.
 
 Whilst the asset pool considered as a whole might be a risky BB credit rating, once pool and sliced up, many different products can be made, with varying risk ratings, which can be sold to wider range of investors.
+
+###Synthetic CDOs and CDO2
+
+A synthetic CDO is a CDO whose asset pool has no real cash flow, it is made up of non-cash flow assets. A lot of synthetic CDOs are made up of credit default swaps (CDS). CDSs are insurance against default on credit, for example, if homebuyers default on their mortgaged, a CDS owner will get a payment. Synthetic CDOs can be thought of as a side bet, on the actual mortgages.
+
+A CDO2 is a CDO made from the tranches of other CDOs. This process can then be repeated. If say you have $50 million in sub primes loans being invested in, in reality many times this amount of money may be riding on it through these synthetic CDOs and CDO2.
+
+###How are CDOs constructed?
+
+There is no one way of constructing a CDO, in the same way as say building a house – first you lay the foundations then the bricks etc. Instead, there are different objectives to prioritize, and different lines of approach you can take. Frustratingly, the details of the CDOs we most want to see – that of the big investment banks who were so frequently selling these products – are not publicly available. Since there construction is of vast financial value, they are kept secret. 
+
 
 
 
