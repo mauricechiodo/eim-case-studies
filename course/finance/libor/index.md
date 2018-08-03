@@ -5,6 +5,8 @@ Template: ListSubPages
 
 # Libor
 
+<iframe width="550" height="400" src="https://prezi.com/view/fV0DGrn9ukgrf29XODgI/embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+
 LIBOR - the London Interbank Offered Rate, was at the centre of the 2008 global financial scandal. Used to price upwards of \$300 trillion worth of exotic financial objects such as swaps, futures and options, Libor has been the tool of many malicious bankers to not only increase their own profits, but also make the financial industry as a whole seem much healthier than it should. 
 
 To get an understanding of what happened and what went wrong, let's go back to early 2007 when the bankers were quietly working Libor to their advantage without anyone being too concerned...
@@ -27,6 +29,6 @@ This is a huge simplification of a very complex scandal. On this page, we have l
 
 And remember, don't be like Tom Hayes - think about what you're doing because ultimately you are responsible for your actions!
 
-<iframe width="550" height="400" src="https://prezi.com/view/fV0DGrn9ukgrf29XODgI/embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+
 
 
