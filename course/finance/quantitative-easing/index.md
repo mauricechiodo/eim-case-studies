@@ -13,4 +13,5 @@ Quantitative Easing (QE) is the implementation of **Large-Scale Asset Purchase**
 
 
 ---
+TO BE PUT IN AS AN IMAGE, NOT FOR FINAL WEBSITE
 Table 1 = Figure 1 from https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2009/quantitative-easing.pdf?la=en&hash=0A59C421AC345729A53E1D976D0064E046884369
