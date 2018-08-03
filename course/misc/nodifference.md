@@ -4,11 +4,11 @@ title: What difference does it make?
 
 **What difference does it make?**
 
-The argument from no difference is characterised in two ways by Glover, whom I quote directly: *
+The argument from no difference is characterised in two ways by Glover, whom I quote directly: 
 
-- 'If I don't do it, someone else will.'
-- 'One person makes no difference.'
-*
+- *'If I don't do it, someone else will.'*
+- *'One person makes no difference.'*
+
 I will here focus primarily on the former argument, which is perhaps more of direct relevance to mathematics. For instance, consider the mathematician headhunted by the unscrupulous financial firm, or a number theorist equivocating over whether to publish a paper that could damage the security of an encryption scheme. Both, if they consider the ethical implications at all, might easily take up such an argument if pressed about the adverse impacts of their actions. After all, they may reason, if they do not do it, some other mathematician could easily be employed to do the job, some other academic will prove the result if they do not – and, importantly, one knows nothing of the ethical leanings of these other mathematicians. As such, given that they stand both to extract substantial personal benefits and to minimise ethical fallout, they may as well – indeed, they may be ethically *obliged* – to perform the action in question.
 
 
