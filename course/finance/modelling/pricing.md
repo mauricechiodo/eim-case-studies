@@ -1,7 +1,7 @@
 ---
-title: pricing
+title: Pricing
 ---
-**pricing**
+**Pricing**
 Taking the continuous limit of the binomial model, one obtains a formula (and in another manner can derive an associated equation) which applies when more 'realistic', time-continuous assumptions hold. This equation sometimes said to have brought about the crisis, the Black-Scholes equation, was heavily relied upon by traders around the time, in various calamitous ways. An equation, after all, is only as intelligent as the person using it, and it appears many financial firms were using Black-Scholes in a near-moronic manner. The original 1973 paper by Black and Scholes clearly states seven ideal conditions which must hold if the equation is to be applicable, which are frequently not satisfied in practice. Black and Scholes, effectively the mathematicians behind it all, were perfectly aware of the difficulties in applying their equation. But they did not realise the extent to which their equation would be used in inappropriate situations – despite creating a concept they no doubt thought was theoretically useful, they indirectly abetted in the destabilisation of the entire Western financial system.
 
 While Black-Scholes is in some sense theoretically sound, the Gaussian copula model often used in conjunction with it was always built on much shakier ground. Used heavily in collateralised debt obligation modelling, it was originally used on the understanding that it in some sense 'maximises entropy'. However, when applied to real financial data, it has almost never been seen to be a very effective model – essentially, the tails of the real data are much heavier than the prediction of the Gaussian copula.
