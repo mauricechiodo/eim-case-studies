@@ -1,4 +1,4 @@
 ---
 Title: cdos
-Template: ListSubFolders
+Template: ListSubPages
 ---
