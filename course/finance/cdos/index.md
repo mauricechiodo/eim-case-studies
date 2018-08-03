@@ -1,3 +1,4 @@
 ---
 Title: cdos
+Template: ListSubPages
 ---
