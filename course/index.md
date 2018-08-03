@@ -12,6 +12,5 @@ $$
 \prob{X=y} = 0.7 
 $$
 
-[embed "https://youtu.be/YR12Z8f1Dh8"]
 
 $$\int_{-x}^{x} f(y) dy$$
