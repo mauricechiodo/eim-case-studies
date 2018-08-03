@@ -1,8 +1,7 @@
 ---
-Title: Collateralised Debt Obligations
-
----
 Here are the different topics for CDOs
+---
+Title: Collateralised Debt Obligations
 ---
 Template: ListSubPages
  ---
