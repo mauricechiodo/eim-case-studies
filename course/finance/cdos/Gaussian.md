@@ -1,0 +1,3 @@
+---
+Title:Gaussian Copula
+---
