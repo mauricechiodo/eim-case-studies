@@ -27,6 +27,6 @@ This is a huge simplification of a very complex scandal. On this page, we have l
 
 And remember, don't be like Tom Hayes - think about what you're doing because ultimately you are responsible for your actions!
 
-<iframe width="550" height="400" src="https://prezi.com/view/fV0DGrn9ukgrf29XODgI//embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+<iframe width="550" height="400" src="https://prezi.com/view/fV0DGrn9ukgrf29XODgI/embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
 
 
