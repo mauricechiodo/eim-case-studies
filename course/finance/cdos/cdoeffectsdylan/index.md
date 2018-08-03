@@ -1,5 +1,5 @@
 ---
-Title: CDOs effects (dylan)
+Title: CDOs effects (Dylan)
 ---
 [embed "https://www.youtube.com/watch?v=gqb1zPAyuLo"]
 
