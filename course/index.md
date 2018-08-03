@@ -1,5 +1,5 @@
 ---
-Title: Course
+Title: Case Studies
 Template: rootcoursepage
 ---
 #Ethics in Mathematics Course
