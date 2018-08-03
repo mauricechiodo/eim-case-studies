@@ -1,5 +1,3 @@
-
-
 ---
 Title: Miscellaneous
 Template: ListSubPages
