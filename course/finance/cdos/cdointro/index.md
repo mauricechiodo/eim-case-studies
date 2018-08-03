@@ -9,6 +9,14 @@ For the full in depth document click here (link to full report)
 
 ###CDOs DRAFT
 
+In this section, we try to explain some of the basics of CDO structure, and how CDOs are predominantly constructed, as well as delving a little bit into the murkier waters of synthetic CDOs and CDO^2. sources.
+
+The construction method is usually a ‘trial and error’ back-and-forth between the issuer and the ratings agency. Crucial then are the ratings agencies, who determine the risk associated with the asset, via computational simulations, and applications of mathematical models such as the Gaussian Copula. This as we know (link to marias page) was an inappropriate and oversimplified model to use, ultimately leading to a myopic oversight of the actual risk and crude overvaluation of the assets.
+
+The overvaluation of CDOs is at least in part due to inappropriate use mathematics. However, there are widespread claims of human misconduct, in the form of manipulation, and accusation of straight out fraud. 
+
+###The Basics
+
 How are CDOs made? First, the mortgages (assets) are collated and bundled together (usually in the order of hundreds). There may be hundreds of individual mortgages here. The asset pool, is sold and then repackaged into tranches. The idea of the tranches is to create products of differing risk, from the asset pool. First is the senior tranche – these are the secure products, unlikely to default, next the mezzanine tranche, which is slightly riskier, and then the Equity tranche which is the riskiest. These tranches are then sold off to investors.
 
 CDO payments work in a waterfall: The senior tranche will always get paid first, and only after the senior tranche has been made whole, does the mezzanine tranche get paid, and so on. In addition, if there are losses in the asset pool, for example lots of people default on their mortgage payments, the losses are beared by the lower tranches first. This makes the lower tranches much riskier, and so they have a higher yield compared to more senior tranches. NOTE: in video presentation, can use a ‘waterfall’ demonstration to illustrate this. Also, add attachment/detachment points to the diagram, as well as ‘vertical mortgages’
