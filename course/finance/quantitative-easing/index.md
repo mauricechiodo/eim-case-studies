@@ -3,47 +3,14 @@ Title: Quantitative Easing
 Template: ListSubPages
 ---
 
-Below are some examples of Markdown syntax which can be used with Pico:
+# What is Quantitative Easing?
+
+[embed "https://www.youtube.com/watch?v=IYnsfV5N2n8"]
+
+Quantitative Easing (QE) is the implementation of **Large-Scale Asset Purchase**, a system by which the central bank of a country prints physical or electronic money purchases assets from the private sector with it. This increases the amount of money certain corporations and banks owns, encouraging investment and boosting the economy(table1). This is an unconventional method of stimulating the economy, and is employed as a solution to the **Zero Lower Bound Problem**.
+
+### The Zero Lower Bound Problem
+
 
 ---
-
-`# Header1`
-
-# Header1
-
----
-
-`### Header3`
-
-### Header3
-
----
-
-`*italics*`
-
-*italics*
-
----
-
-`**bold**`
-
-**bold**
-
----
-
-`$$Insert Latex as Normal$$` (The preview won't work here)
-
----
-
-`[Link text](www.google.com)`
-
-
-[Link text](www.google.com)
-
----
-
-To add videos:
-
-[embed "https://youtu.be/YR12Z8f1Dh8"]
-
-(The preview won't display this)
+Table 1 = Figure 1 from https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2009/quantitative-easing.pdf?la=en&hash=0A59C421AC345729A53E1D976D0064E046884369
