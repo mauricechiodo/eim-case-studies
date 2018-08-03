@@ -2,7 +2,7 @@
 title: Recessions
 ---
 
-*Modelling recessions*
+**Modelling recessions**
 
 Modelling recessions is an immensely difficult task; predicting them is yet harder. An unimaginable number of variables, combined with a small sample size on the macro scale, combine to make models both difficult to construct and difficult to test. Nevertheless, people have certainly tried, with various levels of mathematical sophistication. A 2014 review by the Federal Reserve Bank of New York discusses fairly raw statistical techniques which have been used to analyse which factors most affect recessions. However, most of these analyses until after the recent financial crisis were evaluated only by goodness of fit, and not on forward prediction ability. The authors suggest the ROC method pioneered in economics by Berge and Jorda, which involves plotting a model's 'Receiver Operating Characteristic' curve, and graphically analysing the result. The ROC method, which was originated in a 1953 paper by Birdsall and Peterson, apparently only became widely used in economics in the wake of the most recent recession; analyses using this technique often focus on the area under the ROC curve (AUROC), which gives an overall score of effectiveness for a model for several thresholds of defining a recession, as opposed to one only.
 
