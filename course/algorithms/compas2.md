@@ -12,12 +12,12 @@ Originally intended to be used as a tool to help determine probation periods[3],
 
 ### ACCURACY
 
-The Practitioners Guide to the COMPAS score\url{https://assets.documentcloud.org/documents/2840784/Practitioner-s-Guide-to-COMPAS-Core.pdf} indicates that COMPAS gathers 5 main scores from the data collected and performs a weighted average of those scores, ie
+The Pr. Gu.[1] indicates that COMPAS gathers 5 main aggregate data points from its input and performs a weighted average of these scores, so that your risk $R$ is given by
 
 $$R=\sum_{n=1}^Nw_nx_n$$
 
-For the scores $x_n$ and weights $x_n$, $N=5$. This is a troubleingly simple model, where most would suspect some complexity or machine learning to take place. Dressel and Farid (2018) found that even with only two variables, their own algorithm can emulate the accuracy of COMPAS.\\
-Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS using the same information available. The results were that the humans had approximately the same accuracy as COMPAS.
+The weights $w_i$ are created manually to try and optimise the accuracy of the program, although it is unclear if any statistical analysis or even machine learning is used here. A 2018 paper[5] found that even with only two variables, the authors' own algorithm can approximate the accuracy of COMPAS.
+Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS (guessing if a convict will (violently) commit an offence) using the same information that COMPAS had available, and managed to also have approximately the same accuracy as COMPAS.[5]
 
 ### FAIRNESS
 
@@ -70,3 +70,4 @@ works was a “significant problem” in this case.
 [2] Angwin (ProPublica), Julia. “Sample COMPAS Risk-Assessment Questions.” Accessed August 6, 2018. https://www.propublica.org/documents/item/2702103-Sample-Risk-Assessment-COMPAS-CORE.
 [3] Brennan, Tim, William Dieterich, and Beate Ehret. “Evaluating the Predictive Validity of the Compas Risk and Needs Assessment System.” Criminal Justice and Behavior 36, no. 1 (January 2009): 21–40. https://doi.org/10.1177/0093854808326545.
 [4] J, ANN WALSH BRADLEY. “STATE v. LOOMIS | 881 N.W.2d 749 (2016) | By ANN... | 20160713i48| Leagle.Com.” Leagle. Accessed August 6, 2018. https://www.leagle.com/decision/inwico20160713i48.
+[5] Dressel, Julia & Farid, Hany. (2018). The accuracy, fairness, and limits of predicting recidivism. Science Advances. 4. eaao5580. 10.1126/sciadv.aao5580. 
