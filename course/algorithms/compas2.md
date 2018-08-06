@@ -19,13 +19,9 @@ $$R=\sum_{n=1}^Nw_nx_n$$
 The weights $w_i$ are created manually to try and optimise the accuracy of the program, although it is unclear if any statistical analysis or even machine learning is used here. A 2018 paper[5] found that even with only two variables, the authors' own algorithm can approximate the accuracy of COMPAS.
 Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS (guessing if a convict will (violently) commit an offence) using the same information that COMPAS had available, and managed to also have approximately the same accuracy as COMPAS.[5]
 
-### FAIRNESS
-
-ProPublica has published multiple articles criticizing the fairness of COMPAS. Here, fairness specifically refers to disproportionately classifying people of one race as recidivists or violent recidivists despite being similar to members of another race. That is to say, the algorithm being racist. While COMPAS itself doesn't take race as a factor in its data, it does have input the postcode and family history of a convict. In many areas of America, neighbourhoods are heavily segregated by race, and the history of one's family being arrested can be used as a proxy for someone's race.
-
 ### PROPUBLCIA ANALYSIS
 
-ProPublica’s analysis of COMPAS (Julia Angwin, n.d.) makes use of datasets obtained from the
+ProPublica’s analysis of COMPAS[6] makes use of datasets obtained from the
 Broward County sheriff’s office in Florida detailing risk scores assigned to defendants prior to trial as
 well as sentencing statistics for the county. It consists of two main tests.
 The first test involved fitting a logistic regression model to the data and looking at how individual
@@ -71,3 +67,4 @@ works was a “significant problem” in this case.
 [3] Brennan, Tim, William Dieterich, and Beate Ehret. “Evaluating the Predictive Validity of the Compas Risk and Needs Assessment System.” Criminal Justice and Behavior 36, no. 1 (January 2009): 21–40. https://doi.org/10.1177/0093854808326545.
 [4] J, ANN WALSH BRADLEY. “STATE v. LOOMIS | 881 N.W.2d 749 (2016) | By ANN... | 20160713i48| Leagle.Com.” Leagle. Accessed August 6, 2018. https://www.leagle.com/decision/inwico20160713i48.
 [5] Dressel, Julia & Farid, Hany. (2018). The accuracy, fairness, and limits of predicting recidivism. Science Advances. 4. eaao5580. 10.1126/sciadv.aao5580. 
+[6] Julia Angwin, Jeff Larson. “Machine Bias.” Text/html. ProPublica, May 23, 2016. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing.
