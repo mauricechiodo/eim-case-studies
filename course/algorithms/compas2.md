@@ -3,14 +3,14 @@ Title: COMPAS
 Template: ListSubPages
 ---
 
-### WIP. REQUIRE TEMPLATE THAT ACCEPTS TEX
+# WIP. REQUIRE TEMPLATE THAT ACCEPTS TEX
 
-## COMPAS
+### COMPAS
 
 COMPAS is a risk assessment tool originally created by Tim Brennan in 1998.\cite{toby1} It takes data from both a questionnaire presented to an arrested individual and an interview performed with them\cite{calliope1} to output recidivism risk in deciles.\cite{calliope3}
 Originally intended to be used as a tool to help determine probation periods\cite{joseph_brennan}, COMPAS is now employed in several states to determine sentence lengths, notably in Wisconsin.\cite{joseph_loomis}
 
-## ACCURACY
+### ACCURACY
 
 The Practitioners Guide to the COMPAS score\url{https://assets.documentcloud.org/documents/2840784/Practitioner-s-Guide-to-COMPAS-Core.pdf} indicates that COMPAS gathers 5 main scores from the data collected and performs a weighted average of those scores, ie
 
@@ -19,11 +19,11 @@ $$R=\sum_{n=1}^Nw_nx_n$$
 For the scores $x_n$ and weights $x_n$, $N=5$. This is a troubleingly simple model, where most would suspect some complexity or machine learning to take place. Dressel and Farid (2018) found that even with only two variables, their own algorithm can emulate the accuracy of COMPAS.\\
 Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS using the same information available. The results were that the humans had approximately the same accuracy as COMPAS.
 
-## FAIRNESS
+### FAIRNESS
 
 ProPublica has published multiple articles criticizing the fairness of COMPAS. Here, fairness specifically refers to disproportionately classifying people of one race as recidivists or violent recidivists despite being similar to members of another race. That is to say, the algorithm being racist. While COMPAS itself doesn't take race as a factor in its data, it does have input the postcode and family history of a convict. In many areas of America, neighbourhoods are heavily segregated by race, and the history of one's family being arrested can be used as a proxy for someone's race.
 
-## PROPUBLCIA ANALYSIS
+### PROPUBLCIA ANALYSIS
 
 ProPublica’s analysis of COMPAS (Julia Angwin, n.d.) makes use of datasets obtained from the
 Broward County sheriff’s office in Florida detailing risk scores assigned to defendants prior to trial as
