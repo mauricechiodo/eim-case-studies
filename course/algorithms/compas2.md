@@ -3,7 +3,7 @@ Title: COMPAS
 Template: ListSubPages
 ---
 
-### WIP
+### WIP. REQUIRE TEMPLATE THAT ACCEPTS TEX
 
 ## COMPAS
 
