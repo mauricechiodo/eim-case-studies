@@ -7,8 +7,8 @@ Template: ListSubPages
 
 ### COMPAS
 
-COMPAS is a risk assessment tool originally created by Tim Brennan in 1998.\cite{toby1} It takes data from both a questionnaire presented to an arrested individual and an interview performed with them\cite{calliope1} to output recidivism risk in deciles.\cite{calliope3}
-Originally intended to be used as a tool to help determine probation periods\cite{joseph_brennan}, COMPAS is now employed in several states to determine sentence lengths, notably in Wisconsin.\cite{joseph_loomis}
+COMPAS is a risk assessment tool originally created by Tim Brennan in 1988.[1] It takes data from both a questionnaire presented to an arrested individual and an interview performed with them[2] to output recidivism risk in deciles.[1]
+Originally intended to be used as a tool to help determine probation periods[3], COMPAS is now employed in several states to augment a judge's decision determining sentence lengths, notably in Wisconsin.[4]
 
 ### ACCURACY
 
@@ -62,3 +62,11 @@ determine length or severity of punishment, and should definitely not be used
 as “an official aggravating factor” [2] in the sentencing decision. Judge Shirley
 Abrahamson noted that the lack of understanding about COMPAS and how it
 works was a “significant problem” in this case.
+
+
+# WIP BIBLIOGRAPHY
+
+[1] “Practitioners Guide To COMPAS.” FieldGuide2_081412.pdf, August 17, 2012. http://www.northpointeinc.com/files/technical_documents/FieldGuide2_081412.pdf.
+[2] Angwin (ProPublica), Julia. “Sample COMPAS Risk-Assessment Questions.” Accessed August 6, 2018. https://www.propublica.org/documents/item/2702103-Sample-Risk-Assessment-COMPAS-CORE.
+[3] Brennan, Tim, William Dieterich, and Beate Ehret. “Evaluating the Predictive Validity of the Compas Risk and Needs Assessment System.” Criminal Justice and Behavior 36, no. 1 (January 2009): 21–40. https://doi.org/10.1177/0093854808326545.
+[4] J, ANN WALSH BRADLEY. “STATE v. LOOMIS | 881 N.W.2d 749 (2016) | By ANN... | 20160713i48| Leagle.Com.” Leagle. Accessed August 6, 2018. https://www.leagle.com/decision/inwico20160713i48.
