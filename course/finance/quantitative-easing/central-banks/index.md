@@ -1,6 +1,6 @@
 ---
-Title = Central Banks
-Template = ListSubPages
+Title: Central Banks
+Template: ListSubPages
 ---
 
 Video maybe

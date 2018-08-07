@@ -1,5 +1,6 @@
 ---
 Title: Gaussian Copula Page (Maria)
+Template: LeafPage
 ---
 
 Here will be marias stuff

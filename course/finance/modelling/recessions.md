@@ -1,5 +1,6 @@
 ---
 title: Recessions
+Template: LeafPage
 ---
 
 **Modelling recessions**

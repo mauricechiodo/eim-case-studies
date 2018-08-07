@@ -1,5 +1,6 @@
 ---
 Title: About
+Template: LeafPage
 ---
 
 **About**

@@ -1,5 +1,6 @@
 ---
 title: What difference does it make?
+Template: LeafPage
 ---
 
 **What difference does it make?**

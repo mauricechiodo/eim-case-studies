@@ -1,5 +1,6 @@
 ---
 Title: CDO Intro and Construction (Jack)
+Template: LeafPage
 ---
 [embed "https://www.youtube.com/watch?v=S73swRzxs8Y"] placeholder
 

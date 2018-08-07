@@ -1,5 +1,6 @@
 ---
 title: Brexit
+Template: LeafPage
 ---
 
 **Brexit**
