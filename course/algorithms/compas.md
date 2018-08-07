@@ -1,9 +1,7 @@
 ---
 Title: COMPAS
-Template: ListSubPages
+Template: rootcoursepage
 ---
-
-# Requires template that accepts TeX
 
 ### COMPAS
 
@@ -32,6 +30,7 @@ In 2013, Mr. Loomis was arrested and accused of driving a car that had been used
 * The proprietary nature of the COMPAS software prevented him from assessing the accuracy of the score
 * It violated his right to an individualised sentence as it relied on information about the characteristics of a larger group to make an inference about his personal likelihood to commit future crimes
 * It used gender as a variable improperly in calculating the score
+
 Ultimately, the court rejected Loomis's claims[9] and held that COMPAS could be used for sentencing, but prescribed key limitations for its use: The score can help a judge understand a defendant's situation but should not be used to determine a length or severity of punishment, and should definitely not be used as "an official aggravating factor"[8] in the sentencing decision. Judge Shirley Abrahamson noted that the lack of understanding about COMPAS and how it works was a "significant problem" in the case.
 
 ### WBIBLIOGRAPHY
