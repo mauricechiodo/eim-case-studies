@@ -1,6 +1,6 @@
 ---
 Title: COMPAS
-Template: ListSubPages
+Template: LeafPage
 ---
 
 ### COMPAS
