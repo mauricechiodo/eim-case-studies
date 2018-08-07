@@ -1,5 +1,6 @@
 ---
-title: The Logjam attack
+Title: The Logjam attack
+Template: LeafPage
 ---
 
 **The Logjam attack**
