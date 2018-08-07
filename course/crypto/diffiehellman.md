@@ -1,5 +1,6 @@
 ---
-title: Diffie-Hellman Exchange
+Title: Diffie-Hellman Exchange
+Template: LeafPage
 ---
 
 **Diffie-Hellman Exchange**
