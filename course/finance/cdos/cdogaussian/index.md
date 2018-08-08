@@ -40,6 +40,8 @@ The reaction of investment bankers to Li's model was electric. As Scott Patterso
 
 Li made one big simplification in his model. He didn't just drastically decrease the difficulty of calculating correlations, he decided not to calculate all the relationships between the various loans that made up the underlying pool. In Li's model, the only thing that mattered was the final correlation number.
 
-A recent discussion with a trader revelead that, to do their job, traders "choose the easiest model that works". However, as can be seen by the financial crisis of 2007/2008, this model clearly did not work.
+A recent discussion with a trader revelead that, to do their job, traders "choose the easiest model that works". However, as can be seen by the financial crisis of 2008, this model clearly did not work.
 
 [Link to Longer Summary Document]
+[Link to Podcast: 2/3 people discussing why Li's paper was so popular]
+[Link to Video: Discussing the financial crisis '08 - here we can insert the ethics - Style of the video 'The 2008 Financial Crisis: Crash Course Economics #12' on Youtube]
