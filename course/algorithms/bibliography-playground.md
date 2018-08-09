@@ -4,3 +4,5 @@ Template: LeafPage
 ---
 
 $$\cite{citation}$$
+
+$$\printbibliography$$
