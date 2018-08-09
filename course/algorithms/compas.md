@@ -38,7 +38,7 @@ In 2013, Mr. Loomis was arrested and accused of driving a car that had been used
 
 Ultimately, the court rejected Loomis's claims[9] and held that COMPAS could be used for sentencing, but prescribed key limitations for its use: The score can help a judge understand a defendant's situation but should not be used to determine a length or severity of punishment, and should definitely not be used as "an official aggravating factor"[8] in the sentencing decision. Judge Shirley Abrahamson noted that the lack of understanding about COMPAS and how it works was a "significant problem" in the case.
 
-### WBIBLIOGRAPHY
+### BIBLIOGRAPHY
 
 [1] “Practitioners Guide To COMPAS.” FieldGuide2_081412.pdf, August 17, 2012. http://www.northpointeinc.com/files/technical_documents/FieldGuide2_081412.pdf.
 
