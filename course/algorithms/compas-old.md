@@ -1,7 +1,3 @@
----
-Title: COMPAS
----
-
 **COMPAS**
 
 Algorithms have been used for determining prison sentences in several US states, beginning in the present decade. Among the most notorious algorithms is COMPAS, produced by the firm Northpointe; initially intended for determining probation periods (Brennan et al., 2009), it soon went into use for determining sentence lengths for convicted criminals, most notably in Wisconsin. Concerns, as in the Loomis case (State of Wisconsin v. Loomis, 2016) have been raised over the fact that the software is closed-source.
