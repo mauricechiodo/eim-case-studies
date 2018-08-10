@@ -39,7 +39,11 @@ The Federal Open Market Committee (FOMC) is the body responsible for the decisio
 ---
 # Bibliography
 $^1$ “The Interest Rate (Bank Rate).” Accessed August 10, 2018. http://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate.t
+
 $^2$ “Bank of England | About the Bank | People | Paul Tucker, Deputy Governor, Financial Stability,” June 10, 2011. https://web.archive.org/web/20110610134143/http://www.bankofengland.co.uk/about/people/biographies/tucker.htm.
+
 $^3$ “Bank of England Voting Spreadsheet from 1997,” n.d. http://www.bankofengland.co.uk/monetarypolicy/Documents/mpcvoting.xlsx.
+
 $^4$ Bedford, James, Stuart Berry, and Kalin Nikolov. “Quantitative Easing.” Q2 2009. Bank of England, June 12, 2009. https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2009/quantitative-easing.pdf?la=en&hash=0A59C421AC345729A53E1D976D0064E046884369.
+
 $^5$ Gagnon, Joseph, Matthew Raskin, Julie Remache, and Brian Sack. “Large-Scale Asset Purchases by the Federal Reserve: Did They Work?,” 2011, 19.
