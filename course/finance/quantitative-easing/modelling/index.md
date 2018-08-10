@@ -29,13 +29,9 @@ The model is based on the interactions between 6 main factions of the economy:
 
 Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, households will attempt to maximise the following
 
-$$\mathbb{E}_{t} \sum_{s=0}^\infty$$
+$$\mathbb{E} \sum_{s=0}^\infty$$
 
-$$\sum$$
-$$\infty$$
-$$\beta\zeta\Xi\varphi$$
-$$\tilde{W}$$
-$$\frac{a}{b}$$
+dghtoiieo
 
 ---
 # Bibliography
