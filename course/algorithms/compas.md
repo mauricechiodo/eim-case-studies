@@ -12,11 +12,7 @@ Originally intended to be used as a tool to help determine probation periods$^3$
 
 The Pr. Gu.$^1$ indicates that COMPAS gathers 5 main aggregate data points from its input and performs a weighted average of these scores, so that your risk $R$ is given by
 
-$$R=\sum_{n=1}^N w_{n} x_n$$
-
-
-
-
+$$R=\sum_{n=1}^N w_n x_n$$
 
 The weights $w_i$ are created manually to try and optimise the accuracy of the program, although it is unclear if any statistical analysis or even machine learning is used here. A 2018 paper$^5$ found that even with only two variables, the authors' own algorithm can approximate the accuracy of COMPAS.
 
