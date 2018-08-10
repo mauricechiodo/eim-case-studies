@@ -131,4 +131,5 @@ In 2015 NIST updated their recommendation paper for cryptographic random number 
 
 Despite providing documentation on the method for selecting new ${P}$ and ${Q}$ for the algorithm, the group conducting the review were unable to find evidence that anyone had made use of this option "not even organizations with a lot of cryptographic expertise."
 
-
+# Aftermath
+The suspicion around the Dual EC DRBG casts some doubt over the trustworthiness of NIST's other proceedings. Although the relevant individuals claimed to also be unaware as to the origins of the parameters in the algorithm and whether or not there does exist a back door, the willingness of some of these individuals to blindly follow orders from the NSA is alarming. Despite some people attempting to raise issues with the flaws in their work, it took nearly 10 years (and a large scale leak of NSA documents, some heavily suggesting a backdoored technology in NIST's repertory, followed by public outrage) before the recommendation was withdrawn. This specific algorithm had a very obvious flaw and it could be spotted by the public, but NIST has published a large collection of other cryptographic algorithms and technologies, any of which could have more subtle vulnerabilities which have also been kept quiet by ties to the NSA.
