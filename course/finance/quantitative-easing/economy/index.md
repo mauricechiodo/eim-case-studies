@@ -2,3 +2,19 @@
 Title: Economy
 Template: LeafPage
 ---
+
+The economy is doing well! On 2018/08/02, the MPC voted unanimously to increase the bank rate from 0.5% to 0.75%, the highest it has been since Febuary of 2009, nearly a decade ago.$^1$ The UK's GDP has been increasing since 2013 at approximately 0.5% per year.$^2$ The nominative modal hourly wage has gone up by only £1.90 from £5.50 (in 2007) to £7.40 (in 2016)$^3$, a change of 34.5%, while the cost of living has increased by only 26.0%.$^4$\\
+However, homelessness has hugely increased. Rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28bp of the population), but in 2018 that number had increased to 4751 (0.72bp).$^5$
+
+---
+# Bibliography
+
+$^1$ “Bank of England Voting Spreadsheet from 1997.” Accessed August 10, 2018. http://www.bankofengland.co.uk/monetarypolicy/Documents/mpcvoting.xlsx.
+
+$^2$ “United Kingdom GDP Growth Rate | 1955-2018 | Data | Chart | Calendar.” Accessed August 3, 2018. https://tradingeconomics.com/united-kingdom/gdp-growth.
+
+$^3$ “Analysis of the Distribution of Earnings across the UK Using Annual Survey of Hours and Earnings (ASHE) Data - Office for National Statistics.” Accessed August 3, 2018. https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/analysisofthedistributionofearningsacrosstheukusingashedata/2016.
+
+$^4$ “CPI ANNUAL RATE 00: ALL ITEMS 2015=100 - Office for National Statistics.” Accessed August 3, 2018. https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23.
+
+$^5$ Ryan, Daniel. “Rough Sleeping Statistics Autumn 2017, England (Revised).” Accessed August 3, 2018. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/682001/Rough_Sleeping_Autumn_2017_Statistical_Release_-_revised.pdf.
