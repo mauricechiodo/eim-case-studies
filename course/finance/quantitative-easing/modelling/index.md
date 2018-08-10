@@ -29,7 +29,7 @@ The model is based on the interactions between 6 main factions of the economy:
 
 Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, the aggregate wage index (basically average wage) is determined as
 
-$$W_t=\int_0^1$$
+$$W_t=\left[\int_0^1W_t(i)^{-\frac{1}{\lambda_w}}di\right]^{-\lambda_w}$$
 
 ---
 # Bibliography
