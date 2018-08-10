@@ -27,11 +27,9 @@ The model is based on the interactions between 6 main factions of the economy:
 * Final Goods Producers - agents that combine differentiated intermediate goods into a homogenous good
 * The Government - a single body that determines interest rate, implements LSAP and control long-term bonds
 
-Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, households will attempt to maximise the following
+Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, the aggregate wage index (basically average wage) is determined as
 
-$$\mathbb{E}_t \sum_{s=0}^\infty$$
-
-dghtoiieo
+$$W_t=\int_0^1$$
 
 ---
 # Bibliography
