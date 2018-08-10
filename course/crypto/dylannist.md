@@ -3,7 +3,7 @@ Title: Dylan's NIST Notes
 Template: LeafPage
 ---
 
-$\newcommand{\lsb}[1]{\text{lsb}_{240}\left( #1 \right)}$
+$\newcommand{\lsb}[1]{\text{lsb}\_{240}\left( #1 \right)}$
 
 # Preliminary Definitions
 
@@ -17,22 +17,26 @@ In a field ${F}$, the characteristic is the (prime) number of times you must add
 
 For a field ${K}$ of characteristic ${\neq 2, 3}$, an elliptic curve over ${K}$ is the set of points $(x, y)$ satisfying the equation
 $$y^2 = x^3 + ax + c$$
-where ${x^3 + ax + c}$$ has no repeated roots, along with a point at infinity ${O}$.
+where ${x^3 + ax + c}$ has no repeated roots, along with a point at infinity ${O}$.
+
 
 If ${K}$ has characteristic 2 then an elliptic curve over ${K}$ is the set of points satisfying either 
 $$y^2 + cy = x^3 + ax + b$$
 or
-$$y^2 + xy = x^3 + ax^2 + b$$,
+$$y^2 + xy = x^3 + ax^2 + b,$$
 with a point at infinity.
+
 
 If ${K}$ has characteristic 3 then an elliptic curve over ${K}$ is the set of points satisfying
 $$y^2 = x^3 + ax^2 + bx + c$$
 with a point at infinity.
 
+
 We define the *negation* of a point on an elliptic curve as so:
 
 - $-O = O$
 - $-(x, y) = (x, -y)$
+
 
 And we define *addition* of two points ${P, Q}$ as so:
 
@@ -71,9 +75,9 @@ $$ y_P = 36134250956749795798585127919587881956611106672985015071877198253568414
 $$ x_Q = 91120319633256209954638481795610364441930342474826146651283703640232629993874, $$
 $$ y_Q = 80764272623998874743522585409326200078679332703816718187804498579075161456710. $$
 
-(a, b, x_P, y_P, x_Q, y_Q ref Barker and Kelsey 2005)
+($a, b, x_P, y_P, x_Q, y_Q$ ref Barker and Kelsey 2005)
 
-A seed ${s_0}$ is chosen randomly from $\{0, 1, ..., |E(\mathbb{F}_p)|-1\}$. 
+A seed ${s_0}$ is chosen randomly from $\\{0, 1, ..., |E(\mathbb{F}_p)|-1\\}$. 
 
 Let ${x: E(\mathbb{F}_p) \rightarrow \mathbb{F}_p}$ be the function projecting points onto their ${x}$-coordinate. $\mathrm{lsb}_i(s)$ denotes the ${i}$ least significant bits of an integer ${s}$.
 
