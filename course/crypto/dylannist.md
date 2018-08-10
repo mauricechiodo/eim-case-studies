@@ -84,8 +84,8 @@ Let ${x: E(\mathbb{F}_p) \rightarrow \mathbb{F}_p}$ be the function projecting p
 The Dual_EC_DRBG algorithm maps the seed to a pseudorandom sequence of length $240k$ as so:
 
 - for $i=1...k$:
-  - let $s_i = \lsb{x(s_{i-1}P)}$
-  - let $r_i = lsb_{240}(x(s_iQ))$
+  - let $s_i = \lsb{x(s\_{i-1}P)}$
+  - let $r_i = \lsbx(s_iQ)}$
 - return $(r_1, ..., r_k)$
 
 The claim is that due to the difficulty of solving the discrete logarithm (finding an integer $\alpha$ such that $P = \alpha Q$) it is intractable to work backwards to find the internal state $s_i$ of the number generator.
