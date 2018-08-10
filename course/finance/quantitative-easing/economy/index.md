@@ -1,0 +1,4 @@
+---
+Title: Economy
+Template: LeafPage
+---
