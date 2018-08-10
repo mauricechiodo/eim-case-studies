@@ -31,7 +31,7 @@ Each of these has their own technology that accounts for the others and attempts
 
 $$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
-This equation is in the technical report, which describes more thoroughly the mathematical aspects of the model.
+This frankly terrifying equation is on page 15 of the technical report, which describes more thoroughly the mathematical aspects of the model. It ultimately says that you want to maximise your pay, but if your work has a greater supply of workers, then you will have to work for less.
 
 ### MELP Conclusions
 
