@@ -27,11 +27,11 @@ The model is based on the interactions between 6 main factions of the economy:
 * Final Goods Producers - agents that combine differentiated intermediate goods into a homogenous good
 * The Government - a single body that determines interest rate, implements LSAP and control long-term bonds
 
-Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, the aggregate wage index (basically average wage) is determined as
+Each of these has their own technology that accounts for the others and attempts to maximise their profits. For example, a household will attempt to maximise the following function:
 
-$$W_t=\left[\int_0^1W_t(i)^{-\frac{1}{\lambda_w}}di\right]^{-\lambda_w}$$
+$$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
-Here $W_t(i)$ is the wage set by the $i^{th}$ household and $\lambda_w$ is the steady state wage markup. This is equation (2.8) in the technical report, which describes more thoroughly the mathematical aspects of the model.
+This equation is in the technical report, which describes more thoroughly the mathematical aspects of the model.
 
 ### MELP Conclusions
 
