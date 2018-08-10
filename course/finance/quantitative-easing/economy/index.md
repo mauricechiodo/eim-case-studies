@@ -3,8 +3,13 @@ Title: Economy
 Template: LeafPage
 ---
 
-The economy is doing well! On 2018/08/02, the MPC voted unanimously to increase the bank rate from 0.5% to 0.75%, the highest it has been since Febuary of 2009, nearly a decade ago.$^1$ The UK's GDP has been increasing since 2013 at approximately 0.5% per year.$^2$ The nominative modal hourly wage has gone up by only £1.90 from £5.50 (in 2007) to £7.40 (in 2016)$^3$, a change of 34.5%, while the cost of living has increased by only 26.0%.$^4$\\
+# The Economy
+
+The economy is doing well! On 2018/08/02, the MPC voted unanimously to increase the bank rate from 0.5% to 0.75%, the highest it has been since Febuary of 2009, nearly a decade ago.$^1$ The UK's GDP has been increasing since 2013 at approximately 0.5% per year.$^2$ The nominative modal hourly wage has gone up by only £1.90 from £5.50 (in 2007) to £7.40 (in 2016)$^3$, a change of 34.5%, while the cost of living has increased by only 26.0%.$^4$
+
 However, homelessness has hugely increased. Rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28bp of the population), but in 2018 that number had increased to 4751 (0.72bp).$^5$
+
+# The Economy versus the people
 
 ---
 # Bibliography
