@@ -12,7 +12,8 @@ Originally intended to be used as a tool to help determine probation periods$^3$
 
 The Pr. Gu.$^1$ indicates that COMPAS gathers 5 main aggregate data points from its input and performs a weighted average of these scores, so that your risk $R$ is given by
 
-$$R=\sum_{n=1}^N w_n x_n$$
+$$R=\sum_{n=1}^N w_{n} x_n$$
+
 
 
 
