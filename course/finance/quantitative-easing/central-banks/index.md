@@ -34,7 +34,7 @@ The 2009q2 bulletin$^4$ has a telling statement that indicates there was little 
 
 ### The Federal Open Market Commitee
 
-The Federal Open Market Committee (FOMC) is the body responsible for the decision to begin Large-Scale Asset Purchase (LSAP) programs,$^5$ and in December 2008 lowered the federal funds rate to 0-25 basis points (one ten thousandth, or one percent of a percent). This rubbed up close to the Zero Lower Bound, and so the FOMC decided to begin LSAP.
+The Federal Open Market Committee (FOMC) is the body responsible for the decision to begin Large-Scale Asset Purchase (LSAP) programs,$^5$ and in December 2008 lowered the federal funds rate to 0-25 basis points ($\textpertenthousand%, literally one ten thousandth). This rubbed up close to the Zero Lower Bound, and so the FOMC decided to begin LSAP.
 
 ---
 # Bibliography
