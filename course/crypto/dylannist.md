@@ -15,6 +15,7 @@ In a field ${F}$, the characteristic is the (prime) number of times you must add
 ## Elliptic Curves
 (ref: Koblitz)
 
+### Definition
 For a field ${K}$ of characteristic ${\neq 2, 3}$, an elliptic curve over ${K}$ is the set of points $(x, y)$ satisfying the equation
 $$y^2 = x^3 + ax + c$$
 where ${x^3 + ax + c}$ has no repeated roots, along with a point at infinity ${O}$.
@@ -31,13 +32,13 @@ If ${K}$ has characteristic 3 then an elliptic curve over ${K}$ is the set of po
 $$y^2 = x^3 + ax^2 + bx + c$$
 with a point at infinity.
 
-
+### Negation
 We define the *negation* of a point on an elliptic curve as so:
 
 - $-O = O$
 - $-(x, y) = (x, -y)$
 
-
+### Addition
 And we define *addition* of two points ${P, Q}$ as so:
 
 - ${P + O = O + P = P}$
