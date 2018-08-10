@@ -1,6 +1,6 @@
 ---
 Title: Macroeconomic Modelling
-Template: LeafPage
+Template: ListSubPages
 ---
 
 ## Modelling
