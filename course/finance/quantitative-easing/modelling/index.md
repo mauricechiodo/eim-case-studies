@@ -31,6 +31,12 @@ Each of these has their own technology that accounts for the others and attempts
 
 $$W_t=\left[\int_0^1W_t(i)^{-\frac{1}{\lambda_w}}di\right]^{-\lambda_w}$$
 
+Here $W_t(i)$ is the wage set by the $i^{th}$ household and $\lambda_w$ is the steady state wage markup. This is equation (2.8) in the technical report, which describes more thoroughly the mathematical aspects of the model.
+
+### MELP Conclusions
+
+The paper concludes, having run simulations of multiple LSAP programs, that "The effects of recent [2008] asset purchase programs on macroeconomic variables, such as GDP growth and inflation, are likely to be moderate but with a lasting impact on the level of GDP".$^5$ However, the authors admit that the effects on GDP growth are unlikely to exceed 50bp. The authors suggest that keeping interest rates low for "some period of time" alongside this LSAP will cause the LSAP to be twice as effective.
+
 ---
 # Bibliography
 
