@@ -100,20 +100,20 @@ There is no public knowledge as to how ${P}$ and ${Q}$ were generated. It is kno
 
 If such an $\alpha$ is known, then we can attempt to infer the internal state of the RNG as so:
 
-- Given some $r_i = lsb_{240}(x(s_iQ))$, we can enumerate the $2^16$ integers, $x_j$ whose first 240 bits match $r_i$.
+- Given some $r\_i = \lsb{x(s\_iQ)}$, we can enumerate the $2^16$ integers, $x_j$ whose first 240 bits match $r_i$.
 - We build a set ${S}$ of candidate points on the RNG.
 - For each $x_j$
   - Compute $z_j = (r_i^j)^3 - 3r_i^j + b$
-  - If $z_j$ is a quadratic residue modulo ${p}$ (ie if some number squares to it) then we can add to ${S}$ $(y_1, x_j)$ and $(y_2, x_j)$, where $y_1^2 \equiv y_2^2 \equiv z_j \mod{p}$.
+  - If $z_j$ is a quadratic residue modulo ${p}$ (ie if some number squares to it) then we can add to ${S}$ $(y_1, x_j)$ and $(y_2, x_j)$, where $y_1^2 \equiv y_2^2 \equiv z_j \pmod{p}$.
 - We should now have that $s_iQ \in S$ although we do not know which element of ${S}$ this is.
 - Now note that contained in $\alpha\cdot S$ we have
 $$ \begin{aligned} \alpha (s_i Q) 
-&= (\alpha s_i) Q \\
-&= (s_i \alpha) Q \\
-&= s_i (\alpha Q) \\
+&= (\alpha s_i) Q \\\\
+&= (s_i \alpha) Q \\\\
+&= s_i (\alpha Q) \\\\
 &= s_i P
 \end{aligned} $$.
-- And $s_{i+1} = lsb_{240}(x(s_i))$
+- And $s\_{i+1} = \lsb{x(s\_i)}$
 
 By looking at multiple sequential outputs from the RNG we can quickly reduce our set of candidate states to a small number of possibilities, compromising its integrity.
 
