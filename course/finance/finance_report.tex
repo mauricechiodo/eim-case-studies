@@ -1,0 +1,713 @@
+% preamble
+\documentclass[notitlepage,12pt]{report}
+% packages
+\usepackage{amsmath} % Advanced math typesetting
+\usepackage{amsfonts} % Advanced math fonts
+\usepackage[utf8]{inputenc} % Unicode support (Umlauts etc.)
+\usepackage[british]{babel} % Change hyphenation rules
+\usepackage{hyperref} % Add a link to your document
+\usepackage{graphicx} % Add pictures to your document
+\usepackage{listings} % Source code formatting and highlighting
+\usepackage[british]{isodate} % Them good date formats
+\usepackage{microtype} % Better kerning
+\usepackage{textcomp}
+\usepackage[margin=1.2in]{geometry} % custom margin sizes
+\usepackage{comment} % lets you comment out large sections
+\usepackage{titling} % titling page
+\usepackage{enumitem}
+\usepackage{tablefootnote} % helps put footnotes in tables
+\usepackage{threeparttable}
+\usepackage[toc,page]{appendix} % allows appendices
+\usepackage[backend=bibtex8,urldate=iso8601,date=iso8601]{biblatex} % biblatex with ISO dates
+
+\newcommand{\raiseinf}{\raisebox{0.31ex}{$\infty$}}
+
+% bibliography
+\bibliography{finance_calliope_summary}
+
+% titles and such
+\title{Quantitative Easing}
+\author{Calliope Ryan-Smith}
+\date{\isodate\today}
+
+% main document
+\begin{document}
+
+%titling page
+\begin{titlingpage}
+
+
+\maketitle{}
+
+\begin{abstract}
+	We look into Large Scale Asset Purchase (LSAP) programs, often called Quantitative Easing (QE). In the height of the financial crash from 2008 to 2009, bank rates came close to 0\%. To further stimulate the economy, banks want to bring their interest rates further down, but interest cannot go below 0\% (The Zero Lower Bound Problem (ZLB/ZLBP)), so alternative methods must be employed.\\
+	For most countries, this means the central bank generating digital money and purchasing assets from other businesses and banks. This increases the amount of money in circulation, deflating the currency and moving money into the hands of whoever the central bank wants. This is hoped to lead to increased investment and ultimately economic growth.\\
+	We also look at a staff report from the Federal Reserve that looks to model the economy using Dynamic Stochastic General Equilibrium and dissect the equations that go into how that model works, as well as looking at its conclusions.
+\end{abstract}
+
+\end{titlingpage}
+
+\tableofcontents
+
+\setcounter{chapter}{-1}
+
+\chapter{Introduction}
+
+\section{What is Quantitative Easing}
+
+Quantitative Easing is the implementation of {\bf Large Scale Asset Purchase}. The central bank purchases assets from the private sector in order to inject money into the economy, promoting economic growth. Most of the assets purchased are in the UK are government bonds (`gilts'), so by buying large amounts of gilts the price is driven up, lowering the yield. This encourages investors to sell their gilts back to the government.\\
+This is seen as a solution to the {\bf Zero Lower Bound Problem} in that by buying private assets from other banks, the value of currency becomes devalued and the businesses that had their assets purchased become richer.
+
+\section{Zero Lower Bound}
+
+When an economy becomes unstable, a bank can lower interest rate on its accounts to help stabilise the economy. ZLB is the idea that a bank {\it cannot} bring its interest rate lower than 0\%, even if it wants to, lest its customers would withdraw all their money from their accounts as physical currency or move to another bank. Therefore, the central bank has to come up with alternative solutions to the ZLBP, such as LSAP or taxing currency.
+
+\chapter{QE from Central Banks}
+
+\section{UK -- Monetary Policy Committee}
+
+According to the Bank of England website, decisions regarding LSAP programs are made by the Monetary Policy Committee\cite{noauthor_quantitative_nodate} (MPC), similar to how the decisions regarding LSAP in the US are made by the Federal Open Market Committee (FOMC).\cite[p.1]{gagnon_large-scale_2011}\\
+
+In 2007, the MPC had nine members\cite{noauthor_bank_2007}:\\
+
+%\setcounter{footnote}{-2}
+
+\begin{tabular}{@{$\bullet$ }lp{.65\textwidth}l}
+	Mervyn King & Governor (Undergraduate in Economics Kings Cam)\\
+	Rachel Lomax & Deputy Governor (Undergraduate in Economics Girton Cam)\\
+	John Gieve & Deputy Governor (Undergraduate in PPE \& Philosophy New Ox)\\
+	{\it Charles Bean} & Chief Economist (Undergraduate Economics Emma Cam, PhD Economics)\\
+	Kate Barker & Member (Undergraduate PPE St Hildas Ox)\\
+	Paul Tucker & Member (Undergraduate {\bf Maths} \& Philosophy Trinity Cam)\\
+	Tim Besley & Member (Undergraduate PPE Keble Ox)\\
+	{\it David Blanchflower} & External Member (Undergraduate Economics Leicester, PhD Economics)\\
+	{\it Andrew Sentance} & External Member (Undergraduate Economics Clare Cam, PhD Economics)
+\end{tabular}
+
+\hfill
+
+Those in {\it italics} are members with PhDs. Everything in {\bf bold} is related to mathematical training.\\
+
+Of these, only one - Paul Tucker - has any training in mathematics. When voting on Bank Rate Decisions from the period of Jan `07 to the end of his term in Oct `13 Tucker never opposed the majority vote.\cite{boe_minutes} In fact, the MPC was almost always \(\geq6\) (out of 8 or 9) people voting for at least the same direction of the bank rate (increase, decrease, keep the same) with the exception of June `07, when the comittee had 5 people (including Tucker) vote to keep the bank rate at 5.50\% and four vote to increase it to 5.75\%.\\
+Quantitative Easing was decided upon by the MPC on \printdate{2009-03-05}\cite{bedford_quantitative_2009} at the same time the Bank Rate was voted to be reduced to 0.5\% from 1.0\% unanimously.\cite{boe_minutes} At this time, the MPC voted (again unanimously) to purchase £75 billion worth of assets. Changes in amounts purchased are shown in Table\ref{table1} in Chapter \ref{tables}.\\
+Amounts of assets purchased has never gone down. Tucker has also never voted against the majority in asset purchase.\\
+
+The 2009q2 bulletin has a telling quote, that seems to indicate that there was little technical work behind the decision.\footnote{Save for years of experience and training at university and in industry and some portfolio balance modelling.}
+
+\begin{quote}
+``It is too soon to say how powerful the stimulus will ultimately be. There is considerable uncertainty about the strength and timing of effects. {\bf Standard economic models are of limited use in these unusual circumstances}, and the empirical evidence is extremely limited. However, the monetary policy framework will ensure that the appropriate measures are taken over time so that the inflation target is met in the medium term."\\
+---2009 second Quarterly Bulletin\cite[conclusion, p.99]{noauthor_quantitative_nodate} (Emphasis added)
+\end{quote}
+
+\section{Asset Purchase Programs in other countries}
+
+The 2009q2 report also includes a section titled ``Asset purchases in other countries"\cite[p.92]{noauthor_quantitative_nodate} upon which we will elaborate here.\\
+
+Due to the global nature of the `07 crash, many countries around the world have had to loosen monetary policy. In the United States, LSAP programs ``covered a range of different types of assets, such as commercial paper and asset-backed securities"\cite[p.92]{noauthor_quantitative_nodate}, undertaken by the Federal Reserve. {\it ``The Macroeconomic\dots"}\cite{chen_macroeconomic_2011} is a staff report published by the Federal Reserve and looks to retroactively model LSAP to see if those programs were worthwhile. The focus of American QE has been on specific markets, such as housing, rather than the economy at large.\\
+
+The Bank of Japan introduced outright purchases of private sector instruments, rather than assets.\\
+
+The Swiss National Bank purchased, in additional to normal private assets, foreign currency to increase liquidity and prevent appreciation of the Swiss franc against the euro.
+
+\begin{comment}
+
+\section{Unofficial Statement from Tucker}
+
+The author emailed Sir Paul Tucker, who is at time of writing a professor at Harvard, about his decisions to introduce LSAP programs to the UK. The email contained the following noteworthy comments.
+
+\begin{quote}
+	\(\bullet\) I think some of the substance is in speeches by Mervyn King [Governor], Charlie Bean [Chief Economist] and others, including myself\\
+	
+	{\it Did your training in mathematics influence your decision to begin QE in Britain?}\\
+	\(\bullet\) No, or only in so far as it made it easier than otherwise to train in economics\\
+	
+	{\it On the economic model used to optimise amount of assets purchased}\\
+	\(\bullet\) Portfolio balance models in conditions of imperfect arbitrage\\
+	
+	{\it Did you know that you would have to increase asset purchase and underestimate the amount required?}\\
+	\(\bullet\) Yes, but not which. The thing about monetary policy is that, unlike many other areas of public policy, you get to reset your instrument every month (now every six weeks). We wanted to do enough to make a material difference. It turned out that we needed to do more.
+\end{quote}
+\end{comment}
+
+\section{On Public Policy}
+
+When modelling the economy to decide how many assets the MPC should purchase, they used the Portfolio Balance Model, under conditions of imperfect arbitrage.\\
+The meetings, at the time, were monthly and so any amount could be (relatively) quickly changed, meaning that when the MPC realised they had to do more, more could be bought swiftly.
+
+\section{Portfolio Balance Model}
+
+The Portfolio Balance Model (PBM) was the model employed by the MPC to estimate the effects of LSAP on inflation rate. The MPC had a target inflation rate of 2\%\cite[p.1]{noauthor_quantitative_nodate} which was not being met during the economic crash.\cite{noauthor_united_nodate} Course notes by Michael Bergman\cite{bergman_portfolio_2005} from the University of Copenhagen (based on a 2002 textbook by Sarno and Taylor\cite{sarno_economics_2002}) detail the portfolio balance model, which I will attempt to understand and summarise here. The model is based on modelling the demand for money, domestic bonds and foreign bonds (mostly foreign currency). The model is based on equilibrium from the rates of change of these values, and thus predicts inflation based on this. The MPC used this to predict how many assets to buy, and used their high decision turnover rate to be able to finely tune how many assets to buy.\\
+The model's underlying assumption is that the portfolio of a country's assets will tend towards a balance; the demand for the types of assets will reach a stable solution.
+
+\subsection{Imperfect arbitrage}
+
+The model used by the MPC takes into account imperfect arbitrage, so there were additional considerations for the existence of arbitrage, perhaps in the form of shocks (random, unexpected changes to the economic system such as from government scandals or extreme weather) or other new variables.
+
+\section{US -- Federal Open Market Committee}
+
+The Federal Open Market Committee (FOMC) is the body responsible for the decision to begin LSAP programs\cite[p.1]{gagnon_large-scale_2011}, and in December 2008 lowered the federal funds rate to 0-25 basis points (\textpertenthousand, literally one ten thousandth). This rubbed up close to the Zero Lower Bound, and so the FOMC decided to begin LSAP.
+
+Details on members of the FOMC in 2008 are harder to come by than the MPC, but the minutes from the meeting on which they agreed to begin LSAP\cite{FOMC_minutes_2008} seem to show that these were the members\\
+
+\begin{tabular}{@{$\bullet$ }lp{.65\textwidth}l}
+	{\it Ben S. Bernanke} & Chairman, Board of Governors (Undergraduate Economics Harvard, PhD Economics MIT)\\
+	Timothy F. Geithner & Vice Chairman, New York\\
+	Elizabeth A. Duke & Board of Governors (Undergraduate Physics North Carolina State, Drama North Carolina at Chapel Hill)\footnotemark\\
+	Richard W. Fisher & Dallas (Undergraduate Economics Harvard, Latin American Studies Oxford, MBA Stanford)\\
+	Donald L. Kohn & Board of Governors (Education unknown)\footnotemark\\
+	{\it Randall S. Kroszner} & Board of Governors (Undergraduate {\bf mathematics}/economics Brown, PhD Economics Harvard)\\
+	Sandra Pianalto & Cleveland (Undergraduate Economics Akron)\\
+	{\it Charles I. Plosser} & Philadelphia (Undergraduate Engineering Vanderbilt, PhD Chicago)\\
+	{\it Gary H. Stern} & Minneapolis (Undergraduate Economics Washington, PhD Economics Rice)\\
+	Kevin M. Warsh & Board of Governors (Undergraduate Public Policy Stanford)\\
+\end{tabular}
+
+\addtocounter{footnote}{-1}
+\footnotetext{Worked at for First and Merchants National Bank after graduating because she `needed a job'.\cite[paragraph 7]{neededajob}}
+\stepcounter{footnote}
+\footnotetext{Mr Fisher is now a senior advisor to Barclays, and a director of PepsiCo.\cite{fisher_pepsi,fisher_barclays}}
+
+\hfill
+
+Again people holding PhDs are {\it italicized} and mathematical training is indicated by {\bf bold} and again only one member has any mathematical training. However, unlike MPC meetings, FOMC meetings have many people present over the course of their two day meetings, so there may well be a lot of technically trained people present.
+
+\chapter{The Macroeconomic Effects of Large-Scale Asset Purchase}
+
+{\it This chapter is an overview of the paper} The Macroeconomic Effects\dots\cite{chen_macroeconomic_2011} {\it (MELP) including a brief overview of the model used (DSGE). See the technical appendix for a more thorough, technical examination of the paper.}
+
+\section{Previous analyses}
+
+Prior to the publishing of MELP, many other papers had been published supporting LSAP, predicting that the Ten-Year treasury yield will be reduced by the programs. Krishnamurthy and Vissing-Jorgensen's 2011 paper\cite{krishnamurthy_effects_2011} is an example of such a paper. While some papers have shown LSAP may be ineffective at reducing long-term rates, MELP's authors expressed they want to ``give LSAP programs a chance".\cite[p.2]{chen_macroeconomic_2011} Ultimately, the paper attempts to break {\it Wallace's Irrelevance Theorem}\cite{wallace_modigliani-miller_1981}, which says that under certain conditions LSAP programs do not have a significant impact on the economy. The concept of {\it restricted} and {\it unrestricted} households\footnote{More on this in the `Households' section.} is meant to be the main factor in countering Wallace's argument.
+
+\section{Model methods}
+
+The paper uses the {\it Dynamic Stochastic General Equilibrium} (DSGE) model, the same used in Wallace's paper.\cite{wallace_modigliani-miller_1981} The model limits arbitrage and market segmentation into a simple, frictionless form. Nominal and real rigidities (places in the market where values are likely to not change, such as your nominal wage not changing despite inflation) are used. It is assumed that investors have different preferences for investments.
+
+\section{The model}
+
+\subsection{Households}
+
+Households are the monopolistic suppliers of labour. They come in a {\it restricted} and {\it unrestricted} form. Restricted households can only trade in long-term bonds, rather than short term, but they don't suffer a transaction cost to their trading. Households are assume to consume a homogeneous final product (produced by final goods producers) and work labour.
+
+\subsubsection{Budget Constraint}
+
+Each given household has a final amount of money available to them, determined by returns on investments and wages earned which they can use to consume final product and purchase additional bonds. Suppose there are assets that each cost $c_x$, you buy $n_x$ of each and you have a total earning of $C$, then
+$$\sum c_x n_x \leq C$$
+
+\subsection{Labour agencies and wage setting}
+
+Labour agencies combine the differentiated labour inputs $L_t(i)$, with $i\in[0,1]$ into a composite $L_t$, which is then used by intermediate goods producers. The demand for the $i^{th}$ labour input can then be derived from the wage of the labour and this composite, which affects wage decisions.\\
+
+The model makes the assumption that wages are not updated constantly, since there is a financial cost associated with wage setting. Therefore, at each time step there is a probability that the wage resets and that households get to elect their new wage based on demand, stickiness etc.
+
+\subsection{Capital producers}
+
+Capital producers are agents who imperfectly manage their capital and use it to invest in short- and long-term bonds on behalf of shareholders (households). An example would be a bank or a hedge-fund management agency. They seek to maximise their dividends to their shareholders.
+
+\subsection{Intermediate goods producers}
+
+An intermediate goods producer uses labour and capital to produce intermediate goods (fabrics, software and such). The intermediate goods producer also sets prices on a staggering basis, maximising profits over all time whenever they can.
+
+\subsection{Final Goods Producers}
+
+Final goods producers turn the continuum of intermediate goods $Y_t(i)$ into a homogeneous final good $Y_t$. This is what households consume every time step - clothing, food etc. From this the demand for each intermediate good and the aggregate price index can be calculated.
+
+\subsection{Government policies}
+
+The government is the body that govern interest rate on bonds, which evolves according to a difference equation relating to the previous interest rate, the inflation rate and the amounts of final product in the economy.\footnote{As well as shocks and decays.} The government, like a household, has a budget constraint based on other people's investment in their bonds and taxes. It also controls all long-term bonds.
+
+\subsection{Equilibrium solution and strategy}
+
+The DSGE assumes that all agents maximise their own objectives, typically generating wealth, with their own individual constraints. There's a global resource constraint. There is a system of equations governing the market value of bonds and the cost to each type of household.
+
+\section{Data}
+
+Quarterly data from the United States from 1987 to 2009 is used for
+\begin{enumerate}[noitemsep]
+	\item Real GDP per capita
+	\item Hours worked
+	\item Real wages
+	\item Core personal consumption expenditures deflator
+	\item Nominal effective Federal funds rate
+	\item 10-year Treasury constant maturity yield
+\end{enumerate}
+
+The random variables, $X$, were given the distribution of either gamma ($X\in[0,\infty)$), beta ($x\in[0,1]$) or inverse-gamma\footnote{For shock innovations only.} ($X\in[0,\infty$).\\
+
+The authors used Bayesian methods for analysing the data, deciding a prior distribution and using experimental results to alter that. The stability of their data is tested by using data ending not only in 2009q3, but also 2007q2, 2008q3 and 2011q2. The parameters remained comparable throughout the data changes.
+
+\section{Simulating LSAP II}
+
+MELP was published after QE1\footnote{The first LSAP program.} and at the time QE2 (hereafter LSAP II) had been announced. The model looked to see if the second round of LSAP would be effective. The model assumed that the assets purchased would be bought over 2 years, held for 2 years and then sold over 2 years. This turned out to not be what happened, and the US instigated QE\raiseinf after the end of LSAP II.\footnote{See section A.5 for additional details on QE\raiseinf.}
+
+\section{MELP conclusions}
+
+The paper concludes that the effects of the asset purchase program is likely to be moderate, but with lasting effect. It was predicted to raise GDP, but is unlikely to affect GDP growth by more than 50\textpertenthousand.
+
+\chapter{Conclusions}
+
+The economy is doing well! On 2018/08/02, the MPC voted unanimously to increase the bank rate from 0.5\% to 0.75\%, the highest it has been since Febuary of 2009, nearly a decade ago.\cite{boe_minutes} The UK's GDP has been increasing since 2013 at approximately 0.5\% per year.\cite{uk_gdp} The nominative modal hourly wage has gone up by only \pounds1.90 from \pounds5.50 (in 2007) to \pounds7.40 (in 2016)\cite{noauthor_analysis_nodate}, a change of 34.5\%, while the cost of living has increased by only \%26.0.\cite{cpi_uk}\\
+However, homelessness has hugely increased. Rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28\textpertenthousand~of the population), but in 2018 that number had increased to 4751 (0.72\textpertenthousand).\cite{ryan_rough_nodate}
+
+\chapter{Acronyms}
+
+\begin{tabular}{@{$\bullet$ }lp{\textwidth}l}
+	{\bf \textpertenthousand} & Basis points\\
+	{\bf bp} & Basis points\\
+	{\bf DSGE} & Dynamic Stochastic General Equilibrium\\
+	{\bf FOMC} & Federal Open Market Committee\\
+	{\bf GFC} & Global Financial Crash\\
+	{\bf LSAP} & Large Scale Asset Purchase\\
+	{\bf MELP} & The Macroeconomic Effects of Large Scale Asset Purchase\cite{chen_macroeconomic_2011}\\
+	{\bf MPC} & Monetary Policy Committee\\
+	{\bf PBM} & Portfolio Balance Model\\
+	{\bf QE} & Quantitative Easing\\
+	{\bf UK} & United Kingdom\\
+	{\bf US} & United States of America\\
+	{\bf ZLB} & Zero Lower Bound\\
+	{\bf ZLBP} & Zero Lower Bound Problem
+\end{tabular}
+
+\chapter{Tables}\label{tables}
+
+\label{table1}
+\begin{tabular}{|l|l|}
+\hline
+Table \ref{table1} & \\ \hline
+Amount (billions of GBP) & YY/MM \\ \hline
+75 & 09/03 \\
+125 & 09/05 \\
+175 & 09/08 \\
+200 & 09/11 \\
+275 & 11/10 \\
+325 & 12/02 \\
+375 & 12/07 \\
+475 & 16/08 \\
+\hline
+\end{tabular}
+
+\printbibliography
+{\footnotesize The citations could be cleaner. I am willing to go through them and make them nicer if you want. Should only take an hour or so.}
+
+\begin{appendices}
+	\chapter{MELP Technical Appendix}
+	
+	\section{People who think Quantitative Easing is bad}
+	
+	In the US, many people around 2010/11 predicted Quantitative Easing (QE) to be good, lowering the ten-year Treasury yield.\footnote{The interest rate on government debt in the US.}\cite{krishnamurthy_effects_2011,neely_large-scale_2012,damico_flow_2011,doh_efficacy_2010,hamilton_effectiveness_2011,gagnon_large-scale_2011}\\
+	This paper intends to model a market and look at the effects of LSAP on a macroeconomic scale. Several papers have shown evidence that LSAP is ineffective at reducing long-term rates\cite[Table 1, p.42]{chen_macroeconomic_2011}, but the authors of {\it The Macroeconomic Effects\dots} (MELP) want to ``give LSAP programs a chance".\cite[p.2]{chen_macroeconomic_2011} The paper will be a counterfactual simulation of QE with the ZLBP.
+	
+	\section{Model methods}
+	
+	The model will estimate the effects of LSAP using a Dynamic Stochastic General Equilibrium (DSGE) model, as is in Wallace's irrelevance theorem.\cite{wallace_modigliani-miller_1981} To give LSAP a chance, the model will limit arbitrage and market segmentation in a simple, frictionless form. DSGE will be augmented with nominal and real rigidities. It is assumed that investors have heterogeneous preferences for assets of different maturities and that risk premium is a positive function of long-term treasury securities. In the model, long-term interest rate matters for aggregate demand distinct from the expected short-term rates.\\
+	The result is even if short-term rate isconstrained by ZLB for a long period of time, monetary policy can still be effective by directly influencing long-term rates.
+	
+	The model is estimated using a Bayesian method, using post-war data.
+	
+	\section{The model}
+	
+	\subsection{Households}
+	
+	\subsubsection{Utility}
+	
+	\begin{itemize}
+		\item A {\bf household} is the monopolistic supplier of labour in the market, they can be restricted (\(r\)), or unrestricted (\(u\)), let \(j\in\{u,r\}\) -- a restricted household cannot trade in short-term bonds.
+		\item\(C_t^j\) is a household's {\bf consumption} relative to {\bf productivity} \(Z_t\), how many resources (food clothes etc) that the household consumes. This is relative to the total productivity of the economy.
+		\item \(L_t^j\) is a household's {\bf hours worked} per unit time.
+		\item Households supply {\bf differentiated labour inputs} indexed by \(i\), that is to say the different types of labour required are modelled as a continuum, \(i\in(0,1)\).
+		\item \(\beta_j\in(0,1)\) is the {\bf individual discount factor} - this is the devaluing of an asset's future income, accounting for having to wait for the asset to mature.
+		\item \(b_t^j\) is a {\bf preference shock} - a {\bf shock} is an unexpected change, and a preference shock is an individual choosing one thing over another suddenly, eg consumption over leisure. This will alter utility and so is represented by a random variable at each timestep.
+		\item \(\sigma_j>0\) is the {\bf coefficient of relative risk aversion}, a higher \(\sigma_j\) indicates that the household is more risk-averse, eg they would prefer to be given \pounds10 100\% of the time rather that \pounds20 50\% of the time.\footnote{A risk-averse person will favour a guaranteed \pounds10, whereas one who is not risk averse will go for the \pounds20. In extreme cases you have risk-loving and risk-fearing people, who will suffer some cost to \(\mathbb{E}(\)money\()\) in order to take or not take risks. A risk-loving person may chose to get \pounds15 50\% of the time over \pounds10 100\% of the time.}
+		\item \(h\in(0,1)\) is the {\bf habit parameter} - an increase in current consumption lowers the marginal utility of consumption in the current period and increases it in the next period. Intuitively, the more the consumer eats today, the hungrier they wake up tomorrow.
+		\item \(\nu\geq0\) is the {\bf inverse elasticity of labour supply} - labour being elastic (\(\nu\ll1\)) implies that labour will come and go as compensation changes. An inelastic job would have the same workforce even with wage changes.
+		\item \(\varphi_t^j\) is a {\bf labour supply shock} - unexpected changes in labour supplied.
+	\end{itemize}
+	
+	The life-time utility function for a geneic household \(j\) is
+	
+	\begin{align}
+	\mathbb{E}_t\sum_{s=0}^\infty\beta_j^s b_{t+s}^j \left[ \frac{1}{1-\sigma_j} \left( \frac{C_{t+s}^j}{Z_{t+s}}-h\frac{C_{t+s-1}^j}{Z_{t+s-1}} \right)^{1-\sigma_j} - \frac{\varphi_{t+s}^j(L_{t+s}^j(i))^{1+\nu}}{1+\nu} \right]
+	\end{align}
+	
+	This equation is composed of several, individually simple parts summed over time. At each time interval it looks at the consumption relative to productivity the household performs, minus the habit parameter times last time interval's consumption (this is the waking up hungrier). That function is then modified dependant on how risk-averse the household is. It then subtracts the amount of labour provided in hours worked (with some function related to the elasticity applied) that is multiplied by the shock of labour supply.
+	Then at each step the total utility is devalued by \(\beta_j^s\) (recall \(\beta_j\in(0,1)\) so \(\beta_j^s\to0\) as \(s\to\infty\)) and multiplied by the preference shock at that time.
+	This is summed over all time, creating the total utility.
+	
+	\subsubsection{Budget Constraint}
+	
+	\begin{itemize}
+		\item {\bf Short-term bonds} are purchased for \(B_t\) at time \(t\) and have a nominal\footnote{Nominal is in terms of actual \pounds s, rather than in terms of its actual value in the market.} return of \(R_t\) at time \(t+1\)
+		\item {\bf Long-term bonds} are perpetuities (bonds that last forever) that cost \(P_{L,t}\) at time \(t\) and make returns proportional to \(\kappa^s\) at time \(t+s+1\), \(\kappa\in(0,1]\) so at each stage the returns they make decays and tends to 0.
+		\item \(\omega_u\) is the proportion of unrestricted households, \(\omega_r=1-\omega_u\).
+		\item \(\zeta_t\) is the {\bf transaction cost per unit} of long-term bonds purchased by unrestricted households, so the amount it costs an unrestricted household to purchase a long-term bond. This may be fees from, say, a hedge-fund manager.
+		\item \(P_t\) is the price of the {\bf final consumption good}. This is the simplification of all consumption costs, food, medicine, rent etc. To find the amount spent on consumption by a household the expression would be \(P_tC_t^j\).
+		\item \(W_t^j(i)\) is the {\bf wage} set by a household of type \(j\) who supplies labour of type \(i\), that is to say the wage of that household. Different types of labour and different types of household will have different wages - doctors make different amounts to teachers.
+		\item \(\mathcal{P}_t^j\) and \(\mathcal{P}_t^{cp,j}\) are {\bf profits} from ownership of {\bf intermediate goods producers} and {\bf capital producers} respectively. If a household happens to have stake in capital producers (factories, businesses) then this is the profit from that.
+		\item \(T_t^j\) are lump-sum taxes.
+		\item \(R_{L,t}\) is the {\bf gross yield to maturity} at a time \(t\) on the long term bond, the total money made before the bond matures. \(R_{L,t}=\frac{1}{P_{L,t}}+\kappa\) is derived in the technical appendix.\cite{chen_technical_2011}
+	\end{itemize}
+	
+	A budget constraint is the fundamental constraint of budgetting. If you only have assets worth \(K\) and \(\exists\) a set of assets indexed by \(i\in\mathbb{A}\), and \(\forall i\in\mathbb{A}, i\) costs \(c_i\) and you purchase \(n_i\) units of \(i\), then necessarily
+	\begin{equation*}
+	K\leq \sum_{i\in\mathbb{A}}c_in_i
+	\end{equation*}
+	
+	Budget constraints differ based on if a household is restricted or unrestricted. Unrestricted households can trade in both short and long-term bonds, but pay \(\zeta_t\) per-unit of long-term bond purchased, so the flow budget constraint is:
+	
+	\begin{equation}
+	P_tC_t^u+B_t^u+(1+\zeta_t)P_{L,t}B_t^{L,u}\leq R_{t-1}B_{t-1}^u+\left(\sum_{s=1}^\infty\kappa^{s-1}B_{t-s}^{L,u}\right)+W_t^u(i)L_t^u(i)+\mathcal{P}_t^u+\mathcal{P}_t^{cp,u}-T_t^u
+	\end{equation}
+	
+	For a restricted household that can only trade in long-term securities and does not pay transaction costs, the flow budget constraint is:
+	
+	\begin{equation}
+	P_tC_t^r+P_{L,t}B_t^{L,r}\leq\left(\sum_{s=1}^\infty\kappa^{s-1}B_{t-s}^{L,r}\right)+\mathcal{P}_t^r+\mathcal{P}_t^{cp,r}+W_t^r(i)L_t^r(i)-T_t^r
+	\end{equation}
+	
+	\begin{quote}
+		One advantage of assuming that the entire stock of long-term government bonds consists of perpetuities is that the price in a period \(t\) of a bond issued \(s\) periods ago \(P_{L,t-s}\) is a function of the coupon and the current price
+	\end{quote}
+	
+	\begin{equation*}
+	P_{L,t-s}=\kappa^sP_{L,t}
+	\end{equation*}
+	
+	This relation gives rise to a recursive formula, for which \(\exists\) a derivation.\cite[Section A.4, p.8]{chen_technical_2011} The budget constraints become:
+	
+	\begin{equation}
+	P_tC_t^u+B_t^u+(1+\zeta_t)P_{L,t}B_t^{L,u}\leq R_{t-1}B_{t-1}^u+P_{L,t}R_{L,t}B_{t-1}^{L,u}+W_t^u(i)L_t^u(i)+\mathcal{P}_t^u+\mathcal{P}_t^{cp,u}-T_t^u
+	\end{equation}
+	
+	and
+	
+	\begin{equation}
+	P_tC_t^r+P_{L,t}B_t^{L,r}\leq P_{L,t}R_{L,t}B_{t-1}^{L,r}+\mathcal{P}_t^r+\mathcal{P}_t^{cp,r}+W_t^r(i)L_t^r(i)-T_t^r
+	\end{equation}
+	
+	These dictate how many assets a household can buy based on how much money they have available.
+	
+	\subsection{Labour Agencies and Wage Setting Decision}
+	
+	\begin{itemize}
+		\item \(\lambda_w\geq0\) is the {\bf steady state wage markup} - the amount that a non-sticky\footnote{A sticky wage keeps the same nominal value or close to the same nominal value despite inflation.} wage would be increased during constant inflation. ``Steady state" refers to the assumption that there is a constant stock of physical wealth and a constant population.
+		\item \(L_t\) is the {\bf homogenous labour composite}, the collection of labour as an abstract force.
+		\item \(W_t\) is the {\bf aggregate wage index}, this is approximately the average wage.
+		\item \(\Pi\) is the steady state {\bf rates of inflation}
+		\item \(e^\gamma\) is the steady state {\bf rate of product growth}, the rate at which the amount of products grows.
+		\item \(\zeta_w\in[0,1]\) is the {\bf probability} that {\bf wage doesn't reset} in a given time period. A wage `resetting' is just it being adjusted in some way, typically for inflation.
+		\item \(\tilde{W}_t^j(i)\) is the {\bf wage chosen} at time \(t\) in the event of an adjustment.
+		\item \(\Xi_t^{j,p}\) is the {\bf marginal utility of consumption} in nominal terms. The marginal utility is the {\it change} in utility when \(t\mapsto t+1\). The utility of consumption is the utility generated from consuming, as, for example, shown in the equation for a household's utility over its lifetime.
+	\end{itemize}
+	
+	Labour agencies (agents that assign labour to companies) combine differentiated labour inputs indexed by \(i\) into a composite \(L_t\) through the formula
+	
+	\begin{equation}
+	L_t=\left[\int_0^1 L_t(i)^{\frac{1}{1+\lambda_w}}di\right]^{1+\lambda_w}
+	\end{equation}
+	
+	To maximise profit, the demand for the \(i^{th}\) labour input becomes
+	
+	\begin{equation}
+	L_t(i)=\left[\frac{W_t(i)}{W_t}\right]^{-\frac{1+\lambda_w}{\lambda_w}}L_t
+	\end{equation}
+	
+	Labour agencies have a {\bf zero profit condition}, which means that there is a very low cost of entry into the business such that there is a large supply into the business and so the market becomes perfectly competitive. The most famous example is the gold rushes. Under this condition the aggregate wage index is a function of wage set by the \(i^{th}\) household.
+	
+	\begin{equation}
+	W_t=\left[\int_0^1W_t(i)^{-\frac{1}{\lambda_w}}di\right]^{-\lambda_w}
+	\end{equation}
+	
+	Households have a monopoly on labour input, and set wages on a staggered basis. In each period, the probability of resetting the wage is \(1-\zeta_w\), and if the wage is not reset it automatically increases by \(\Pi e^\gamma\). Thus
+	
+	\begin{equation}
+	W_{t+s}^j(i)=(\Pi e^\gamma)\tilde{W}_t^j(i)
+	\end{equation}
+	
+	The household will chose \(\tilde{W}_t^j(i)\) to maximise
+	
+	\begin{equation*}
+	\mathbb{E}_t\sum_{s=0}^\infty(\beta_j\zeta_w)^s\left[\Xi_{t+s}^{j,p}\tilde{W}_t^j(i)L_{t+s}^j(i)-\frac{\varphi_{t+s}^j(L_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]
+	\end{equation*}
+	
+	That is to say, they will maximise the wage as much as possible while not overcharging for their labour. If the household works a particularly elastic job, they will set their wage to be less than if they worked a very inelastic job. Of course, in the real world each individual household does not declare what they will charge and then demand this from their boss. Rather, this optimisation is the understanding that generally a household will implicitly do this by choosing where to work. When there are billions of households this becomes the general trend.
+	
+	\subsection{Capital producers}
+	\begin{itemize}
+		\item \(u_t\) is the {\bf utilization rate}, how efficiently a company can use their capital.
+		\item \(K_t\) is {\bf effective capital}, their capital having considered utilization rate. If a company is only 50\% efficient with their money then having \pounds100 is as good as a 100\% efficient company having \pounds50.
+		\item \(\delta\in(0,1)\) is the {\bf depreciation rate}, indication how quickly real capital becomes devalued.
+		\item \(\mu_t\) is an {\bf investment specific technology shock}, a shock that is based on the unexpected development of technology that can make a company more efficient.
+		\item \(S(f(t))\) is the {\bf cost of adjusting investment}, how expensive it is to change your investment portfolios as the market changes. The function obeys \(S'(\cdot))\geq0\) and \(S''(\cdot)>0\). It is further assumed that \(S(e^\gamma)=S'(e^\gamma)=0\).
+		\item \(\Xi_{t+s}^p\) is the {\bf future profits discount} that occurs because the value of perpetuities held by their shareholders reduce in value over time.
+		\item \(I_t\) is the {\bf capital from investment} that is acquired by a capital producer.
+		
+	\end{itemize}
+	
+	Effective capital for a competitive capital producer is based on the real capital that the producer already has times their utilization rate.
+	
+	\begin{equation}
+	K_t=u_t\bar{K}_{t-1}%\tag{test}\label{eq:test}
+	\end{equation}
+	
+	Capital producers accumulate capital based on the capital they already have being depreciated plus the additional capital they acquire from investment.
+	
+	\begin{equation}
+	\bar{K}_t=(1-\delta)\bar{K}_{t-1}+\mu_t\left[1-S\left(\frac{I_t}{I_{t-1}}\right)\right]I_t
+	\end{equation}
+	
+	The discount of profits due to the individual discount factors of its shareholders (households) is identically:
+	
+	\begin{equation}
+	\Xi_{t+s}^p\equiv\omega_u\beta_u^s\Xi_{t+s}^{u,p}+\omega_r\beta_r^s\Xi_{t+s}^{r,p}
+	\end{equation}
+	
+	Capital producers maximise the expected discounted stream of dividends to their shareholders which is:
+	
+	\begin{equation}
+	\mathbb{E}_t \sum_{s=0}^\infty\Xi_{t+s}^p\left[R_{t+s}^k u_{t+s} \bar{K}_{t+s-1}-P_{t+s}a\left(u_{t+s}\right)\bar{K}_{t+s-1}-P_{t+s}I_{t+s}\right]
+	\end{equation}
+	
+	\subsection{Intermediate goods producers}
+	
+	\begin{itemize}
+		\item \(Z_t\) is a {\bf labour-augmented technological process} - a method by which technology increases the amount of value created. (Consider how much more efficient labour is with the advent of computers)
+		\item \(\zeta_p\) the {\bf probability of no price adjustment} for intermediate goods producers per unit time.
+		\item \(\lambda_{f,t}\) is a {\bf goods markup shock}, a shock governing the unexpected increase in cost of production relative to its price.
+		\item \(\alpha\) is the {\bf share of capital in production}, how much your capital matters for production versus the amount of labour. This is constant among all companies and is a reflection of the state of goods production in the world, rather than being individualised per type of intermediate good. In MELP \(\alpha=0.33\).
+	\end{itemize}
+	
+	An intermediate goods producer, indexed by \(f\in[0,1]\) produces intermediate goods based on their effective capital and labour put in.
+	
+	\begin{equation}
+	Y_t(f)=K_t(f)^\alpha(Z_tL_t(f))^{1-\alpha}
+	\end{equation}
+	
+	The labour-augmented technology evolves with the difference equation
+	
+	\begin{equation}
+	log\left(\frac{Z_t}{Z_{t-1}}\right)=(1-\rho_z)\gamma+\rho_zlog\left(\frac{Z_{t-1}}{Z_{t-2}}\right)+\epsilon_{z,t}
+	\end{equation}
+	
+	that is to say,
+	
+	\begin{equation*}
+	Z_t=e^{(1-\rho_z)\gamma+\rho_z+\epsilon_{z,t}}\frac{Z_{t-1}^2}{Z_{t-2}}
+	\end{equation*}
+	
+	The marginal cost, the increase in cost per unit time, can be deduced from aggregate variables
+	
+	\begin{equation}
+	MC(f)_t=MC_t=\frac{(R_t^k)^\alpha W_t^{1-\alpha}}{\alpha^\alpha (1-\alpha)^{1-\alpha}Z_t^{1-\alpha}}
+	\end{equation}
+	
+	A firm can set prices on a staggering basis with probability \(1-\zeta_p\) independantly of past successes. When a firm can adjust, they will maximise \(\tilde{P}_t(f)\) assuming no further adjustments can be made, so maximising their profit
+	
+	\begin{equation}
+	\mathbb{E}_t\sum_{s=0}^\infty	\zeta_p^s\Xi_{t+s}^p\left[\tilde{P}_t(f)\Pi^s-\lambda_{f,t+s}MC_{t+s}\right]Y_{t+s}(f)
+	\end{equation}
+	
+	\subsection{Final goods producers}
+	
+	\begin{itemize}
+		\item \(Y_t(f)\) is an {\bf intermediate good} indexed by \(f\in[0,1]\)
+		\item \(\lambda_f\geq0\) is the {\bf steady state price markup}.
+	\end{itemize}
+	
+	The final goods producer will combine different intermediate goods \(Y_t(f)\) into a homogeneous good \(Y_t\)
+	
+	\begin{equation}
+	Y_t = \left[ \int_0^1 Y_t(f)^{\frac{1}{1+\lambda_f}}df\right]^{1+\lambda_f}
+	\end{equation}
+	
+	Therefore, the demand for the \(f^{th}\) intermediate good is (relative to aggregate price index \(P_t\) and the price set by the \(f^{th}\) intermediate goods producer) derived to be the following\cite{chen_technical_2011}
+	
+	\begin{equation}
+	Y_t(f)=\left[\frac{P_t(f)}{P_t}\right]^{-\frac{1+\lambda_f}{\lambda_f}}Y_t
+	\end{equation}
+	
+	From the zero-profit condition for intermediate goods producers the aggregate price index \(P_t\) is as follows
+	
+	\begin{equation}
+	P_t=\left[\int_0^1P_t(f)^{-\frac{1}{\lambda_f}}df\right]^{-\lambda_f}
+	\end{equation}
+	
+	Meaning that final goods producers ultimately take a continuum of intermediate goods and create some final good for which the price is \(P_t\).
+	
+	\subsection{Government policies}
+	
+	\begin{itemize}
+		\item \(\Pi_t\equiv\frac{P_t}{P_{t-1}}\) is the {\bf inflation rate}.
+		\item \(\epsilon_{m,t}\) is an {\bf iid innovation}, where \(m\in\{B,T\}\). This dictates a shock increase in some of the following equations.
+		\item \(G_t\) is {\bf taxes of a perpetuity}, costs associated with perpetuities manifest by this variable.
+	\end{itemize}
+	
+	The government has an interest rate that feeds back on itself\footnote{That is to say the interest rate today influences the interest rate tomorrow.}, the returns \(R_t\) on bonds follows the equation
+	
+	\begin{equation}
+	\frac{R_t}{R}=\left(\frac{R_{t-1}}{R}\right)^{\rho_m}\left[\left(\frac{\Pi_t}{\Pi}\right)^{\phi_\pi}\left(\frac{Y_t/Y_{t-4}}{e^{4\gamma}}\right)^{\phi_y}\right]^{1-\rho_m}e^{\epsilon_{m,t}}
+	\end{equation}
+	
+	Where \(\rho_m\in(0,1),\phi_\pi>1\) and \(\phi_y\geq0\). This is the last step's return \(\frac{R_t}{R}\) decayed by some power \(\rho_m\) times an expression that relates the change to how much products are growing and inflation, all times some shock \(\epsilon_{m,t}\). The government's budget constraint is naturally
+	
+	\begin{equation}
+	B_t+P_{L,t}B_t^L=R_{t-1,t}B_{t-1}+(1+\kappa P_{L,t})B_{t-1}^L+P_tG_t-T_t
+	\end{equation}
+	
+	Thus the left hand side is money given to the government from bonds sold, short and long-term. The right hand side is money paid back from bonds maturing, or upkeep on perpetuities, plus tax.\\
+	It is assumed that long-term bonds are controlled by the government following an auto-regressive model with a shock factor
+	
+	\begin{equation}
+	\frac{P_{L,t}B_t^L}{P_tZ_t}=\left(\frac{P_{L,t-1}B_{t-1}^L}{P_{t-1}Z_{t-1}}\right)^{\rho_B}e^{\epsilon_{B,t}}
+	\end{equation}
+	
+	Where \(\rho_B\in(0,1)\) so as \(t\mapsto\infty\) the proportion of perpetuity to productivity will converge to \(1\), assuming \(\epsilon_{B,t}\) remains at \(0\) the whole time.\\
+	The government adjusts the {\bf real primary fiscal surplus}, a measure of how much real wealth the government has spare, by considering that there is lagged real-value long-term debt from perpetuities.
+	
+	\begin{equation}
+	\frac{T_t}{P_tZ_t}-\frac{G_t}{Z_t}=\Phi\left(\frac{P_{L,t-1}B_{t-1}^L}{P_{t-1}Z_{t-1}}\right)^{\phi_T}e^{\epsilon_{T,t}}
+	\end{equation}
+	
+	The constant \(\Phi\) is chosen such that this is identically true in steady state. \(\phi_T>0\)
+	
+	\subsection{Equilibrium and Solution Strategy}
+	
+	\begin{itemize}
+		\item \(\Xi_t^u\) is the {\bf marginal utility of detrended consumption} in real terms, the amount that the utility of consumption will change when \(t\mapsto t+1\) in real terms.
+	\end{itemize}
+	
+	In equilibrium, all households and firms maximise their own objectives, with their own individual constraints. The resource constraint is
+	
+	\begin{equation}
+	Y_t=\omega_uC_t^u+\omega_rC_t^r+I_t+G_t+a(u_t)\bar{K}_{t-1}
+	\end{equation}
+	
+	This says that the amount of homogenous final good at any moment must be the amount consumed by households plus the amount invested in other places.\\
+	Since unrestricted households are the only ones to trade in short-term securities, the pricing equation for such a security is
+	
+	\begin{equation}
+	1=\beta_u\mathbb{E}_t\left[e^{-\gamma-z_{t+1}}\frac{\Xi_{t+1}^u}{\Xi_t^u}\frac{R_t}{\Pi_{t+1}}\right]
+	\end{equation}
+	
+	Both restricted and unrestricted households trade in long-term bonds, the pricing of these for a household \(j\) is
+	
+	\begin{equation}
+	(1+\zeta_t\mathbb{I}_{\{j=u\}})=\beta_j\mathbb{E}_t\left[e^{-\gamma-z_{t+1}}\frac{\Xi_{t+1}^j}{\Xi_t^j}\frac{P_{L,t+1}}{P_{L,t}}\frac{R_{L,t+1}}{\Pi_{t+1}}\right]
+	\end{equation}
+	
+	Where \(\mathbb{I}\) is the indicator function.
+	
+	\subsubsection{Transaction cost and the risk premium}
+	
+	\begin{itemize}
+		\item \(R_{L,t}^{E H}\) is the {\bf counterfactual yield to maturity} on a long-term bond in the absence of transaction costs
+		\item \(D_L\), in the context of equation (\ref{riskpremium}), is the steady state {\bf duration} of \(\hat{R}_{L,t}\) and \(\hat{R}_{L,t}^{EH}\)
+		\item \(\zeta_t\) is the 
+	\end{itemize}
+	
+	Theoretically, \(R_{L,t}^{EH}\) should have the same risk-adjusted return as the actual long-term security. Therefore, the risk premium is measured to a first order approximation between the two yields up to maturity
+	
+	\begin{equation}\label{riskpremium}
+	\hat{R}_{L,t}-\hat{R}_{L,t}^{EH}=\frac{1}{D_L}\sum_{s=0}^\infty\left(\frac{D_L-1}{D_L}\right)^s\mathbb{E}_t\zeta_{t+s}
+	\end{equation}
+	
+	The cost of transaction \(\zeta_t\) is not given an explicit form, but is a function \(\zeta\) of \(P_{L,t},B_{z,t}^L\) and the error term \(\epsilon_{\zeta,t}\),\footnote{\(\zeta\) is specified to be strictly increasing and positive when evaluated in steady state, so \(\zeta(P_LB_z^L,0).0\) and \(\zeta'(P_LB_z^L,0)>0\)} where identically \(B_{z,t}^L\equiv B_t^L/(P_tZ_t)\), ie
+	
+	\begin{equation}
+	\zeta_t\equiv\zeta(P_{L,t}B_{z,t}^L,\epsilon_{\zeta,t})
+	\end{equation}
+	
+	\subsubsection{Limits to arbitrage}
+	
+	The concept of the restricted household is introduced in this paper in order to try and break {\it Wallace's Irrelevance Theorem}, which states that in certain conditions, central banks buying securities won't affect the economy.\cite{wallace_modigliani-miller_1981}\\
+	Restricted households are the observation that there is a fraction of the market which only purchases assets through long-term bonds, such as pensions. The variable \(\omega_r\) captures this notion. The difference between these types of households is meant to break Wallace and show that QE is an effective strategy.
+	
+	\section{Empirical Analysis}
+	
+	The model is estimated with Bayesian methods\footnote{Since $\exists$ information on the variables presented this method is appropriate. The Bayesian method takes existing ideas about something's distribution and transforms it into the posterior distribution.} The likelyhood is constructed using the `Kalman filter', based on the state space representation of the rational expectations solution of the model.
+	
+	\subsection{Data}
+	
+	This section describes the data used for the variable distributions, and then presents the prior and posterior distributions.\\
+	
+	Quarterly data is used from the United States from 1987 to 2009 for the six series:
+	
+	\begin{enumerate}[noitemsep]
+		\item Real GDP per capita
+		\item Hours worked
+		\item Real wages
+		\item Core personal consumption expenditures deflator
+		\item Nominal effective Federal Funds rate
+		\item 10-year Treasury constant maturity yield\footnote{An extended sample is used for this, starting in 1959q3 to initialize the Kalman filter, but the likelihood itself is evaluated only for the period starting in 1987q3, conditional on the previous sample.}
+	\end{enumerate}
+	
+	All data were extracted from the Federal Reserve Economic Data, data which is maintained by the Federal Reserve Bank of St. Louis. The equations related to these data are as follows
+	
+	\begin{align}
+	\Delta Y_t^{obs}&=100(\gamma+\hat{Y}_{z,t}-\hat{Y}_{z't-1}+\hat{z}_t)\\
+	L_t^{obs}&=100\left(L+\hat{L}_t\right)\\
+	\Delta w_t^{obs}&=100(\gamma+\hat{w}_{z,t}-\hat{w}_{z,t-1}+\hat{z}_t)\\
+	\pi_t^{obs}&=100(\pi+\hat{\pi}_t)\\
+	r_t^{obs}&=100(r+\hat{r}_t)\\
+	r_{L,t}^{obs}&=100(r_{L,t}+\hat{r}_{L,t})
+	\end{align}
+	
+	with \(\pi\equiv ln(\Pi)\), \(r\equiv ln(R)\) and \(r_L\equiv ln(R_L)\).
+	
+	\subsection{Prior choice}
+	
+	In MELP the authors summarize the prior choices of each distribution.\cite[Tables 2-3]{chen_macroeconomic_2011} For all variables, the distribution depends on its domain or if it is a shock innovation.
+	
+	\begin{itemize}[noitemsep]
+		\item Gamma distribution (`G') for parameters \(X\) such that \(X\in[0,\infty)\)
+		\item Beta distribution (`B') for parameters \(X\) such that \(X\in[0,1]\)
+		\item Inverse-Gamma (`IG1') for shock innovations. IG1 has a domain of \([0,\infty)\)
+	\end{itemize}
+	
+	\subsection{Posterior distribution}
+	
+	The posterior distributions were generated using the `Metropolis random walk Markov Chain Monte Carlo' (MCMC) simulation method\cite[p.23]{chen_macroeconomic_2011}, which from what I can gather this is hundreds of thousands of samples.\\
+	The results emerges that the market segmentation is very small, with \(\omega_u\) being approximately \(\in(0.72,0.99)\), with a median of \(0.934\) and a mode of \(0.987\). Since the data ends in 2009q3, the authors check the stability of this estimate by considering alternative endings, having the last data be from 2007q2\footnote{before the financial turbulence}, 2008q3\footnote{before the ZLB was hit} and 20011q2.\footnote{Most recent data at time of authors writing} The parameters remained comparable throughout these data changes.\\
+	The other key parameter, according to the authors, is the elasticity of the risk premium to asset purchases \(\zeta'\). If the elasticity was \(0\), asset purchases wouldn't affect risk premium or real economy. The prior and posterior distributions for this are very similar, suggesting the data do not affect \(\zeta'\) very much.
+	
+	\section{Simulating LSAP II}
+	
+	The simulations in MELP are that of LSAP II, the second round of LSAP in th US.\\
+	
+	The first round of LSAP, QE1, in which the US government began purchasing securities from late November 2008 until June 2010.\footnote{The government continued to buy smaller amounts of assets, \$30 a month, from August 2010 to keep nominal holdings constant.}\\
+	The second round of LSAP, QE2 (in MELP it is called LSAP II), was announced in November 2010 which ended by June 2011.\\
+	MELP, originally released December 2011, seeks to emulate the effects of LSAP II. An assumption made is that the government will purchase assets over 2 years, hold for 2 years and then sell assets over 2 years.\\
+	However, this is not what happened. QE3, also called QE\raiseinf, is an open-ended asset purchase program that currently includes purchasing \$85 billion of assets per month indefinitely.
+	
+	\section{Conclusions}
+	
+	The paper concludes, having run simulations of multiple LSAP programs, that ``The effects of recent [2008] asset purchase programs on macroeconomic variables, such as GDP growth and inflation, are likely to be moderate but with a lasting impact on the level of GDP".\cite[p.37]{chen_macroeconomic_2011} However, the authors\footnote{Chen, Curdia and Ferrero} admit that the effects on GDP growth are unlikely to exceed 50\textpertenthousand. The authors suggest that keeping interest rates low for ``some period of time"\footnote{At least two years.} alongside this LSAP will cause the LSAP to be twice as effective.
+	
+	
+	\section{Definitions and Acronyms}
+	
+	\begin{description}
+		\item[QE] Quantitative easing
+		\item[LSAP] Large scale asset purchase - the mechanic by which QE happens
+		\item[LSAP II] Second LSAP program
+		\item[Short-term nominal interest rate] Interest rate for short-term loans, nominal means before inflation is taken into account, short-term is approximately 3 months
+		\item[bp] Basis points (\%\(^2\) ie \textpertenthousand )
+		\item[Ex-Post] Actual returns, literally ``after the fact"
+		\item[DSGE] Dynamic stochastic (randomly determined) general equilibrium
+		\item[ALSN] The 2004 paper ``Tobin's Imperfect Asset\dots"\cite{andres_tobins_2004}
+		\item[Maturity] Time at which option comes into effect
+		\item[Friction] ``Cultural, religious, or ideological perspectives that interfere with and distort opportunities for trade or economic advancement"\cite{miller_economic_2017}
+		\item[ZLB] Zero lower bound - a problem which arises when interest rate is near \(0\), as it cannot go {\bf below} \(0\)
+		\item[ZLBP] ZLB is a problem
+		\item[CPI] Consumer price index
+		\item[Rigidity, nominal] When a price or wage remains the same nominal price, eg 10\$
+		\item[Rigidity, real] When a price or wage doesn't change with respect to the rest of the market, so accounting for CPI
+		\item[FOMC] Federal open market committee - oversees open markets at a federal level
+		\item[Risk premium] Minimum increase in return to make a risky asset better than a risk-free asset
+		\item[Zero-profit condition] When a business has a very low barrier to entry, many people try and join it, so supply exceeds demand. Basically the gold rush
+		\item[Steady state] Steady state economics is based on a stock of physical wealth and a constant population size.
+		\item[AR(1)] For a random variable \(X_t\), \(X_t=c+\phi X_{t-1} + \epsilon_t\) for \(\phi\) and \(c\) constant
+		\item[Marginal utility] The change isn utility from an increase in consumption of a good
+	\end{description}
+\end{appendices}
+
+\end{document}
