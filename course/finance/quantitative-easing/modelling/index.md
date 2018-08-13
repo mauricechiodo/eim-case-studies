@@ -31,7 +31,7 @@ Each of these has their own technology that accounts for the others and attempts
 
 $$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
-This frankly terrifying equation is on page 15 of the technical report, which describes more thoroughly the mathematical aspects of the model. It ultimately says that you want to maximise your pay, but if your work has a greater supply of workers, then you will have to work for less.
+This frankly terrifying equation is part of the technical report$^7$, which describes more thoroughly the mathematical aspects of the model. It ultimately says that you want to maximise your pay, but if your work has a greater supply of workers, then you will have to work for less.
 
 ### MELP Conclusions
 
@@ -51,3 +51,5 @@ $^4$ Sarno, Lucio, and Mark P. Taylor. The Economics of Exchange Rates. Cambridg
 $^5$ Chen, Han, Vasco Curdia, and Andrea Ferrero. “The Macroeconomic Effects of Large-Scale Asset Purchase Programs.” SSRN Electronic Journal, 2011. https://doi.org/10.2139/ssrn.1976319.
 
 $^6$ Wallace, Neil. "A Modigliani-Miller Theorem for Open-Market Operations." The American Economic Review 71, no. 3 (1981): 267-74. http://www.jstor.org/stable/1802777.
+
+$^7$ In appendix A, the technology of The Macroeconomic Effects of LSAP$^5$
