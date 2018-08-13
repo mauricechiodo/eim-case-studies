@@ -18,7 +18,7 @@ In 2009, the MPC had nine members:
 * Mervyn King (Governor)
 * Rachel Lomax (Deputy Governor)
 * John Gieve (Deputy Governor)
-* {\it Charles Bean (Chief Economist)
+* Charles Bean (Chief Economist)
 * Kate Barker
 * Paul Tucker
 * Tim Besley
