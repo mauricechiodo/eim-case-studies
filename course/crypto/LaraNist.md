@@ -25,3 +25,5 @@ The basic idea behind elliptic curve cryptography is that if we add a point toge
 In the attached notes, we go into how elliptic curves are used in cryptography, but essentially we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
 
 Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves...
+
+(still to do: need to include a summary of Dylan's NIST work and combine our reports to make one detailed document)
