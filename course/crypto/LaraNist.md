@@ -20,6 +20,6 @@ y^2 = x^3 + ax + b
  
 The basic idea behind elliptic curve cryptography is that if we add a point together with itself in the sense shown in the diagram $n$ times then given the values of $P_0$ and $P_n$, $n$ is very difficult to determine. 
 
-![Elliptic Curve](/eim-case-studies/course/crypto/curve1.png)
-Format: ![Alt Text](https://github.com/dylanbraithwaite/eim-case-studies/blob/master/course/crypto/curve1.png)
+![Elliptic Curve](/course/crypto/curve1.png)
+
 
