@@ -26,4 +26,4 @@ In the attached notes, we go into how elliptic curves are used in cryptography, 
 
 Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves...
 
-(still to do: need to include a summary of Dylan's NIST work and combine our reports to make one detailed document)
+(still to do: need to include a summary of Dylan's NIST work and combine our reports to make one detailed document and work out how to get the diagram to show on the website)
