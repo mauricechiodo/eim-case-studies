@@ -20,7 +20,7 @@ y^2 = x^3 + ax + b
  
 The basic idea behind elliptic curve cryptography is that if we add a point together with itself in the sense shown in the diagram $n$ times then given the values of $P_0$ and $P_n$, $n$ is very difficult to determine. 
 
-![Elliptic Curve](/course/crypto/curve1.png)
+![teletubby](http://db716.user.srcf.net/eim/media/teletubbies-character-bp.png)
 
 In the attached notes, we go into how elliptic curves are used in cryptography, but essentially we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
 
