@@ -12,5 +12,6 @@ $$
 \prob{X=y} = 0.7 
 $$
 
+![teletubby](media/teletubbies-character-bp.png")
 
 $$\int_{-x}^{x} f(y) dy$$
