@@ -15,7 +15,7 @@ In October 2013, the time of writing BP5, austerity had already started to be im
 
 ## In the Eurozone
 
-According to the Treaty on the Functioning of the European Union, a member state’s budget deficit may not exceed 3% of their GDP$^{[10\text{, p.53-56, Article 126}]}$
+According to the Treaty on the Functioning of the European Union, a member state’s budget deficit may not exceed 3% of their GDP$^{[10\text{, p.53-56, Article 126}]}$ Since the financial crash, several members of the EU have fallen into having a large deficit, and so have had to implement radical action to try and offset this debt.
 
 ---
 # Footnotes
