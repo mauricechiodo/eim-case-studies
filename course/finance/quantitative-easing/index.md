@@ -5,7 +5,7 @@ Template: ListSubPages
 
 # What is Quantitative Easing?
 
-[embed "https://www.youtube.com/watch?v=IYnsfV5N2n8"]
+[embed "https://www.youtube.com/watch?v=LJnpwL-2Drc"]
 
 Quantitative Easing (QE) is the implementation of **Large-Scale Asset Purchase**, a system by which the central bank of a country prints physical or electronic money to purchase assets from the private sector. This increases the amount of money in circulation, encouraging investment and boosting the economy(table1). This is an unconventional method of stimulating the economy, and is employed as a solution to the **Zero Lower Bound Problem** (ZLBP).
 
