@@ -13,6 +13,10 @@ The current macroeconomic model used by the obr is detailed on their website and
 
 In October 2013, the time of writing BP5, austerity had already started to be implemented and the deficit had seen a slight improvement, reducing to £99.9 billion, 5.6% of gdp.$^{2\text{, p.8, Table 2}}$
 
+## In the Eurozone
+
+According to the Treaty on the Functioning of the European Union, a member state’s budget deficit may not exceed 3% of their GDP$^{10\text{, p.53-56, Article 126}}$
+
 ---
 # Footnotes
 
@@ -44,3 +48,5 @@ $^7$ A Williams. “Her Majesty’s Government”. In: The London Gazette (2010-
 $^8$ “Tories launch budget ‘watchdog’”. In: (2009-12-08). url: http://news.bbc.co.uk/2/hi/uk_news/politics/8401517.stm (visited on 2018-08-14).
 
 $^9$ WinSolve - Software features. 2016-09-03. url: http://rpierse.esy.es/ (visited on 2018-08-15).
+
+$^10$ His Majesty King of the Belgians, The President of the Federal Republic of Germany, The President of the French Republic, The President of the Italian Republic, Her Royal Highness the Grand Dutchess of Luxembourg and Her Majest Queen of The Netherlands. “Consolidated Version of The Treaty on the Functioning of the European Union”. In: Official Journal of the European Union (2012-10-26), pp. 1–154. url: https://eur-lex.europa.eu/resource.html?uri=cellar:2bf140bf-a3f8-4ab2-b506-fd71826e6da6.0023.02/DOC_2&format=PDF (visited on 2018-08-16).
