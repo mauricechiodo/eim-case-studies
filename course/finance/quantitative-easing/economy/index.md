@@ -9,7 +9,9 @@ The economy is doing well! On 2018/08/02, the MPC voted unanimously to increase 
 
 However, homelessness has hugely increased. Rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28bp of the population), but in 2018 that number had increased to 4751 (0.72bp).$^5$
 
-# The Economy versus the people
+The cost of housing has also gone up significantly. From 2016 to 2017, the median nominative cost of housing in England went up by almost 5% while the median nominative wage only went up by less than 2.5%.$^{[6\text{, p.4}]}$ In fact, the CPI between June 2016 to June 2017 increased by 2.7%,$^7$ more than the amount wages were increasing.
+
+Despite the economy doing so well, it is getting harder for people to afford things.
 
 ---
 # Bibliography
@@ -23,3 +25,7 @@ $^3$ “Analysis of the Distribution of Earnings across the UK Using Annual Surv
 $^4$ “CPI ANNUAL RATE 00: ALL ITEMS 2015=100 - Office for National Statistics.” Accessed August 3, 2018. https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23.
 
 $^5$ Ryan, Daniel. “Rough Sleeping Statistics Autumn 2017, England (Revised).” Accessed August 3, 2018. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/682001/Rough_Sleeping_Autumn_2017_Statistical_Release_-_revised.pdf.
+
+$^6$ Henretty, Nigel. “Housing Affordability in England and Wales: 2017.” Office for National Statistics, Housing Affordability in England and Wales, April 2018 (April 26, 2018): 1–16.
+
+$^7$ “UK Historical Consumer Price Index (CPI) - 2016 to 2017.” Accessed August 16, 2018. https://www.rateinflation.com/consumer-price-index/uk-historical-cpi?start-year=2016&end-year=2017.
