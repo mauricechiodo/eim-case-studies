@@ -28,7 +28,7 @@ Mathematical research, however, was still active under the Nazi regime, though i
 
 I cite this disagreement to show how, even in matters of fairly abstruse, theoretical mathematics, politics, in certain conditions, can become inextricably intertwined with academic discourse. It is a poisonous tendency – but a tendency one must be aware of. All such men can become unobjective, even fanatical, in extreme political situations, however objective their mathematics seeks to be. Mathematics, on an academic level, must remain mathematics – for otherwise, the entire river of its development, from the Greeks downwards, can easily be dammed up. 
 
-I quote an exchange between GH Hardy and Ludwig Bieberbach (the founder of the Nazi \textit{Deutsche Mathematik} journal), which I think exemplifies both the warped worldview of the Nazi mathematician and that of the foreign mathematician in rejecting the former: 
+I quote an exchange between GH Hardy and Ludwig Bieberbach (the founder of the Nazi *Deutsche Mathematik* journal), which I think exemplifies both the warped worldview of the Nazi mathematician and that of the foreign mathematician in rejecting the former: 
 
 "In this way... the ultimate reason behind the courageous rejection which the students at Göttingen University meted out to a great mathematician, Edmund Landau, was that his un-German style in research and teaching had become intolerable to German sensitivities. A people which has seen how alien desires for dominion are gnawing at its identity, how enemies of the people are working to impose their alien ways on it, must reject teachers of a type alien to it."
 – Ludwig Bieberbach
