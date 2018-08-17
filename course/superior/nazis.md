@@ -3,10 +3,6 @@ Title: Mathematics in Nazi Germany
 Template: LeafPage
 ---
 
----
-title: Nazis
-Template: LeafPage
----
 
 **The case of Albert Speer**
 
