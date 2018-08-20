@@ -12,11 +12,10 @@ Credit Scores can be based on different types of data: baseline credit data or a
 ###Baseline Credit Data
 
 This is data that is typically reported to the national credit bureaus. It includes:
-
-	- Identifying information: *an individual's name, birth date, current and previous addresses and social security number.*
-	- Credit account data: *types of accounts (credit cards, auto loans, student loans, mortgages, etc.), dates the accounts were opened, credit limits or loan ammounts, account balances, and payment histories.*
-	- Payment-related public record data: *bankruptcies, foreclosures, tax liens, wage attachements and civil judgements.*
-	- Histories of collections activities: *amounts currently owed, names of the original creditors.*
+	* Identifying information: *an individual's name, birth date, current and previous addresses and social security number.*
+	* Credit account data: *types of accounts (credit cards, auto loans, student loans, mortgages, etc.), dates the accounts were opened, credit limits or loan ammounts, account balances, and payment histories.*
+	* Payment-related public record data: *bankruptcies, foreclosures, tax liens, wage attachements and civil judgements.*
+	* Histories of collections activities: *amounts currently owed, names of the original creditors.*
 
 ###Alternative Credit Data
 
@@ -35,7 +34,7 @@ Traditional models, such as the standard FICO score, use baseline credit data. T
 
 Traditional credit scoring only consider a relatively limited set of data points, they may not accurately predict the creditworthiness of many *thin-file* consumers [2]. Thin-file consumers are people who have a limited credit history, for example a consumer who has had few or no loans or credit cards.
 
-In `Big Data, a Big Disappointment for Scoring Consumer Creditworthiness', Yu, McLaughlin and Levy [4] state that 
+In 'Big Data, a Big Disappointment for Scoring Consumer Creditworthiness', Yu, McLaughlin and Levy [4] state that 
 
 >*"Problems exist with the traditional credit scoring system. First, credit scores cannot predict if any particular person will actually engage in the behavior. In fact, often the probability is greater that a particular low-scoring person will not engage in the behavior. Second, many low-income consumers have low credit scores simply because they have either a "thin file” or "no file”... A denial of credit to these consumers is based on the absence of credit history rather than anything negative in their credit histories.*
 
@@ -52,7 +51,6 @@ These models consider mainstream alternative credit data. An example of such mod
 ###Fringe Alternative Models
 
 These models consider fringe credit data. There are currently a number of companies that are developing fringe alternative models, including [3]:
-
 	- **Lenddo:** To apply for a loan, users authorise Lenddo to access their social media profiles, from which Lenddo's model calculates a score that determines whtehr the applicant can receive a loan and the terms under which such a loan will be granted. Rather than actually lending money, Lenddo has started selling its algorithmic services to businesses inside and outside the financial sector. 
 	- **ZestFinance:** Created by the ex-CIO of Google, Douglas Merrill, ZestFinance have created ZAML Platform, which uses machine learning to analyse thousands of non-traditional and traditional variables to score borrowers. 
 	- **LendUp:** Mixes data from credit bureaus with reputation information taken from the user's social networks. Unlike Lendoo, it is not mandatory for the user to connect their social network, although they are encouraged to fully disclose their social information because "the more they reveal, the better their chances of approval" [6].
