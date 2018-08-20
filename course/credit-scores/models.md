@@ -37,7 +37,7 @@ Traditional credit scoring only consider a relatively limited set of data points
 
 In `Big Data, a Big Disappointment for Scoring Consumer Creditworthiness', Yu, McLaughlin and Levy [4] state that 
 
->>*"Problems exist with the traditional credit scoring system. First, credit scores cannot predict if any particular person will actually engage in the behavior. In fact, often the probability is greater that a particular low-scoring person will not engage in the behavior. Second, many low-income consumers have low credit scores simply because they have either a "thin file” or "no file”... A denial of credit to these consumers is based on the absence of credit history rather than anything negative in their credit histories.*
+>*"Problems exist with the traditional credit scoring system. First, credit scores cannot predict if any particular person will actually engage in the behavior. In fact, often the probability is greater that a particular low-scoring person will not engage in the behavior. Second, many low-income consumers have low credit scores simply because they have either a "thin file” or "no file”... A denial of credit to these consumers is based on the absence of credit history rather than anything negative in their credit histories.*
 
 ###Mainstream Alternative Models
 
