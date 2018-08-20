@@ -3,9 +3,24 @@ title: HART
 template: LeafPage
 ---
 
+$\newcommand{\F}[1]{^{\text{F}#1}}$
+
 # HART
 
-HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. This will help determine if the offender should be released with bail and how much help they should recieve when re-intergrating into society. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.$\F{1}$
+
+## Background -- Checkpoint
+
+Checkpoint is an initiative within the Durham constabulary that seeks to tackle the root causes of crime and the effect that has on the community.$^{[1\text{, p.6}]}$ The program allows offenders, as an alternative to going to prosecution, to enter a contract.$^{\text{F}1}$ A specialist 'navigator' assesses the offender and draws up a contract that may include these conditions
+
+* Offending condition – not to reoffend over the period of the contract. (mandatory condition)
+* Victims condition – to take part in a Restorative Approach if asked, to put right the harm caused.
+* Pathway Condition – Interventions around issues that contributed to the subject committing the offence.
+* Pathway Condition – Interventions around issues that contributed to the subject committing the offence.
+* Complete 18-36 hours voluntary work in the community or wear a GPS tag.
+*List from Durham Police website*\cite{checkpoint}
+
+Should the offender fail to complete their contract, they are taken to court. Only offenders which are categorised by HART as being medium-risk are eligible to enter the Checkpoint program, that is to say, only those predicted to commit a non-serious offence in the next 24 months.
 
 ## Random Forests
 
@@ -19,3 +34,15 @@ The random forest AI computes designation $R$ of an input ${\bf I}\in\mathbb{I}$
 $$ R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\right) $$
 
 So, for example, HART has $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'}
+
+---
+# Footnotes
+
+$^{\text{F}1}$ This does not apply to serious offences, such as rape, robbery or murder. Hate crime, domestic abuse and driving offences also disqualify an offender from Checkpoint.
+
+---
+# Bibliography
+
+$^1$ Sheena Urwin. “Algorithm Forecasting of Offender Dangerousness for Police Custody Officers: An Assessment of Accuracy for the Durham Constabulary Model”. In: (2016-12), p. 136. url: http://www.crim.cam.ac.uk/alumni/theses/Sheena%20Urwin%20Thesis%2012-12-2016.pdf (visited on 2018-08-07).
+
+$^2$ *Checkpoint*. url: https://www.durham.police.uk/Information-and-advice/Pages/Checkpoint.aspx (visited on 2018-08-20).
