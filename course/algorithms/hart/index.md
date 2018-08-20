@@ -9,7 +9,7 @@ HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how muc
 
 ## The Model
 
-The model categorises an offender based on being likely to, over the next 24 months, commit a serious offence (high-risk), commit a non-serious offence (moderate) or commit no offence (low).\Ci{1}{6.1 'The Model', p.15} HART was trained to minimize its total cost of errors, where different errors produced have different costs associated with them. False-positives, in which a reoffender is erroneously identified as low-risk, are given a high cost since they are the most dangerous error the algorithm can make, whereas false-negatives are given a lower cost. In this way, HART seeks to minimize the danger to community while trying to still truly apply the data correctly.$\C{3}{228}$
+The model categorises an offender based on being likely to, over the next 24 months, commit a serious offence (high-risk), commit a non-serious offence (moderate) or commit no offence (low).$\Ci{1}{6.1 'The Model', p.15}$ HART was trained to minimize its total cost of errors, where different errors produced have different costs associated with them. False-positives, in which a reoffender is erroneously identified as low-risk, are given a high cost since they are the most dangerous error the algorithm can make, whereas false-negatives are given a lower cost. In this way, HART seeks to minimize the danger to community while trying to still truly apply the data correctly.$\C{3}{228}$
 
 The costs associated with each of these were set by the people who designed HART, thus having to make an arbitrary choice with ethical consequence.
 
