@@ -3,15 +3,17 @@ title: HART
 template: LeafPage
 ---
 
-$\newcommand{\F}[1]{^{\text{F}#1}}$
-
 # HART
+$\newcommand{\F}[1]{^{\text{F}#1}}$
+$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
 
-HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.$\F{1}$
+HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
 
 ## Background -- Checkpoint
 
-Checkpoint is an initiative within the Durham constabulary that seeks to tackle the root causes of crime and the effect that has on the community.$^{[1\text{, p.6}]}$ The program allows offenders, as an alternative to going to prosecution, to enter a contract.$^{\text{F}1}$ A specialist 'navigator' assesses the offender and draws up a contract that may include these conditions
+Checkpoint is an initiative within the Durham constabulary that seeks to tackle the root causes of crime and the effect that has on the community.$\C{1}{6}$
+
+$^{[1\text{, p.6}]}$ The program allows offenders, as an alternative to going to prosecution, to enter a contract.$^{\text{F}1}$ A specialist 'navigator' assesses the offender and draws up a contract that may include these conditions
 
 * Offending condition – not to reoffend over the period of the contract. (mandatory condition)
 * Victims condition – to take part in a Restorative Approach if asked, to put right the harm caused.
