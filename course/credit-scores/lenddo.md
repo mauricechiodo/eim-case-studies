@@ -34,7 +34,7 @@ An individual who wants to borrow funds must register with the system. This enta
 After the user has applied for a loan, the system searches their social graph (a graph created by drawing an edge between the user and the people, places, and things they interact with online) to extract user data from their online social footprint. 
 
 
-![Example of a Social Graph](db716.srcf.net/eim/media/SocialGraph.jpg "An Example of a Social Graph []")
+![Example of a Social Graph](http://db716.srcf.net/eim/media/SocialGraph.jpg "An Example of a Social Graph []")
 
 	
 User data is then blended with the data gathered from the online social footprint and other data required by the specified predictive model. 
