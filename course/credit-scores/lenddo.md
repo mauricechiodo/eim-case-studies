@@ -75,4 +75,8 @@ On their website, in a section highlighting their key milestones \cite{lenddo_ab
 	- Experian in Indonesia and Japan (2017) 	
   
 ##References
-
+2:
+5:
+18:
+22:
+23:
