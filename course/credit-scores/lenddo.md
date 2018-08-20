@@ -4,37 +4,37 @@ Template: ListSubPages
 ---
 #Lenddo 
 
-Lenddo was founded by Jeffrey Stewart and Richard Eldridge in 2011. Lenddo operates in: 
+Lenddo was founded by Jeffrey Stewart and Richard Eldridge in 2011. Lenddo operates in [4]: 
 	- The Philippines (since 2011);
 	- Colombia (since 2012); 
 	- Mexico (since 2013); 
 	- India (since 2016);
 	- South Korea (since 2016);
 	- Thailand (since 2017);
-	- Australia - by partnering up with Lodex (since 2017).
+	- Australia - by partnering up with Lodex (since 2017) [5].
 
 In Australia, Lenddo has partnered up with Lodex, which is no longer only offering loans for small amounts of money. For example, Lodex also offers home loans and car loans, from which a lot of money can be made. 
 
-On the 'Why Lodex' section of their website they claim:
+On the 'Why Lodex' section of their website [5] they claim:
 >*"We give you access to "big data” and sophisticated analysis tools to help you build a story about what you’re really like as a customer. Your credit and social score and financial potential profile paint a much clearer picture of the sort of customer you are so you can share your story with financial service providers and let them come to you."*
 
 This makes the problem a lot more concerning as we must question whether social scores are appropriate for such decisions.
-In January 2015, Lenddo starting lending its technology to third parties, such as banks, lending institutions, utilities companies and credit card worldwide. 
+In January 2015, Lenddo starting lending its technology to third parties, such as banks, lending institutions, utilities companies and credit card worldwide [4]. 
 
->*Perhaps no company has gone as far as Lenddo, a Hong Kong start-up that owns online lenders in Colombia and the Philippines. Loan-seekers ask Facebook friends to vouch for them. To determine if those who say "yes” are real friends rather than mere Facebook contacts, Lenddo’s software checks messages for shared slang or wording that suggests affinity. What’s more, the credit scores of those who have vouched for a borrower are damaged if he or she fails to repay. Put the word out about this "social-enforcement mechanism” and "boom, the money shows up,” says Jeff Stewart, Lenddo’s boss.”* - The Economist (2013)
+>*Perhaps no company has gone as far as Lenddo, a Hong Kong start-up that owns online lenders in Colombia and the Philippines. Loan-seekers ask Facebook friends to vouch for them. To determine if those who say "yes” are real friends rather than mere Facebook contacts, Lenddo’s software checks messages for shared slang or wording that suggests affinity. What’s more, the credit scores of those who have vouched for a borrower are damaged if he or she fails to repay. Put the word out about this "social-enforcement mechanism” and "boom, the money shows up,” says Jeff Stewart, Lenddo’s boss.”* - The Economist (2013) [1]
 
 This is a big promotion for Lenddo - The Economist is a very important publication. They were no longer hiding *in the shadows*. 3 years later they started opening up in countries with higher GDP per capita. 
 
 ##Patent
 
-In this section we will summarise the details of the Lenddo patent.
+In this section we will summarise the details of the Lenddo patent [3].
 
 An individual who wants to borrow funds must register with the system. This entails creating a user profile by entering personal data into the system through the website or user interface. 
 
 After the user has applied for a loan, the system searches their social graph (a graph created by drawing an edge between the user and the people, places, and things they interact with online) to extract user data from their online social footprint. 
 
 
-![Example of a Social Graph](http://db716.user.srcf.net/eim/media/SocialGraph.jpg "An Example of a Social Graph []")
+![Example of a Social Graph](http://db716.user.srcf.net/eim/media/SocialGraph.jpg "An Example of a Social Graph [2]")
 
 	
 User data is then blended with the data gathered from the online social footprint and other data required by the specified predictive model. 
@@ -69,14 +69,20 @@ Other sources of 'insight' about people's behaviour towards loans to determine c
 
 
 ##Partnerships
-On their website, in a section highlighting their key milestones \cite{lenddo_about_nodate}, Lenddo advertise their partnerships with:
-	- CRIF in the Philippines (2016). The CRIF are a "global company specializing in credit bureau and business information, outsourcing and processing services, and credit solutions."
-	- FICO in India (2017)
+
+On their website, in a section highlighting their key milestones [4], Lenddo advertise their partnerships with:
+	- CRIF in the Philippines (2016). The CRIF are a "global company specializing in credit bureau and business information, outsourcing and processing services, and credit solutions." [6] 
+	- FICO in India (2017) [7]
 	- Experian in Indonesia and Japan (2017) 	
   
 ##References
-2:
-5:
-18:
-22:
-23:
+
+[1] Stat Oil - Credit Scores. *The Economist,* February 2013. 
+[2] Boonsri Dickinson. So What the Heck is the 'Social Graph' Facebook Keeps Talking About? *Business Insider,* March 2012. 
+[3] Jeffrey Stewart. Systems and methods for using online social footprint for affecting lending performance and credit scoring. April 2014. 
+[4] Lenddo. About Us. [Accessed August 13, 2018]. Available from: https://www.lenddo.com/about.html. 
+[5] Lodex. Social Score. [Accessed August 15, 2018]. Available from: https://www.lodex.co/scores/social 
+[6] CRIF. About us. [Accessed August 13, 2018]. Available from: https://www.crif.com/about-us/
+[7] FICO. New FICO Credit Scores Provide Lenders Opportunity to Expand Access to Credit in India for Nearly 350 Million, October 2017. 
+
+
