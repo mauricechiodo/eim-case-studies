@@ -19,4 +19,4 @@ The random forest \textsc{ai} computes designation $R$ of an input ${\bf I}\in\m
 
 $$R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\right)$$
 
-So, for example, \textsc{hart} has $\mathcal{O}=\{$'High-risk','Medium-risk','Low-risk'$\}$
+So, for example, $\textsc{hart}$ has $\mathcal{O}=\{$'High-risk','Medium-risk','Low-risk'$\}$
