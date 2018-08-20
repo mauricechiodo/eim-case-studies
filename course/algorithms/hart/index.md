@@ -12,7 +12,7 @@ HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how muc
 
 ## Background - Checkpoint
 
-Checkpoint is an initiative within the Durham constabulary that seeks to tackle the root causes of crime and the effect that has on the community.$\C{1}{6}$ The program allows offenders, as an alternative to going to prosecution, to enter a contract.$\F{1}$ A specialist 'navigator' assesses the offender and draws up a contract that may include these conditions
+Checkpoint is an initiative within the Durham constabulary that seeks to tackle the root causes of crime and the effect that has on the community.$\C{3}{227}$ The program allows offenders, as an alternative to going to prosecution, to enter a contract.$\F{1}$ A specialist 'navigator' assesses the offender and draws up a contract that may include these conditions
 
 * Offending condition – not to reoffend over the period of the contract. (mandatory condition)
 * Victims condition – to take part in a Restorative Approach if asked, to put right the harm caused.
@@ -48,3 +48,5 @@ $\F{1}$ This does not apply to serious offences, such as rape, robbery or murder
 $\c{1}$ Sheena Urwin. “Algorithm Forecasting of Offender Dangerousness for Police Custody Officers: An Assessment of Accuracy for the Durham Constabulary Model”. In: (2016-12), p. 136. url: http://www.crim.cam.ac.uk/alumni/theses/Sheena%20Urwin%20Thesis%2012-12-2016.pdf (visited on 2018-08-07).
 
 $\c{2}$ *Checkpoint*. url: https://www.durham.police.uk/Information-and-advice/Pages/Checkpoint.aspx (visited on 2018-08-20).
+
+$\c{3}$ Marion Oswald et al. “Algorithmic risk assessment policing models: lessons from the Durham HART model and ‘Experimental’ proportionality”. In: *Information & Communications Technology Law* 27.2 (2018-05-04), pp. 223–250. issn: 1360-0834, 1469-8404. doi: 10.1080/13600834.2018.1458455. url: https://www.tandfonline.com/doi/full/10.1080/13600834.2018.1458455 (visited on 2018-08-07).
