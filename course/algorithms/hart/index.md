@@ -4,7 +4,7 @@ template: LeafPage
 ---
 
 # HART
-$\newcommand{\F}[1]{^{[\text{F}#1}]}$
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$
 $\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
 $\newcommand{\c}[1]{^{[#1]}}$
 
@@ -40,7 +40,7 @@ So, for example, HART has $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'}
 ---
 # Footnotes
 
-$^{\text{F}1}$ This does not apply to serious offences, such as rape, robbery or murder. Hate crime, domestic abuse and driving offences also disqualify an offender from Checkpoint.
+$\F{1}$ This does not apply to serious offences, such as rape, robbery or murder. Hate crime, domestic abuse and driving offences also disqualify an offender from Checkpoint.
 
 ---
 # Bibliography
