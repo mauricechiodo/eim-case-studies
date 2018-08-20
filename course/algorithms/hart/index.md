@@ -5,7 +5,7 @@ Template: LeafPage
 
 ## HART
 
-HART -- the Harm Assessment Risk Tool -- is an algorithm designed to acess how much of a risk an offender poses to their community. This will help determine if the offender should be released with bail and how much help they should recieve when re-intergrating into society. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. This will help determine if the offender should be released with bail and how much help they should recieve when re-intergrating into society. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
 
 ### Random Forests
 
