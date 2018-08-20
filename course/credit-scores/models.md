@@ -66,8 +66,13 @@ These models consider fringe credit data. There are currently a number of compan
 ##References:
 
 [1] Fair Isaac Corportation. What's in my FICO® Score. [accessed 13 August 2018].  Available from: https://www.myfico.com/credit-education/whats-in-your-credit-score/
+
 [2] Mikella Hurley and Julius Adebayo. Credit Scoring in the Era of Big Data. *Yale Journal of Law and Technology.* 18(1):148-216, 2017. 
+
 [3] Nizan Geslevich Packin and Yafit Lev-Aretz. On Social Credit and the Right to be Unnetworked. *Columbia Buisness Law Review,* 339. February 2016. 
+
 [4] Persis Yu, Jillian McLaughlin, and Marina Levy. Big Data, a Big Disappointment for Scoring Consumer Creditworthiness. Technical report. National Consumer Law Center, March 2014. 
+
 [5] Robinson + Yu. Knowing the Score: New Data, Underwriting, and Marketing in the Consumer Credit Marketplace. Technical report. October 2014. 
+
 [6] Stephanie Armour. Borrowers Hit Social-Media Hurdles. *The Wall Street Journal,* January 2014. 
