@@ -60,9 +60,8 @@ When applying for the loan, the user inputs the loan information that indicates 
 It is highlighted that insights obtained from available personal data and data gathered online can aid pattern recognition between those who repay debt and those who don't. *"Good sources for pattern recognition include word combinations in text indicating deceptive use of loan funds, or in contrast, corroborating text that affirms the intended use of the funds".
 
 Other sources of 'insight' about people's behaviour towards loans to determine credit worthiness used are:
-	- geospacial data, including location, places of frequent activity etc.
-    *"An individual who is frequently spending time in a location common to other individuals who do repay loans provides such insightful geospacial data.*
-  - Visual evidence, either by photograph or video.
+	- geospacial data, including location, places of frequent activity etc. *"An individual who is frequently spending time in a location common to other individuals who do repay loans provides such insightful geospacial data.*
+  	- Visual evidence, either by photograph or video.
 	- Biometric information, such as typing habits, verbal audio content, and body images including photos
 	- Aspects of the computing device, such as time setting, browser type, browser history, borwser settings
 	- Other characteristics, including friendship, affiliatiates, attitude, habits, purchasing trends, travel patterns, long term goals, extracurricular involvement and stability of an individual (i.e. the duration of time in which the person has lived in the same place).
@@ -78,11 +77,17 @@ On their website, in a section highlighting their key milestones [4], Lenddo adv
 ##References
 
 [1] Stat Oil - Credit Scores. *The Economist,* February 2013. 
+
 [2] Boonsri Dickinson. So What the Heck is the 'Social Graph' Facebook Keeps Talking About? *Business Insider,* March 2012. 
+
 [3] Jeffrey Stewart. Systems and methods for using online social footprint for affecting lending performance and credit scoring. April 2014. 
+
 [4] Lenddo. About Us. [Accessed August 13, 2018]. Available from: https://www.lenddo.com/about.html. 
+
 [5] Lodex. Social Score. [Accessed August 15, 2018]. Available from: https://www.lodex.co/scores/social 
+
 [6] CRIF. About us. [Accessed August 13, 2018]. Available from: https://www.crif.com/about-us/
+
 [7] FICO. New FICO Credit Scores Provide Lenders Opportunity to Expand Access to Credit in India for Nearly 350 Million, October 2017. 
 
 
