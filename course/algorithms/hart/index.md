@@ -1,6 +1,6 @@
 ---
 Title: HART
-Template: ListSubPages
+Template: LeafPage
 ---
 
 ## HART
