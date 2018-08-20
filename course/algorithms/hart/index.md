@@ -9,7 +9,7 @@ HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how muc
 
 ### Random Forests
 
-*Random Forests* are a machine learning method that involves training many trees to each produce their own algorithm for categorising inputs. Let $\mathbb{T}$ be the set of trees, $\mathbb{I}$ be the space of all inputs and $\mathcal{O}$ be the outputs, then in \textsc{hart} $T_k\in\mathbb{T}$ is a function
+*Random Forests* are a machine learning method that involves training many trees to each produce their own algorithm for categorising inputs. Let $\mathbb{T}$ be the set of trees, $\mathbb{I}$ be the space of all inputs and $\mathcal{O}$ be the outputs, then in $\textsc{hart}$ $T_k\in\mathbb{T}$ is a function
 
 $$T_k:\mathbb{I}\to\mathcal{O}$$
 
