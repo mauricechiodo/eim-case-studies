@@ -4,10 +4,8 @@ template: LeafPage
 ---
 
 # HART
-$\newcommand{\F}[1]{^{[\text{F}#1]}}$
-$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
-$\newcommand{\c}[1]{^{[#1]}}$
-$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+
+HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
 
 ## The Model
 
@@ -61,3 +59,8 @@ $\c{1}$ Sheena Urwin. “Algorithm Forecasting of Offender Dangerousness for Pol
 $\c{2}$ *Checkpoint*. url: https://www.durham.police.uk/Information-and-advice/Pages/Checkpoint.aspx (visited on 2018-08-20).
 
 $\c{3}$ Marion Oswald et al. “Algorithmic risk assessment policing models: lessons from the Durham HART model and ‘Experimental’ proportionality”. In: *Information & Communications Technology Law* 27.2 (2018-05-04), pp. 223–250. issn: 1360-0834, 1469-8404. doi: 10.1080/13600834.2018.1458455. url: https://www.tandfonline.com/doi/full/10.1080/13600834.2018.1458455 (visited on 2018-08-07).
+
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$
+$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
+$\newcommand{\c}[1]{^{[#1]}}$
+$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
