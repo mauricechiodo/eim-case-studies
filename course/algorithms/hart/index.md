@@ -7,7 +7,7 @@ template: LeafPage
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$
 $\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
 $\newcommand{\c}[1]{^{[#1]}}$
-$\newcommand{\Ci}[2]{^{[#1\text{#2}]}}$HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
 
 ## The Model
 
