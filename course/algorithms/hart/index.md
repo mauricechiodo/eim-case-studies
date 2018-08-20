@@ -19,7 +19,7 @@ Urwin used an independent dataset of 14822 past cases from Durham in 2013 to val
 
 It is of note that the model takes the offender's truncated postcode and gender as factors in its algorithm.$\Ci{1}{Appendix A, p.96-97}$
 
-One of the variables in the model is PriorSeriousOffenceLatestYears, the 'number of years since the most recent custody instance in which a serious offence was committed'. If there is no prior offence, then a code of 100 years is used. It is unclear if the algorithm interprets this as having *never* committed a previous offence or if it interprets the input as it having been 100 years since last offence. The same code is used for many more specific types of offence, such as last sexual/drug/weapon offence.$\Ci{1}{Appendix A, p.99}$
+One of the variables in the model is ```PriorSeriousOffenceLatestYears```, the 'number of years since the most recent custody instance in which a serious offence was committed'. If there is no prior offence, then a code of 100 years is used. It is unclear if the algorithm interprets this as having *never* committed a previous offence or if it interprets the input as it having been 100 years since last offence. The same code is used for many more specific types of offence, such as last sexual/drug/weapon offence.$\Ci{1}{Appendix A, p.99}$
 
 ## Background - Checkpoint
 
