@@ -6,7 +6,20 @@ template: LeafPage
 # HART
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$
 $\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$
-$\newcommand{\c}[1]{^{[#1]}}$HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+$\newcommand{\c}[1]{^{[#1]}}$
+$\newcommand{\Ci}[2]{^{[#1\text{#2}]}}$HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how much of a risk an offender poses to their community. HART functions using the machine learning process of *random forests*, a method by which many algorithms are generated and there is a first past the post vote between all of them.
+
+## The Model
+
+The model categorises an offender based on being likely to, over the next 24 months, commit a serious offence (high-risk), commit a non-serious offence (moderate) or commit no offence (low).\Ci{1}{6.1 'The Model', p.15} HART was trained to minimize its total cost of errors, where different errors produced have different costs associated with them. False-positives, in which a reoffender is erroneously identified as low-risk, are given a high cost since they are the most dangerous error the algorithm can make, whereas false-negatives are given a lower cost. In this way, HART seeks to minimize the danger to community while trying to still truly apply the data correctly.$\C{3}{228}$
+
+The costs associated with each of these were set by the people who designed HART, thus having to make an arbitrary choice with ethical consequence.
+
+Urwin used an independent dataset of 14822 past cases from Durham in 2013 to validate the algorithms effectiveness. The results from HART were then compared to the actual, known results of the offender's behaviour over the next 24 months. The accuracy for this sample was 62.8%, less than the estimated 68.5%.$\C{3}{229}$
+
+It is of note that the model takes the offender's truncated postcode and gender as factors in its algorithm.$\Ci{1}{Appendix A, p.96-97}$
+
+One of the variables in the model is PriorSeriousOffenceLatestYears, the 'number of years since the most recent custody instance in which a serious offence was committed'. If there is no prior offence, then a code of 100 years is used. It is unclear if the algorithm interprets this as having *never* committed a previous offence or if it interprets the input as it having been 100 years since last offence. The same code is used for many more specific types of offence, such as last sexual/drug/weapon offence.$\Ci{1}{Appendix A, p.99}$
 
 ## Background - Checkpoint
 
