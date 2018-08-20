@@ -19,6 +19,7 @@ Checkpoint is an initiative within the Durham constabulary that seeks to tackle 
 * Pathway Condition – Interventions around issues that contributed to the subject committing the offence.
 * Pathway Condition – Interventions around issues that contributed to the subject committing the offence.
 * Complete 18-36 hours voluntary work in the community or wear a GPS tag.
+
 *List from Durham Police website*$\c{2}$
 
 Should the offender fail to complete their contract, they are taken to court. Only offenders which are categorised by HART as being medium-risk are eligible to enter the Checkpoint program, that is to say, only those predicted to commit a non-serious offence in the next 24 months.
