@@ -18,4 +18,4 @@ Each individual tree is developed over a subset of the total data, optimised ove
 The random forest AI computes designation $R$ of an input ${\bf I}\in\mathbb{I}$ with the technology
 $$ R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\right) $$
 
-So, for example, HART has $\mathcal{O}=\{$'High-risk','Medium-risk','Low-risk'$\}$
+So, for example, HART has $\mathcal{O}=\{\text{'High-risk','Medium-risk','Low-risk'}\}$
