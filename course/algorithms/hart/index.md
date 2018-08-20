@@ -13,7 +13,7 @@ HART - the Harm Assessment Risk Tool - is an algorithm designed to acess how muc
 
 $$ T_k:\mathbb{I}\to\mathcal{O} $$
 
-Each individual tree is developed over a subset of the total data, optimised over some conditions, to form a forest $\mathbb{T}=\{T_k:k\in[n]\}$ for some $n$.
+Each individual tree is developed over a subset of the total data, optimised over some conditions, to form a forest $\mathbb{T}=\\{T_k:k\in[n]\\}$ for some $n$.
 
 The random forest AI computes designation $R$ of an input ${\bf I}\in\mathbb{I}$ with the technology
 $$ R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\right) $$
