@@ -9,9 +9,4 @@ A credit score is a tool used by lenders to help determine whether or not you qu
 
 Due to this it is pretty important that they are calculated as accurately as possible. But what is an \textit{accurate} score? How do we verify this number and ensure it is reflecting the truth. 
 
-No single credit score exists, but there are 3 main credit reference agencies used in the UK: Experian, Equifax and TransUnion (formerly Callcredit). [1]
-
-#References
-
-[1] Mikella Hurley and Julius Adebayo. Credit Scoring in the Era of Big Data. *Yale Journal of Law and Technology.* 18(1):148 - 216, 2017.  
-
+No single credit score exists, but there are 3 main credit reference agencies used in the UK: Experian, Equifax and TransUnion (formerly Callcredit).
