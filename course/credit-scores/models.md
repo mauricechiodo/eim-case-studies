@@ -21,14 +21,14 @@ This is data that is typically reported to the national credit bureaus. It inclu
 
 Unlike baseline credit data, this is not typically fully reported to the national credit bureaus.
 There are two types: 
-	- mainstream alternative credit data, which is data similar in kind to baseline credit data, such as monthly bill payments. 
-	- fringe alternative credit data, which is not similar in kind to baseline credit data, such as criminal convictions or number of friends on a social networking site.
+	* mainstream alternative credit data, which is data similar in kind to baseline credit data, such as monthly bill payments. 
+	* fringe alternative credit data, which is not similar in kind to baseline credit data, such as criminal convictions or number of friends on a social networking site.
 
 ##Types of Scores 
 
 ###Traditional Models
 
-Traditional models, such as the standard FICO score, use baseline credit data. The FICO score is calculated using 5 main categories of data: payment history (35\%), amounts owed (30\%), length of credit history (15\%), new credit (10\%) and credit mix (10\%) [1].
+Traditional models, such as the standard FICO score, use baseline credit data. The FICO score is calculated using 5 main categories of data: payment history (35%), amounts owed (30%), length of credit history (15%), new credit (10%) and credit mix (10%) [1].
 
 **Problem with Traditional Models**
 
