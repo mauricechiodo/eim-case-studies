@@ -14,7 +14,9 @@ Put simply, a copula is a function that maps individual marginal distributions i
 
 As stated in 'Princples of Copula Theory' (2015) 13, the formal definition of a copula is:
 
-	Let U<sub>1</sub>, ..., U<sub>n</sub> be uniformly distributed random variables in [0,1]. A multivariate distribution function $C_{\rho}: [0,1]^n \rightarrow [0,1]$ with
+	Let U_1, ..., U_n be uniformly distributed random variables in [0,1]. 
+	
+	A multivariate distribution function $C_{\rho}: [0,1]^n \rightarrow [0,1]$ with
 
 	                 $C_{\rho}(u_1, u_2, ..., u_n) = Pr[U_1 \leq u_1, ..., U_n \leq u_n)$
                     
@@ -50,7 +52,10 @@ Copulas are an essential tool for understanding several problems about stochasti
 
 In 'Fonctions de R'{e}partition \`{a} n dimensions et leurs marges' (1959) 25, Sklar established the converse:
 
-	Let $F$ be a multivariate $n$-dimensional distribution function and $F_1, ..., F_n$, the related marginal distribution functions. Then there exists an $n$-dimensional Copula $C_{\rho}$, so that the following equation holds for all $(x_1, ..., x_n) \in \mathbb{R}^n$:	
+	Let $F$ be a multivariate $n$-dimensional distribution function and $F_1, ..., F_n$, the related marginal distribution functions. 
+	
+	Then there exists an $n$-dimensional Copula $C_{\rho}$, so that the following equation holds for all $(x_1, ..., x_n) \in \mathbb{R}^n$:	
+	
 	$F(x_1, ..., x_n) = C_{\rho}(F_1(x_1), ..., F_n(x_n))$
 
 The rest of this section and the following section is based on ideas from chapter 1 of 'Mathematical Risk Analysis' (2013) entitled 'Copulas, Sklar’s Theorem, and Distributional Transform' 17.
@@ -71,7 +76,9 @@ Note that in probability theory, we say that an event happens almost surely if i
 
 **Proof of Sklar's Theorem:**
 
-	Let $X$ = ($X_1, ..., X_n$) be a random vector on a probability space ($\Omega$, $\mathcal{F}$, P), with distribution function F and let $V \sim U(0,1)$ be independent of X. Considering the distributional transforms $U_i := F_i(X_i, V), 1 \leq i \leq n$, we have by the proposition above that $U_i := U(0,1)$ and $X_i = F_i^{-1}(U_i)$ almost surely, $1 \leq i \leq n$. 
+	Let $X$ = ($X_1, ..., X_n$) be a random vector on a probability space ($\Omega$, $\mathcal{F}$, P), with distribution function F and let $V \sim U(0,1)$ be independent of X. 
+	
+	Considering the distributional transforms $U_i := F_i(X_i, V), 1 \leq i \leq n$, we have by the proposition above that $U_i := U(0,1)$ and $X_i = F_i^{-1}(U_i)$ almost surely, $1 \leq i \leq n$. 
 
 	Thus defining C to be the distribution function of $U = (U_1, ..., U_n)$ we obtain
 
