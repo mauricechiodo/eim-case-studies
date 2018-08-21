@@ -11,7 +11,7 @@ Let $\tau_i$ be a random variable that describes the default time of the $i^{th}
 
 To model the joint default times of all the assets in the underlying pool $F(t_1, ..., t_M)$ for all $(t_1, ..., t_M)$ (where $t_i$ is a positive real number), we make use of Sklar's theorem, which ensures the existence of a copula $C:[0,1]^M \rightarrow [0,1]$ such that 
 
-	$F(t_1, ..., t_M) = C(F_1(t_1), ..., F_M(t_M)).$ ()
+	$F(t_1, ..., t_M) = C(F_1(t_1), ..., F_M(t_M)).$ ($+$)
 
 The most common used version of Li's model is the **One-factor Gaussian Copula Model** [1], as it offers "high analytical tractability" (meaning it can be solved analytically in terms of a closed form expression) by assuming that the portfolio of the underlying assets is homogenous (see details of how this model was developed in the section **'Overview of what happened after Li's Paper, before the Financial Crisis'**). 
 
@@ -40,7 +40,7 @@ Whilst the default correlation between A and C, and B and C may be very similar,
 
 We say that a company $i$ defaults if their asset value $X_i$ is below a certain threshold. So we link the single default time $\tau_i$ to the one-factor model by the relation $X_i = \Phi^{-1}(F_i(\tau_i))$.
 
-Then, after the marginal distribution functions for the $\tau_i$ are determined, we can use (+) and the Gaussian copula to estimate the joint default distribution of the asset pool. We have then fully specified the one-factor Li model.
+Then, after the marginal distribution functions for the $\tau_i$ are determined, we can use ($+$) and the Gaussian copula to estimate the joint default distribution of the asset pool. We have then fully specified the one-factor Li model.
 
 ##References
 
