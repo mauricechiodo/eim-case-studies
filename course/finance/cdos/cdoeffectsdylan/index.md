@@ -2,7 +2,6 @@
 Title: CDOs effects (Dylan)
 Template: LeafPage
 ---
-[embed "https://www.youtube.com/watch?v=gqb1zPAyuLo"]
 
+![Illustration of upper tail dependence](http://db716.user.srcf.net/eim/media/upper_tail_dependence.gif)
 
-[embed "https://www.youtube.com/watch?v=nn2FB1P_Mn8"]
