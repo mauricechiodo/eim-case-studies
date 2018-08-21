@@ -1,3 +1,8 @@
+---
+Title: Copula Theory
+Template: LeafPage
+---
+
 #Copula Theory
 
 An independence assumption of the credit risks is not realistic. In reality, the default rate for a group of credits tends to be higher in a recession and lower when the economy is booming. So, each credit is subject to the same set of macroeconomic environmental factors and we can see that there exists some form of positive dependence among the credits. To introduce a correlation structure, we must determine how to specify a joint distribution given marginal distributions. 
