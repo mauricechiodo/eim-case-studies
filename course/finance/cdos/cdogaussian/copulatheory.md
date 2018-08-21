@@ -51,7 +51,7 @@ Copulas are an essential tool for understanding several problems about stochasti
 
 ##Sklar's Theorem
 
-In 'Fonctions de R\'{e}partition \`{a} n dimensions et leurs marges' (1959) 25, Sklar established the converse:
+In 'Fonctions de Répartition à n dimensions et leurs marges' (1959) 25, Sklar established the converse:
 
 	Let $F$ be a multivariate $n$-dimensional distribution function and $F_1, ..., F_n$, the related marginal distribution functions. 
 	
