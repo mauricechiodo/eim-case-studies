@@ -1,5 +1,5 @@
 ---
-Title: Credit Scoring
+Title: CDO Pricing
 Template: ListSubPages
 ---
 
