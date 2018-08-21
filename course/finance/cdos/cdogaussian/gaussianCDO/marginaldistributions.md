@@ -124,7 +124,7 @@ In the paper by Li (2000) [2], market information is used rather than historical
 
 [1]  David X. Li. Constructing a Credit Curve. *Credit Risk, A Risk Special Report,* pages 40-44, November 1998.
 
-[2] David X. Li. On Default Correlation: A copula function approach. Journal of Fixed Income,: (4):43-54, April 2000.
+[2] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
 
 [3] Robert Geske. The Valuation of Corporate Liabilities as Compound Options. *Journal of Financial and Quantitative Analysis,* 12(04):541-552, 1977.
 
