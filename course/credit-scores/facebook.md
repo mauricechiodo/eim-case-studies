@@ -33,7 +33,7 @@ Further, the patent claims that *"a black list that is maintained for B is reque
 
 ##Partnership with Banks
 
-On August 6th 2018, The Wall Street Journal published an article [2] claiming that over the past year Facebook has asked JPMorgan Chase \& Co., Wells Fargo & Co., Citigroup Inc. and U.S. Bancorp to discuss "potential offerings it could host for bank customers on Facebook Messenger". As an example, Facebook has suggested it could implement a feature on Messenger that would allow uses to check their checking-account balances. 
+On August 6th 2018, The Wall Street Journal published an article [2] claiming that over the past year Facebook has asked JPMorgan Chase & Co., Wells Fargo & Co., Citigroup Inc. and U.S. Bancorp to discuss "potential offerings it could host for bank customers on Facebook Messenger". As an example, Facebook has suggested it could implement a feature on Messenger that would allow uses to check their checking-account balances. 
 As part of the deals, Facebook has asked banks for information about "where their users are shopping with their debit and credit cards outside purchases they make using Facebook Messenger". These paternerships are an attempt to increase user engagement by transforming Messenger "into a hub for customer serivce and commerce". 
 
 They have already partnered with PayPal Holdings Inc. which allows users to send money through Messenger [2].
