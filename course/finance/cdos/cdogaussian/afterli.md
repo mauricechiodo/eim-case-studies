@@ -55,7 +55,11 @@ Hence, by 2004-2005 investment bankers had managed to construct the canonical se
 ##References
 
 [1] *Gaussian Copula Model, CDOs and the Crisis.* PhD thesis, University of Oxford, June 2016.
+
 [2] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
+
 [3] Dominic O'Kane and Matthew Livesey. Base Correlation Explained. *Fixed Income Quantitative Credit Research - Leeman Brothers,* November 2004. 
+
 [4] Donald MacKenzie and Taylor Spears. 'The Formula That Killed Wall Street': The Gaussian Copula and Modelling Practices in Investment Banking. *Social Studies of Science*, 44:393-417, 2014.
+
 [5] Enrico Marcantoni. *Collateralized Debt Obligations.* Springer Gabler Verlag, edition 1, 2014.
