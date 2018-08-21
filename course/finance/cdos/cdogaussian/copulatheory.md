@@ -12,7 +12,7 @@ A copula is a multivariate probability distribution function with uniform margin
 	* the joint dependency structure between these one-dimensional random variables. 
 Put simply, a copula is a function that maps individual marginal distributions into a joint distribution.
 
-As stated in `Princples of Copula Theory' (2015) 13, the formal definition of a copula is:
+As stated in 'Princples of Copula Theory' (2015) 13, the formal definition of a copula is:
 
 Let $U_1, ..., U_n$ be uniformly distributed random variables in [0,1]. A multivariate distribution function $C_{\rho}: [0,1]^n \rightarrow [0,1]$ with
 
@@ -54,7 +54,7 @@ In 'Fonctions de R'{e}partition \`{a} n dimensions et leurs marges' (1959) 25, S
 
 		$F(x_1, ..., x_n) = C_{\rho}(F_1(x_1), ..., F_n(x_n))$*
 
-The rest of this section and the following section is based on ideas from chapter 1 of `Mathematical Risk Analysis' (2013) entitled 'Copulas, Sklar’s Theorem, and Distributional Transform' 17.
+The rest of this section and the following section is based on ideas from chapter 1 of 'Mathematical Risk Analysis' (2013) entitled 'Copulas, Sklar’s Theorem, and Distributional Transform' 17.
 
 Before proving the result we first define a **distributional transform**:
 
