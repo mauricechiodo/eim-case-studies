@@ -54,6 +54,6 @@ $\c{6}$ Julia Angwin, Jeff Larson. “Machine Bias.” Text/html. ProPublica, Ma
 
 $\c{7}$ Dieterich, William, Christina Mendoza, and Tim Brennan. “COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity,” July 8, 2016, 1–37.
 
-$\c{8]$ Kehl, Danielle, Priscilla Guo, and Samuel Kessler. “Algorithms in the Criminal Justice System: Assessing the Use of Risk Assessments in Sentencing,” n.d., 37.
+$\c{8}$ Kehl, Danielle, Priscilla Guo, and Samuel Kessler. “Algorithms in the Criminal Justice System: Assessing the Use of Risk Assessments in Sentencing,” n.d., 37.
 
 $\c{9}$ Center, Electronic Privacy Information. “EPIC - Algorithms in the Criminal Justice System.” Accessed August 7, 2018. https://epic.org/algorithmic-transparency/crim-justice/.
