@@ -14,7 +14,7 @@ Put simply, a copula is a function that maps individual marginal distributions i
 
 As stated in 'Princples of Copula Theory' (2015) 13, the formal definition of a copula is:
 
-Let U<sub>1</sub>, ..., U<sup>n</sup> be uniformly distributed random variables in [0,1]. A multivariate distribution function $C_{\rho}: [0,1]^n \rightarrow [0,1]$ with
+Let U<sub>1</sub>, ..., U<sub>n</sub> be uniformly distributed random variables in [0,1]. A multivariate distribution function $C_{\rho}: [0,1]^n \rightarrow [0,1]$ with
 
 	                  $C_{\rho}(u_1, u_2, ..., u_n) = Pr[U_1 \leq u_1, ..., U_n \leq u_n)$
                     
