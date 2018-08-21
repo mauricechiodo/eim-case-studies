@@ -45,4 +45,4 @@ Hence, to generate time-until-default of two credit risks, we can use a bivariat
 
 ##References
 
-[1] David X. Li. On Default Correlation: A copula function approach. Journal of Fixed Income,: (4):43-54, April 2000.
+[1] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
