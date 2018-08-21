@@ -70,7 +70,9 @@ We call $U := F(Y, V)$ the **distributional transform** of Y.
 
 **Proposition:**
 
-	Let U  = F(Y,V) be the distributional transform of Y. Then $U := U(0,1)$ and $Y = F^{-1}(U)$ almost surely.
+	Let U  = F(Y,V) be the distributional transform of Y. 
+	
+	Then $U := U(0,1)$ and $Y = F^{-1}(U)$ almost surely.
 
 Note that in probability theory, we say that an event happens almost surely if it happens with probability one.
 
