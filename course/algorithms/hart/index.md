@@ -57,22 +57,4 @@ $\c{1}$ Sheena Urwin. “Algorithm Forecasting of Offender Dangerousness for Pol
 
 $\c{2}$ *Checkpoint*. url: https://www.durham.police.uk/Information-and-advice/Pages/Checkpoint.aspx (visited on 2018-08-20).
 
-$\c{3}$ Marion Oswald et al. “AlgorithmiEthics in Mathematics Course
-
-Welcome to the EiM Course. A list of the currently available topics is below.
-
-P(X=y)=0.7
-
-teletubby
-
-∫x−xf(y)dy=log2(x)
-
-    Algorithmic Decision Making and Fairness
-    Credit Scoring
-    Cryptography and Government Surveillance
-    Finance and the Economic Crash
-    Miscellaneous
-    Superior Orders
-
-Pico was made by Gilbert Pellegrom and is maintained by The Pico Community. Released under the MIT license.
-c risk assessment policing models: lessons from the Durham HART model and ‘Experimental’ proportionality”. In: *Information & Communications Technology Law* 27.2 (2018-05-04), pp. 223–250. issn: 1360-0834, 1469-8404. doi: 10.1080/13600834.2018.1458455. url: https://www.tandfonline.com/doi/full/10.1080/13600834.2018.1458455 (visited on 2018-08-07).
+$\c{3}$ Marion Oswald et al. “Algorithmic risk assessment policing models: lessons from the Durham HART model and ‘Experimental’ proportionality”. In: *Information & Communications Technology Law* 27.2 (2018-05-04), pp. 223–250. issn: 1360-0834, 1469-8404. doi: 10.1080/13600834.2018.1458455. url: https://www.tandfonline.com/doi/full/10.1080/13600834.2018.1458455 (visited on2018-08-07).
