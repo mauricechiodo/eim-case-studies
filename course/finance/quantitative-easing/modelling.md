@@ -5,6 +5,8 @@ Template: LeafPage
 
 ## Modelling
 
+Macroeconomic models are designed to predict the chaotic system that is the economy. There is a broad range of methods designed to do this, ranging from the very simple to the extremely intricate. Most, with the advent of readily available supercomputers (eg your phone), will be able to be computed in a reasonable amount of time.
+
 ## Portfolio Balance Model
 $\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 The Portfolio Balance Model (PBM) was the model employed by the MPC to estimate the effects of Large-Scale Asset Purcchase (LSAP) on inflation rate. The MPC had a target inflation rate of 2%$\c{1}$ which was not being met during the economic crash.$\c{2}$ Course notes by Michael Bergman$\c{3}$ from the University of Copenhagen (based on a 2002 textbook by Sarno and Taylor$\c{4}$) detail the portfolio balance model, which I will only summarise here. The model is based on modelling the demand for money, domestic bonds and foreign bonds (most composed of foreign currency). The model is based on equilibrium from the rates of change of these values, and thus predicts inflation based on this. The MPC used this to predict how many assets to buy, and used their high decision turnover rate to be able to finely tune how many assets to buy.
