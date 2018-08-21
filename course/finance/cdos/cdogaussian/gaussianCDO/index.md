@@ -9,7 +9,7 @@ In a typical CDO, if the correlation amongst the  bonds or loans in the pool was
 
 Let $\tau_i$ be a random variable that describes the default time of the $i^{th}$ asset in the underlying pool and $F(t_1) = Pr(\tau_1 < t_1)$ the marginal default time distribution function for $i = 1, ..., M$, where $M$ is the number of assets in the pool. 
 
-To model the joint default times of all the assets in the underlying pool $F(t_1, ..., t_M)$ for all $(t_1, ..., t_M)$ in $R_{+}^{M}$, we make use of Sklar's theorem, which ensures the existence of a copula $C:[0,1]^M \rightarrow [0,1]$ such that 
+To model the joint default times of all the assets in the underlying pool $F(t_1, ..., t_M)$ for all $(t_1, ..., t_M)$ (where $t_i$ is a positive real number), we make use of Sklar's theorem, which ensures the existence of a copula $C:[0,1]^M \rightarrow [0,1]$ such that 
 
 	$F(t_1, ..., t_M) = C(F_1(t_1), ..., F_M(t_M)).$ ()
 
