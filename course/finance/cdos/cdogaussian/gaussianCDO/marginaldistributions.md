@@ -58,7 +58,7 @@ By noting that $h(x) = -\frac{S'(x)}{S(x)}$ we see that
 
 Using this:
 
-	$_tp_x = \exp^{-\int_{0}^{t}h(s+x)ds} \Rightarrow$ $_tq_x = 1 - \exp^{-\int_{0}^{t}h(s+x)ds}$
+	$_tp_x = \exp^{-\int_{0}^{t}h(s+x)ds} \Rightarrow$ $_tq_x = 1 - \exp^{-\int_{0}^{t}h(s+x)ds}$ ($+$)
 
 
 Furthermore, the probabiltiy distribution function for $T$ is $f(t) = S(t)$x$h(t)$. 
