@@ -31,7 +31,7 @@ In this section we will summarise the details of the Lenddo patent [3].
 
 An individual who wants to borrow funds must register with the system. This entails creating a user profile by entering personal data into the system through the website or user interface. 
 
-After the user has applied for a loan, the system searches their social graph (a graph created by drawing an edge between the user and the people, places, and things they interact with online) to extract user data from their online social footprint. 
+After the user has applied for a loan, the system searches their social graph (a graph created by drawing an edge between the user and the people, places, and things they interact with online) to extract user data from their online social footprint. Below is an example of a social graph [2].
 
 
 ![Example of a Social Graph](http://db716.user.srcf.net/eim/media/SocialGraph.jpg "An Example of a Social Graph [2]")
