@@ -1,6 +1,6 @@
 ---
-Title: Gaussian Copula Page (Maria)
-Template: LeafPage
+Title: Credit Scoring
+Template: ListSubPages
 ---
 
 #Pricing CDOs
