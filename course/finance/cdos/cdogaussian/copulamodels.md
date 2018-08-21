@@ -47,6 +47,6 @@ Considering the simplest case where $n = 2$, we obtain:
 	
 ##References
 
-[1] David X. Li. On Default Correlation: A copula function approach. Journal of Fixed Income,: (4):43-54, April 2000.
+[1] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
 
-[2] Ludger Rüschendorf. Copulas, Sklar's Theorem, and Distributional Transform. In Mathematical Risk Analysis, pages 3-34. Springer, Berlin, Heidelberg, 2013.
+[2] Ludger Rüschendorf. Copulas, Sklar's Theorem, and Distributional Transform. In *Mathematical Risk Analysis*, pages 3-34. Springer, Berlin, Heidelberg, 2013.
