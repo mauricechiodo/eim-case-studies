@@ -9,7 +9,7 @@ The following section is taken from ideas presented by Li (2000) 10.
 
 ##Characterisation of Default by Time-Until-Default
 
-First we introduce a random variable called the \textbf{time-until-default} (or \textbf{survival time}) for a security to denote the length of time until default. 
+First we introduce a random variable called the **time-until-default** (or **survival time**) for a security to denote the length of time until default. 
 To precisely determine this we need:
 	- a time origin: current time;
 	- a time scale for measuring the passage of time: in terms of years for continuous models, or numbers of period for discrete models;
@@ -92,7 +92,7 @@ The first marginal conditional default conditional probablity in year 1 is simpl
 
 If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$).  
 
-| ![Hazard Rate Function](http://db716.user.srcf.net/eim-case-studies/media/Figure11.png) | 
+| [Hazard Rate Function](http://db716.user.srcf.net/eim-case-studies/media/Figure11.png) | 
 |:--:| 
 | *Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10* |
 
