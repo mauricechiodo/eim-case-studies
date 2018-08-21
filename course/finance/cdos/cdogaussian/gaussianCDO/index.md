@@ -9,7 +9,7 @@ In a typical CDO, if the correlation amongst the  bonds or loans in the pool was
 
 Let $\tau_i$ be a random variable that describes the default time of the $i^{th}$ asset in the underlying pool and $F(t_1) = Pr(\tau_1 < t_1)$ the marginal default time distribution function for $i = 1, ..., M$, where $M$ is the number of assets in the pool. 
 
-To model the joint default times of all the assets in the underlying pool $F(t_1, ..., t_M)$ for all $(t_1, ..., t_M) \in \mathbb{R}_{+}^{M}$, we make use of Sklar's theorem, which ensures the existence of a copula $C:[0,1]^M \rightarrow [0,1]$ such that 
+To model the joint default times of all the assets in the underlying pool $F(t_1, ..., t_M)$ for all $(t_1, ..., t_M)$ in $R_{+}^{M}$, we make use of Sklar's theorem, which ensures the existence of a copula $C:[0,1]^M \rightarrow [0,1]$ such that 
 
 	$F(t_1, ..., t_M) = C(F_1(t_1), ..., F_M(t_M)).$ ()
 
@@ -25,12 +25,12 @@ Each asset in the underlying portfolio belongs to a company $i$ with asset value
 
 Now, $(X_1, ..., X_M)$ has a multivariate normal distribution with mean zero and a covariance matrix:
 
-	$\begin{bmatrix}
-	1 & \rho & \dots  & \rho \\
-	\rho & 1 & \dots  & \rho \\
-	\vdots & \vdots & \ddots & \vdots \\
-	\rho & \rho & \dots  & 1
-	\end{bmatrix}$
+					$\begin{bmatrix}
+					1 & \rho & \dots  & \rho \\
+					\rho & 1 & \dots  & \rho \\
+					\vdots & \vdots & \ddots & \vdots \\
+					\rho & \rho & \dots  & 1
+					\end{bmatrix}$
 
 One of the core assumptions of the model is that there is a flat correlation between each pair of companies due to the homogeneity of the asset pool. This leads to one value of $\rho$ for the correlation of every pair of assets. This is a very strong assumption and may not have been appropriate in the context of pricing CDOs. For example, suppose that in the underlying pool of assets of a CDO there exist the following:
 	- Two mortgages A and B from the same street in the UK
