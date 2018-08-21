@@ -25,12 +25,12 @@ Each asset in the underlying portfolio belongs to a company $i$ with asset value
 
 Now, $(X_1, ..., X_M)$ has a multivariate normal distribution with mean zero and a covariance matrix:
 
-									$\begin{bmatrix}
-									1 & \rho & \dots  & \rho \\
-									\rho & 1 & \dots  & \rho \\
-									\vdots & \vdots & \ddots & \vdots \\
-									\rho & \rho & \dots  & 1
-									\end{bmatrix}$
+										$\begin{bmatrix}
+										1 & \rho & \dots  & \rho \\
+										\rho & 1 & \dots  & \rho \\
+										\vdots & \vdots & \ddots & \vdots \\
+										\rho & \rho & \dots  & 1
+										\end{bmatrix}$
 
 One of the core assumptions of the model is that there is a flat correlation between each pair of companies due to the homogeneity of the asset pool. This leads to one value of $\rho$ for the correlation of every pair of assets. This is a very strong assumption and may not have been appropriate in the context of pricing CDOs. For example, suppose that in the underlying pool of assets of a CDO there exist the following:
 	- Two mortgages A and B from the same street in the UK
