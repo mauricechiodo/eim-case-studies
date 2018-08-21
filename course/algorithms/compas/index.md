@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 ### COMPAS
-$\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}
+$\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 COMPAS is a risk assessment tool originally created by Tim Brennan in 1988.$\c{1}$ It takes data from both a questionnaire presented to an arrested individual and an interview performed with them$\c{2}$ to output recidivism risk in deciles.$\c{1}$
 Originally intended to be used as a tool to help determine probation periods$\c{3}$, COMPAS is now employed in several states to augment a judge's decision determining sentence lengths, notably in Wisconsin.$\c{4}$
 
