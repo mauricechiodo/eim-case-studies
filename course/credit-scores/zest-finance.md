@@ -12,8 +12,8 @@ In January 2015, ZestFinance was granted a patent entitled 'System and method fo
 	1. Raw datasets are generated using the borrower's profile from one or more of the following: borrower's data, proprietary data, public data, and social network data. For example, the raw datasets may include the following data: classical financial data of the borrower's profile (e.g. FICO score, current salary, length of most recent employment, number of bankruptcies), number of internet domains owned, organisations the borrower has been or currently is involved with, how many lawsuits the borrower has, the psychological characteristics based on his or her interests, and other non-traditional aspects of the borrower's identity and history.
 	2. The raw datasets are transformed into variables in their most useful form. For example, a \textit{current income} variable could be left in its original form or converted into a scale: 
 		- 0 = no income;
-		- 1 = $1 to $5,000;
-		- 2 = $5,001 to $20,000, etc.
+		- 1 = \$ 1 to \$ 5,000;
+		- 2 = \$ 5,001 to \$ 20,000, etc.
     If the application is submitted on the website, then browser-related behavioural measurements, such as the number of pages viewed by the applicant and the amount of time the applicant spent on the actual application pages, can also be used as numerical signals related to creditworthiness.
 	3. Then the computer processes the variables using one or more algorithms to generate independent decision sets describing specific aspects of a borrower (meta-variables). Meta-variables are not only a measure of creditworthiness, but they can also be useful in constructing a credit-scoring function (the reasons why can be found on page 4-5 of the patent [2].  Statistical analysis of meta-variables are instructive as to which "signals" are to be measured and what weight is to be assigned to each. 
 	>*"Indeed, constructing meta-variables may not be a fully automated process, but rather a heuristic one, calling for \textbf{expert} skill." So, only the expert can fully understand how this process is done. I want to emphasize that the expert they refer to here is a data scientist, i.e. a mathematician.*
