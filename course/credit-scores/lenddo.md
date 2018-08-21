@@ -1,6 +1,6 @@
 ---
 Title: Lenddo
-Template: ListSubPages
+Template: LeafPage
 ---
 #Lenddo 
 
