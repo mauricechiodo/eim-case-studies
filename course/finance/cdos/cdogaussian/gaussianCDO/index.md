@@ -1,9 +1,9 @@
 ---
-Title: Gaussian Copula Approach CDO tranche modelling
+Title: Gaussian Copula Approach CDO Tranche Modelling
 Template: ListSubPages
 ---
 
-#Gaussian Copula Approach CDO tranche modelling
+#Gaussian Copula Approach CDO Tranche Modelling
 
 In a typical CDO, if the correlation amongst the  bonds or loans in the pool was low, only the holders of the lowest tranche would be at a great risk of losing some or all of their investment. However, if the correlation was very high, many of the bonds or loans might default and so the losses could impact even the most senior tranche. As a result, modelling correlation was the most crucial problem in CDO evaluation, and Gaussian copulas became the most popular way to do this [3]. Below I will detail how to apply the Gaussian Copula to the problem of pricing CDO tranche as discussed by Li (2000) [2].
 
