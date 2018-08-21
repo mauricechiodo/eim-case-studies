@@ -46,6 +46,6 @@ Then, after the marginal distribution functions for the $\tau_i$ are determined,
 
 [1] *Gaussian Copula Model, CDOs and the Crisis*. PhD thesis, University of Oxford, June 2016. 
 
-[2] David X. Li. On Default Correlation: A copula function approach. Journal of Fixed Income,: (4):43-54, April 2000.
+[2] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
 
 [3] Donald MacKenzie and Taylor Spears. 'The Formula That Killed Wall Street': The Gaussian Copula and Modelling Practices in Investment Banking. *Social Studies of Science*, 44:393-417, 2014. 
