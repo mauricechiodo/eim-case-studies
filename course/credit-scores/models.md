@@ -1,6 +1,6 @@
 ---
 Title: Credit Scoring Models
-Template: ListSubPages
+Template: LeafPage
 ---
 
 #Credit Scoring Models
