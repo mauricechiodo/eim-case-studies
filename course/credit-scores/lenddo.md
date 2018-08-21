@@ -57,7 +57,7 @@ When applying for the loan, the user inputs the loan information that indicates 
 
 **What does this mean?** Say you apply for a loan, say of the amount £150 for the purpose of textbooks for a class you are taking. However, the system finds in your social footprint no mention of you taing a class in any communications, comments, posts or personal information. Rather, it finds in a recent communication that you want to go with your friends to a upcoming music festival selling tickets as £150. This would call into question your credibility the the probability of your loan being approved would be negatively impacted. 
 
-It is highlighted that insights obtained from available personal data and data gathered online can aid pattern recognition between those who repay debt and those who don't. *"Good sources for pattern recognition include word combinations in text indicating deceptive use of loan funds, or in contrast, corroborating text that affirms the intended use of the funds".
+It is highlighted that insights obtained from available personal data and data gathered online can aid pattern recognition between those who repay debt and those who don't. *"Good sources for pattern recognition include word combinations in text indicating deceptive use of loan funds, or in contrast, corroborating text that affirms the intended use of the funds".*
 
 Other sources of 'insight' about people's behaviour towards loans to determine credit worthiness used are:
 	- geospacial data, including location, places of frequent activity etc. *"An individual who is frequently spending time in a location common to other individuals who do repay loans provides such insightful geospacial data.*
