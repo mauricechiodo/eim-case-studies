@@ -11,16 +11,16 @@ In February 2018, a paper entitled "Deep neural networks can detect sexual orien
 
 The testing methodology was, broadly speaking, as follows:
 
--The images used were self-taken images obtained from online dating websites, the reasons given are that these images can be collected in large numbers, from more representative samples and at a lower cost.
+- The images used were self-taken images obtained from online dating websites, the reasons given are that these images can be collected in large numbers, from more representative samples and at a lower cost.
 
--Face++, a widely used face-detection software, was used to identify the location of the face, outline elements and identify the head orientation. This was used to remove unsuitable images, such as those where there were multiple faces in the picture, or where the person was not directly facing the camera.
+- Face++, a widely used face-detection software, was used to identify the location of the face, outline elements and identify the head orientation. This was used to remove unsuitable images, such as those where there were multiple faces in the picture, or where the person was not directly facing the camera.
 
--Next they employed Amazon Mechanical Turk (AMT) workers to verify that the faces were adult, Caucasian, fully visible and of a gender that matched the one reported on the user's profile.
+- Next they employed Amazon Mechanical Turk (AMT) workers to verify that the faces were adult, Caucasian, fully visible and of a gender that matched the one reported on the user's profile.
 
--Then some users were randomly removed to balance the age distribution and size of the sexual orientation subsamples.
+- Then some users were randomly removed to balance the age distribution and size of the sexual orientation subsamples.
 
--Facial features were extracted from the images using a widely employed deep neural network, called VGG-Face. A logistic regression model was trained to classify sexual orientation using 500 singular values extracted from the VGG-Face scores. 
+- Facial features were extracted from the images using a widely employed deep neural network, called VGG-Face. A logistic regression model was trained to classify sexual orientation using 500 singular values extracted from the VGG-Face scores. 
 
--Finally the model was used to predict the sexual orientation of the participants in a test set.
+- Finally the model was used to predict the sexual orientation of the participants in a test set.
 
 It is important to note that Kosinski is a psychologist, not a mathematician or a technical trained individual. In the Author's Notes on the paper, Kosinski and Wang stress that they "studied existing facial recognition technologies, already widely used by companies and governments." Technical people were the ones to build these technologies. This study is a clear demonstration that tools created by mathematicians and computer scientists can be used for very ethically unsound purposes by people without technical training. As the ones making this possible, the technicians have a responsibility to think about the potential consequences of their research and the tools created from it. 
