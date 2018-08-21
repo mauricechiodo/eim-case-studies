@@ -20,7 +20,7 @@ In an effort to develop 'semi-analtical' versions of the Gaussian and other copu
 >*"The advantage of doing this was that given a particular value of the underlying factor, defaults by different corporations could then be treated as statistically independent events, simplifying the mathematics, avoiding Monte Carlo simulation and greatly reducing computation times."* [4]
 
 
-So, in order to be able to trade CDOs, they had to make lots of simplifications to Li's original model until computational times were low enough so that they could trade. Yes, this simplified model gave a mathematically true answer, but did it still have any meaning in the real world? Did the simplified model still price CDOs appropriately? Thee financial crisis of 2007/2008 exposed that this model clearly did not work.
+So, in order to be able to trade CDOs, they had to make lots of simplifications to Li's original model until computational times were low enough so that they could trade. Yes, this simplified model gave a mathematically true answer, but did it still have any meaning in the real world? Did the simplified model still price CDOs appropriately? The financial crisis of 2007/2008 exposed that this model clearly did not work.
 
 Reducing the number of factors became a common technique used by quants. As a result single-factor, semi-analytical Gaussian copula models became very widely used in investment banking. 
 
