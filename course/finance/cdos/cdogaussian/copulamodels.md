@@ -7,16 +7,12 @@ Template: LeafPage
 
 Using Sklar's theorem we see that to construct a distributional model for a random vector X, it is sufficient to specify a copula model fitting to the data. 
 
-A large variety of models have been developed and some of their properties have been investigated. The following questions are important to consider when deciding the how appropriate the Copula model is to the situation being modelled \cite{ludger_ruschendorf_copulas_2013}:
-\begin{itemize}
-	\item Is the range of dependence of these models wide and flexible enough?
-	\item Which of these models have tail dependence and are therefore able to model situations where there is strong positive dependence in tails?
-	
-	\begin{adjustwidth}{1cm}{}
-		\textbf{Tail Dependence:} Suppose we have two random variables X and Y. Tail dependence is the probability that Y reaches extremely large values, given that random variable X attains extremely large values.
-		
-		Say we have two mortgages A and B for houses on the same road and A defaults - a very unlikely event. Then, given this, the probability that B will default is greater than 0. Hence, to model mortgages, we need a copula model with tail dependence. But, the Gaussian Copula does not, which was one of the major limitations for applying it to this context  (see document on the limitations of the Gaussian Copula Model).
-	\end{adjustwidth}
+A large variety of models have been developed and some of their properties have been investigated. The following questions are important to consider when deciding the how appropriate the Copula model is to the situation being modelled 17:
+	- Is the range of dependence of these models wide and flexible enough?
+	- Which of these models have tail dependence and are therefore able to model situations where there is strong positive dependence in tails?
+	**Tail Dependence:** Suppose we have two random variables X and Y. Tail dependence is the probability that Y reaches extremely large values, given that random variable X attains extremely large values.
+	Say we have two mortgages A and B for houses on the same road and A defaults - a very unlikely event. Then, given this, the probability that B will default is greater than 0. Hence, to model mortgages, we need a copula model with tail dependence. But, the Gaussian Copula does not, which was one of the major limitations for applying it to this context [click here for more information](http://db716.user.srcf.net/eim/course/finance/cdos/cdoeffectsdylan).
+
 	
 	
 	\item Is there some parameter that can describe the degree of dependence?
