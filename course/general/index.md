@@ -1,5 +1,5 @@
 ---
-Title: The perception of mathematicians
+Title: The Perception of Mathematics
 Template: LeafPage
 ---
 
