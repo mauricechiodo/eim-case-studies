@@ -12,7 +12,7 @@ A copula is a multivariate probability distribution function with uniform margin
 	* the joint dependency structure between these one-dimensional random variables. 
 Put simply, a copula is a function that maps individual marginal distributions into a joint distribution.
 
-As stated in 'Princples of Copula Theory' (2015) 13, the formal definition of a copula is:
+As stated in 'Princples of Copula Theory' (2015) [2], the formal definition of a copula is:
 
 	Let U_1, ..., U_n be uniformly distributed random variables in [0,1]. 
 	
@@ -27,7 +27,7 @@ is called **Copula-function** provided the following conditions are met:
 	
 Note that $\rho$ is the general dependence parameter that characterizes the correlation structure of the copula. 
 
-Li (2000) 9 highlights how copula functions can be used to link marginal distributions with a joint distribution: for a given univariate marginal distribution functions $F_1(x_1), ..., F_n(x_n)$ of random variables $X_1, ..., X_n$, it can be concluded that 
+Li (2000) [1] highlights how copula functions can be used to link marginal distributions with a joint distribution: for a given univariate marginal distribution functions $F_1(x_1), ..., F_n(x_n)$ of random variables $X_1, ..., X_n$, it can be concluded that 
           	
 		$C_{\rho}(F_1(x_1), ..., F_n(x_n))$
           
@@ -47,11 +47,11 @@ Furthermore, for the marginal distribution functions of the $X_i$ you get:
 
           $= F_i(x_i)$
 
-Copulas are an essential tool for understanding several problems about stochastic dependence (i.e. when the dependence between random variables can be expressed by a change of the conditional distribution of any of the variables when the other variables are altered 21) and can be applied to a variety of mathematical areas including probability, real analysis, measure theory, and algebraic structures.
+Copulas are an essential tool for understanding several problems about stochastic dependence (i.e. when the dependence between random variables can be expressed by a change of the conditional distribution of any of the variables when the other variables are altered [4]) and can be applied to a variety of mathematical areas including probability, real analysis, measure theory, and algebraic structures.
 
 ##Sklar's Theorem
 
-In 'Fonctions de Répartition à n dimensions et leurs marges' (1959) 25, Sklar established the converse:
+In 'Fonctions de Répartition à n dimensions et leurs marges' (1959) [5], Sklar established the converse:
 
 	Let $F$ be a multivariate $n$-dimensional distribution function and $F_1, ..., F_n$, the related marginal distribution functions. 
 	
@@ -59,7 +59,7 @@ In 'Fonctions de Répartition à n dimensions et leurs marges' (1959) 25, Sklar 
 	
 	$F(x_1, ..., x_n) = C_{\rho}(F_1(x_1), ..., F_n(x_n))$
 
-The rest of this section and the following section is based on ideas from chapter 1 of 'Mathematical Risk Analysis' (2013) entitled 'Copulas, Sklar’s Theorem, and Distributional Transform' 17.
+The rest of this section and the following section is based on ideas from chapter 1 of 'Mathematical Risk Analysis' (2013) entitled 'Copulas, Sklar’s Theorem, and Distributional Transform' [3].
 
 Before proving the result we first define a **distributional transform**:
 
@@ -92,3 +92,15 @@ Note that in probability theory, we say that an event happens almost surely if i
 	i.e. C is the copula of F. 
 
 We should emphasize that Sklar's theorem **only** ensures the exsistence of a copula, but the appropriate choice of a copula function which matches the specific model requirements is fraught with risk. There are a variety of copula functions used in practice which can model different dependence structures.  
+
+##References
+
+[1] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
+
+[2] Fabrizio Durante and Carlo Sempi. *Principles of Copula Theory.* CRC Press, 2015.
+
+[3] Ludger Rüschendorf. Copulas, Sklar's Theorem, and Distributional Transform. In *Mathematical Risk Analysis,* pages 3-34. Springer, Berlin, Heidelberg, 2013.
+
+[4] A.V. Prokhorov. Stochastic dependence, 2011.
+
+[5] Abe Sklar. Fonctions de Répartition à n Dimensions et Leurs Marges. *Publications de l'Institut Statistique de l'Université de Paris,*: 229-231, 1959.
