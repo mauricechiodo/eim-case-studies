@@ -30,7 +30,7 @@ Of which only **Paul Tucker** had any substantial mathematical training, having 
 The 2009q2 bulletin$\c{4}$ has a telling statement that indicates there was little technical work in deciding to employ QE
 
  > "It is too soon to say how powerful the stimulus will ultimately be. There is considerable uncertainty about the strength and timing of effects. **Standard economic models are of limited use in these unusual circumstances**, and the empirial evidence is extremely limited. However, the monetary policy framework will ensure that the appropriate measures are taken over time so that the inflation target is met in the medium term."
--- 2009 Second Quarterly Bulletin (emphasis added)
+- 2009 Second Quarterly Bulletin (emphasis added)
 
 ### The Federal Open Market Commitee
 
