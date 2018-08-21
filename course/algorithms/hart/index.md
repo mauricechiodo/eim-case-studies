@@ -6,7 +6,7 @@ template: LeafPage
 # HART
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 
-HART is an algorithm employed by the Durham constabulary as part of the *Checkpoint* program. It categorises, by the method of *random forests*, a suspect into three categories, which are *High-Risk*, *Medium-Risk* and *Low Risk*.$\Ci{1}{6.1 'The Model', p.15}$ These correspond to the severity of crime predicted to be committed over the next 24 months, respectively a serious offence, a non-serious offence and no offence. Only those categorised as medium-risk by HART may use the Checkpoint program.$\c{2}$
+HART is an algorithm employed by the Durham constabulary as part of the *Checkpoint* program. It categorises, by the method of *random forests*, a suspect into three categories, which are *High-Risk*, *Medium-Risk* and *Low Risk*.$\Ci{1}{6.1 `The Model', p.15}$ These correspond to the severity of crime predicted to be committed over the next 24 months, respectively a serious offence, a non-serious offence and no offence. Only those categorised as medium-risk by HART may use the Checkpoint program.$\c{2}$
 
 ## The Model
 
