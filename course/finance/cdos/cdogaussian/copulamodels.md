@@ -7,7 +7,7 @@ Template: LeafPage
 
 Using Sklar's theorem we see that to construct a distributional model for a random vector X, it is sufficient to specify a copula model fitting to the data. 
 
-A large variety of models have been developed and some of their properties have been investigated. The following questions are important to consider when deciding the how appropriate the Copula model is to the situation being modelled 17:
+A large variety of models have been developed and some of their properties have been investigated. The following questions are important to consider when deciding the how appropriate the Copula model is to the situation being modelled [2]:
 	- Is the range of dependence of these models wide and flexible enough?
 	- Which of these models have tail dependence and are therefore able to model situations where there is strong positive dependence in tails?
 	
@@ -23,11 +23,11 @@ A large variety of models have been developed and some of their properties have 
 
 #Gaussian Copula Function
 
-Leading up to the financial crisis, the Gaussian copula function was the most widely used model in pricing multi-name credit structures, such as CDOs, due to Li's model approach presented in his 2000 paper 'On Default Correlation: A copula function approach' 9.
+Leading up to the financial crisis, the Gaussian copula function was the most widely used model in pricing multi-name credit structures, such as CDOs, due to Li's model approach presented in his 2000 paper 'On Default Correlation: A copula function approach' [1].
 
 The Gaussian Copula uses Gaussian random variables instead of uniform random variables.
 
-As presented in Li's paper 9, letting 
+As presented in Li's paper [1], letting 
 
 	$\Phi$ be the distribution function of the one-dimensional standard normal distribution and 
 	$\Phi_{\Sigma}^{n}$ the distribution function of the $n$-dimensional standard normal distribution with positive definite correlation matrix $\Sigma$, 
