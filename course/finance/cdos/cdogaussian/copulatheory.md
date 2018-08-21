@@ -23,7 +23,8 @@ As stated in 'Princples of Copula Theory' (2015) 13, the formal definition of a 
 is called **Copula-function** provided the following conditions are met:
 	1. $C_{\rho}(u_1, ..., u_n) = 0$ if $u_i = 0$ for at least one $i \in \{1, 2, .., n\}$
 	2. $C_{\rho}(1, ..., 1, u_k, 1, ..., 1) = u_k$ for $k = 1, ..., n$.
-	3. $C_p$ is non-decreasing. This means, that for each hyperrectangle $\prod_{i = 1}^n[x_i, y_i] \subseteq [0,1]^n$ we have $\sum_{(z_1,...,z_n) \in \prod_{i=1}^n[x_i, y_i]} (-1)^{N(z_1,...,z_n)}$x$C_{\rho}(z_1,...,z_n) \geq 0$ with $N(z_1, ..., z_n) := |\{k|z_k=x_k\}|$
+	3. $C_p$ is non-decreasing. 
+	
 Note that $\rho$ is the general dependence parameter that characterizes the correlation structure of the copula. 
 
 Li (2000) 9 highlights how copula functions can be used to link marginal distributions with a joint distribution: for a given univariate marginal distribution functions $F_1(x_1), ..., F_n(x_n)$ of random variables $X_1, ..., X_n$, it can be concluded that 
