@@ -3,7 +3,7 @@ Title: Copula Models
 Template: LeafPage
 ---
 
-##Copula Models
+#Copula Models
 
 Using Sklar's theorem we see that to construct a distributional model for a random vector X, it is sufficient to specify a copula model fitting to the data. 
 
