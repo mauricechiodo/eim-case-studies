@@ -16,13 +16,10 @@ Now, investment bankers could package anything up into a CDO - corporate bonds, 
 
 Furthermore, they could even take lower rated tranches of CDOs to create a CDO. This become known as a CDO-squared. These were so far removed from the original underlying bonds, loans or mortgages that no one really knew exactly what they were made up of. But, this didn't matter to investment bankers because they had Li's copula function. 
 
-Although CDOs were first presented in the 1980s, there was a massive growth in their issuance from 2001. This was when rating agencies became more familiar with CDOs, and so they started to receive ratings. In 2004 the worldwide CDO issuance was \$97 billion, peaking in 2006 when it totaled to \$445 billion. And, at the heart of it all was Li's formula.
+Although CDOs were first presented in the 1980s, there was a massive growth in their issuance from 2001. This was when rating agencies became more familiar with CDOs, and so they started to receive ratings. In 2004 the worldwide CDO issuance was \$97 billion, peaking in 2006 when it totaled to \$445 billion. And, at the heart of it all was Li's formula. Below is a graph depicting CDO issuance according to primary collateral type (USD millions) [11].
 
-\begin{figure}[H]
-\includegraphics[width=10cm]{Figure5}
-\centering
-\caption{CDO issuance according to primary collateral type (USD millions) \cite{teply_dark_2009}}
-\end{figure}
+
+![CDO issuance according to primary collateral type (USD millions)](http://db716.user.srcf.net/eim/media/Figure5.png "CDO issuance according to primary collateral type (USD millions)")
 
 Li's model could be applied anywhere, for anything and so was quickly adopted by, not only banks who wanted to package new bonds, but also hedge funds who wanted to make complex trades between those bonds [6]. 
 
@@ -38,13 +35,9 @@ When the US mortgage crisis happened in 2007, the issuance of CDOs fell dramatic
 
 Problems with the CDO market started when mortgage backed securities investors suffered losses. As many CDOs were linked to these investors, their tranches were downgraded creating a spiral of losses. The downgrades of CDO tranches triggered losses of CDO investors, and further CDO tranches had to be downgraded causing further losses and write-downs. In total, writedowns by banks and other financial institutions between mid-2007 and May 2009 are estimated at $625 billion [11]. To put this figure into perspective, it is **more** than the US Department of Defense base budget in 2007, which was $439.3 billion [5].
 
-The figure below shows the writedowns since mid 2007 until Februray 2009. 
+The figure below shows the writedowns of top CDO issuers since mid 2007 until Februray 2009 [11]. 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=8cm]{Figure3}
-	\caption{Top CDO issuers and their writedowns as of February 2009 \cite{teply_dark_2009}}
-\end{figure}
+![Top CDO issuers and their writedowns as of February 2009](http://db716.user.srcf.net/eim/media/Figure3.png "Top CDO issuers and their writedowns as of February 2009")
 
 These write-downs happened as a result of the high volume of subprime mortgages issued recklessly to households with a low credit scores in the US. The mortgages were securitised into mortgage back securities (MBS) and then sold to institutional investors. As a result, the credit risk of the mortgages was spread to the whole financial sector. Then, after some mortgage defaults the institutions involved were extremely affected, some of them even defaulting, such as Lehman Brothers or US mortgage agencies Fannie Mae and Freddie Mac. These two mortgage agencies were so heavily affected because during the housing bubble in 2003-2004, when the level of private-label securitizations increased by over 50%, they owned almost 40% of newly issued private-label subprime securities, making them the largest single source of liquidity for this market [1].
 
