@@ -25,7 +25,7 @@ If $\rho$ is the asset correlation, the joint default probability for credit A a
 	where $\phi_2(x,y|\rho)$ is the standard bivariate normal density function with a correlation coefficient $\rho$, 
 	and $\Phi_2$ is the bivariate cumulative normal distribution function. 
 
-\subsubsection{Bivariate Normal Copula Function Approach}
+##Bivariate Normal Copula Function Approach
 
 Consider using a bivariate normal copula function with a correlation parameter $\gamma$, and denote the survival times for A and B as $T_A, T_B$, the joint default probability after one year can be calculated by
 
