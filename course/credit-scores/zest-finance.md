@@ -1,6 +1,6 @@
 ---
 Title: ZestFinance
-Template: ListSubPages
+Template: LeafPage
 ---
 
 #Zest Finance
