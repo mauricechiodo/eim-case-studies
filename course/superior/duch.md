@@ -9,6 +9,9 @@ The actions of the Khmer Rouge in the 1970s comprised one of the most horrendous
 
 Duch was in charge of the Santebal, the government's 'internal security' service. In this capacity he was in charge of the central S-21 prison camp, from which prisoners were taken to be murdered in the Killing Fields. The atrocities committed under his command are beyond imagining: when ammunition ran out, babies were smashed to death against trees, men were beaten to death with crude farm implements. The inhumanity was total. 
 
+![Comrade Duch](http://db716.user.srcf.net/eim/media/duch1.jpg "Comrade Duch")
+
+
 **Duch's trial**
 
 At a relatively recent court case, Duch freely admitted that he was responsible for the murder of over 12,000 people as the head of the Khmer Rouge secret police and commandant of the S-21 security center CITE. On July 25, 2010, The Trial Chamber convicted Duch of crimes against humanity and war crimes and, recognizing the existence of “significant mitigating factors”, sentenced him to 35 years in prison. On appeal, the Supreme Court Chamber found that the trial verdict did not reflect the gravity of the crimes he committed and increased his sentence to life imprisonment. 
