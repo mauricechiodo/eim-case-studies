@@ -92,40 +92,33 @@ The first marginal conditional default conditional probablity in year 1 is simpl
 
 If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$).  
 
-\begin{figure}[H]
-	\caption{ \cite{david_x._li_default_2000}}
-	\includegraphics[width=10cm]{Figure11}
-	\centering
-\end{figure}
-
 <p>
     <img src="http://db716.user.srcf.net/eim-case-studies/media/Figure11.png" alt>
     <em>Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10</em>
 </p>
 
-\textbf{Using the Merton Model}
+**Using the Merton Model**
 
-In 1974, Merton \cite{merton_pricing_1974} used diffusion processes to describe the value of the firm and showed that a firm's default could be modeled with the Black and Scholes methodology. He showed that stock could be considered to be a call option on the firm with strike price equal to the face value of a single payment debt.
+In 1974, Merton 19 used diffusion processes to describe the value of the firm and showed that a firm's default could be modeled with the Black and Scholes methodology. He showed that stock could be considered to be a call option on the firm with strike price equal to the face value of a single payment debt.
 
 Using this framework, we can obtain the default probability for the firm over one period. We can translate this default probability into a hazard rate function. 
 
-Geske (1977) \cite{geske_valuation_1977} and Geske and Deliaedis (1998) \cite{robert_geske_credit_1998} extended Merton's analysis to produce a term structure of default probabilities. As a result, we can use the relationship between the hazard rate and the default probabilities to obtain a credit curve.
+Geske (1977) 16 and Geske and Deliaedis (1998) 24 extended Merton's analysis to produce a term structure of default probabilities. As a result, we can use the relationship between the hazard rate and the default probabilities to obtain a credit curve.
 
-\textbf{Using Market Observable Information}
+**Using Market Observable Information**
 
 This is the approach taken by most credit derivative trading tasks because the extracted default probabilities reflect the current market-agreed perception about the future default tendency of the underlying credit. 
 
-In 1998, Li presented one approach to building the credit curve from market information.  \cite{david_x._li_constructing_1998} 
+In 1998, Li presented one approach to building the credit curve from market information. 9
 
 In summary, Li first assumes that there exist a series of bonds with maturity $1, 2, ..., n$ years, which are issued by the same company and have the same seniority. All of those bonds have observable market prices from which we can calculate their yields to maturity in order to obtain a yield spread curve over treasury (or asset swap spreads for a yield spread curve over LIBOR). 
 
 The credit curve construction is then based on this yield spread curve and an assumption about the recovery rate based on the seniority and rating of the bonds, and the industry/corporation. 
 
-In the paper by Li (2000) \cite{david_x._li_default_2000}, market information is used rather than historical information due to the following reasons:
-\begin{itemize}
-	\item The calculation of profit and loss for a trading desk can only be based on current market information as it reflects the market agreed perception about the evolution of the market in the future, which is what the actual profit and loss depends on;
-	\item Rating agencies use classification variables that often omit some firm specific information. Constructing a credit curve for each credit allows us to use more firm specific information;
-	\item Rating agencies react much slower than the market in anticipation of future credit quality;
-	\item Ratings are primarily used to calculate default frequency rather than default severity. However, a lot of the value of a credit derivative depends on both;
-	\item Information available from a rating agency is usually the one year default probability for each rating group and the rating migration matrix, but neither are necessarily stable over long periods of time. 
-\end{itemize} 
+In the paper by Li (2000) 10, market information is used rather than historical information due to the following reasons:
+	- The calculation of profit and loss for a trading desk can only be based on current market information as it reflects the market agreed perception about the evolution of the market in the future, which is what the actual profit and loss depends on;
+	- Rating agencies use classification variables that often omit some firm specific information. Constructing a credit curve for each credit allows us to use more firm specific information;
+	- Rating agencies react much slower than the market in anticipation of future credit quality;
+	- Ratings are primarily used to calculate default frequency rather than default severity. However, a lot of the value of a credit derivative depends on both;
+	- Information available from a rating agency is usually the one year default probability for each rating group and the rating migration matrix, but neither are necessarily stable over long periods of time. 
+
