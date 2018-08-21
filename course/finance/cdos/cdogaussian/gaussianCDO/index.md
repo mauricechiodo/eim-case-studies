@@ -24,7 +24,6 @@ Each asset in the underlying portfolio belongs to a company $i$ with asset value
 	and $\{Z_i\}_{i = 1}^{M}$ present risks specific for each company $i$.
 
 Now, $(X_1, ..., X_M)$ has a multivariate normal distribution with mean zero and a covariance matrix:
-
 										$\begin{bmatrix}
 										1 & \rho & \dots  & \rho \\
 										\rho & 1 & \dots  & \rho \\
