@@ -23,8 +23,8 @@ Below is Fig. 9 in Facebook Patent Application [1].
 
 But what does the above really mean? There are three main steps:
   1. Someone applies for a loan. The application contains the email address.
-	2. The bank uses this email address to get a visual representation of the applicant's social network and their friends' credit ratings. 
-	3. A decision is taken by the bank to accept or reject the loan based on the friends' credit ratings within a given degree of separation. 
+  2. The bank uses this email address to get a visual representation of the applicant's social network and their friends' credit ratings. 
+  3. A decision is taken by the bank to accept or reject the loan based on the friends' credit ratings within a given degree of separation. 
 A credit score based soley on your social media network is highly questionable. Can the people who you're friends with on Facebook accurately determine how creditworthy you are? Should we be concerned about the invasion to our privacy that such an invention will cause?  
 
 Unlike other big data applications that collect and anonymise information, "the use of social intelligence for financial ranking is dependent upon personal identification";  the user's entire activity is scanned, including "not only visible online footprints but also private exchanges" [4].
