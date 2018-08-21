@@ -90,9 +90,10 @@ The first marginal conditional default conditional probablity in year 1 is simpl
 	
 	$\Rightarrow q_{x+n} = \frac{_{n+1}q_x - _nq_x}{1 - _nq_x}$ 
 
-If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$).
+If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$). Below is a 
+Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10.
 
-![Hazard Rate Function](http://db716.user.srcf.net/eim/media/Figure11.png "Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10")
+![Hazard Rate Function](http://db716.user.srcf.net/eim/media/Figure11.png "Hazard Rate Function of B Grade Based on Moody’s Study (1997)")
 
 **Using the Merton Model**
 
