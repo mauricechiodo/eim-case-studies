@@ -2,7 +2,7 @@
 Title: Macroeconomic Modelling
 Template: LeafPage
 ---
-$\newcommand{\F}[1]{^{\text{F}#1}}\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
+$\newcommand{\F}[1]{^{\text{F}#1}}}\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 ## Modelling
 
 Macroeconomic models are designed to predict the chaotic system that is the economy. There is a broad range of methods designed to do this, ranging from the very simple to the extremely intricate. Most, with the advent of readily available supercomputers (eg your phone), will be able to be computed in a reasonable amount of time.
