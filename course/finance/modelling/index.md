@@ -13,3 +13,5 @@ Modelling is an essential part of the modern financial world; however, it is ope
 - I will never sacrifice reality for elegance without explaining why I have done so.
 - Nor will I give the people who use my model false comfort about its accuracy. Instead, I will make explicit its assumptions and oversights.
 - I understand that my work may have enormous effects on society and the economy, many of them beyond my comprehension.
+
+Subtopics in modelling:
