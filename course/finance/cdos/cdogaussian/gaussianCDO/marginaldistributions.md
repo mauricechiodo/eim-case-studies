@@ -92,10 +92,9 @@ The first marginal conditional default conditional probablity in year 1 is simpl
 
 If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$).  
 
-<p>
-    <img src="http://db716.user.srcf.net/eim-case-studies/media/Figure11.png" alt>
-    <em>Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10</em>
-</p>
+| ![Hazard Rate Function](http://db716.user.srcf.net/eim-case-studies/media/Figure11.png) | 
+|:--:| 
+| *Hazard Rate Function of B Grade Based on Moody’s Study (1997) 10* |
 
 **Using the Merton Model**
 
