@@ -15,3 +15,5 @@ The high profitablity for the issuers of these products and the fact that their 
 The questioned remained: **Was there an efficient way to price these credit derivatives?**  
 
 [Pricing CDOs](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2)
+
+If you want a quick overview on pricing CDOs, click [here](link to video) to see a short video on the topic. 
