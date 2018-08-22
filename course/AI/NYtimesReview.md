@@ -7,7 +7,7 @@ Template: ListSubPages
 
 
 
-# The Real Threat of Artificial Intelligence
+# ["The Real Threat of Artificial Intelligence"](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html)
 
 ### A review on the article by the New York Times
 
