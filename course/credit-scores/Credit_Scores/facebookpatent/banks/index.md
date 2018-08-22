@@ -16,7 +16,7 @@ They have already partnered with PayPal Holdings Inc. which allows users to send
 **Why would Facebook want this?**
 
 This would allow Facebook to collect data on how users spend their money. 
-According to Mauldin in a *TechCrunch* article entitled 'The Bank of Facebook', this could be paired up with data collected using their [patented invention](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent} and applied to targeted advertising or even credit scoring.
+According to Mauldin in a *TechCrunch* article entitled 'The Bank of Facebook', this could be paired up with data collected using their [patented invention](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent) and applied to targeted advertising or even credit scoring.
 
 ##References
 
