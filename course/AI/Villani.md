@@ -18,7 +18,7 @@ The report also discusses the social issues surrounding integrating AI into soci
 
 For our purposes, Chapter 5 is particularly relevant, it is entitled 'What are the Ethics of AI?' The mission has started to build an ethical framework for the development of AI. They lay out five principles:
 
-- **Greater transparency** The document recognises that explaining the decisions made by machine learning algorithms, particularly deep neural networks, is dicult because of the way the algorithms work. It also raises questions as to whether algorithms whose decisions cannot be explained should be used in situations as crucial to the life of an individual as access to credit, employments, accommodations, justice and health. They also make the point that accountability of technology is one of the conditions for its social acceptability and that if the technology is not socially accepted, many of the benefits it could bring to
+- **Greater transparency** The document recognises that explaining the decisions made by machine learning algorithms, particularly deep neural networks, is difficult because of the way the algorithms work. It also raises questions as to whether algorithms whose decisions cannot be explained should be used in situations as crucial to the life of an individual as access to credit, employments, accommodations, justice and health. They also make the point that accountability of technology is one of the conditions for its social acceptability and that if the technology is not socially accepted, many of the benefits it could bring to
 society could be lost.
 
 - **Incorporating ethics into the training of engineers and researchers studying AI** 
