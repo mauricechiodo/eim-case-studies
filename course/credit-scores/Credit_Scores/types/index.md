@@ -5,7 +5,7 @@ Template: LeafPage
 
 #Types of Data
 
-[Insert Video Explaining types of data] 
+[Insert Video Explaining types of data - want this video to be animated, and quite lighthearted] 
 
 ----
 
@@ -34,7 +34,7 @@ There are two types:
 
 #Types of Scores 
 
-[Insert Video Explaining types of data] 
+[Insert Video Explaining types of data - again an animated, fun video] 
 
 ---
 
