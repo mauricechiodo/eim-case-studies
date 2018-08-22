@@ -23,6 +23,8 @@ Hence, although [other copula functions](http://db716.user.srcf.net/eim/course/f
 We must consider whether these are good enough reasons for choosing the Gaussian distribution. 
 It seems that some investigation into the behaviour of the market, along with a wider analysis of whether other Copulas were more appropriate should have been done. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate.md) for more information. 
 
+But, what happened after Li published his paper? Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page3/page3.md) to find out. 
+
 ##References
 
 [1] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
