@@ -1,5 +1,5 @@
 ---
-Title: The Black-Scholes Equation
+Title: Option Pricing: The Black-Scholes Equation
 Template: ListSubPages
 ---
 
