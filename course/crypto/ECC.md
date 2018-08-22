@@ -72,7 +72,7 @@ There are a few ways that the elliptic curve can be used to encrypt. One method 
 
 
 Another method is known as Massey-Omera Encryption, the concept is that if Alice wants to send Bob a message securely, Alice sends Bob a box with her lock on it, Bob adds his lock and sends the box back to Alice, who removes her lock and then sends the box back to Bob who can remove his lock and open the box [cite]:
-- Once again, Alice and Bob agree on a curve $E(\mathbb{F}_q)$ chosen so that the discrete logarithm problem is hard. Let $n=\#E(\mathbb{F}_q)$.
+- Once again, Alice and Bob agree on a curve $E(\mathbb{F}_q)$ chosen so that the discrete logarithm problem is hard. Let $n=$#$E(\mathbb{F}_q)$.
 - Alice represents her message by $P \in E(\mathbb{F}_q)$.
 - Alice choose a secret $a \in \mathbb{Z}$ such that gcd$(b,n)=1$, computes $aP$ and sends it to Bob. 
 - Bob chooses a secret $b \in Z$ such that gcd$(b,n)=1$, computes $b(aP)=baP$, and sends it to Alice
