@@ -15,7 +15,7 @@ As the bank didn't own the pool of loans or bonds underpinning the contract, the
 
 Investment bankers needed to recalculate these deltas daily, meaning that the computational demands of Monte Carlo simulation were a major problem. Hence, investment bankers became very interested in creating full-fledged copula formulations.
 	
-In an effort to develop 'semi-analtical' versions of the Gaussian and other copulas, they made simplifications. A commonly used simplification, introduced by Gregory and Laurent (2001) of BNP, was to assume that the correlations among the asset values or default times of the corportations in a CDO pool all arose from their common dependence on one or more underlying factors. Most common of all was to assume a single underlying factor i.e. the One-Factor Gaussian Copula Model. 
+In an effort to develop 'semi-analytical' versions of the Gaussian and other copulas, they made simplifications. A commonly-used simplification, introduced by Gregory and Laurent (2001) of BNP, was to assume that the correlations among the asset values or default times of the corportations in a CDO pool all arose from their common dependence on one or more underlying factors. Most common of all was to assume a single underlying factor i.e. the One-Factor Gaussian Copula Model. 
 
 >*"The advantage of doing this was that given a particular value of the underlying factor, defaults by different corporations could then be treated as statistically independent events, simplifying the mathematics, avoiding Monte Carlo simulation and greatly reducing computation times."* [4]
 
@@ -27,7 +27,7 @@ In 2003-2004, investment banks collectively created tranched 'index markets', wh
 
 These market prices gave a new way of determining the correlation $\rho$, turning it from a difficult task to an easy modelling job. This is because you could simply assume a common level of correlation between corporations in the pool underlying a standardised index and then run the Gaussian copula model backwards to get the level of correlation consistent with market prices. 
 
-Running the Gaussian Copula model backwards to determine the 'implied correlation', i.e. the correlation level consistent with prices in the index market was done rather than trying to directly calculate correlation - a model full of difficulties. This was done just as, for example, an options model could be run backwards in order to estimate the implied volatility.
+Running the Gaussian copula model backwards to determine the 'implied correlation', i.e. the correlation level consistent with prices in the index market was done rather than trying to directly calculate correlation - a model full of difficulties. This was done just as, for example, an options model could be run backwards in order to estimate the implied volatility.
 
 In fact, correlation was no longer just a parameter of a model but became something that could be traded in the new markets.
 
