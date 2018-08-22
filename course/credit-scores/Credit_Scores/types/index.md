@@ -82,6 +82,8 @@ To find out more about Lenddo, click [here](http://db716.user.srcf.net/eim/cours
 
 To find out more about ZestFinance, click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/zestfinance).
 
+Facebook has also recently filed a patent qhich could be applied to credit scoring. In order to learn more about this, click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent).
+
 ##References:
 
 [1] Fair Isaac Corportation. What's in my FICO® Score. [accessed 13 August 2018].  Available from: https://www.myfico.com/credit-education/whats-in-your-credit-score/
