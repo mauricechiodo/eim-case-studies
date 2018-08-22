@@ -5,50 +5,6 @@ Template: LeafPage
 
 $\newcommand{\lsb}[1]{\text{lsb}\_{240}\left( #1 \right)}$
 
-# Preliminary Definitions
-
-${\mathbb{F}_p}$ denotes the finite field of integers modulo ${p}$.
-
-## Characteristic of a Field
-In a field ${F}$, the characteristic is the (prime) number of times you must add 1 to itself to obtain 0. If $1+1+...+1$ never reaches 0 then we say ${F}$ has characteristic 0.
-
-## Elliptic Curves
-(ref: Koblitz)
-
-### Definition
-For a field ${K}$ of characteristic ${\neq 2, 3}$, an elliptic curve over ${K}$ is the set of points $(x, y)$ satisfying the equation
-$$y^2 = x^3 + ax + c$$
-where ${x^3 + ax + c}$ has no repeated roots, along with a point at infinity ${O}$.
-
-
-If ${K}$ has characteristic 2 then an elliptic curve over ${K}$ is the set of points satisfying either 
-$$y^2 + cy = x^3 + ax + b$$
-or
-$$y^2 + xy = x^3 + ax^2 + b,$$
-with a point at infinity.
-
-
-If ${K}$ has characteristic 3 then an elliptic curve over ${K}$ is the set of points satisfying
-$$y^2 = x^3 + ax^2 + bx + c$$
-with a point at infinity.
-
-### Negation
-We define the *negation* of a point on an elliptic curve as so:
-
-- $-O = O$
-- $-(x, y) = (x, -y)$
-
-### Addition
-And we define *addition* of two points ${P, Q}$ as so:
-
-- ${P + O = O + P = P}$
-- If ${P}$ and ${Q}$ have different ${x}$-coordinates then the line ${\ell}$ intersecting both ${P}$ and ${Q}$ intersect the curve in at most one more point:
-  - If $\ell$ is a tangent to the curve at ${P}$ then ${P + Q = -Q}$
-  - If $\ell$ is a tangent to the curve at ${Q}$ then ${P + Q = -P}$
-  - Otherwise $\ell$ intersects the curve at another point ${R}$ and ${P + Q = -R}$
-- If ${Q = -P}$ then $P + Q = O$
-- If ${Q = P}$ then we say $\ell$ is a tangent to the curve at ${P}$ and so if it touches the curve at one more point ${R}$ we define ${Q + P = -R}$. If $\ell$ touches at only one point then we set ${R = P}$.
-
 # Background on NIST
 The National Institute of Standards and Technology is a U.S. government organisation that aims to "to promote U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life." They have published a large variety of technical documents for technologies impacting on American government and society.
 
