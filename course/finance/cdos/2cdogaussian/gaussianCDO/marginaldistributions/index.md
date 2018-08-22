@@ -5,7 +5,7 @@ Template: LeafPage
 
 #Obtaining the Marginal Distributions
 
-The following section is taken from ideas presented by Li (2000) [2].
+The following section is taken from ideas presented by Li (2000).
 
 ##Characterisation of Default by Time-Until-Default
 
@@ -91,29 +91,29 @@ The first marginal conditional default conditional probablity in year 1 is simpl
 	$\Rightarrow q_{x+n} = \frac{_{n+1}q_x - _nq_x}{1 - _nq_x}$ 
 
 If we assume a piecewise constant hazard rate function over each year, then we can obtain the hazard rate function using ($+$). Below is a 
-Hazard Rate Function of B Grade Based on Moody’s Study (1997) [2].
+Hazard Rate Function of B Grade Based on Moody’s Study (1997) taken from Li's 2000 paper.
 
 ![Hazard Rate Function](http://db716.user.srcf.net/eim/media/Figure11.png "Hazard Rate Function of B Grade Based on Moody’s Study (1997)")
 
 **Using the Merton Model**
 
-In 1974, Merton [4] used diffusion processes to describe the value of the firm and showed that a firm's default could be modeled with the Black and Scholes methodology. He showed that stock could be considered to be a call option on the firm with strike price equal to the face value of a single payment debt.
+In 1974, Merton used diffusion processes to describe the value of the firm and showed that a firm's default could be modeled with the Black and Scholes methodology. He showed that stock could be considered to be a call option on the firm with strike price equal to the face value of a single payment debt.
 
 Using this framework, we can obtain the default probability for the firm over one period. We can translate this default probability into a hazard rate function. 
 
-Geske (1977) [3] and Geske and Deliaedis (1998) [5] extended Merton's analysis to produce a term structure of default probabilities. As a result, we can use the relationship between the hazard rate and the default probabilities to obtain a credit curve.
+Geske (1977) and Geske and Deliaedis (1998) extended Merton's analysis to produce a term structure of default probabilities. As a result, we can use the relationship between the hazard rate and the default probabilities to obtain a credit curve.
 
 **Using Market Observable Information**
 
 This is the approach taken by most credit derivative trading tasks because the extracted default probabilities reflect the current market-agreed perception about the future default tendency of the underlying credit. 
 
-In 1998, Li presented one approach to building the credit curve from market information. [1]
+In 1998, Li presented one approach to building the credit curve from market information.
 
 In summary, Li first assumes that there exist a series of bonds with maturity $1, 2, ..., n$ years, which are issued by the same company and have the same seniority. All of those bonds have observable market prices from which we can calculate their yields to maturity in order to obtain a yield spread curve over treasury (or asset swap spreads for a yield spread curve over LIBOR). 
 
 The credit curve construction is then based on this yield spread curve and an assumption about the recovery rate based on the seniority and rating of the bonds, and the industry/corporation. 
 
-In the paper by Li (2000) [2], market information is used rather than historical information due to the following reasons:
+In the paper by Li (2000), market information is used rather than historical information due to the following reasons:
 	- The calculation of profit and loss for a trading desk can only be based on current market information as it reflects the market agreed perception about the evolution of the market in the future, which is what the actual profit and loss depends on;
 	- Rating agencies use classification variables that often omit some firm specific information. Constructing a credit curve for each credit allows us to use more firm specific information;
 	- Rating agencies react much slower than the market in anticipation of future credit quality;
