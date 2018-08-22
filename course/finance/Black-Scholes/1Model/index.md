@@ -7,7 +7,7 @@ Template: LeafPage
 
 In order to produce a formula for how to price options, we first need to describe the market; the financial setting within which we are trading.
 
-Black and Scholes' market consists of one risky asset (the 'stock') and one riskless asset ('cash', or 'bond'). They then make assume a ser of "ideal conditions" in the market for the stock, and for an option on the stock as follows:
+Black and Scholes' market consists of one risky asset (the 'stock') and one riskless asset ('cash', or 'bond'). They then assume a set of "ideal conditions" in the market for the stock, and for an option on the stock as follows:
 
 - The short-term interest rate is known and is constant through time.
 - The stock price follows a random walk in continuous time with a variance rate proportional to the square of the stock price. Thus the distribution of possible stock prices at the end of any finite interval is log-normal. The variance rate of the return on the stock is constant.
