@@ -27,7 +27,7 @@ In 1959, Sklar established a very important result:
 
 Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/copula/proof) for the proof of this result. 
 
-We should emphasize that Sklar's theorem **only** ensures the exsistence of a copula, but the [appropriate choice of a copula function](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate.md) which matches the specific model requirements is fraught with risk. 
+We should emphasize that Sklar's theorem **only** ensures the exsistence of a copula, but the [appropriate choice of a copula function](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate) which matches the specific model requirements is fraught with risk. 
 
 ##References
 
