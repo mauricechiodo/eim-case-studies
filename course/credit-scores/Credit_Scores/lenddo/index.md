@@ -11,7 +11,7 @@ Template: LeafPage
 
 ##Patent
 
-In January 2012, Lenddo filed a patent entitled 'Systems and methods for using online social footprint for affecting lending performance and credit scoring'. It was issued in April, 2014. Click [here]((http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/lenddo/patent) to find out more about the details of the patent.
+In January 2012, Lenddo filed a patent entitled 'Systems and methods for using online social footprint for affecting lending performance and credit scoring'. It was issued in April, 2014. Click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/lenddo/patent) to find out more about the details of the patent.
 
 ##References
 
