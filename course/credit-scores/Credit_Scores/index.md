@@ -1,6 +1,6 @@
 ---
 Title: Credit Scoring
-Template: ListSubPages
+Template: LeafPage
 ---
 
 #What is a Credit Score?
