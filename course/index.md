@@ -1,6 +1,6 @@
 ---
 Title: Case Studies
-Template: rootcoursepage
+Template: SubPageGrid
 ---
 #Ethics in Mathematics Course
 $\newcommand{\EiM}{\mathbb{E}\text{i}\mathbb{M}}$
