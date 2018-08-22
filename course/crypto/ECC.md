@@ -31,6 +31,6 @@ $$y_r=\lambda(x_p-x_r)-y_p$$
 where
 $$\lambda = \frac{y_q-y_p}{x_q-x_p}.$$
 
+Using this as the group addition operation, we have made a finite additive group using the elliptic curve, call it $E(\mathbb{F}_q)$. 
 
-
-
+Using elliptic curves in cryptography relies on the discrete logarithm problem being difficult. The problem is the following: given a group G and elements $P$ and $Q$, find an integer k such that $kP = Q$ (given such a k exists). By choosing $q=p^n$ for a prime $p$ in our finite field, the discrete logarithm problem for our elliptic curve is found to be difficult, and hence a good trap door function. The discrete logarithm problem using the elliptic group $E(\mathbb{F}_q)$ is orders of magnitude harder than the corresponding cyclic group of order $p$ [9, p.7].
