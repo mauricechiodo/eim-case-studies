@@ -7,7 +7,7 @@ Template: ListSubPages
 
 ### A discussion on the AI mission assigned to Fields Medalist Cédric Villani
 
-Fields Medalist Cédric Villani is currently working for the French Parliament and was recently assigned a mission by the Prime Minister Édouard Philippe to set up a French and European strategy for artificial intelligence. The mission was dated from 8th September 2017 to 8th March 2018. A document entitled 'For a Meaningful Artificial Intelligence' describes the findings of the mission.
+Fields Medalist Cédric Villani is currently working for the French Parliament and was recently assigned a mission by the Prime Minister Édouard Philippe to set up a French and European strategy for artificial intelligence. The mission was dated from 8th September 2017 to 8th March 2018. A document entitled ['For a Meaningful Artificial Intelligence'](https://www.aiforhumanity.fr/pdfs/MissionVillani_Report_ENG-VF.pdf) describes the findings of the mission.
 
 Villani gives a foreword to the document summarising his thoughts on being asked to head the mission. He makes it clear that AI is becoming a vastly important part of modern society, and that it is relevant to mathematicians like himself, for example his research on optimal transport has been cited in articles about AI.
 
