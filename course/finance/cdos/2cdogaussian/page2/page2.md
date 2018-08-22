@@ -12,12 +12,12 @@ There was almost no direct empirical data to guide his modelling so he used the 
 
 However, both this work and CreditMetrics - J.P. Morgan’s 1997 software system to measure credit risk - were 'one-period’ models, meaning that although the underlying stochastic processes took place in continuous time, all that was modelled was *whether* corporations defaulted within a single given time period, and not *when* in that period they defaulted.
 
-Employing his experience in acturial sciences, Li was able to overcome this limitation using [Copula functions]{http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/copula.md).
+Employing his experience in acturial sciences, Li was able to overcome this limitation using [Copula functions](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/copula.md).
 
-Hence, although [other copula functions]{http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/othercopulas.md) were discussed by Li in his paper (and by others who were also exploring the applicability of copula functions to insurance and finance), this connection to CreditMetrics – already a well-established, widely-used model – together with the simplicity and familiarity of the Gaussian (and the ease of implementing it) meant that ultimately the Gaussian Copula was chosen.
+Hence, although [other copula functions](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/othercopulas.md) were discussed by Li in his paper (and by others who were also exploring the applicability of copula functions to insurance and finance), this connection to CreditMetrics – already a well-established, widely-used model – together with the simplicity and familiarity of the Gaussian (and the ease of implementing it) meant that ultimately the [Gaussian Copula](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula.md) was chosen.
 
 We must consider whether these are good enough reasons for choosing the Gaussian distribution. 
-It seems that some investigation into the behaviour of the market, along with a wider analysis of whether other Copulas were more appropriate should have been done.
+It seems that some investigation into the behaviour of the market, along with a wider analysis of whether other Copulas were more appropriate should have been done. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate.md) for more information. 
 
 ##References
 
