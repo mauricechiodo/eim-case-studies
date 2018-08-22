@@ -39,7 +39,7 @@ Using elliptic curves in cryptography relies on the discrete logarithm problem b
 
 The consequence of the elliptic curve discrete logarithm being a harder problem to solve is that it allows a smaller key size to be used. This means that it is possible to use this kind of cryptography in constrained devices because the cryptographic operations are faster, run on smaller chips or on more compact software. Therefore there is less power consumption and less heat production [cite].
 
-Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=#E(\mathbb{F}_q)$. Here we will detail some attacks on the elliptic curve discrete logarithm problem:
+Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=$#$E(\mathbb{F}_q)$. Here we will detail some attacks on the elliptic curve discrete logarithm problem:
 
 - **Baby Step, Giant Step** [cite]: This is the fastest general method for solving the problem and can be applied to any curve. It runs in  $\sqrt{n}$ time and $\sqrt{n}$ space with $n$ defined above as $#E(\mathbb{F}_q)$, this is not fast enough to be feasible for the $n$ used in encryption. Recall that the discrete logarithm problem is to find $k$ such that $kP = Q$ for points $P$ and $Q$ on the elliptic curve. The algorithm is as follows:
   	- Pick and integer $m>\sqrt{n}$.
