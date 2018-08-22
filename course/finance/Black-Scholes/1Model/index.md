@@ -9,6 +9,8 @@ In order to produce a formula for how to price options, we first need to describ
 
 Black and Scholes' market consists of one risky asset (the 'stock') and one riskless asset ('cash', or 'bond'). They then assume a set of "ideal conditions" in the market for the stock, and for an option on the stock as follows:
 
+---
+
 - The short-term interest rate is known and is constant through time.
 - The stock price follows a random walk in continuous time with a variance rate proportional to the square of the stock price. Thus the distribution of possible stock prices at the end of any finite interval is log-normal. The variance rate of the return on the stock is constant.
 - The stock pays no dividends or other distributions.
@@ -25,3 +27,5 @@ However, some of these implicitly make assumptions on human behaviour and societ
 
 And here we see a potential problem of mathematical models on financial markets:
 >  ***The act of modelling the market may affect the market.***
+
+Another point to note is that Black and Scholes arrived at their famous equation by assuming that market agents take a particular type of 'hedged position', where (having bought or sold an option) they buy and sell the underlying stock in just the right quantities, such that their total portfolio value remains unaffected by changes in the stock price. This is a second assumption on the behaviour of traders, and may not be compatible with the distribution assumption.
