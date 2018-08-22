@@ -7,7 +7,7 @@ Template: LeafPage
 
 In a typical CDO, if the correlation amongst the bonds or loans in the pool was low, only the holders of the lowest tranche would be at a great risk of losing some or all of their investment. 
 However, if the correlation was very high, many of the bonds or loans might default and so the losses could impact even the most senior tranche. 
-As a result, modeling correlation was the most crucial problem in CDO evaluation, and [Gaussian copulas](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula.md) became the most popular way to do this due to David Li's paper, published in 2000, entitled 'On Default Correlation: A copula function approach'.
+As a result, modeling correlation was the most crucial problem in CDO evaluation, and [Gaussian copulas](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula) became the most popular way to do this due to David Li's paper, published in 2000, entitled 'On Default Correlation: A copula function approach'.
 
 ##Why the Gaussian Copula?
 
@@ -18,14 +18,14 @@ There was almost no direct empirical data to guide his modelling so he used the 
 
 However, both this work and CreditMetrics - J.P. Morgan’s 1997 software system to measure credit risk - were 'one-period’ models, meaning that although the underlying stochastic processes took place in continuous time, all that was modelled was *whether* corporations defaulted within a single given time period, and not *when* in that period they defaulted.
 
-Employing his experience in acturial sciences, Li was able to overcome this limitation using Copula functions. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/copula/copula.md) for more information on what a Copula Function is. 
+Employing his experience in acturial sciences, Li was able to overcome this limitation using Copula functions. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/copula/copula) for more information on what a Copula Function is. 
 
-Hence, although [other copula functions](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/othercopulas.md) were discussed by Li in his paper (and by others who were also exploring the applicability of copula functions to insurance and finance), this connection to CreditMetrics – already a well-established, widely-used model – together with the simplicity and familiarity of the Gaussian (and the ease of implementing it) meant that ultimately the [Gaussian Copula](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula.md) was chosen.
+Hence, although [other copula functions](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/othercopulas) were discussed by Li in his paper (and by others who were also exploring the applicability of copula functions to insurance and finance), this connection to CreditMetrics – already a well-established, widely-used model – together with the simplicity and familiarity of the Gaussian (and the ease of implementing it) meant that ultimately the [Gaussian Copula](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula.md) was chosen.
 
 We must consider whether these are good enough reasons for choosing the Gaussian distribution. 
-It seems that some investigation into the behaviour of the market, along with a wider analysis of whether other Copulas were more appropriate should have been done. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate.md) for more information. 
+It seems that some investigation into the behaviour of the market, along with a wider analysis of whether other Copulas were more appropriate should have been done. Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/modelappropriate) for more information. 
 
-But, what happened after Li published his paper? Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page3/page3.md) to find out. 
+But, what happened after Li published his paper? Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page3) to find out. 
 
 ##References
 
