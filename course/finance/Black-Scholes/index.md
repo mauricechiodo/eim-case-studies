@@ -27,6 +27,7 @@ For example, Black and Scholes write
 > \end{aligned} $$
 > 
 > In this expression, $x$ is the stock price, $c$ is the exercise price, $t^\*$ is the maturity date, $t$ is the current date, $v^2$ is the variance rate of the return on the stock, $\ln$ is the natural logarithm, and $N(b)$ is the cumulative normal density function. But $k$ and $k^\*$ are unknown parameters. Sprenkle (1961) defines $k$ as the ratio of the expected value of the stock price at the time the warrant matures to the current stock price, and $k^\*$ as a discount factor that depends on the risk of the stock. He tries to estimate the values of $k$ and $k^\*$ empirically, but finds that he is unable to do so."  
+
 The Black-Scholes' formula is identical to Sprenkle's except that Black and Scholes derived explicit expressions for $k$ and $k^\*$.
 
 Read more about the Black-Scholes model for financial markets, the equation they derived, the formula that solves it, and some of the risks behind the model:
