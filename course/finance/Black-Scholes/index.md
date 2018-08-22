@@ -5,7 +5,7 @@ Template: ListSubPages
 
 > "How did the biggest financial train wreck in human history come about?  
 > Arguably, one contributor was a mathematical equation."  
-~ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
+Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
      
 # The Black-Scholes Equation
 
