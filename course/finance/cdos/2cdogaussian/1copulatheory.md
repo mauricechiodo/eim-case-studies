@@ -9,7 +9,7 @@ An independence assumption of the credit risks is not realistic. In reality, the
 
 A copula is a multivariate probability distribution function with uniform marginal distribution functions. Copulas allow us to separate the problem of estimating a multidimensional distribution of several variables into the estimation of:
   * the individual marginal distributions;
-	* the joint dependency structure between these one-dimensional random variables. 
+  * the joint dependency structure between these one-dimensional random variables. 
 Put simply, a copula is a function that maps individual marginal distributions into a joint distribution.
 
 As stated in 'Princples of Copula Theory' (2015) [2], the formal definition of a copula is:
