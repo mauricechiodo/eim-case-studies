@@ -6,7 +6,7 @@ Template: ListSubPages
 
 ---
 
-# Want less-biased decisions? Use algorithms.
+# ["Want Less-Biased Decisions? Use Algorithms."](https://hbr.org/2018/07/want-less-biased-decisions-use-algorithms)
 
 ### A review on the article by the Harvard Business Review
 
