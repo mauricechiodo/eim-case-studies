@@ -50,9 +50,7 @@ Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=$#$E(\mat
 		- Compare the lists until a pair $i,j$ such that $iP=Q-jmP$ is found.
 		- Return $k\equiv i+jm \pmod{n}$.
 	
-- **MOV attack** [cite]: This attack can only be used on certain types of curves. It reduces the discrete logarithm problem on an elliptic curve $E(\mathbb{F}_q)$ 
-to a discrete logarithm problem on 
-$\mathbb{F}_{q^m}$ for some $m$. This attack is more complicated, but the cited paper includes the details of the attack if readers are interested. 
+- **MOV attack** [cite]: This attack can only be used on certain types of curves. It reduces the discrete logarithm problem on an elliptic curve $E(\mathbb{F}_q)$ to a discrete logarithm problem on the multiplicative group of order $q^m$. This attack is more complicated, but the cited paper includes the details of the attack if readers are interested. 
 
 
 In order for the elliptic curve $E$ to make the discrete logarithm problem as hard as it can be, we require [cite]:
