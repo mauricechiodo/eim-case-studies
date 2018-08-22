@@ -22,8 +22,8 @@ The basic idea behind elliptic curve cryptography is that if we add a point toge
 
 ![Elliptic Curve](http://db716.user.srcf.net/eim/media/curve1.png)
 
-Click here (link to be added) to find out how elliptic curves are used in cryptography. The essential idea is that we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
+[Click here](http://db716.user.srcf.net/eim/course/crypto/ECC) to find out how elliptic curves are used in cryptography. The essential idea is that we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
 
-Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves...
+Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves... [click here](http://db716.user.srcf.net/eim/course/crypto/dylannist) to find out more.
 
 
