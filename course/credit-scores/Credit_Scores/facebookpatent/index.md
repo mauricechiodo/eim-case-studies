@@ -14,9 +14,8 @@ The primary purpose of the invention described in the patent is to allow an indi
 This is describing **Facebook-Connect**, a single sign-on application that allows users to interact on other websites through their Facebook account. 
 
 The [part involving credit rating](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent/quote) is only a small section in the patent application. Basically, there are three main steps:
-  1. Someone applies for a loan. The application contains the email address.
-  2. The bank uses this email address to get a visual representation of the applicant's social network and their friends' credit ratings. 
-  3. A decision is taken by the bank to accept or reject the loan based on the friends' credit ratings within a given degree of separation.
+
+![Facebook Patent Steps](http://db716.user.srcf.net/eim/media/FacebookPatentSteps.png "Facebook Patent Steps")
   
 A credit score based soley on your social media network is highly questionable. Can the people who you're friends with on Facebook accurately determine how creditworthy you are? Should we be concerned about the invasion to our privacy that such an invention will cause? 
 
