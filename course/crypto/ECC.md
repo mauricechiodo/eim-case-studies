@@ -26,8 +26,8 @@ rational points, over $\mathbb{F}_q$ this amounts to a finite number of points. 
 as illustrated in the figure.
 
 Let $P=(x_p,y_p), Q=(x_q,y_q)$ and $R=(x_r,y_r)$. Then given $P$ and $Q$, 
-$$x_r&=\lambda^2-x_p-x_q$$ 
-$$y_r &=\lambda(x_p-x_r)-y_p$$
+$$x_r=\lambda^2-x_p-x_q$$ 
+$$y_r=\lambda(x_p-x_r)-y_p$$
 where
 $$\lambda = \frac{y_q-y_p}{x_q-x_p}.$$
 
