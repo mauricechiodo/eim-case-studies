@@ -3,6 +3,8 @@ Title: CDO Pricing
 Template: LeafPage
 ---
 
+#Introduction
+
 In the late 1990s banks became interested in looking for new ways to increase returns whilst diversifying their own risks. 
 As a result, a new type of financial product emerged: Multi-name Credit Derivatives. 
 These appeared to be a perfect way to achieve this goal. 
