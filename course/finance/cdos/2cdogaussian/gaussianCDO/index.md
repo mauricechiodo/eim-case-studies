@@ -1,11 +1,10 @@
 ---
 Title: Gaussian Copula Approach CDO Tranche Modelling
-Template: ListSubPages
+Template: LeafPage
 ---
 
 #Gaussian Copula Approach CDO Tranche Modelling
-
-In a typical CDO, if the correlation amongst the  bonds or loans in the pool was low, only the holders of the lowest tranche would be at a great risk of losing some or all of their investment. However, if the correlation was very high, many of the bonds or loans might default and so the losses could impact even the most senior tranche. As a result, modelling correlation was the most crucial problem in CDO evaluation, and Gaussian copulas became the most popular way to do this [3]. Below I will detail how to apply the Gaussian Copula to the problem of pricing CDO tranche as discussed by Li (2000) [2].
+How was the Gaussian Copula applied to the problem of pricing CDO tranche? The following was discussed by Li in his 2000 paper 'On Default Correlation: A Copula Function Approach'.
 
 Let $\tau_i$ be a random variable that describes the default time of the $i^{th}$ asset in the underlying pool and $F(t_1) = Pr(\tau_1 < t_1)$ the marginal default time distribution function for $i = 1, ..., M$, where $M$ is the number of assets in the pool. 
 
@@ -13,7 +12,7 @@ To model the joint default times of all the assets in the underlying pool $F(t_1
 
 	$F(t_1, ..., t_M) = C(F_1(t_1), ..., F_M(t_M)).$ ($+$)
 
-The most common used version of Li's model is the **One-factor Gaussian Copula Model** [1], as it offers "high analytical tractability" (meaning it can be solved analytically in terms of a closed form expression) by assuming that the portfolio of the underlying assets is homogenous (see details of how this model was developed in the section **'Overview of what happened after Li's Paper, before the Financial Crisis'**). 
+The most common used version of Li's model is the **One-factor Gaussian Copula Model**, as it offers "high analytical tractability" (meaning it can be solved analytically in terms of a closed form expression) by assuming that the portfolio of the underlying assets is homogenous (see details of how this model was developed in the section **'Overview of what happened after Li's Paper, before the Financial Crisis'**). 
 
 Each asset in the underlying portfolio belongs to a company $i$ with asset value $X_i$ for $i = 1, ..., M$. The one-factor framework means that the value of the company $i$ is modeled as 
 
@@ -42,10 +41,13 @@ We say that a company $i$ defaults if their asset value $X_i$ is below a certain
 
 Then, after the marginal distribution functions for the $\tau_i$ are determined, we can use ($+$) and the Gaussian copula to estimate the joint default distribution of the asset pool. We have then fully specified the one-factor Li model.
 
+Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/gaussianCDO/callibration) to discover how the calibration of the default correlation in the copula function is done.
+
+Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/gaussianCDO/marginaldistributions) to find out how the marginal distributions are obtained.
+
 ##References
 
 [1] *Gaussian Copula Model, CDOs and the Crisis*. PhD thesis, University of Oxford, June 2016. 
 
 [2] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
 
-[3] Donald MacKenzie and Taylor Spears. 'The Formula That Killed Wall Street': The Gaussian Copula and Modelling Practices in Investment Banking. *Social Studies of Science*, 44:393-417, 2014. 
