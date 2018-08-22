@@ -21,7 +21,7 @@ Before proving the result we first define a **distributional transform**:
 
 Let U  = F(Y,V) be the distributional transform of Y. Then $U := U(0,1)$ and $Y = F^{-1}(U)$ almost surely.
 
-Note that in probability theory, we say that an event happens almost surely if it happens with probability one.
+Note that in probability theory, we say that an event happens almost surely if it happens with probability 1.
 
 ##Proof of Sklar's Theorem
 
