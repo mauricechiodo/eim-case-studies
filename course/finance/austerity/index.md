@@ -5,7 +5,7 @@ Template: LeafPage
 
 ## Austerity in the UK
 
-The United Kingdom announced its austerity plan in its June 2010 budget report.$^{[1]}$ The paper detailed an economic plan that planned to eliminate the UK deficit$^{[\text{F}1]}$ by 2014/15 and have a surplus of 0.8% of the gdp by 2015/16.$^{[1\text{, p.2}]}$ However, in 2014/15 the deficit had been reduced to only £89.9 billion (4.8% of GDP) and in 2015/16 the deficit was still £75.5 billion (3.9% of GDP).$^{[2\text{, p.8,Table 2}]}$
+The United Kingdom announced its austerity plan in its June 2010 budget report$^{[1]}$. The paper detailed an economic plan that planned to eliminate the UK deficit$^{[\text{F}1]}$ by 2014/15 and have a surplus of 0.8% of the GDP by 2015/16.$^{[1\text{, p.2}]}$ However, in 2014/15 the deficit had been reduced to only £89.9 billion (4.8% of GDP) and in 2015/16 the deficit was still £75.5 billion (3.9% of GDP).$^{[2\text{, p.8,Table 2}]}$
 
 The UK fiscal report makes reference to the Office for Budget Responsibility (OBR), which was founded in 2010/05/17$^{[3\text{ Sect 1.1}]}$ by the chancellor$^{[\text{F}2]}$ following the general election$^{[\text{F}3]}$ in order to act as an independent organisation that would inform financial decisions by forecasting the economy. The pre-budget report$^{[3]}$ details how they predict the economy will evolve with no change in fiscal policy.
 
