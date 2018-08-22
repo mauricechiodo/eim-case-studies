@@ -11,6 +11,5 @@ These appeared to be a perfect way to achieve this goal.
 The most popular of these multi-name credit derivatives were the [Collateralised Debt Obligations (CDOs)](http://db716.user.srcf.net/eim/course/finance/cdos/1cdointro), which are structured asset-back securities. 
 
 The high profitablity for the issuers of these products and the fact that their structure allowed banks to spread their own credit risk made them very attractive and generated a lot of interest from financial institutions. 
-The questioned remained: **Was there an efficient way to price these credit derivatives?**
 
-[Pricing CDOs](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/page2.md)
+The questioned remained: **Was there an efficient way to price these credit derivatives?**  [Pricing CDOs](http://db716.user.srcf.net/eim-case-studies/course/finance/cdos/2cdogaussian/page2/page2.md)
