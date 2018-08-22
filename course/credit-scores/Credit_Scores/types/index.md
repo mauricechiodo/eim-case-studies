@@ -57,6 +57,7 @@ These models consider mainstream alternative credit data. An example of such mod
 ##Fringe Alternative Models
 
 These models consider fringe credit data. 
+
 ---
 
 ##Problem with Traditional Models
