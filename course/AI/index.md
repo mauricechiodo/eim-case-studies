@@ -18,7 +18,7 @@ exact definition is not straightforward to give, as it depends on whether we wan
 intelligently or *think* intelligently, and on whether we want the system to do this like a *human* or
  *rationally*.
 
-Unlike many of the other topics covered by Ethics in Maths, the ethics of AI is widely talked about and discussed... although generally this isn't aimed at mathematicians. ["Want Less-Biased Decisions? Use Algorithms."](https://hbr.org/2018/07/want-less-biased-decisions-use-algorithms), and article in the *Harvard Business Review*, claims that "Algorithms are less biased and more accurate than the humans
+Unlike many of the other topics covered by Ethics in Maths, the ethics of AI is widely talked about and discussed, although generally this isn't aimed at mathematicians. ["Want Less-Biased Decisions? Use Algorithms."](https://hbr.org/2018/07/want-less-biased-decisions-use-algorithms), and article in the *Harvard Business Review*, claims that "Algorithms are less biased and more accurate than the humans
 they are replacing." This is a very dangerous claim to make. Algorithms can make mistakes, and we are definitely not at the stage where they are ready to be replacing any human decision-makers.  ["The Real Threat of Artificial Intelligence"](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html) by the *New York Times*
  says that AI is "poised to bring about a wide-scale decimation of jobs." While this is an issue worth considering, it suggests a naive view on the current state of intelligence, especially since a lot of AI is being designed to assist humans in their jobs, not take their jobs away. The book *Superintelligence: Paths, Dangers, Strategies*, by Oxford philosopher Nick Bostrom, talks about the "intelligence explosion" that will occur if (or rather when) machines which are more intelligent than humans begin to design machines of their own. This book contains many important philosophical points, but ultimately is purely speculative and difficult to take seriously. The ethics in AI is a serious issue which needs to be discussed as such.
 
@@ -26,8 +26,5 @@ One of the major issues which a lot of the material on ethics in AI aimed at the
 
 Those creating AI algorithms not only need to be careful about the intended uses for the technology, but also the potential uses. In February 2018, a paper entitled "Deep neural networks can detect sexual orientation from faces" was published in the Journal of Personality and Social Psychology. The people who wrote the paper used widely available deep neural networks to do the study - they didn't need very much understanding about how machine learning works in order to use it in this manner. The technical people creating the algorithms need to have an awareness about the potential uses of the tools they create so that they can hopefully make a step towards preventing immoral usage. 
 
-AI is also being used to develop weapons for the battlefield...
-
-Villani...
 
 
