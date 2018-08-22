@@ -3,9 +3,8 @@ Title: Facebook
 Template: LeafPage
 ---
 
-#Facebook
+#Facebook Patent
 
-##Patent
 In 2012, Facebook filed a patent entitled 'Authorization and Authentication Based on an Individual's Social Network', which was then issued in 2015. 
 
 The primary purpose of the invention described in the patent is to allow an individual to access content through a social network identification. The patent says:
