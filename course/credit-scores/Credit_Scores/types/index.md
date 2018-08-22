@@ -80,7 +80,7 @@ In order to overcome these problems there are currently a number of companies th
 	- **Hello Soda:** Their product, PROFILE, lets lenders determine the creditworthiness of people by identifying their personality attributes from language used in their social media. 
 	
 
-Facebook has also recently filed a patent qhich could be applied to credit scoring. In order to learn more about this, click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent).
+Facebook has also recently filed a patent that could be applied to credit scoring. In order to learn more about this, click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent).
 
 ##References:
 
