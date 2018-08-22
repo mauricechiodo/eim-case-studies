@@ -30,5 +30,7 @@ And here we see a potential problem of mathematical models on financial markets:
 
 Another point to note is that Black and Scholes arrived at their famous equation by assuming that market agents take a particular type of 'hedged position', where (having bought or sold an option) they buy and sell the underlying stock in just the right quantities, such that their total portfolio value remains unaffected by changes in the stock price. This is a second assumption on the behaviour of traders, and may not be compatible with the distribution assumption.
 
+---
+
 To read about the Black Scholes equation and how it can be derived check out [the equation](2Equation)  
 To read more about the risks of the model, the equation, and the formula, check out [the risks](4Risks)  
