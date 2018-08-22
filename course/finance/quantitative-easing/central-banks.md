@@ -25,16 +25,16 @@ In 2009, the MPC had nine members:
 * David Blanchflower (External Member)
 * Andrew Sentance (External Member)
 
-Of which only **Paul Tucker** had any substantial mathematical training, having studied maths & philosophy at Trinity College in Cambridge.$\c{2}$ One may presume that Tucker therefore has a unique insight into macroeconomics, but voting records from the Bank of England show that in voting Tucker never swayed from the majority.$\c{3}$
+Of these members, only **Paul Tucker** had any substantial mathematical training, having studied Maths and Philosophy at Trinity College, Cambridge.$\c{2}$ One may presume that Tucker therefore has a unique insight into macroeconomics, but voting records from the Bank of England show that in voting Tucker never swayed from the majority.$\c{3}$
 
-The 2009q2 bulletin$\c{4}$ has a telling statement that indicates there was little technical work in deciding to employ QE
+The 2009 Q2 bulletin$\c{4}$ has a telling statement that indicates there was little technical work in deciding to employ QE:
 
- > "It is too soon to say how powerful the stimulus will ultimately be. There is considerable uncertainty about the strength and timing of effects. **Standard economic models are of limited use in these unusual circumstances**, and the empirial evidence is extremely limited. However, the monetary policy framework will ensure that the appropriate measures are taken over time so that the inflation target is met in the medium term."
+ > "It is too soon to say how powerful the stimulus will ultimately be. There is considerable uncertainty about the strength and timing of effects. **Standard economic models are of limited use in these unusual circumstances**, and the empirical evidence is extremely limited. However, the monetary policy framework will ensure that the appropriate measures are taken over time so that the inflation target is met in the medium term."
 - 2009 Second Quarterly Bulletin (emphasis added)
 
 ### The Federal Open Market Commitee
 
-The Federal Open Market Committee (FOMC) is the body responsible for the decision to begin Large-Scale Asset Purchase (LSAP) programs,$\c{5}$ and in December 2008 lowered the federal funds rate to 0-25 basis points (one ten thousandth, so 100bp=1%). This rubbed up close to the Zero Lower Bound, and so the FOMC decided to begin LSAP.
+The Federal Open Market Committee (FOMC) is the body responsible for the decision to begin Large-Scale Asset Purchase (LSAP) programs,$\c{5}$ and in December 2008 lowered the federal funds rate to 0-25 basis points (each one ten thousandth, so 100bp=1%). This rubbed up close to the zero lower bound, and so the FOMC decided to begin LSAP.
 
 ---
 # Bibliography
