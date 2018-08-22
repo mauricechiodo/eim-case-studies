@@ -9,7 +9,7 @@ $\newcommand{\F}[1]{^{[\text{F}#1]}}
 
 ## Modelling
 
-Macroeconomic models are designed to predict the chaotic system that is the economy. There is a broad range of methods designed to do this, ranging from the very simple to the extremely intricate. Most, with the advent of readily available supercomputers (eg your phone), will be able to be computed in a reasonable amount of time.
+Macroeconomic models are designed to predict the chaotic system that is the economy. There is a broad range of methods designed to do this, ranging from the very simple to the extremely intricate. Most, with the advent of readily available supercomputers (e.g. your phone), will be able to be computed in a reasonable amount of time.
 
 ## Portfolio Balance Model
 
@@ -41,7 +41,7 @@ This frankly terrifying equation is part of the technical report$\F{1}$, which d
 
 ### MELP Conclusions
 
-The paper concludes, having run simulations of multiple LSAP programs, that "The effects of recent [2008] asset purchase programs on macroeconomic variables, such as GDP growth and inflation, are likely to be moderate but with a lasting impact on the level of GDP".$\c{5}$ However, the authors admit that the effects on GDP growth are unlikely to exceed 50bp. The authors suggest that keeping interest rates low for "some period of time" alongside this LSAP will cause the LSAP to be twice as effective.
+The paper concludes, having run simulations of multiple LSAP programs, that "the effects of recent [2008] asset purchase programs on macroeconomic variables, such as GDP growth and inflation, are likely to be moderate but with a lasting impact on the level of GDP".$\c{5}$ However, the authors admit that the effects on GDP growth are unlikely to exceed 50bp. The authors suggest that keeping interest rates low for "some period of time" alongside this LSAP will cause the LSAP to be twice as effective.
 
 ---
 # Footnotes
