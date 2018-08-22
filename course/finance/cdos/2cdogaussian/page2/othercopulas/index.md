@@ -21,8 +21,8 @@ There are also its generalised versions - EFGM copulas, which are extensions of 
 
 Some examples of applications of this family of copulas is discussed by Lai and Balakrishnan in 'Distributions Expressed as Copulas': 
   - fitting data on the joint occurrence of certain trace elements in water;
-	- a starting point when considering how a population probability distribution function is altered in the surviving and nonsurviving groups by a risk function;
-	- reanalysing datasets on the effects of mixtures of poisons.
+  - a starting point when considering how a population probability distribution function is altered in the surviving and nonsurviving groups by a risk function;
+  - reanalysing datasets on the effects of mixtures of poisons.
 
 ##Archimedean Copulas
 
