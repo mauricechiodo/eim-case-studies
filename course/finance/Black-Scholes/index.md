@@ -1,4 +1,14 @@
-"*Since the turn of the century the greatest source of growth in the financial sector has been in financial instruments known as derivatives. Derivatives are not money, nor are they investments in stocks and shares. They are investments in investments, promises about promises. Derivatives traders use virtual money, numbers in a computer. They borrow it from investors who have probably borrowed in from somewhere else. Often they haven't borrowed it at all, not even virtually: they have clicked a mouse to agree that they *will* borrow the money if it ever becomes necessary. But they have no intention of letting it become necessary; they will sell the derivative before that happens. The lender - hypothetical lender, since the loan will never occur, for the same reason - probably doesn't actually have the money either. This is finance in cloud cuckoo land, yet it has become the standard practice of the world's banking system.*"
-~ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
-      
-Arguably, one of the contributors to the financial crash was a mathematical equation: the Black-Scholes equation; a partial differential equation governing the price evolution of an option under the Black-Scholes model for financial markets.
+---
+Title: The Black-Scholes Equation
+Template: LeafPage
+---
+
+"*How did the biggest financial train wreck in human history come about?*  
+*Arguably, one contributor was a mathematical equation.*"  
+> ~ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
+     
+# The Black-Scholes Equation
+
+In 1973, Fischer Black and Myron Scholes derived an equation for option pricing; the equation describes how the price of an option should evolve as a function of time and the current market price of the stock. It also takes into account the 'risk-free interest rate' and the 'volatility' of the stock.
+
+Black and Scholes were by no means the first to apply mathematics to the stock market - that claim lies with Louis Bachelier, a french mathematician who in 1900 wrote his PhD thesis, *Théorie de la spéculation*, on the behaviour of stock prices and how to price derivative contracts.
