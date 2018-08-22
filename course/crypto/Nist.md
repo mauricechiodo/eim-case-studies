@@ -1,9 +1,9 @@
 ---
-Title: NIST
+Title: Elliptic Curve Cryptography and NIST
 Template: ListSubPages
 ---
 
-# NIST and Elliptic Curve Cryptography
+# Elliptic Curve Cryptography and NIST
 
 The National Institute of Standards and Technology (NIST) is a US government organisation that aims to "to promote US innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life."
 
