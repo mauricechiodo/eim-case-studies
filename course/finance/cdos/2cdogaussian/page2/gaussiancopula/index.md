@@ -7,9 +7,9 @@ Template: LeafPage
 
 The Gaussian Copula uses Gaussian random variables instead of uniform random variables.
 
-As presented in Li's 2000 paper, letting 
+As presented in Li's 2000 paper: 
 
-	$\Phi$ be the distribution function of the one-dimensional standard normal distribution and 
+	$letting \Phi$ be the distribution function of the one-dimensional standard normal distribution and 
 	$\Phi_{\Sigma}^{n}$ the distribution function of the $n$-dimensional standard normal distribution with positive definite correlation matrix $\Sigma$, 
 	the $n$-dimensional Gaussian copula $C_{\Sigma}^{\Phi}$ can be defined as:
 
