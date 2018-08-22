@@ -14,7 +14,7 @@ In 1973, Fischer Black and Myron Scholes derived an equation for option pricing;
 Black and Scholes were by no means the first to apply mathematics to the stock market - that claim lies with Louis Bachelier, a french mathematician who in 1900 wrote his PhD thesis, *Théorie de la spéculation*, on the behaviour of stock prices and how to price derivative contracts - nor were they the first to create options pricing formulae: in their own paper, they reference multiple papers predating theirs, each giving some form of valuation formula.
 
 What was revolutionary about Black and Scholes' formula was that it was, in some sense, 'complete'. For example, Black and Scholes write
-> "*Sprenkle's formula for the value of an option can be written as follows:*"
+> "*Sprenkle's formula for the value of an option can be written as follows:*
 >
 > $$ \begin{aligned}
 > & kx N(b_1) - k^\* c N(b_2) \\\\
@@ -22,6 +22,6 @@ What was revolutionary about Black and Scholes' formula was that it was, in some
 > b_2 &= \frac{\ln kx/c - \frac{1}{2} v^2 (t^\* - t)}{v\sqrt{t^\* - t}}
 > \end{aligned} $$
 > 
-> *In this expression, $x$ is the stock price, $c$ is the exercise price, $t^\*$ is the maturity date, $t$ is the current date, $v^2$ is the variance rate of the return on the stock, $\ln$ is the natural logarithm, and $N(b)$ is the cumulative normal density function. But $k$ and $k^\*$ are unknown parameters. Sprenkle (1961) defines $k$ as the ratio of the expected value of the stock price at the time the warrant matures to the current stock price, and $k^\*$ as a discount factor that depends on the risk of the stock. He tries to estimate the values of $k$ and $k^\*$ empirically, but finds that he is unable to do so.*
+> *In this expression, $x$ is the stock price, $c$ is the exercise price, $t^\*$ is the maturity date, $t$ is the current date, $v^2$ is the variance rate of the return on the stock, $\ln$ is the natural logarithm, and $N(b)$ is the cumulative normal density function. But $k$ and $k^\*$ are unknown parameters. Sprenkle (1961) defines $k$ as the ratio of the expected value of the stock price at the time the warrant matures to the current stock price, and $k^\*$ as a discount factor that depends on the risk of the stock. He tries to estimate the values of $k$ and $k^\*$ empirically, but finds that he is unable to do so.*"
 
 The Black-Scholes' formula is identical to Sprenkle's except that Black and Scholes derived explicit expressions for $k$ and $k^\*$.
