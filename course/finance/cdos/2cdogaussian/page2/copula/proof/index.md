@@ -35,4 +35,4 @@ Thus defining C to be the distribution function of $U = (U_1, ..., U_n)$ we obta
 
           	$= P(U_i \leq F_i(x_i), 1 \leq i \leq n) = C(F_1(x_1),..., F_n(x_n))$
 
-	i.e. C is the copula of F. 
+i.e. C is the copula of F. 
