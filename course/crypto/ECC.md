@@ -41,7 +41,7 @@ The consequence of the elliptic curve discrete logarithm being a harder problem 
 
 Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=$#$E(\mathbb{F}_q)$. Here we will detail some attacks on the elliptic curve discrete logarithm problem:
 
-- **Baby Step, Giant Step** [cite]: This is the fastest general method for solving the problem and can be applied to any curve. It runs in  $\sqrt{n}$ time and $\sqrt{n}$ space with $n$ defined above as $#E(\mathbb{F}_q)$, this is not fast enough to be feasible for the $n$ used in encryption. Recall that the discrete logarithm problem is to find $k$ such that $kP = Q$ for points $P$ and $Q$ on the elliptic curve. The algorithm is as follows:
+- **Baby Step, Giant Step** [cite]: This is the fastest general method for solving the problem and can be applied to any curve. It runs in  $\sqrt{n}$ time and $\sqrt{n}$ space with $n$ defined above as #$E(\mathbb{F}_q)$, this is not fast enough to be feasible for the $n$ used in encryption. Recall that the discrete logarithm problem is to find $k$ such that $kP = Q$ for points $P$ and $Q$ on the elliptic curve. The algorithm is as follows:
   	- Pick and integer $m>\sqrt{n}$.
 		- Compute $mP$.
 		- For $i=0$ to $i=m-1$ compute and store $iP$.
@@ -50,7 +50,9 @@ Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=$#$E(\mat
 		- Compare the lists until a pair $i,j$ such that $iP=Q-jmP$ is found.
 		- Return $k\equiv i+jm \pmod{n}$.
 	
-- **MOV attack** [cite]: This attack can only be used on certain types of curves. It reduces the discrete logarithm problem on an elliptic curve $E(\mathbb{F}_q)$ to a discrete logarithm problem on $\mathbb{F}_{q^m}$ for some $m$. This attack is more complicated, but the cited paper includes the details of the attack if readers are interested. 
+- **MOV attack** [cite]: This attack can only be used on certain types of curves. It reduces the discrete logarithm problem on an elliptic curve $E(\mathbb{F}_q)$ 
+to a discrete logarithm problem on 
+$\mathbb{F}_{q^m}$ for some $m$. This attack is more complicated, but the cited paper includes the details of the attack if readers are interested. 
 
 
 In order for the elliptic curve $E$ to make the discrete logarithm problem as hard as it can be, we require [cite]:
