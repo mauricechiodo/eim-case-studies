@@ -23,7 +23,7 @@ Packin and Lev-Aretz (2016) emphasises that, unlike other big data applications 
 
 Further, the patent claims that *"a black list that is maintained for B is requested and received from the social network database”*. This means that a bank may be requested to upload the credit ratings of its customers onto Facebook servers. This list will then be maintained by Facebook so the bank will never be allowed to own the results - it will always depend on Facebook to visualise the results.
 
-[**Why would Facebook want this?**](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent/why)
+Recently, it has been released that Facebook has tried to partner up with banks. Click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent/banks) for more information. 
 
 ##References 
 
