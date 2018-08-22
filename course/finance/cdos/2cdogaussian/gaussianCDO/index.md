@@ -32,10 +32,12 @@ Now, $(X_1, ..., X_M)$ has a multivariate normal distribution with mean zero and
 										\end{bmatrix}$
 
 One of the core assumptions of the model is that there is a flat correlation between each pair of companies due to the homogeneity of the asset pool. This leads to one value of $\rho$ for the correlation of every pair of assets. This is a very strong assumption and may not have been appropriate in the context of pricing CDOs. For example, suppose that in the underlying pool of assets of a CDO there exist the following:
+
 	- Two mortgages A and B from the same street in the UK
+	
 	- One mortgage C from a house in New York
 
-Whilst the default correlation between A and C, and B and C may be very similar, it will not be similar to the default correlation between A and B; intuitively we can see that if A defaults, B is much more likely to default (and vice versa), whereas this event will likely have to consequence whether or not mortgage C defaults.
+While the default correlation between A and C, and B and C may be very similar, it will not be similar to the default correlation between A and B; intuitively we can see that if A defaults, B is much more likely to default (and vice versa), whereas this event will likely have to consequence whether or not mortgage C defaults.
 
 We say that a company $i$ defaults if their asset value $X_i$ is below a certain threshold. So we link the single default time $\tau_i$ to the one-factor model by the relation $X_i = \Phi^{-1}(F_i(\tau_i))$.
 
