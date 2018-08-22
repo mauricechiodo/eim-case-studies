@@ -11,13 +11,13 @@ Black and Scholes' market consists of one risky asset (the 'stock') and one risk
 
 ---
 
-- The short-term interest rate is known and is constant through time.
-- The stock price follows a random walk in continuous time with a variance rate proportional to the square of the stock price. Thus the distribution of possible stock prices at the end of any finite interval is log-normal. The variance rate of the return on the stock is constant.
-- The stock pays no dividends or other distributions.
-- The option is "European," that is, it can only be exercised at maturity.
-- There are no transaction costs in buying or selling the stock or the option.
-- It is possible to borrow any fraction of the price of a security to buy it or to hold it, at the short-term interest rate.
-- There are no penalties to short selling. A seller who does not own a security will simply accept the price of the security from a buyer, and will agree to settle with the buyer on some future date by paying him an amount equal to the price of the security on that date.
+- *The short-term interest rate is known and is constant through time.*
+- *The stock price follows a random walk in continuous time with a variance rate proportional to the square of the stock price. Thus the distribution of possible stock prices at the end of any finite interval is log-normal. The variance rate of the return on the stock is constant.*
+- *The stock pays no dividends or other distributions.*
+- *The option is "European," that is, it can only be exercised at maturity.*
+- *There are no transaction costs in buying or selling the stock or the option.*
+- *It is possible to borrow any fraction of the price of a security to buy it or to hold it, at the short-term interest rate.*
+- *There are no penalties to short selling. A seller who does not own a security will simply accept the price of the security from a buyer, and will agree to settle with the buyer on some future date by paying him an amount equal to the price of the security on that date.*
 
 ---
 
