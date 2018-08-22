@@ -15,6 +15,9 @@ Black and Scholes were by no means the first to apply mathematics to the stock m
 
 What was revolutionary about Black and Scholes' formula was that it was, in some sense, 'complete'. For example, Black and Scholes write
 > "*Sprenkle's formula for the value of an option can be written as follows:*"
-$$ kx N(b_1) - k^* c N(b_2) \\ $$
-$$ b_1 &= \frac{\ln kx/c + \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t}} \\ $$
-$$ b_2 &= \frac{\ln kx/c - \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t} $$
+ 
+\begin{align*}
+& kx N(b_1) - k^* c N(b_2) \\
+b_1 &= \frac{\ln kx/c + \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t}} \\
+b_2 &= \frac{\ln kx/c - \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t}}
+\end{align*}
