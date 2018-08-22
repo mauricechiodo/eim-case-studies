@@ -12,7 +12,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
  - *Option:* A type of financial derivative sold by an option writer to an option buyer. It is a contract offering the buyer the right, but not the obligation, to buy (if it is a *call* option) or to sell (if it is a *put* option) a particular underlying asset (or 'stock') at an agreed-upon price, during a certain period of time, or on a specific date. The agreed upon price is called the *strike price*. If the buyer chooses to utilise their right to buy or to sell the underlying asset, we say the option is *exercised*.
 
-In 1973, Fischer Black and Myron Scholes derived an equation for pricing options; the equation describes how the price should evolve as a function of time and the current market price of the stock. It also takes into account the 'risk-free interest rate', and the 'volatility' of the stock.
+In 1973, Fischer Black and Myron Scholes derived an equation for pricing options; the equation describes how the price should evolve as a function of time and the current market price of the stock. It also takes into account the 'risk-free interest rate' of the market, and the 'volatility' of the stock.
 
 Black and Scholes were by no means the first to apply mathematics to the stock market - that claim lies with Louis Bachelier, a french mathematician who in 1900 wrote his PhD thesis, *Théorie de la spéculation*, on the behaviour of stock prices and how to price derivative contracts - nor were they the first to create options pricing formulae: in their own paper, they reference multiple papers predating theirs, each giving some form of valuation formula.
 
