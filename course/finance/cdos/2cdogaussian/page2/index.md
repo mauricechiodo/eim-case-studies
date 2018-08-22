@@ -3,6 +3,8 @@ Title: Gaussian Copula Model
 Template: LeafPage
 ---
 
+#Gausian Copula Model
+
 In a typical CDO, if the correlation amongst the bonds or loans in the pool was low, only the holders of the lowest tranche would be at a great risk of losing some or all of their investment. 
 However, if the correlation was very high, many of the bonds or loans might default and so the losses could impact even the most senior tranche. 
 As a result, modeling correlation was the most crucial problem in CDO evaluation, and [Gaussian copulas](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page2/gaussiancopula.md) became the most popular way to do this due to David Li's paper, published in 2000, entitled 'On Default Correlation: A copula function approach'.
@@ -28,4 +30,5 @@ But, what happened after Li published his paper? Click [here](http://db716.user.
 ##References
 
 [1] David X. Li. On Default Correlation: A copula function approach. *Journal of Fixed Income,*: (4):43-54, April 2000.
+
 [2] Donald MacKenzie and Taylor Spears. 'The Formula That Killed Wall Street': The Gaussian Copula and Modelling Practices in Investment Banking. *Social Studies of Science,* 44:393-417, 2014.
