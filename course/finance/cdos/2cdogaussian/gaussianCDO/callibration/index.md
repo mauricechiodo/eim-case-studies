@@ -5,7 +5,7 @@ Template: LeafPage
 
 #Calibration of Default Correlation in Copula Function
 
-Having chosen the copula function, we need to compute the pairwise correlation of time-until-default. As highlighted by Li (2000) [1] and presented below, this can be done in two (equivalent) ways.
+Having chosen the copula function, we need to compute the pairwise correlation of time-until-default. As highlighted by Li (2000) and presented below, this can be done in two (equivalent) ways.
 
 ##CreditMetrics Asset Correlation Approach
 
