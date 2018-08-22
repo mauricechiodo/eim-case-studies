@@ -17,7 +17,7 @@ What was revolutionary about Black and Scholes' formula was that it was, in some
 > "*Sprenkle's formula for the value of an option can be written as follows:*"
 
 $$ \begin{aligned}
-& kx N(b_1) - k^* c N(b_2) \\\\
-b_1 &= \frac{\ln kx/c + \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t}} \\\\
-b_2 &= \frac{\ln kx/c - \frac{1}{2} v^2 (t^* - t)}{v\sqrt{t^* - t}}
+& kx N(b_1) - k^\* c N(b_2) \\\\
+b_1 &= \frac{\ln kx/c + \frac{1}{2} v^2 (t^\* - t)}{v\sqrt{t^\* - t}} \\\\
+b_2 &= \frac{\ln kx/c - \frac{1}{2} v^2 (t^\* - t)}{v\sqrt{t^\* - t}}
 \end{aligned} $$
