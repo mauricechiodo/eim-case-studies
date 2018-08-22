@@ -61,7 +61,7 @@ Using this:
 	$_tp_x = \exp^{-\int_{0}^{t}h(s+x)ds} \Rightarrow$ $_tq_x = 1 - \exp^{-\int_{0}^{t}h(s+x)ds}$ ($+$)
 
 
-Furthermore, the probabiltiy distribution function for $T$ is $f(t) = S(t)$x$h(t)$. 
+Furthermore, the probability distribution function for $T$ is $f(t) = S(t)$x$h(t)$. 
 
 **Typical Assumption:** hazard rate is a constant, $h$, over certain period such as [$x, x+1$]. 
 
@@ -114,10 +114,15 @@ In summary, Li first assumes that there exist a series of bonds with maturity $1
 The credit curve construction is then based on this yield spread curve and an assumption about the recovery rate based on the seniority and rating of the bonds, and the industry/corporation. 
 
 In the paper by Li (2000), market information is used rather than historical information due to the following reasons:
+
 	- The calculation of profit and loss for a trading desk can only be based on current market information as it reflects the market agreed perception about the evolution of the market in the future, which is what the actual profit and loss depends on;
+	
 	- Rating agencies use classification variables that often omit some firm specific information. Constructing a credit curve for each credit allows us to use more firm specific information;
+	
 	- Rating agencies react much slower than the market in anticipation of future credit quality;
+	
 	- Ratings are primarily used to calculate default frequency rather than default severity. However, a lot of the value of a credit derivative depends on both;
+	
 	- Information available from a rating agency is usually the one year default probability for each rating group and the rating migration matrix, but neither are necessarily stable over long periods of time. 
 
 ##References
