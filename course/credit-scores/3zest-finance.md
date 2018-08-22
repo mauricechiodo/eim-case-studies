@@ -66,7 +66,7 @@ Another problem faced is accuracy. Whilst big data does address flaws in the cur
 
 Finally, data collection and transformation could lead to an issue of transparancy. Most, if not all, credit scoring companies treat their data sources as proprietary trade secrets. This means that, in practice, some consumers have no real means to understand what could potentially affect their credit ratings, and even less ability to challenge their scores, or test whether it is accurate. 
 
->*"Assuming that a diligent applicant could first identify an error among the thousands of entries in the credit scorer's raw data set, it is unlikely that the applicant would have the capacity to prove that the error resulted in a faulty score."* [5]
+>*"Assuming that a diligent applicant could first identify an error among the thousands of entries in the credit scorer's raw data set, it is unlikely that the applicant would have the capacity to prove that the error resulted in a faulty score."* - Hurley and Adebayo (2017) [5]
 
 Furthermore, due to the extensive transformation process, which involves many aggregations and combinations of data points, as well as subjective decisions made by the data scientist, it is unlikely that a consumer could actually challenge their credit score. 
 
