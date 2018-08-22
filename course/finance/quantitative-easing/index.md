@@ -14,8 +14,8 @@ Table 1$^1$
 
 When an economy becomes unstable or when interest rate is too low, the central bank wants to reduce the bank rate in order to stimulate the economy. However, when the bank rate is near 0%, this becomes a problem. A bank cannot actually go to 0%, even if it wants to, and so must be stuck at its lower bound unable to help. This is where solutions to the ZLBP come in, such as employing negative interest rate thorugh taxing currency, but most commonly by employing QE.
 
-In 2009 the Bank of England began its QE program by buying £75 Bil worth of assets from the private sector. The Federal Reserve 
-(central bank of the United States) began QE1 in 2008, purchasing $600 Bil worth of assets.
+In 2009 the Bank of England began its QE program by buying £75bn worth of assets from the private sector. The Federal Reserve 
+(central bank of the United States) began QE1 in 2008, purchasing $600bn worth of assets.
 
 ---
 $^1$ Source: https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2009/quantitative-easing.pdf?la=en&hash=0A59C421AC345729A53E1D976D0064E046884369
