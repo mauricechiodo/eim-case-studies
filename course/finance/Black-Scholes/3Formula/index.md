@@ -65,7 +65,7 @@ c \exp \left( \frac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} \right) 
 Black and Scholes use the solution to this particular boundary value problem given by Churchill {reference}:
 
 $$ \begin{aligned}
-y(\xi,\eta) &= \frac{1}{\sqrt{\pi}} \int_{-\infty}^{\infty} y(\xi + 2x \sqrt{\eta}, 0) e^{-x^2} dx \\\\
-&= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} y(\xi + q \sqrt{2\eta}, 0) e^{-\frac{1}{2} q^2} dq \\\\
-&= \frac{c}{\sqrt{2\pi}} \int_{-\frac{\xi}{\sqrt{2\eta}}}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 \left( \xi + q\sqrt{2\eta} \right) / \left( r - \frac{1}{2} \sigma^2 \right) \right) - 1 \right) e^{-\frac{1}{2} q^2} dq
+y(\xi,\eta) &= \frac{1}{\sqrt{\pi}} \int\_{-\infty}^{\infty} y(\xi + 2x \sqrt{\eta}, 0) e^{-x^2} dx \\\\
+&= \frac{1}{\sqrt{2\pi}} \int\_{-\infty}^{\infty} y(\xi + q \sqrt{2\eta}, 0) e^{-\frac{1}{2} q^2} dq \\\\
+&= \frac{c}{\sqrt{2\pi}} \int\_{-\frac{\xi}{\sqrt{2\eta}}}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 \left( \xi + q\sqrt{2\eta} \right) \big/ \left( r - \frac{1}{2} \sigma^2 \right) \right) - 1 \right) e^{-\frac{1}{2} q^2} dq
 \end{aligned} $$
