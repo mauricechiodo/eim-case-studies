@@ -33,7 +33,7 @@ In fact, correlation was no longer just a parameter of a model but became someth
 
 There was still one problem with this. Running the Gaussian copula model backwards sometimes gave two values, and in others cases no correlation value could be generated (see figure below).
 
-![DJ iTraxx Europe 5-year 3-6\% Tranche spread in bp (y axis), Input Correlation (x axis), as of 2004/02/16.](http://db716.user.srcf.net/eim/media/Figure12.png "DJ iTraxx Europe 5-year 3-6\% Tranche spread in bp (y axis), Input Correlation (x axis), as of 2004/02/16.")
+![DJ iTraxx Europe 5-year 3-6\% Tranche spread in bp (y axis), Input Correlation (x axis), as of 2004/02/16.](http://cueimps.soc.srcf.net/course/media/Figure12.png "DJ iTraxx Europe 5-year 3-6\% Tranche spread in bp (y axis), Input Correlation (x axis), as of 2004/02/16.")
 
 This could be avoided if the **base correlation method** was used. 
 
@@ -45,7 +45,7 @@ The main idea behind the base correlation method is to decompose all tranches in
 
 Consider the following example of a tranche with attachment and detachement points $K_1$ and $K_2$. This is equivalent to being short the equity tranche with upper attachment point $K_1$ and long the equity tranche with upper attachment point $K_2$ (see figure below).
 
-![Base Correlation Explained](http://db716.user.srcf.net/eim/media/Figure13.png "Base Correlation Explained")
+![Base Correlation Explained](http://cueimps.soc.srcf.net/course/media/Figure13.png "Base Correlation Explained")
 
 See 'Base Correlation Explained' by O'Kane and Livesey (2004) for more detail on how the base correlation method works. 
 

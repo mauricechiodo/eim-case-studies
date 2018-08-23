@@ -4,7 +4,7 @@ Title: Artificial Intelligence
 
 Template: ListSubPages
 
-GridImage: http://db716.user.srcf.net/eim/media/robot1.png
+GridImage: http://cueimps.soc.srcf.net/course/media/robot1.png
 
 ---
 

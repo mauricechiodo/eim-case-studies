@@ -13,9 +13,9 @@ The primary purpose of the invention described in the patent is to allow an indi
 
 This is describing **Facebook-Connect**, a single sign-on application that allows users to interact on other websites through their Facebook account. 
 
-The [part involving credit rating](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent/quote) is only a small section in the patent application. Basically, there are three main steps:
+The [part involving credit rating](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/facebookpatent/quote) is only a small section in the patent application. Basically, there are three main steps:
 
-![Facebook Patent Steps](http://db716.user.srcf.net/eim/media/FacebookPatentSteps.png "Facebook Patent Steps")
+![Facebook Patent Steps](http://cueimps.soc.srcf.net/course/media/FacebookPatentSteps.png "Facebook Patent Steps")
   
 A credit score based soley on your social media network is highly questionable. Can the people who you're friends with on Facebook accurately determine how creditworthy you are? Should we be concerned about the invasion to our privacy that such an invention will cause? 
 
@@ -23,7 +23,7 @@ Packin and Lev-Aretz (2016) emphasises that, unlike other big data applications 
 
 Further, the patent claims that *"a black list that is maintained for B is requested and received from the social network database”*. This means that a bank may be requested to upload the credit ratings of its customers onto Facebook servers. This list will then be maintained by Facebook so the bank will never be allowed to own the results - it will always depend on Facebook to visualise the results.
 
-Recently, it has been released that Facebook has tried to partner up with banks. Click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/facebookpatent/banks) for more information. 
+Recently, it has been released that Facebook has tried to partner up with banks. Click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/facebookpatent/banks) for more information. 
 
 ##References 
 

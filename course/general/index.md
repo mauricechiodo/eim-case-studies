@@ -1,7 +1,7 @@
 ---
 Title: The Perception of Mathematics
 Template: LeafPage
-GridImage: http://db716.user.srcf.net/eim/media/mathmo1.png
+GridImage: http://cueimps.soc.srcf.net/course/media/mathmo1.png
 ---
 
 **The perception of mathematicians**

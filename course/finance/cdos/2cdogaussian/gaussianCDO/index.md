@@ -43,11 +43,11 @@ We say that a company $i$ defaults if their asset value $X_i$ is below a certain
 
 Then, after the marginal distribution functions for the $\tau_i$ are determined, we can use ($+$) and the Gaussian copula to estimate the joint default distribution of the asset pool. We have then fully specified the one-factor Li model.
 
-Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/gaussianCDO/callibration) to see how the calibration of the default correlation in the copula function is done.
+Click [here](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/gaussianCDO/callibration) to see how the calibration of the default correlation in the copula function is done.
 
-Click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/gaussianCDO/marginaldistributions) to find out how the marginal distributions are obtained.
+Click [here](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/gaussianCDO/marginaldistributions) to find out how the marginal distributions are obtained.
 
-To dicover what happened after Li's paper was published in 2000, click [here](http://db716.user.srcf.net/eim/course/finance/cdos/2cdogaussian/page4). 
+To dicover what happened after Li's paper was published in 2000, click [here](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/page4). 
 
 ##References
 

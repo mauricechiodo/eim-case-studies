@@ -18,7 +18,7 @@ $$y^2=x^3+ax+b.$$
 
 The basic idea behind elliptic curve cryptography is that if we add a point together with itself in the sense shown in the diagram $n$ times then given the values of $P_0$ and $P_n$, $n$ is very difficult to determine.
 
-![Elliptic Curve](http://db716.user.srcf.net/eim/media/curve1.png)
+![Elliptic Curve](http://cueimps.soc.srcf.net/course/media/curve1.png)
 
 In reality, elliptic curve cryptography doesn't use a curve in the form as shown in the figure. For
 use in cryptography, we take the curve over $\mathbb{F}_q$ (finite field with q elements) and only consider
@@ -35,7 +35,7 @@ Using this as the group addition operation, we have made a finite additive group
 
 Using elliptic curves in cryptography relies on the discrete logarithm problem being difficult. The problem is the following: given a group G and elements $P$ and $Q$, find an integer k such that $kP = Q$ (given such a k exists). By choosing $q=p^n$ for a prime $p$ in our finite field, the discrete logarithm problem for our elliptic curve is found to be difficult, and hence a good trap door function. The discrete logarithm problem using the elliptic group $E(\mathbb{F}_q)$ is orders of magnitude harder than the corresponding cyclic group of order $p$ [3, p.7].
 
-![Graph](http://db716.user.srcf.net/eim/media/ellipticVsConv.jpg)
+![Graph](http://cueimps.soc.srcf.net/course/media/ellipticVsConv.jpg)
 
 The consequence of the elliptic curve discrete logarithm being a harder problem to solve is that it allows a smaller key size to be used. This means that it is possible to use this kind of cryptography in constrained devices because the cryptographic operations are faster, run on smaller chips or on more compact software. Therefore there is less power consumption and less heat production [4, p.3].
 
