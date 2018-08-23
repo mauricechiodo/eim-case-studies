@@ -8,10 +8,10 @@ $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$
 
 Let
 
-* $\mathcal{O}=\{$'High-risk','Medium-risk','Low-risk'$\}$ be the outputs of HART
+* $\mathcal{O}=\{$ 'High-risk','Medium-risk','Low-risk' $\}$ be the outputs of HART
 * $\mathbb{I}=\prod_{i=1}^{34} I_i$ be the space of all inputs, with each $I_i$ being an input
 
-In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq\{0,1\}$ (eg for gender or booleans) or $I_i\simeq[n]$ for some $n$ (\textsc{eg} with ```CustodyPostcodeOutwardTop24```)$\F{1}$
+In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq${$0,1$} (eg for gender or booleans) or $I_i\simeq[n]$ for some $n$ (eg with ```CustodyPostcodeOutwardTop24```)$\F{1}$
  
 Then a random forest $\mathbb{T}$ is a set of $n\F{2}$ 'classification and regression decision trees'$\C{3}{228}$ (hereon 'trees'). These trees $T_i\in\mathbb{T}$ are each an algorithm in their own right that is designed to classify suspects. Or equivalently,  $T_i$ are functions $T_i:\mathbb{I}\to\mathcal{O}$.
 
@@ -23,22 +23,23 @@ ie each of the trees vote on which category the suspect should be classed in and
 
 ## Generating trees
 
-There are 34 predictors used in HART$\F{3} that trees can use to predict the categorisation of a suspect. The trees are based on the designs in Berk et al 2016$\c{1}$ which describe the tree creation process as being
+There are 34 predictors used in HART$\F{3}$ that trees can use to predict the categorisation of a suspect. The trees are based on the designs in Berk et al 2016$\c{1}$ which describe the tree creation process as being
 
-1. From the set of training data $D$ of size $|D|=N$, take $N$ samples **with replacement**. Call this sample $S$. Let $S^C=D\backslash S$
+1. From the set of training data $D$ of size $|D|=N$, take $N$ samples **with replacement**. Call this sample $S$. Let $S^\complement=D\backslash S$
 2. Take a random sample **without replacement** of the predictors of known size (eg 5), call this set $P\subseteq \mathbb{I}$
 3. Construct the first branch of the tree using some generation process that takes $S$ and $P$ as inputs. This process will be elaborated on.
 4. GOTO step 2 for each branch generated until the tree is as large as desired (usually until all inputs have been incorporated or until the tree has categorised all its training data).
 5. Test the tree $T_i$ with the testing data $S^\complement$.
-6. Repeat steps 1-5 a large number of times.$\F{4}$
-\end{enumerate}
+6. Repeat steps 1-5 a large number of times.$\F{2}$
 
 To predict the accuracy of the random forest, for each $d\in D$, take the set of trees that were not trained with it as an input and take a vote over those trees as to its category. Then, statistically identify the accuracy using your favourite method and these predictions of their category versus their known actual category.
 
 ## Generating branches
 
 To generate a branch of a tree, several concepts need to be introduced.
+
 $$\text{Entropy}(S)=-p_\oplus\log_2(p_\oplus)-p_\ominus\log_2(p_\ominus)$$
+
 Where $S$ is some collection containing positive and negative examples of something (such as the correct or incorrect categorisation of an input). $p_\oplus$ represents the proportion of positive examples, and $p_\ominus=1-p_\oplus$. This is a measure of *uncertainty* about your data.
 
 The information gain represents the expected reduction in entropy given a certain input, $A$. The input that minimises entropy will be the one chosen to represent the branch in question of the tree.
@@ -57,11 +58,9 @@ Combining all these processes, you can grow your random forest and have an AI th
 
 $\F{1}$ ```CustodyPostcodeOutwardTop24``` is "The 25 most common 'outward' (first 3-4 characters) postcodes in County Durham. If the offenders postcode is outside of County Durham".$\C{2}{97}$
 
-$\F{2}$ HART takes $n=509$.\C{2}{7}
+$\F{2}$ HART takes $n=509$.$\C{2}{7}$
 
 $\F{3}$ Of which 29 are directly related to criminal history.
-
-$\F{4}$ In the case of HART, 509 trees were grown.
 
 ---
 
