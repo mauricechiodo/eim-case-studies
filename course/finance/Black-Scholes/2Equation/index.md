@@ -42,9 +42,7 @@ $$ \Delta \Pi = -\Delta V + \frac{\partial V}{\partial S} \Delta S ~. $$
 
 Discretising the expressions for $dS$ and $dV$, we get
 
-$$
-\Delta S &= \mu S \Delta t + \sigma S \Delta W \\\\
-\Delta V &= \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \rght) \Delta t + \sigma S \frac{\partial V}{\partial S} \Delta W ~,
-$$
+$ \Delta S &= \mu S \Delta t + \sigma S \Delta W \\\\
+\Delta V &= \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \rght) \Delta t + \sigma S \frac{\partial V}{\partial S} \Delta W ~, $
 
 and substituting these into the expression for $\Delta \Pi$ we find
