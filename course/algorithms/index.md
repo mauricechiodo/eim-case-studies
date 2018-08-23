@@ -1,6 +1,7 @@
 ---
 Title: Algorithmic Decision Making and Fairness
 Template: ListSubPages
+GridImage: http://db716.user.srcf.net/eim/media/scales1.png
 ---
 
 Algorithms are currently a huge part of our digital society, and their role in the world at large is only increasing. We are  not only seeing algorithms as a means to make better search engines or determine where planes should fly, but also seeing their use in law. HART and COMPAS are two such algorithms which have been designed to help police determine the risk associated with a suspect.
