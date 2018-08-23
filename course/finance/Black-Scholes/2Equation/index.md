@@ -29,3 +29,8 @@ In the language of stochastic calculus, Black and Scholes' assumption is that
 $$ dS = \mu S dt + \sigma S dW $$
 where $W$ is a Brownian motion. Note that $W$ (and hence $dW$) is the only source of uncertainty here. Now with reagrds to $V(S,t)$, a particular result in stochastic calculus, Itô's lemma, gives
 $$ dV = \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial ^2 V}{\partial S^2}\right) dt + \sigma S \frac{\partial V}{\partial S} dW ~. $$
+
+Now we introduce a hedged portfolio: suppose a particular agent is short one option (with value $V$), and goes long on $\frac{\partial V}{\partial S}$ shares at time $t$, then the value $\Pi$ of these holdings is
+$$ \Pi = -V + \frac{\partial V}{\partial S} S ~, $$
+and over a time interval of length $\Delta t$, the profit (or loss) from changes in value of the holdings is
+$$ \Delta \Pi = -\Delta V + \frac{\partial V}{\partial S} \Delta S ~. $$
