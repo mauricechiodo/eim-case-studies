@@ -1,4 +1,4 @@
 ---
-Title: The Black-Scholes formula
+Title: The Formula
 Template: LeafPage
 ---
