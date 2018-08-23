@@ -34,4 +34,4 @@ The Black-Scholes' formula is identical to Sprenkle's, except that Black and Sch
 
 ---
 
-Read more about the Black-Scholes model for financial markets, the equation they derived, the formula that solves it, and some of the risks behind the model:
+Read more about the Black-Scholes model for financial markets, the equation they derived, the formula that solves it, and some of the risks behind all of these:
