@@ -1,6 +1,6 @@
 ---
 Title: Social Credit Scoring
-Template: LeafPage
+Template: ListSubPages
 ---
 
 #Social Credit Scoring
