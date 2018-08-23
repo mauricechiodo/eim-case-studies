@@ -11,5 +11,7 @@ As a mathematician, you will almost certainly encounter areas of life where you 
 
 A list of the currently available topics is below.
 
+Test footnote[^2]
 
-[^1]: Footnote test
+[^1]: Footnote test1
+[^2]: Footnote test2
