@@ -3,7 +3,7 @@ Title: The Model
 Template: LeafPage
 ---
 
-# The Black-Scholes model
+# The Black-Scholes Model
 
 In order to produce a formula for how to price options, we first need to describe the market; the financial setting within which we are trading.
 
@@ -32,5 +32,5 @@ Another point to note is that Black and Scholes arrived at their famous equation
 
 ---
 
-To read about the Black Scholes equation and how it can be derived, check out [the equation](2Equation)  
-To read more about the risks of the model, the equation, and the formula, check out [the risks](4Risks)  
+To read about the Black Scholes equation and how it can be derived, check out [the equation](2Equation).  
+To read more about the risks of the model, the equation, and the formula, check out [the risks](4Risks).  
