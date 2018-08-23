@@ -71,4 +71,9 @@ y(\xi,\eta) &= \frac{1}{\sqrt{\pi}} \int\_{-\infty}^{\infty} y(\xi + 2x \sqrt{\e
 &= \frac{c}{\sqrt{2\pi}} \int\_{- \xi / \sqrt{2\eta}}^{\infty} \exp \left( -\frac{1}{2} \left( q^2 - 2 \alpha q \right) + \beta \right) dq - \frac{c}{\sqrt{2\pi}} \int\_{-\xi / \sqrt{2\eta}}^{\infty} e^{-\frac{1}{2} q^2} dq
 \end{aligned} $$
 
-where $\alpha = \dfrac{\sigma^2 \sqrt{\eta / 2}}{r - \frac{1}{2} \sigma^2} = \sigma \sqrt{T - t}$, and $\beta = \dfrac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} = \log\left( \dfrac{S}{c} \right) + \left(r - \dfrac{1}{2} \sigma^2 \right) (T - t)$ ,
+where
+
+$$ \begin{aligned}
+\alpha &= \dfrac{\sigma^2 \sqrt{\eta / 2}}{r - \frac{1}{2} \sigma^2} = \sigma \sqrt{T - t} ~, \\\\
+\text{and } \beta &= \dfrac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} = \log\left( \dfrac{S}{c} \right) + \left(r - \dfrac{1}{2} \sigma^2 \right) (T - t) ~,
+\end{aligned} $$
