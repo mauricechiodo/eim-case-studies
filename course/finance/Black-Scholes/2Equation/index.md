@@ -51,5 +51,8 @@ and substituting these into the expression for $\Delta \Pi$ we find
 
 $$ \begin{aligned}
 \Delta \Pi &= - \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t - \sigma S \frac{\partial V}{\partial S} \Delta W + \frac{\partial V}{\partial S} ( \mu S \Delta t + \sigma S \Delta W ) \\\\
-&= \left( -\frac{\partial V}{\partial t} - \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~.
+&= -\left( \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~.
 \end{aligned} $$
+
+Note that $\Delta W$ has now vanished; the portfolio is riskless, and thus the rate of return must be equal to  the rate of return on any other riskless instrument (else there would be the opportunity for arbitrage). As noted in [Black and Scholes' assumptions](1Model), we assume that this rick-free interest rate is a known constant $r$, and so over the interval $\[ t, t + \Delta t \]$ we have
+$$ r \Pi \Delta t = \Delta \Pi ~. $$
