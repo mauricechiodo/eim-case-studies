@@ -8,7 +8,7 @@ $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$
 
 Let
 
-* $\mathcal{O}=\{$ 'High-risk','Medium-risk','Low-risk' $\}$ be the outputs of HART
+* $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'} be the outputs of HART
 * $\mathbb{I}=\prod_{i=1}^{34} I_i$ be the space of all inputs, with each $I_i$ being an input
 
 In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq${$0,1$} (eg for gender or booleans) or $I_i\simeq[n]$ for some $n$ (eg with ```CustodyPostcodeOutwardTop24```)$\F{1}$
