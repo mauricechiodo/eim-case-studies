@@ -44,7 +44,7 @@ $$ R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\ri
 
 So, for example, HART has $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'}$\C{3}{228}$
 
-A more detailed description of the mechanics behind HART are given in [the technical subpage](/technical).
+A more detailed description of the mechanics behind HART are given in [the technical subpage](/eim/course/algorithms/hart/technical).
 
 ---
 # Footnotes
