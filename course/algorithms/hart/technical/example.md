@@ -20,7 +20,7 @@ $$\text{Gain}(S,A)=\text{Entropy}(S)-\sum\_{v\in\text{values}(A)}\left(\frac{|S\
 $S=\\{1,2,2,4,7,9,9,9,13,16,17\\}$. The set of attributes $\mathbb{A}=\\{\text{Even?,}\leq8\text{?,}=k^2\\}$. The attributes $A\in\mathbb{A}$ are
 
 * $``\text{Even?}"=\\{0,1\\}$
-* $``\leq8\text{?}=\\{0,1\\}$
+* $``\leq8\text{?}?"=\\{0,1\\}$
 * $``=k^2\text{?}"=\\{0,1\\}$
 
 *These sets needn't all be booleans. An attribute could be, for example, "Is the number $0\leq n\leq6$ or $6<n\leq 10$  or not?"*
