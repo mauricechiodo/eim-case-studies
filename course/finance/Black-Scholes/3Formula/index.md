@@ -101,3 +101,4 @@ $$ \begin{aligned}
 V(S,t) &= S \Phi (d\_1) - ce^{-r(T-t)} \Phi (d\_2) ~, \\\\
 \text{where} ~ ~ d\_1 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) + \left( r + \frac{1}{2} \sigma^2 \right) (T - t) \right) ~, \\\\
 \text{and} ~ ~ d\_2 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) - \left( r + \frac{1}{2} \sigma^2 \right) (T - t) \right) ~.
+\end{aligned} $$
