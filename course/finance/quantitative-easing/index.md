@@ -7,7 +7,7 @@ Template: ListSubPages
 
 Quantitative Easing (QE) is the implementation of **Large-Scale Asset Purchase**, a system by which the central bank of a country prints physical or electronic money to purchase assets from the private sector. This increases the amount of money in circulation, encouraging investment and boosting the economy (Table 1). This is an unconventional method of stimulating the economy, and is employed as a solution to the **Zero Lower Bound Problem** (ZLBP).
 
-![Table 1](http://db716.user.srcf.net/eim/media/calliope/table1.png)
+![Table 1](http://cueimps.soc.srcf.net/course/media/calliope/table1.png)
 Table 1$^1$
 
 ### The Zero Lower Bound Problem

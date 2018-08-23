@@ -1,5 +1,5 @@
 ---
 Title: Credit Scoring
 Template: ListSubPages
-GridImage: http://db716.user.srcf.net/eim/media/credit1.png
+GridImage: http://cueimps.soc.srcf.net/course/media/credit1.png
 ---

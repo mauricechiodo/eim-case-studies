@@ -9,7 +9,7 @@ The actions of the Khmer Rouge in the 1970s comprised one of the most horrendous
 
 Duch was in charge of the Santebal, the government's 'internal security' service. In this capacity he was in charge of the central S-21 prison camp, from which prisoners were taken to be murdered in the Killing Fields. The atrocities committed under his command are beyond imagining: when ammunition ran out, babies were smashed to death against trees, men were beaten to death with crude farm implements. The inhumanity was total. 
 
-![Comrade Duch](http://db716.user.srcf.net/eim/media/duch1.jpg "Comrade Duch")
+![Comrade Duch](http://cueimps.soc.srcf.net/course/media/duch1.jpg "Comrade Duch")
 
 
 **Duch's trial**

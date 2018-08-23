@@ -17,7 +17,7 @@ In September 2017 Bernstein co-authored a review published in Nature entitled "P
 
 The table from "Post-Quantum Cryptography" [6] illustrating the potential effect of quantum computers on the security of common encryption methods. Security levels shown are against the best pre-quantum and post-quantum attacks known. Security level $b$ means that the best attacks use approximately $2^b$ operations.
 
-![TableBernstein](http://db716.user.srcf.net/eim/media/BernsteinGraph.png)
+![TableBernstein](http://cueimps.soc.srcf.net/course/media/BernsteinGraph.png)
 	
 The article makes the important point that many applications of cryptography require all parties to use the same cryptographic system and therefore it's important that the process of standardisation comes well in advance of quantum computers. 
 

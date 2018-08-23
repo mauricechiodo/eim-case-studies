@@ -8,7 +8,7 @@ Template: LeafPage
 
 As a young man, Albert Speer was deeply entranced by mathematics; in an anecdote from one of his later interviews, he recalled how in his final Abitur exams, he started revising three days before they started, only to complete the maths papers incredibly quickly and reattack each problem from two further perspectives – entirely for his own fun, he claimed. After studying architecture at university – his father claimed that he would never earn much as a mathematician – he became a quietly respectable professional for a few years.
 
-![Albert Speer](http://db716.user.srcf.net/eim/media/speer1.jpg "Albert Speer"){:height="50%" width="50%"}
+![Albert Speer](http://cueimps.soc.srcf.net/course/media/speer1.jpg "Albert Speer"){:height="50%" width="50%"}
 
 After joining the Nazi Party in 1931, he rapidly rose through the ranks, at first principally acting as an architect for Hitler, designing the new grand monuments of Nazi Germany. Few were constructed, and fewer survive. His role changed substantially, however, in 1942, when he was appointed to Minister of Armaments and War Production. This put him in a position utterly integral to the German war effort; he enacted his duties with gusto, taking deep control over factories on an individual basis, and rendering the German industrial setup considerably more efficient. One of his major projects, for instance, ’Weingut I’, involved the pioneering construction of a nine-floor underground factory for the building of aircraft, in a manner impervious to air attacks by bombers. (It was, albeit, unfinished at the war’s close.)
 

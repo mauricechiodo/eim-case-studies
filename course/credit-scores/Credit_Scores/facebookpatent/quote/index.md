@@ -7,4 +7,4 @@ Template: LeafPage
 
 Below is Fig. 9 in Facebook Patent Application [1].
 
-![Fig. 9 in Facebook Patent Application](http://db716.user.srcf.net/eim/media/Figure9.png "Fig. 9 in Facebook Patent Application")
+![Fig. 9 in Facebook Patent Application](http://cueimps.soc.srcf.net/course/media/Figure9.png "Fig. 9 in Facebook Patent Application")

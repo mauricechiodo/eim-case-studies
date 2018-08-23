@@ -5,7 +5,7 @@ Template: LeafPage
 
 Hitler’s views on mathematics were always antagonistic. He was clearly never very strong in the subject while at the Realschule in Steyr; in particular, it seems relevant that he was not permitted to graduate because he failed mathematics (though he later passed the exams some months later).
 
-![Hitler](http://db716.user.srcf.net/eim/media/hitler.jpg "Adolf Hitler")
+![Hitler](http://cueimps.soc.srcf.net/course/media/hitler.jpg "Adolf Hitler")
 
 The sole clear reference he makes to mathematical education in Mein Kampf reads thus:
 

@@ -7,11 +7,11 @@ Template: LeafPage
 
 ##Timeline
 
-![ZestFinance Timeline](http://db716.user.srcf.net/eim/media/ZestFinanceTimeline.png "ZestFinance Timeline")
+![ZestFinance Timeline](http://cueimps.soc.srcf.net/course/media/ZestFinanceTimeline.png "ZestFinance Timeline")
 
 ##Patent
 
-In 2015, a patent entitled 'System and method for building and validating a credit scoring function' was issued to ZestFinance. Click [here](http://db716.user.srcf.net/eim/course/credit-scores/Credit_Scores/zestfinance/patent) to find out the details of what is in the patent. 
+In 2015, a patent entitled 'System and method for building and validating a credit scoring function' was issued to ZestFinance. Click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/zestfinance/patent) to find out the details of what is in the patent. 
 
 ##References
 

@@ -15,7 +15,7 @@ A large variety of models have been developed and some of their properties have 
 	
 	Suppose we have two random variables X and Y. Tail dependence is the probability that Y reaches extremely large values, given that random variable X attains extremely large values.
 	
-	Say we have two mortgages A and B for houses on the same road and A defaults - a very unlikely event. Then, given this, the probability that B will default is greater than 0. Hence, to model mortgages, we need a copula model with tail dependence. But, the Gaussian Copula does not, which was one of the major limitations for applying it to this context [(click here for more information)](http://db716.user.srcf.net/eim/course/finance/cdos/cdoeffectsdylan).
+	Say we have two mortgages A and B for houses on the same road and A defaults - a very unlikely event. Then, given this, the probability that B will default is greater than 0. Hence, to model mortgages, we need a copula model with tail dependence. But, the Gaussian Copula does not, which was one of the major limitations for applying it to this context [(click here for more information)](http://cueimps.soc.srcf.net/course/course/finance/cdos/cdoeffectsdylan).
 	
 - Is there some parameter that can describe the degree of dependence?
 
