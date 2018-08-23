@@ -1,6 +1,6 @@
 ---
 Title: Macroeconomic Modelling
-Template: LeafPage
+Template: ListSubPages
 ---
 $\newcommand{\F}[1]{^{[\text{F}#1]}}
 \newcommand{\c}[1]{^{[#1]}}
