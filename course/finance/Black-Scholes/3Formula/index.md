@@ -37,5 +37,10 @@ With these, we can simplify the partial differential equation for $y(\xi, \eta)$
 $$ \begin{aligned}
 0 &= \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 y}{\partial S^2} + rS \frac{\partial y}{\partial S} \\\\
 &= \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 \left( S \frac{\partial}{\partial S} \left( S \frac{\partial y}{\partial S} \right) - S \frac{\partial y}{\partial S} \right) + rS \frac{\partial y}{\partial S} \\\\
-&= \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 S \frac{\partial}{\partial S} \left( S \frac{\partial y}{\partial S} \right) + \left( r - \frac{1}{2} \sigma^2 \right) S \frac{\partial y}{\partial S}
+&= \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 S \frac{\partial}{\partial S} \left( S \frac{\partial y}{\partial S} \right) + \left( r - \frac{1}{2} \sigma^2 \right) S \frac{\partial y}{\partial S} \\\\
+&= -\frac{2}{\sigma^2} \left( r - \frac{1}{2} \sigma^2 \right)^2 \left( \frac{\partial y}{\partial \xi} + \frac{\partial y}{\partial \eta} - \frac{\partial^2 y}{\partial \xi^2} - \frac{\partial y}{\partial \xi} \right) ~.
 \end{aligned} $$
+
+Thus, after cancellations:
+
+$$ \frac{\partial y}{\partial \eta} - \frac{\partial^2 y}{\partial \xi^2} = 0 ~. $$
