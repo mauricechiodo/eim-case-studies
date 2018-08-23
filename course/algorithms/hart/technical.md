@@ -36,17 +36,17 @@ To predict the accuracy of the random forest, for each $d\in D$, take the set of
 
 ## Generating branches
 
-To generate a branch of a tree, several concepts need to be introduced.
+To generate a branch of a tree,$\F{4}$ several concepts need to be introduced.
 
 $$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
 
-Where $S$ is some collection containing positive and negative examples of something (such as the correct or incorrect categorisation of an input). $p\_\oplus$ represents the proportion of positive examples, and $p\_\ominus=1-p\_\oplus$. This is a measure of *uncertainty* about your data.
+Where $S$ is some collection containing positive and negative examples of something (such as if someone does or does not recidivate). $p\_\oplus$ represents the proportion of positive examples, and $p\_\ominus=1-p\_\oplus$. This is a measure of *uncertainty* about your data. $\text{Entropy}(S)\in[0,1]$ is maximised ($=1$) when $p\_\oplus=0.5$ and minimized ($=0$) when $\_\oplus\in\{0,1\}$.
 
 The information gain represents the expected reduction in entropy given a certain input, $A$. The input that minimises entropy will be the one chosen to represent the branch in question of the tree.
 
 $$\text{Gain}(S,A)=\text{Entropy}(S)-\sum_{v\in\text{values}(A)}\left( \frac{|S_v|}{|S|}\centerdot\text{Entropy}(S_v)\right)$$
 
-This is the original entropy of $S$ minus the relative entropy of $S$ (given $A$).
+This is the original entropy of $S$ minus the relative entropy of $S$ (given $A$). Here
 
 When creating a branch, out of the inputs chosen from the sample, the best will be used in order to categorise the training data selected.
 
@@ -61,6 +61,8 @@ $\F{1}$ ```CustodyPostcodeOutwardTop24``` is "The 25 most common 'outward' (firs
 $\F{2}$ HART takes $n=509$.$\C{2}{7}$
 
 $\F{3}$ Of which 29 are directly related to criminal history.
+
+$\F{4}$ For classifying a set into *two* classes. The algorithm can be extended to more than two classes.
 
 ---
 
