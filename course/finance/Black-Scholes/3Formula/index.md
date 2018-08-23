@@ -50,8 +50,8 @@ We can now identify this as a diffusion equation. In order to solve it we must c
 To start with, suppose we have a European call option $V$, with strike price $c$ and which matures at time $T$. At maturity, this option has payout
 
 $$ V(S,T) = \begin{cases}
-S - c & S \geqslant c \\\\
-0 & S < c
+S - c &  \text{if } S \geqslant c \\\\
+0 & \text{if } S < c
 \end{cases} ~, $$
 
 (corresponding to whether the buyer should exercise the option or not).
