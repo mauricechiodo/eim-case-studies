@@ -1,6 +1,6 @@
 ---
 Title: The HART Algorithm
-Template: LeafPage
+Template: ListSubPages
 ---
 
 # The HART Algorithm and Random Forests
@@ -54,6 +54,8 @@ Where
 When creating a branch, out of the inputs chosen from the sample, the best will be used in order to categorise the training data selected.
 
 Combining all these processes, you can grow your random forest and have an AI that will categorise certain datasets.
+
+See the [example page](/eim/course/algorithms/hart/technical/example) for an example of creating one such tree.
 
 ---
 
