@@ -1,22 +1,12 @@
 ---
 title: HART
-template: LeafPage
+template: ListSubPages
 ---
 
 # HART
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 
 HART is an algorithm employed by the Durham constabulary as part of their Checkpoint program. It categorises, by the method of *random forests*, a suspect into three categories, which are *High-Risk*, *Medium-Risk* and *Low-Risk*.$\Ci{1}{Section 6.1, p.15}$ These correspond to the severity of crime predicted to be committed over the next 24 months, respectively a serious offence, a non-serious offence and no offence. Only those categorised as medium-risk by HART may use the Checkpoint program.$\c{2}$
-
-## The Model
-
-HART is an machine-learning algorithm that was trained, as all are, to minimise its total cost of errors, where different errors produced have different costs associated with them. False positives, in which a reoffender is erroneously identified as low-risk, are given a high cost since they are the most dangerous error the algorithm can make, whereas false negatives are given a lower cost. In this way, HART seeks to minimise the danger to community while trying to still truly apply the data correctly.$\C{3}{228}$ The costs associated with each of these were set by the people who designed HART, thus having to make an arbitrary choice with ethical consequence.
-
-Urwin used an independent dataset of 14,822 past cases from Durham in 2013 to validate the algorithm's effectiveness. The results from HART were then compared to the actual, known results of the suspect's behaviour over the next 24 months. The accuracy for this sample was 62.8%, less than the estimated 68.5%.$\C{3}{229}$
-
-The model uses 34 predictors as inputs, including the suspect's truncated postcode and gender, to determine the output.$\Ci{1}{Appendix A, p.96-97}$ Most of these predictors (29) are directly related to the suspect's offending history.$\C{3}{228}$
-
-One of the variables in the model is ```PriorSeriousOffenceLatestYears```, the 'number of years since the most recent custody instance in which a serious offence was committed'. If there is no prior offence, then a code of 100 years is used. It is unclear if the algorithm interprets this as having *never* committed a previous offence or if it interprets the input as it having been 100 years since last offence. The same code is used for many more specific types of offence, such as last sexual/drug/weapon offence.$\Ci{1}{Appendix A, p.99}$
 
 ## Background - Checkpoint
 
@@ -31,6 +21,16 @@ Checkpoint is an initiative within the Durham constabulary that seeks to tackle 
 
 Should the suspect fail to complete their contract, they are taken to court. Only suspects which are categorised by HART as being medium-risk are eligible to enter the Checkpoint program, that is to say, only those predicted to commit a non-serious offence in the next 24 months.
 
+## The Model
+
+HART is an machine-learning algorithm that was trained, as all are, to minimise its total cost of errors, where different errors produced have different costs associated with them. False positives, in which a reoffender is erroneously identified as low-risk, are given a high cost since they are the most dangerous error the algorithm can make, whereas false negatives are given a lower cost. In this way, HART seeks to minimise the danger to community while trying to still truly apply the data correctly.$\C{3}{228}$ The costs associated with each of these were set by the people who designed HART, thus having to make an arbitrary choice with ethical consequence.
+
+Urwin used an independent dataset of 14,822 past cases from Durham in 2013 to validate the algorithm's effectiveness. The results from HART were then compared to the actual, known results of the suspect's behaviour over the next 24 months. The accuracy for this sample was 62.8%, less than the estimated 68.5%.$\C{3}{229}$
+
+The model uses 34 predictors as inputs, including the suspect's truncated postcode and gender, to determine the output.$\Ci{1}{Appendix A, p.96-97}$ Most of these predictors (29) are directly related to the suspect's offending history.$\C{3}{228}$
+
+One of the variables in the model is ```PriorSeriousOffenceLatestYears```, the 'number of years since the most recent custody instance in which a serious offence was committed'. If there is no prior offence, then a code of 100 years is used. It is unclear if the algorithm interprets this as having *never* committed a previous offence or if it interprets the input as it having been 100 years since last offence. The same code is used for many more specific types of offence, such as last sexual/drug/weapon offence.$\Ci{1}{Appendix A, p.99}$
+
 ## Random Forests
 
 *Random Forests* are a machine learning method that involves training many trees to each produce their own algorithm for categorising inputs. Let $\mathbb{T}$ be the set of trees, $\mathbb{I}$ be the space of all inputs and $\mathcal{O}$ be the outputs, then in HART $T_k\in\mathbb{T}$ is a function
@@ -43,6 +43,8 @@ The random forest AI computes the designation $R$ of an input ${\bf I}\in\mathbb
 $$ R=\max_{o\in\mathcal{O}}\left(\left|\{T\in\mathbb{T}:T({\bf I})=o\}\right|\right) $$
 
 So, for example, HART has $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'}$\C{3}{228}$
+
+A more detailed description of the mechanics behind HART are given in [the technical subpage](http://db716.user.srcf.net/eim/course/algorithms/hart/technical).
 
 ---
 # Footnotes
