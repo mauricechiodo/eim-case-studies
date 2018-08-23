@@ -48,3 +48,5 @@ $$\text{Gain}(S,\mathbb{N})\approx0.0275$$
 $\mathbb{L}$ has the highest gain, so that is the way in which this branch of the overall tree will sort the numbers.
 
 If all possible branches created *reduce* the entropy of your data $\left(\text{Gain}<0\right)$ then you stop branching and that node becomes a leaf. Use the most common output of your data to decide what the leaf categorises your data as. The final tree using these inputs and data is shown below:
+
+![Example Tree](http://db716.user.srcf.net/eim/media/calliope/finalgraph.png)
