@@ -59,3 +59,5 @@ $\c{1}$ Sheena Urwin. “Algorithm Forecasting of Offender Dangerousness for Pol
 $\c{2}$ *Checkpoint*. url: https://www.durham.police.uk/Information-and-advice/Pages/Checkpoint.aspx (visited on 2018-08-20).
 
 $\c{3}$ Marion Oswald et al. “Algorithmic risk assessment policing models: lessons from the Durham HART model and ‘Experimental’ proportionality”. In: *Information & Communications Technology Law* 27.2 (2018-05-04), pp. 223–250. issn: 1360-0834, 1469-8404. doi: 10.1080/13600834.2018.1458455. url: https://www.tandfonline.com/doi/full/10.1080/13600834.2018.1458455 (visited on2018-08-07).
+
+---
