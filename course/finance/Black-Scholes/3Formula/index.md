@@ -21,7 +21,7 @@ $$ \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 y}{
 Now we make a change of variables $y(S,t) = y(\xi,\eta)$, where
 
 $$ \begin{aligned}
-\xi &= \frac{2}{\sigma^2} \left( r - \tfrac{1}{2} \sigma^2 \right) \left( \log\left( \frac{S}{c} \right) + \left( r - \tfrac{1}{2} \sigma^2 \right) (T - t) \right) ~, \\\\
-\eta &= \frac{2}{\sigma^2} \left( r - \tfrac{1}{2} \sigma^2 \right) (T - t) ~, $$
+\xi &= \frac{2}{\sigma^2} \left( r - \frac{1}{2} \sigma^2 \right) \left( \log \left( \frac{S}{c} \right) + \left( r - \tfrac{1}{2} \sigma^2 \right) (T - t) \right) ~, \\\\
+\eta &= \frac{2}{\sigma^2} \left( r - \frac{1}{2} \sigma^2 \right) (T - t) ~, $$
 
 and $c$ is the strike price of our option. We have
