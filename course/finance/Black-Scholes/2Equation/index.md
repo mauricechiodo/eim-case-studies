@@ -68,4 +68,4 @@ $$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{
 
 ---
 
-To read about the solution to this differential equation, check out [the formula](3Formula). 
+To read about the solution to this differential equation, check out [the formula](3Formula).
