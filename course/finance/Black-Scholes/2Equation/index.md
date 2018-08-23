@@ -27,5 +27,5 @@ The underlying assumption to Black and Scholes' work is that the underlying stoc
 
 In the language of stochastic calculus, Black and Scholes' assumption is that
 $$ dS = \mu S dt + \sigma S dW $$
-where $W$ is a Brownian motion. Note that $W$ (and hence $dW$) is the only source of uncertainty here. Now a particular result in stochastic calculus, Itô's lemma, gives
+where $W$ is a Brownian motion. Note that $W$ (and hence $dW$) is the only source of uncertainty here. Now with reagrds to $V(S,t)$, a particular result in stochastic calculus, Itô's lemma, gives
 $$ dV = \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial ^2 V}{\partial S^2}\right) dt + \sigma S \frac{\partial V}{\partial S} dW ~. $$
