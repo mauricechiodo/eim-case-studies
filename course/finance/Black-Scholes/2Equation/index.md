@@ -12,7 +12,7 @@ Template: LeafPage
 
 ## Derivation:
 
-The underlying assumption to Black and Scholes' work is that the underlying stock price $S$ follos a geometric Brownian motion with drift $\mu$ and variance parameter $\sigma^2$:
+The underlying assumption to Black and Scholes' work is that the underlying stock price $S$ follows a geometric Brownian motion with drift $\mu$ and variance parameter $\sigma^2$:
 
 ---
 
@@ -55,4 +55,13 @@ $$ \begin{aligned}
 \end{aligned} $$
 
 Note that $\Delta W$ has now vanished; the portfolio is riskless, and thus the rate of return must be equal to  the rate of return on any other riskless instrument (else there would be the opportunity for arbitrage). As noted in [Black and Scholes' assumptions](1Model), we assume that this rick-free interest rate is a known constant $r$, and so over the interval $\[ t, t + \Delta t \]$ we have
+
 $$ r \Pi \Delta t = \Delta \Pi ~. $$
+
+Then after substituting in the expressions for $\Pi$ and $\Delta \Pi$:
+
+$$ r \left( -V + \frac{\partial V}{\partial S} \right) \Delta t = -\left( \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~. $$
+
+Finally, cancelling the $\Delta t$'s and rearranging, we get the Black-Scholes equation:
+
+$$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partal V}{\partial S} - rV = 0 ~. $$
