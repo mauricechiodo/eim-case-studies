@@ -1,4 +1,4 @@
 ---
-Title: The risks
+Title: The Risks
 Template: LeafPage
 ---
