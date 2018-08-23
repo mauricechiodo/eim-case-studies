@@ -30,3 +30,11 @@ $$\text{Entropy}(S)=-\frac{5}{11}\log_2\left(\frac{5}{11}\right)-\frac{6}{11}\lo
 This is almost as entropic as it can be. To calculate the gain, take all the atributes $A\in\mathbb{A}$ and calculate their individual gains. Using $\mathbb{E}=\\{0,1\\}$ as an example
 
 $$\text{Gain}(S,\mathbb{E})=\text{Entropy}(S)-\underbrace{\frac{4}{11}\cdot\text{Entropy}(S\_1)}\_{\text{Relative entropy of the even numbers}}-\underbrace{\frac{7}{11}\cdot\text{Entropy}(S\_0)}\_{\text{Relative entropy of the odd numbers}}$$
+
+The entropies of the even number and odd numbers are calculated the same way as the entropy of $S$, but using only the subsets $S_i\subseteq S$ for $k\in\\{0,1\\}$.
+
+$$\text{Entropy}(S_1)=-\frac{2}{4}\log_2\left(\frac{2}{4}\right)-\frac{2}{4}\log_2\left(\frac{2}{4}\right)=1$$
+
+$$\text{Entropy}(S_0)=-\frac{3}{7}\log_2\left(\frac{3}{7}\right)-\frac{4}{7}\log_2\left(\frac{4}{7}\right)\approx0.985$$
+
+So $\text{Gain}(S,\mathbb{E})\approx0.994-\frac{4}{11}\cdot1-\frac{7}{11}\cdot0.985\approx0.00355$
