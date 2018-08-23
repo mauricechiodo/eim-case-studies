@@ -124,3 +124,19 @@ V(S,t) - U(S,t) &= \frac{c e^{-r(T-t)} }{\sqrt{2\pi}} \int\_{\infty}^{\infty} \l
 > $$ U(S,t) = -S \Phi (-d\_1) + ce^{-r(T-t)} \Phi (-d\_2) ~, $$
 
 where $d\_1$ and $d\_2$ are as above.
+
+---
+
+Conceptually, the Black-Scholes formula is a powerful tool in financial mathematics: if we accept the [Black-Scholes model](1Model) for the market, and the assumptions about the trading strategies of agents in the markets, the formula takes a **stochastic** model for the market and produces a **deterministic** formula for how to price certain items in the market. Not only that, but the formula is somewhat simple.
+
+This is another place where problems can arise: in order to *use* this formula, all one needs is a scientific calculator, and some values for the interest rate $r$ and volatility $\sigma$. In order to *interpret* the [Black-Scholes equation](2Equation) or the formula one needs to have some knowledge of economics, the concepts of portfolio hedging and 'moneyness', and the behaviour of the stock market. But in order to fully *understand* the formula, one must have knowledge of the derivation; and this requires some advanced mathematics: (among other things) stochastic calculus and the diffusion equation.
+
+As a principle
+> If we don't know the **derivation**,  
+> then we can't know the **limitations**.
+
+And this is quite pervasive in mathematical modelling: making assumptions allows you to overlook inconvenient features of a real-world situation which could be difficult to incorporate into your model, or prevent you from deriving closed form solutions; but as a consequence, your model may no longer reflect the real world as faithfully. And when mathematicians develop models based on such assumptions, there is a need to be transparent about them, so that anyone using the model can appreciate how accurate it can be expected to be, how robust (or not) it may be, and what real-world phenomena the model may not account for.
+
+---
+
+To read about some real world phenomena that the Black-Scholes model doesn't account for equation, check out [the risks](4Risks).
