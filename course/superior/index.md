@@ -1,6 +1,7 @@
 ---
 Title: Superior Orders
 Template: ListSubPages
+GridImage: http://db716.user.srcf.net/eim/media/speer2.png
 ---
 
 In a mathematician's career, it often arises that one is ordered by some superior to undertake some mathematically-informed action, whether an apparently abstract problem or something rather more hands-on. While for most of us this will take place within a business structure, it is instructive to consider what happens when mathematicians follow orders without questioning their actions – and why the defence of 'superior orders' doesn't really hold water. 
