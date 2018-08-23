@@ -1,5 +1,5 @@
 ---
-Title: The Black-Scholes model
+Title: The Model
 Template: LeafPage
 ---
 
