@@ -7,7 +7,7 @@ template: LeafPage
 
 Consider a tree that tries to determine if a number is prime. The sample has been picked (with replacement) from a large database of integers and the attributes shown are those that have been picked (without replacement) from the set of attributes in the integer database.
 
-TABLE OF INPUTS GOES HERE
+# TABLE OF INPUTS GOES HERE
 
 ## Formulae
 
@@ -17,7 +17,7 @@ $$\text{Gain}(S,A)=\text{Entropy}(S)-\sum\_{v\in\text{values}(A)}\left(\frac{|S\
 
 ## Creating the branch
 
-$S=\\{1,2,2,4,7,9,9,9,13,16,17\\}$. The set of attributes $\mathbb{A}=\\{\text{Even?,}\leq8\text{?,}=k^2\\}$. The attributes $A\in\mathbb{A}$ are all booleans so $A=\\{0,1\\}$. Denote $\text{Even?}\equiv\mathbb{E}$, $\leq8?\equiv\mathbb{L}$ and $=k^2?\equiv\mathbb{S}$.
+$S=\\{1,2,2,4,7,9,9,9,13,16,17\\}$. The set of attributes $\mathbb{A}=\\{\text{Even?,}\leq8\text{?,}=9?\\}$. The attributes $A\in\mathbb{A}$ are all booleans so $A=\\{0,1\\}$. Denote $\text{Even?}\equiv\mathbb{E}$, $\leq8?\equiv\mathbb{L}$ and $=9?\equiv\mathbb{N}$.
 
 *These sets needn't all be booleans. An attribute could be, for example, "Is the number $0\leq n\leq6$ or $6<n\leq 10$  or not?"*
 
@@ -38,3 +38,13 @@ $$\text{Entropy}(S_1)=-\frac{2}{4}\log_2\left(\frac{2}{4}\right)-\frac{2}{4}\log
 $$\text{Entropy}(S_0)=-\frac{3}{7}\log_2\left(\frac{3}{7}\right)-\frac{4}{7}\log_2\left(\frac{4}{7}\right)\approx0.985$$
 
 So $\text{Gain}(S,\mathbb{E})\approx0.994-\frac{4}{11}\cdot1-\frac{7}{11}\cdot0.985\approx0.00355$
+
+Similar calculations are done for $\mathbb{L}$ and **SOME OTHER SET**
+
+$$\text{Gain}(S,\mathbb{L})\approx0.0519$$
+
+$$\text{Gain}(S,\mathbb{N})\approx0.0275$$
+
+$\mathbb{L}$ has the highest gain, so that is the way in which this branch of the overall tree will sort the numbers.
+
+Eve
