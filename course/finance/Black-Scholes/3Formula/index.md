@@ -113,7 +113,7 @@ c - S & \text{if } S < c
 we see that $V(S,T) - U(S,T) = S - c$ for all $S$ (where $V$ is the value of a European call option, as found above). Using similar transformations as before, this gives that
 
 $$ \begin{aligned}
-V(S,t) - U(S,t) &= e^{-r(T-t)} \frac{c}{\sqrt{2\pi}} \int\_{\infty}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 (\xi + q \sqrt{2\eta}) \big/ \left(r - \frac{1}{2} \sigma^2)\right \right) - 1 \right) e^{-\frac{1}{2} q^2} dq \\\\
+V(S,t) - U(S,t) &= e^{-r(T-t)} \frac{c}{\sqrt{2\pi}} \int\_{\infty}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 (\xi + q \sqrt{2\eta}) \big/ \left(r - \frac{1}{2} \sigma^2 \right) \right) - 1 \right) e^{-\frac{1}{2} q^2} dq \\\\
 &= e^{-r(T-t)} \left( ce^{\beta + \frac{1}{2} \alpha^2} \int\_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} (q - \alpha)^2} dq - c \int\_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq \right) \\\\
 &= e^{-r(T-t)} \left( ce^{\beta + \frac{1}{2} \alpha^2} - c \right) \\\\
 &= S - ce^{-r(T-t)} ~,
