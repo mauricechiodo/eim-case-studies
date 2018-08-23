@@ -18,7 +18,7 @@ The underlying assumption to Black and Scholes' work is that the underlying stoc
 
  - *Brownian motion with drift:* A stochastic process $\lbrace X(t), t \geqslant 0 \rbrace$ is said to be a Brownian motion process with drift coefficient $\mu$ and variance paramter $\sigma^2$ if  
 (i) $X(0) = 0$;  
-(ii) $\lbrace X(t), t \geqslant 0 \rbrace$ has stationary and independent increments, in that the distribution of $X(t+s) - X(t)$ does not depend on $t$, and for all $t\_1 < t\_2 < ... < t\_n$, $X(t\_n) - X(t\_{n-1})$, $X(t\_{n-1}) - X(t\_{n-2}), ..., X(t\_2) - X(t\_1)$, and $X(t\_1)$ are independent;  
+(ii) $\lbrace X(t), t \geqslant 0 \rbrace$ has stationary and independent increments, in that the distribution of $X(t+s) - X(t)$ does not depend on $t$, and for all $t\_1 < t\_2 < ... < t\_n$, the increments $X(t\_n) - X(t\_{n-1}), X(t\_{n-1}) - X(t\_{n-2}), ..., X(t\_2) - X(t\_1)$, and $X(t\_1)$ are independent;  
 (iii) for every $t > 0$, $X(t)$ is normally distributed with mean $\mu t$ and variance $\sigma^2 t$.
 
  - *Geometric Brownian motion:* If $\lbrace Y(t), t \geqslant 0 \rbrace$ is a Brownian motion process with drift coefficient $\mu$ and variance paramter $\sigma^2$, then the process $\lbrace X(t), t \geqslant 0 \rbrace$ defined by $X(t) = e^{Y(t)}$ is called geometric Brownian motion.
@@ -34,3 +34,13 @@ Now we introduce a hedged portfolio: suppose a particular agent is short one opt
 $$ \Pi = -V + \frac{\partial V}{\partial S} S ~, $$
 and over a time interval of length $\Delta t$, the profit (or loss) from changes in value of the holdings is
 $$ \Delta \Pi = -\Delta V + \frac{\partial V}{\partial S} \Delta S ~. $$
+Discretising the expressions for $dS$ and $dV$, we get
+$$ \begin{aligned}
+\Delta S &= \mu S \Delta t + \sigma S \Delta W \\\\
+\Delta V &= \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \rght) \Delta t + \sigma S \frac{\partial V}{\partial S} \Delta W ~,
+\end{aligned} $$
+and substituting these into the expression for $\Delta \Pi$ we find
+$$ \begin{aligned}
+\Delta \Pi &= - \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \rght) \Delta t - \sigma S \frac{\partial V}{\partial S} \Delta W + \frac{\partial V}{\partial S} ( \mu S \Delta t + \sigma S \Delta W ) \\\\
+&= \left( -\frac{\partial V}{\partial t} - \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~.
+\end{aligned} $$
