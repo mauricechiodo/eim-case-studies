@@ -3,6 +3,8 @@ Title: The Risks
 Template: LeafPage
 ---
 
+# The Risks
+
 Here we detail some of the particular risks overlooked by the assumptions of the [Black-Scholes model](1Model):
 
 - *Tail risk:* This is a form of portfolio risk that arises when the possibility that an investment will mve more than three standard deviations from the mean is greater than what is shown by a normal distribution. By using the geometric Brownian motion, we have implicitly assumed that the distribution of percentage returns on the underlying stock is normal; this underpins the resulting [formula](3Formula), but some analyses of market data {reference} have suggested that this doesn't hold. Specifically, the markets analysed displayed skew (when a distribution is asymmetric about the mean) and leptokurtosis (when the tails of a distribution are 'fatter' than those of a normal distribution). As a result, in these markets the BLack-Scholes model would underestimate the probability of large fluctuations in stock price.
