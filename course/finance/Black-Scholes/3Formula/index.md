@@ -77,3 +77,13 @@ $$ \begin{aligned}
 \alpha &= \dfrac{\sigma^2 \sqrt{\eta / 2}}{r - \frac{1}{2} \sigma^2} = \sigma \sqrt{T - t} ~, \\\\
 \text{and } ~ ~ \beta &= \dfrac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} = \log\left( \dfrac{S}{c} \right) + \left(r - \dfrac{1}{2} \sigma^2 \right) (T - t) ~,
 \end{aligned} $$
+
+now
+
+$$ \begin{aligned}
+y(\xi,\eta) &= \frac{c}{\sqrt{2\pi}} e^{\beta + \frac{1}{2} \alpha^2} \int\_{- \xi / \sqrt{2\eta}}^{\infty} e^{-\frac{1}{2} (q - \alpha)^2} dq - \frac{c}{\sqrt{2\pi}} \int\_{-\infty}^{\xi / \sqrt{2\eta}} e^{-\frac{1}{2} q^2} dq \\\\
+&= c e^{\beta + \frac{1}{2} \alpha^2} \int\_{-\infty}^{ \xi / \sqrt{2\eta} + \alpha} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq - c \int\_{-\infty}^{\xi / \sqrt{2\eta}} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq \\\\
+&= c e^{\beta + \frac{1}{2} \alpha^2} \Phi \left( \frac{\xi}{\sqrt{2\eta}} + \alpha} \right) - c \Phi\left(\frac{\xi}{\sqrt{2\eta}} \right) ~,
+\end{aligned} $$
+
+where $\Phi (z) = \int\_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq$ is the cumulative normal distribution function.
