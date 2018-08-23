@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 ### COMPAS
-$\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
+$\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}\newcommand{\F}[1]{^{[\text{F}#1]}}$
 COMPAS is a risk assessment tool originally created by Tim Brennan in 1988.$\c{1}$ It takes data from both a questionnaire presented to an arrested individual and an interview performed with them$\c{2}$ to output recidivism risk in deciles.$\c{1}$
 Originally intended to be used as a tool to help determine probation periods$\c{3}$, COMPAS is now employed in several states to augment a judge's decision determining sentence lengths, notably in Wisconsin.$\c{4}$
 
@@ -17,6 +17,16 @@ $$R=\sum_{n=1}^N w_n x_n$$
 The weights $w_i$ are determined manually to try and optimise the accuracy of the program, although it is unclear if any statistical analysis or even machine learning is used here. A 2018 paper$\c{5}$ found that even with only two variables, the authors' own algorithm can match the accuracy of COMPAS.
 
 Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS (guessing if a convict will (violently) commit an offence) using the same information that COMPAS had available, and managed to also have approximately the same accuracy as COMPAS.$\c{5}$
+
+The parameters for the Violent Recidivism risk scale are given explicitly in the practitioner's guide$\C{1}{25} as being
+
+* History of Noncompliance Scale
+* Vocational Education Scale
+* Current age
+* Age-at-first-arrest
+* History of Violence Scale
+
+Age and age at first arrest are given negative weights, and all others are given positive weights. So for example, if a 20 year old has a risk score of (say) $50$ points$\F{1}$ then a newborn baby would have a risk score of $50+20w$ points.
 
 ### ProPublica Analysis
 
@@ -37,6 +47,12 @@ In 2013, Eric Loomis was arrested and accused of driving a car that had been use
 * It used gender as a variable improperly in calculating the score
 
 Ultimately, the court rejected Loomis's claims$\c{9}$ and held that COMPAS could be used for sentencing, but prescribed key limitations for its use: The score can help a judge understand a defendant's situation but should not be used to determine a length or severity of punishment, and should definitely not be used as "an official aggravating factor"$^8$ in the sentencing decision. Judge Shirley Abrahamson noted that the lack of understanding about COMPAS and how it works was a "significant problem" in the case.
+
+---
+
+### Footnotes
+
+$\F{1}$ The total points are then rescaled into deciles depending on past data. More detail given in the practitioner's guide.$\c{1}$
 
 ---
 
