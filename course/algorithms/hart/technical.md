@@ -44,7 +44,7 @@ Where $S$ is some collection containing positive and negative examples of someth
 
 The information gain ($\text{Gain}(S,A)$) represents the expected reduction in entropy given a certain input used to categorise the data, $A$. The input that minimises entropy will be the one chosen to represent the branch in question of the tree.
 
-$$\text{Gain}(S,A)=\underbrace{\text{Entropy}(S)}\_{\text{Original entropy of }S}-\underbrace{\sum_{v\in\text{values}(A)}\left( \frac{|S_v|}{|S|}\centerdot\text{Entropy}(S_v)\right)}\_3$$
+$$\text{Gain}(S,A)=\underbrace{\text{Entropy}(S)}\_{\text{Original entropy of }S}-\underbrace{\sum_{v\in\text{values}(A)}\left( \frac{|S_v|}{|S|}\centerdot\text{Entropy}(S_v)\right)}\_{3}$$
 
 Where
 
