@@ -1,4 +1,4 @@
 ---
-Title: The Black-Scholes equation
+Title: The Equation
 Template: LeafPage
 ---
