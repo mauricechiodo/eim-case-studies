@@ -18,7 +18,7 @@ The weights $w_i$ are determined manually to try and optimise the accuracy of th
 
 Furthermore, 400 humans from Amazon's Mechanical Turk were asked to perform the same task as COMPAS (guessing if a convict will (violently) commit an offence) using the same information that COMPAS had available, and managed to also have approximately the same accuracy as COMPAS.$\c{5}$
 
-The parameters for the Violent Recidivism risk scale are given explicitly in the practitioner's guide$\C{1}{25} as being
+The parameters for the Violent Recidivism risk scale are given explicitly in the practitioner's guide$\C{1}{25}$ as being
 
 * History of Noncompliance Scale
 * Vocational Education Scale
