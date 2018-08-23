@@ -54,4 +54,10 @@ S - c &  \text{if } S \geqslant c \\\\
 0 & \text{if } S < c
 \end{cases} ~, $$
 
-(corresponding to whether the buyer should exercise the option or not).
+(corresponding to whether the buyer should exercise the option or not).  
+After the change of variables above, this becomes the initial condition
+
+$$ y(\xi,0) = \begin{cases}
+c \exp( \frac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2}) - c &  \text{if } \xi \geqslant 0 \\\\
+0 & \text{if } \xi < 0
+\end{cases} ~. $$
