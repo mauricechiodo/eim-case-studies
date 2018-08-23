@@ -102,3 +102,16 @@ we arrive at the Black-Scholes formula for a European call option:
 > \text{where} ~ ~ d\_1 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) + \left( r + \frac{1}{2} \sigma^2 \right) (T - t) \right) ~, \\\\
 > \text{and} ~ ~ d\_2 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) + \left( r - \frac{1}{2} \sigma^2 \right) (T - t) \right) ~.
 > \end{aligned} $$
+
+Without too much more work, we can also consider a European put option $U$ with the same parameters: this has payout
+
+$$ U(S,T) = \begin{cases}
+0 &  \text{if } S \geqslant c \\\\
+c - S & \text{if } S < c
+\end{cases} ~; $$
+
+we see that $V(S,T) - U(S,T) = S - c$ for all $S$ (where $V$ is the value of a European call option, as found above). Using similar transformations as before, this gives that
+
+$$ \begin{aligned}
+V(S,t) - U(S,t) &= e^{-r(T-t)} \frac{c}{\sqrt{2\pi}} \int\_{\infty}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 (\xi + q \sqrt{2\eta}) \big/ (r - \frac{1}{2} \sigma^2) \right) - 1 \right) e^{-\frac{1}{2} q^2} dq
+\end{aligned} $$
