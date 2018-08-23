@@ -68,5 +68,7 @@ $$ \begin{aligned}
 y(\xi,\eta) &= \frac{1}{\sqrt{\pi}} \int\_{-\infty}^{\infty} y(\xi + 2x \sqrt{\eta}, 0) e^{-x^2} dx \\\\
 &= \frac{1}{\sqrt{2\pi}} \int\_{-\infty}^{\infty} y(\xi + q \sqrt{2\eta}, 0) e^{-\frac{1}{2} q^2} dq \\\\
 &= \frac{c}{\sqrt{2\pi}} \int\_{- \xi / \sqrt{2\eta}}^{\infty} \left( \exp \left( \frac{1}{2} \sigma^2 \left( \xi + q\sqrt{2\eta} \right) \big/ \left( r - \frac{1}{2} \sigma^2 \right) \right) - 1 \right) e^{-\frac{1}{2} q^2} dq \\\\
-&= \frac{c}{\sqrt{2\pi}} \int\_{- \xi / \sqrt{2\eta}}^{\infty} e^{\beta} \exp \left( -\frac{1}{2} \left( q^2 - 2 \alpha q \right) \right) dq - \frac{c}{\sqrt{2\pi}} \int\_{-\xi / \sqrt{2\eta}}^{\infty} e^{-\frac{1}{2} q^2} dq
+&= \frac{c}{\sqrt{2\pi}} \int\_{- \xi / \sqrt{2\eta}}^{\infty} \exp \left( -\frac{1}{2} \left( q^2 - 2 \alpha q \right) + \beta \right) dq - \frac{c}{\sqrt{2\pi}} \int\_{-\xi / \sqrt{2\eta}}^{\infty} e^{-\frac{1}{2} q^2} dq
 \end{aligned} $$
+
+where $\alpha = \frac{\sigma^2}{r - \frac{1}{2} \sigma^2} \sqrt{\frac{\eta}{2}} = \sigma \sqrt{T - t}$, and $\beta = \frac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} = \log\left( \frac{S}{c} \right) + (r - \frac{1}{2} \sigma^2 ) (T - t)$ ,
