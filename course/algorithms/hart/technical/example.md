@@ -16,3 +16,11 @@ $$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
 $$\text{Gain}(S,A)=\text{Entropy}(S)-\sum\_{v\in\text{values}(A)}\left(\frac{|S\_v|}{|S|}\centerdot\text{Entropy}(S\_v)\right)$$
 
 ## Creating the branch
+
+$S=\{1,2,2,4,7,9,9,9,13,16,17\}$. The set of attributes $\mathbb{A}=\{\text{Even?,}\leq8\text{?,}=k^2\}$. The attributes $A\in\mathbb{A}$ are
+
+* Even? $=\{0,1\}$
+* $\leq8$? $=\{0,1\}$
+* $=k^2$? $=\{0,1\}$
+
+*These sets needn't all be booleans. An attribute could be, for example, "Is the number $0\leq n\leq6$ or $6<n\leq 10$  or not?"*
