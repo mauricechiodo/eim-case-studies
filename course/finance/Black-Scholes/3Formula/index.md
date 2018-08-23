@@ -87,3 +87,17 @@ y(\xi,\eta) &= \frac{c}{\sqrt{2\pi}} e^{\beta + \frac{1}{2} \alpha^2} \int\_{- \
 \end{aligned} $$
 
 where $\Phi (z) = \int\_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq$ is the cumulative normal distribution function.
+
+Finally, computing
+
+$$ \begin{aligned}
+\frac{\xi}{\sqrt{2\eta}} &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) + \left( r - \frac{1}{2} \sigma^2 \right) (T - t) \right) \\\\
+\text{and} ~ ~ ce^{\beta + \frac{1}{2} \alpha^2} &= S e^{r(T-t)} ~,
+\end{aligned} $$
+
+we arrive at the Black-Scholes formula for a European call option:
+
+$$ \begin{aligned}
+V(S,t) &= S \Phi (d\_1) - ce^{-r(T-t)} \Phi (d\_2) ~, \\\\
+\text{where} ~ ~ d\_1 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) + \left( r + \frac{1}{2} \sigma^2 \right) (T - t) \right) ~, \\\\
+\text{and} ~ ~ d\_2 &= \frac{1}{\sigma \sqrt{T - t}} \left( \log \left( \frac{S}{c} \right) - \left( r + \frac{1}{2} \sigma^2 \right) (T - t) \right) ~.
