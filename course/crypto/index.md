@@ -1,6 +1,7 @@
 ---
 Title: Cryptography and Government Surveillance
 Template: ListSubPages
+GridImage: http://db716.user.srcf.net/eim/media/lock1.png
 ---
 
 The right to privacy is protected by the European Court of Human Rights. In the Bill of Rights, Madison's concern over the protection of privacy is reflected. In almost every country in the world there exists some legal protection of a citizen's privacy. Therefore, when transmitting data across the internet - basically an open channel - it has always been of great concern that we be able to protect what it is that we are sending. When I started editing this website, I had to go to GitHub and put in my login information. If the data I sent wasn't protected, any adversary would be able to take that and read my private files, or use it against me. The same goes for emails, Facebook, Cloud files and more. The world is becoming more and more digital and protections need to exist to protect privacy.
