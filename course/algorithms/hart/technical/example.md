@@ -39,7 +39,7 @@ $$\text{Entropy}(S_0)=-\frac{3}{7}\log_2\left(\frac{3}{7}\right)-\frac{4}{7}\log
 
 So $\text{Gain}(S,\mathbb{E})\approx0.994-\frac{4}{11}\cdot1-\frac{7}{11}\cdot0.985\approx0.00355$
 
-Similar calculations are done for $\mathbb{L}$ and **SOME OTHER SET**
+Similar calculations are done for $\mathbb{L}$ and $\mathbb{N}$.
 
 $$\text{Gain}(S,\mathbb{L})\approx0.0519$$
 
