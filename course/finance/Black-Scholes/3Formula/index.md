@@ -10,7 +10,7 @@ After [deriving the Black-Scholes equation](2Equation),
 $$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0 ~, $$
 
 we can go about attempting to solve it, so that we might price particular options. First, we simplify the form of the equation.  
-Setting $V(S,t) = e^{-r(T-t)} y(S,t)$, the equation gives
+Setting $V(S,t) = e^{-r(T-t)} y(S,t)$, where $T$ is the maturity date of our option, the equation gives
 
 $$ r e^{-r(T-t)} y + e^{-r(T-t)} \frac{\partial y}{\partial t} + \frac{1}{2} \sigma^2 S^2 e^{-r(T-t)} \frac{\partial^2 y}{\partial S^2} + rS e^{-r(T-t)} \frac{\partial y}{\partial S} - r e^{-r(T-t)} y = 0 ~, $$
 
@@ -44,3 +44,14 @@ $$ \begin{aligned}
 Thus, after cancellations:
 
 $$ \frac{\partial y}{\partial \eta} - \frac{\partial^2 y}{\partial \xi^2} = 0 ~. $$
+
+We can now identify this as a diffusion equation. In order to solve it we must consider what type of options in particular we are trying to price, so that we can establish boundary conditions:
+
+To start with, suppose we have a European call option $V$, with strike price $c$ and which matures at time $T$. At maturity, this option has payout
+
+$$ V(S,T) = \begin{cases}
+S - c & S \geqslant c \\\\
+0 & S < c
+\end{cases} ~, $$
+
+(corresponding to whether the buyer should exercise the option or not).
