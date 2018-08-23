@@ -38,7 +38,7 @@ To predict the accuracy of the random forest, for each $d\in D$, take the set of
 
 To generate a branch of a tree, several concepts need to be introduced.
 
-$$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$
+$$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
 
 Where $S$ is some collection containing positive and negative examples of something (such as the correct or incorrect categorisation of an input). $p\_\oplus$ represents the proportion of positive examples, and $p\_\ominus=1-p\_\oplus$. This is a measure of *uncertainty* about your data.
 
