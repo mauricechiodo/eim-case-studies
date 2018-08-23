@@ -82,7 +82,7 @@ now
 
 $$ \begin{aligned}
 y(\xi,\eta) &= \frac{c}{\sqrt{2\pi}} e^{\beta + \frac{1}{2} \alpha^2} \int\_{- \xi / \sqrt{2\eta}}^{\infty} e^{-\frac{1}{2} (q - \alpha)^2} dq - \frac{c}{\sqrt{2\pi}} \int\_{-\infty}^{\xi / \sqrt{2\eta}} e^{-\frac{1}{2} q^2} dq \\\\
-&= c e^{\beta + \frac{1}{2} \alpha^2} \int\_{-\infty}^{ \xi / \sqrt{2\eta} ~ ~ + \alpha} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq - c \int\_{-\infty}^{\xi / \sqrt{2\eta}} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq \\\\
+&= c e^{\beta + \frac{1}{2} \alpha^2} \int\_{-\infty}^{ \xi / \sqrt{2\eta} ~ + \alpha} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq - c \int\_{-\infty}^{\xi / \sqrt{2\eta}} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} q^2} dq \\\\
 &= c e^{\beta + \frac{1}{2} \alpha^2} \Phi \left( \frac{\xi}{\sqrt{2\eta}} + \alpha \right) - c \Phi\left(\frac{\xi}{\sqrt{2\eta}} \right) ~,
 \end{aligned} $$
 
