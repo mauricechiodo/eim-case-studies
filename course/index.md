@@ -9,7 +9,7 @@ Welcome to the $\EiM$ Course. This website is dedicated to providing case studie
 
 As a mathematician, you will almost certainly encounter areas of life where you are called to do mathematics with ethical impacts – perhaps scheduling workers, or optimising public works, or sending rockets into space. Whatever this may be, we hope to give you the opportunity to think about how you should act in these scenarios.
 
-A list of the currently available topics is below...testinggggssfds.
+A list of the currently available topics is below.
 
 Test footnote[^2]
 
