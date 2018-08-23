@@ -40,7 +40,7 @@ To generate a branch of a tree, several concepts need to be introduced.
 
 $$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$
 
-Where $S$ is some collection containing positive and negative examples of something (such as the correct or incorrect categorisation of an input). $p_\oplus$ represents the proportion of positive examples, and $p_\ominus=1-p_\oplus$. This is a measure of *uncertainty* about your data.
+Where $S$ is some collection containing positive and negative examples of something (such as the correct or incorrect categorisation of an input). $p\_\oplus$ represents the proportion of positive examples, and $p\_\ominus=1-p\_\oplus$. This is a measure of *uncertainty* about your data.
 
 The information gain represents the expected reduction in entropy given a certain input, $A$. The input that minimises entropy will be the one chosen to represent the branch in question of the tree.
 
