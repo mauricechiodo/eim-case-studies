@@ -11,9 +11,9 @@ To explore a concept further, click on its heading.
 
 ## [Wallace's Irrelevance Theorem](/course/course/finance/quantitative-easing/modelling/technical-appendix/wallace)
 
-## Model Methods
+## [Model Methods](/course/course/finance/quantitative-easing/modelling/technical-appendix/methods)
 
-The model will estimate the effects of LSAP using a Dynamic Stochastic General Equilibrium (DSGE) model, as is in Wallace’s irrelevance theorem.$\c{2}$ To give LSAP a chance, the model will limit arbitrage and market segmentation in a simple, frictionless form. DSGE will be augmented with nominal and real rigidities. It is assumed that investors have heterogeneous preferences for assets of different maturities and that risk premium is a positive function of long-term treasury securities. In the model, long-term interest rate matters for aggregate demand distinct from the expected short-term rates. The result is even if short-term rate isconstrained by ZLB for a long period of time, monetary policy can still be effective by directly influencing long-term rates. The model is estimated using a Bayesian method, using post-war data.
+The model is an attempt to disprove Wallace's Irrelevance Theorem$\c{2}$ using the same model employed in that paper to show that DSGE is functional. To give LSAP a chance, the model will limit arbitrage and market segmentation in a simple, frictionless form. DSGE will be augmented with nominal and real rigidities. It is assumed that investors have heterogeneous preferences for assets of different maturities and that risk premium is a positive function of long-term treasury securities. In the model, long-term interest rate matters for aggregate demand distinct from the expected short-term rates. The result is even if short-term rate isconstrained by ZLB for a long period of time, monetary policy can still be effective by directly influencing long-term rates. The model is estimated using a Bayesian method, using post-war data.
 
 ## [Agents and their governing equations](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents)
 
