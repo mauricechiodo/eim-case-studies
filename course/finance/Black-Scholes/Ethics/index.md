@@ -14,7 +14,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 consider the following:
 
- - Who takes responsibilty for mathematical tools, this who *takes credit* for them?
+ - Who takes responsibilty for mathematical tools, that is who *takes credit* for them?
  - Who is responsible for *the use* of mathematical tools?
  - Who is responsible for the *misuse* of mathematical tools?
 
