@@ -15,7 +15,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 - Consider the following:  
  - Who takes responsibilty for mathematical tools, that is who *takes credit* for them?  
  - Who is responsible for *the use* of mathematical tools?  
- - Who is responsible when a mathematical tool is *misused*?  
+ - Who is responsible when a mathematical tool is *misused* ?  
 
 Something to note here is how we should classify *misuse* - in order for something to be *misused*, we need to prescribed what is *proper use*, for example use that doesn't exceed the limits of reasonable accuracy of a model - and how this should be conveyed to non-mathematicians using the mathematical tools - for example, what is *reasonable* accuracy?
 
