@@ -10,7 +10,7 @@ The National Institute of Standards and Technology is a U.S. government organisa
 
 Notably, NIST have published a number of recommendations for cryptographic techniques, including methods for encryption, digital signatures, and secure random number generation. In 2006 NIST published *SP 800-90, Recommendation for Random Number Generation Using Deterministic Random Bit Generators* which included specifications for four different *cryptographic random number generators*. Among them was the *Dual Elliptic Curve Deterministic Random Bit Generator (Dual_EC_DRBG)*, an algorithm provided to NIST by the NSA, which fell under heavy criticism due to two large flaws. Secure RNGs are important in a lot of cryptographic applications, which rely on the assumption that an adversary cannot infer future output from the number generator given the previous sequence of values.
 
-One of the two flaws found in the Dual EC DRBG was due to bias in the algorithm, which meant the numbers output by the generator were not distributed uniformly over the relevant range. 
+One of the two flaws found in the Dual EC DRBG was due to bias in the algorithm, which meant the numbers outputted by the generator were not distributed uniformly over the relevant range. 
 
 The other flaw revolves around parameters used in the algorithm. These are provided by NIST without any justification as to how they were selected and it has been shown that they could have been generated in a specific way so as to enable a *kleptographic backdoor* which allows the original provider to execute an attack on instances of the DRBG without other parties being able to do the same. That is to say, given some knowledge about relations between the DRBG's parameters, there exists an efficient algorithm to infer the internal state of the random number generator and predict the future output.
 
@@ -48,9 +48,9 @@ The Dual_EC_DRBG algorithm maps the seed to a pseudorandom sequence of length $2
 The claim is that due to the difficulty of solving the discrete logarithm (finding an integer $\alpha$ such that $P = \alpha Q$) it is intractable to work backwards to find the internal state $s_i$ of the number generator.
 
 # Output Bias
-(ref Schoenmakers and Sidorenko) has a nice presentation of the issue. I think it was the original paper drawing attention to this bias.
+(ref Schoenmakers and Sidorenko) has a nice presentation of the issue – indeed, I believe that it was the original paper drawing attention to the presence of this bias.
 
-I'm not sure if this is overly relevant in this case. It seems like a genuine mistake, and its not clear whether it could be practically exploited. However it may provide a method by which one could identify that the Dual_EC_DRBG is being used over some other RNG. Additionally they did make the decision not to fix the flaw even after it had attracted a lot of attention, for the reasons that "some internal discussion in X9 that said this was just a theoretical issue" and "it was NSA’s algorithm, we largely let them respond to comments on it". 
+I'm not sure if this is overly relevant in this case, however. It seems probable that it is a genuine mistake, and it is not clear whether it could be practically exploited. However, it may provide a method by which one could identify that the Dual_EC_DRBG is being used over some other RNG. Additionally, they did make the decision not to fix the flaw even after it had attracted a lot of attention, for the reasons that "some internal discussion in X9 that said this was just a theoretical issue" and "it was the NSA’s algorithm, we largely let them respond to comments on it". 
 
 # The Possibility of a Backdoor
 There is no public knowledge as to how ${P}$ and ${Q}$ were generated. It is known that ${P}$ should be chosen to be a generator of the group, but in our case this is true of all elements. (ref Bernstein et al) explains that, even after inquiring as to the origin of ${P}$ and ${Q}$, John Kelsey (one of the two authors in the NIST paper) was told that the NSA had "generated $(P, Q)$ in a secure, classified way" and had "kyboshed" the idea of generating ${Q}$ in a transparent way. The security of the algorithm however depends on the difficulty of solving the ECDLP, $Q = \alpha P$, but there is no reason the NSA couldn't have generated ${Q}$ by first choosing some arbitrary ${\alpha}$, removing the need to solve the discrete logarithm altogether. 
@@ -58,30 +58,41 @@ There is no public knowledge as to how ${P}$ and ${Q}$ were generated. It is kno
 If such an $\alpha$ is known, then we can attempt to infer the internal state of the RNG as so:
 
 - Given some $r\_i = \lsb{x(s\_iQ)}$, we can enumerate the $2^16$ integers, $x_j$ whose first 240 bits match $r_i$.
+
 - We build a set ${S}$ of candidate points on the RNG.
-- For each $x_j$
+
+- For each $x_j$:
+
   - Compute $z_j = (r_i^j)^3 - 3r_i^j + b$
+  
   - If $z_j$ is a quadratic residue modulo ${p}$ (ie if some number squares to it) then we can add to ${S}$ $(y_1, x_j)$ and $(y_2, x_j)$, where $y_1^2 \equiv y_2^2 \equiv z_j \pmod{p}$.
+  
 - We should now have that $s_iQ \in S$ although we do not know which element of ${S}$ this is.
+
 - Now note that contained in $\alpha\cdot S$ we have
+
 $$ \begin{aligned} \alpha (s_i Q) 
 &= (\alpha s_i) Q \\\\
 &= (s_i \alpha) Q \\\\
 &= s_i (\alpha Q) \\\\
 &= s_i P
 \end{aligned} $$.
-- And $s\_{i+1} = \lsb{x(s\_i)}$
+
+- And $s\_{i+1} = \lsb{x(s\_i)}.$
 
 By looking at multiple sequential outputs from the RNG we can quickly reduce our set of candidate states to a small number of possibilities, compromising its integrity.
 
 The specification paper also documents how one can generate their own values for ${P}$ and ${Q}$, but does not explain why one would want to do so, and further requires someone to use the NSA's values if they want FIPS security verification. 
 
 # NIST's Response
+
 In 2015 NIST updated their recommendation paper for cryptographic random number generators, removing the Dual_EC_DRBG from the paper entirely. They conducted an internal review from 2013-2016 looking at why the EC_DRBG was allowed to remain in their recommendations for so long. The authors of the original specification have conceded in presentations that "Dual EC DRBG should not have been included in X9.82 or SP 800-90 in current form" and it has emerged that the issues that have been raised over the algorithm were discussed internally prior to their discovery by the public. The main reasons given for why the standard we ahead were that
 
 - "Dual EC DRBG is extremely slow, and seemed unlikely to see much use; so putting a trapdoor in seemed kind-of pointless."
-  - But it did eventually see a fair amount of use in places
+  - However, it did eventually see a fair amount of use in some places.
+  
 - "NSA claimed to have existing customers who were using the DRBG, and wanted to be able to get FIPS validation"
+
 - "We didn’t believe a backdoor in this algorithm was likely."
   - But evaluating security based on speculation seems foolish at best.
   - Kelsey has stated that they "should have asked: Should we include an algorithm in our standards that could have a trapdoor?" rather than "do we think there is a trapdoor into Dual EC DRBG?"
