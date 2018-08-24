@@ -12,12 +12,11 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 # The Ethics
 
-consider the following:
-
-- Who takes responsibilty for mathematical tools, that is who *takes credit* for them?  
-- Who is responsible for *the use* of mathematical tools?  
-- Who is responsible for the *misuse* of mathematical tools?  
- - Something to note here is how we might classify *misuse:* in order for something to be *misused*, we need to prescribed what is *proper use*, for example not exceeding the limits of accuracy of a mathematical model.
+- Consider the following:
+ - Who takes responsibilty for mathematical tools, that is who *takes credit* for them?  
+ - Who is responsible for *the use* of mathematical tools?  
+ - Who is responsible for the *misuse* of mathematical tools?  
+ Something to note here is how we might classify *misuse:* in order for something to be *misused*, we need to prescribed what is *proper use*, for example not exceeding the limits of accuracy of a mathematical model.
 
 
 
