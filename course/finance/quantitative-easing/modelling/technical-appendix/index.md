@@ -15,7 +15,13 @@ The model is an attempt to disprove [Wallace's Irrelevance Theorem](/course/cour
 
 ## [Agents and their governing equations](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents)
 
-AGENTS ETC (this is where the maths is)
+There are 6 main agents at work in the DSGE model, these are
+
+* [Households](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/households)
+* [Labour Agencies](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/labour-agencies)
+* [Capital Producers](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/capital-producers)
+* [Intermediate & Final Goods Producers](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/goods-producers)
+* [Government](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/government)
 
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
