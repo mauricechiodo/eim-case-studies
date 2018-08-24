@@ -7,22 +7,7 @@ template: LeafPage
 
 Consider a tree that tries to determine if a number is prime. The sample has been picked (with replacement) from a large database of integers and the attributes shown are those that have been picked (without replacement) from the set of attributes in the integer database.
 
-# TABLE OF INPUTS GOES HERE
-
-$\begin{tabular}{|l|l|}
-\hline
-Table \ref{table1} & \\ \hline
-Amount (billions of GBP) & YY/MM \\ \hline
-75 & 09/03 \\
-125 & 09/05 \\
-175 & 09/08 \\
-200 & 09/11 \\
-275 & 11/10 \\
-325 & 12/02 \\
-375 & 12/07 \\
-475 & 16/08 \\
-\hline
-\end{tabular}$
+![Training data for tree](/media/calliope/training-data.png)
 
 ## Formulae
 
