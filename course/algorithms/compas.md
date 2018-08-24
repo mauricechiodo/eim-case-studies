@@ -26,7 +26,7 @@ The parameters for the Violent Recidivism risk scale are given explicitly in the
 * Age-at-first-arrest
 * History of Violence Scale
 
-Age and age at first arrest are given negative weights, and all others are given positive weights. So for example, if a 20 year old has a risk score of (say) $50$ points$\F{1}$ then a newborn baby would have a risk score of $50+20w$ points.
+Age and age at first arrest are given negative weights, and all others are given positive weights. So for example, if a 20-year-old has a risk score of (say) $50$ points$\F{1}$ then a newborn baby would have a risk score of $50+20w$ points.
 
 ### ProPublica Analysis
 
