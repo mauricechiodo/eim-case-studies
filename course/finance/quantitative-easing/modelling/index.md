@@ -37,16 +37,11 @@ Each of these has their own technology that accounts for the others and attempts
 
 $$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
-This frankly terrifying equation is part of the technical report$\F{1}$, which describes more thoroughly the mathematical aspects of the model. It ultimately says that you want to maximise your pay, but if your work has a greater supply of workers, then you will have to work for less.
+This frankly terrifying equation is part of the [technical report](./technical-appendix), which describes more thoroughly the mathematical aspects of the model. It ultimately says that you want to maximise your pay, but if your work has a greater supply of workers, then you will have to work for less.
 
 ### MELP Conclusions
 
 The paper concludes, having run simulations of multiple LSAP programs, that "the effects of recent [2008] asset purchase programs on macroeconomic variables, such as GDP growth and inflation, are likely to be moderate but with a lasting impact on the level of GDP".$\c{5}$ However, the authors admit that the effects on GDP growth are unlikely to exceed 50bp. The authors suggest that keeping interest rates low for "some period of time" alongside this LSAP will cause the LSAP to be twice as effective.
-
----
-# Footnotes
-
-$\F{1}$ In appendix A, the technology of The Macroeconomic Effects of LSAP$\c{5}$
 
 ---
 # Bibliography
