@@ -12,9 +12,13 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 # The Ethics
 
-{things}  
-{questions}  
-{discussion points}
+The example of the Black-Scholes model presents some important things, which need to be discussed.
+
+ - When mathematicians create models, they are the ones who take credit for it (there is a reason we still know this particular one as the 'Black-Scholes' model).  
+ - When these models are used - by scientists, by technicians, by traders, *et cetera* - it is those who use it who (implicitly) take responsibility.
+ - But what about if the models are *misused:* who is responsible then? This throws up a further question of what constitutes misuse.
+
+---
 
 > "Was an equation to blame for the financial crash then?  
 > An equation is a tool, and like any tool, it has to be wielded by someone who knows how to use it, and for the right purpose. The Black-Scholes equation may have contributed to the crash, but only because it was abused. It was no more responsible for the disaster than a trader's computer would have been if its use led to a catastrophic loss. The blame for the failure of tools should rest with those who are responsible for their use. There is a danger that the financial sector may turn its back on mathematical analysis, when what it actually needs is a better range of models, and - crucially - a solid understanding of their limitations. The financial system is too complex to be run on human hunches and vague reasoning. It desperately needs *more* mathematics, not less. But it also needs to learn how to use mathematics intelligently, rather than as some kind of magical talisman."  
