@@ -17,7 +17,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
  - Who is responsible for *the use* of mathematical tools?  
  - Who is responsible for the *misuse* of mathematical tools?  
 
-Something to note here is how we should classify *misuse* - in order for something to be *misused*, we need to prescribed what is *proper use*, for example use that doesn't exceeding the limits of accuracy of a model - and how this should be conveyed to non-mathematicians using the mathematical tools.
+Something to note here is how we should classify *misuse* - in order for something to be *misused*, we need to prescribed what is *proper use*, for example use that doesn't exceed the limits of reasonable accuracy of a model - and how this should be conveyed to non-mathematicians using the mathematical tools - for example, what is *reasonable* accuracy?
 
 
 > "Was an equation to blame for the financial crash then?  
