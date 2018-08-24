@@ -15,7 +15,11 @@ The model is an attempt to disprove [Wallace's Irrelevance Theorem](/course/cour
 
 ## [Agents and their governing equations](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents)
 
+AGENTS ETC (this is where the maths is)
+
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
+
+EMPIRICAL ANALYSIS
 
 ## Simulating LSAP II
 
