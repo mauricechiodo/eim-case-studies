@@ -1,8 +1,10 @@
 ---
-Title: Archers and Mathematicians
+Title: Longbow
 Template: LeafPage
 ---
 
+# Archers and Mathematicians
+
 {Things about longbow archers - coming soon}
 
-{Things about mathematicians - coming soon}
+{Things about mathematicians - also coming soon}
