@@ -9,7 +9,7 @@ It extends the economic concept of *creditworthiness* beyond the ability and wil
 The aim of the Chinese Government is to establish a "system of laws and standards to support the integration of credit information and the system of rewards and punishments" by 2020. 
 
 <details markdown="1">
-<summary>**What is a Social Credit Score?**</summary>
+<summary markdown = "1">**What is a Social Credit Score?**</summary>
 A social credit score can be defined as a rating for the consumer calculated by their "position in a social structure based on esteem that is bestowed by others."
 </details>
 
