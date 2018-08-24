@@ -27,5 +27,3 @@ Considering how fast data is being digitised in China, there is big potential fo
 [2] Mirjam Meissner. China's Social Credit System: A big-data enabled approach to makert regulation with broad implications for doing business in China. Technical report, Mercator Institute for China Studies. 
 
 [3] Rogier Creemers. Planning Outline for the Construction of a Social Credit System (2014-2020), April 2015. 
-
-10 5 6
