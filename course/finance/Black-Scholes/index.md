@@ -1,5 +1,5 @@
 ---
-Title: Option Pricing: The Black-Scholes Equation
+Title: Option Pricing
 Template: ListSubPages
 ---
 
@@ -10,7 +10,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 ---
 
-# Option Pricing
+# Option Pricing: The Black Scholes Equation
 
  - *[Option](course/finance/Black-Scholes/Options):* A type of financial derivative sold by an option writer to an option buyer. It is a contract offering the buyer the right, but not the obligation, to buy (if it is a *call* option) or to sell (if it is a *put* option) a particular underlying asset (or 'stock') at an agreed-upon price, during a certain period of time, or on a specific date. The agreed upon price is called the *strike price*. If the buyer chooses to utilise their right to buy or to sell the underlying asset, we say the option is *exercised*.
 
