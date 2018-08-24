@@ -12,11 +12,11 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 # The Ethics
 
-The example of the Black-Scholes model presents some important things, which need to be discussed.
+The example of the Black-Scholes model presents some important things which need to be considered more by mathematicians.
 
  - When mathematicians create models, they are the ones who take credit for it (there is a reason we still know this particular one as the 'Black-Scholes' model).  
  - When these models are used - by scientists, by technicians, by traders, *et cetera* - it is those who use it who (implicitly) take responsibility.
- - But what about if the models are *misused:* who is responsible then? This throws up a further question of what constitutes misuse.
+ - But what about if the models are *misused:* who is responsible then? This throws up a further question of what constitutes misuse. If mathematicians aren't transparent about the limitations of their models, then anyone using those models outside of these limitations could be said to be misusing them, but it wouldn't be their fault; the fault lies with the mathematicians.
 
 ---
 
