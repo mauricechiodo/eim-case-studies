@@ -12,7 +12,7 @@ Template: LeafPage
 
 ## Derivation:
 
-The key assumption to Black and Scholes' work is that the underlying stock price $S$ follows a geometric Brownian motion with drift $\mu$ and variance parameter $\sigma^2$. In the language of stochastic calculus, this states that
+The key assumption to Black and Scholes' work is that the underlying stock price $S$ follows a [geometric Brownian motion](course/finance/Black-Scholes/Brownian motion) with drift $\mu$ and variance parameter $\sigma^2$. In the language of stochastic calculus, this states that
 
 $$ dS = \mu S dt + \sigma S dW $$
 
