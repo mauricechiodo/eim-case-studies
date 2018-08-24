@@ -19,7 +19,7 @@ AGENTS ETC (this is where the maths is)
 
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
-EMPIRICAL ANALYSIS
+The model is estimated with Bayesian methods$\F{2}. The likelyhood is constructed using the 'Kalman filter', based on the state space representation of the rational expectations solution of the model. The [data](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis) is obtained from after the end of WWII until the third quarter of 2009, although other end points are used to gauge the stability of the model. Once the model is run, [posterior distribution](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis/posterior-distribution)s are created and the outcome is used to forecast the economy.
 
 ## Simulating LSAP II
 
@@ -32,6 +32,8 @@ The first round of LSAP, QE1, in which the US government began purchasing securi
 # Footnotes
 
 $\F{1}$ The government continued to buy smaller amounts of assets, $30 a month, from August 2010 to keep nominal holdings constant.
+
+$\F{2}$ Since $\exists$ information on the variables presented this method is appropriate. The Bayesian method takes existing ideas about something's distribution and transforms it into the posterior distribution.
 
 ---
 
