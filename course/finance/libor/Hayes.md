@@ -5,7 +5,7 @@ Template: ListSubPages
 
 # Tom Hayes
 
-Tom Hayes was a Nottingham maths graduate who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to manipulating the Yen Libor rate. 
+Tom Hayes was a Nottingham maths and engineering graduate who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to manipulating the Yen Libor rate. 
 
 Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to have paid out more than \pounds 330,000 in bribes in a single year \cite{garsideTomHayesRingmaster2015}.
 
@@ -15,18 +15,18 @@ Hayes would use brokers' relationships with Libor setters from other banks to tr
 
 In the Case Analysis dated 21st December 2015, the summary states:
 
-\begin{center}
-	\textit{``The extent to which a banker had acted dishonestly in manipulating financial markets was to be judged by the ordinary standards of reasonable and honest people, not by the standards of the market or a group of traders. Moreover, a message had to be sent to the banking world that those who involved themselves in the fraudulent manipulation of financial markets had to expect severe sentences of imprisonment."}
-\end{center} 
+*``The extent to which a banker had acted dishonestly in manipulating financial markets was to be judged by the ordinary standards of reasonable and honest people, not by the standards of the market or a group of traders. Moreover, a message had to be sent to the banking world that those who involved themselves in the fraudulent manipulation of financial markets had to expect severe sentences of imprisonment."*
+
 
 Importantly he was judged against what normal people considered to be acceptable, not what those in the business consider normal. The Case Analysis also stated:
 
-\begin{center}
-	\textit{`` At trial, he asserted that he had not acted dishonestly, that what he had done was common practice and regarded as legitimate in the banking industry, and that it had been encouraged by his managers."}
-\end{center}
+*`` At trial, he asserted that he had not acted dishonestly, that what he had done was common practice and regarded as legitimate in the banking industry, and that it had been encouraged by his managers."*
+
 
 Here we see the case of a man who believed he wasn't doing anything wrong. His work, which was encouraged by his managers, landed him 14 years in prison. 
 
 It's worth noting that the specific act of `rigging Libor' wasn't a crime at the time Hayes was doing it \cite{LIBORLaw2018}, it was made a criminal offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010 \cite{enrichLiborMastermindUnraveling}. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating yen Libor. This means that in the future it will be much easier to convict someone for rigging Libor, now that it has been made a law. It is also a note of caution - if you think something is wrong in the work you're doing but there isn't an explicit law against it, there are probably related laws that can be used against you.
 
 Note on the Tom Hayes Case: Hayes was initially charged by the U.S for his contribution to rigging Libor. In order to get charged by the U.K, to avoid the harsher prison system in the U.S, Hayes gave 82 hours worth of recorded interviews \cite[p.~2]{enrichLiborMastermindUnraveling} with the Serious Fraud Office (SFO) in the UK stating what he had done, and admitted that it was dishonest (even though he refused to admit this in his trial). This made Hayes' case very easy for the prosecution and could be one of the reasons that he was the only person who went to prison for rigging Libor. Three of the brokers who worked with Hayes to rig Libor were taken to trial and acquitted because they never admitted that they did anything wrong. One of the reasons Hayes stopped cooperating with the SFO was that he didn't want to name others involved in his `network,' like the brokers. None of Hayes' coworkers shared the same sentiments. As an example, Mirhat Alykulov was Hayes' mentee in UBS. After Alykulov was suspended for potentially being involved in Libor rigging, he went to meet FBI agents and Justice Department prosecutors. Under the instruction of the FBI, he telephoned Hayes to try to get some sort of confession out of him \footnote{The FBI made it look like the phone call was coming from Alykulov's native country, so that Hayes believed he was talking in confidence to a friend.}. Evidence obtained from this phone call was later against Hayes in his trial \cite{enrichTrapTrader2017}.
+
+**Need to sort out references**
