@@ -48,7 +48,7 @@ $$ r \Pi \Delta t = \Delta \Pi ~. $$
 
 Then after substituting in the expressions for $\Pi$ and $\Delta \Pi$:
 
-$$ r \left( -V + \frac{\partial V}{\partial S} \right) \Delta t = -\left( \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~. $$
+$$ r \left( -V + \frac{\partial V}{\partial S} S \right) \Delta t = -\left( \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} \right) \Delta t ~. $$
 
 Finally, cancelling the $\Delta t$'s and rearranging, we get the Black-Scholes equation:
 
