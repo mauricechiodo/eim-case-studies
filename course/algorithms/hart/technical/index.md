@@ -11,7 +11,7 @@ Let
 * $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'} be the outputs of HART
 * $\mathbb{I}=\prod_{i=1}^{34} I_i$ be the space of all inputs, with each $I_i$ being an input
 
-In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq${$0,1$} (eg for gender or booleans) or $I_i\simeq[n]$ for some $n$ (eg with ```CustodyPostcodeOutwardTop24```)$\F{1}$
+In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq${$0,1$} (for instance, for gender or for Booleans) or $I_i\simeq[n]$ for some $n$ (eg with ```CustodyPostcodeOutwardTop24```)$\F{1}$.
  
 Then a random forest $\mathbb{T}$ is a set of $n\F{2}$ 'classification and regression decision trees'$\C{3}{228}$ (hereon 'trees'). These trees $T_i\in\mathbb{T}$ are each an algorithm in their own right that is designed to classify suspects. Or equivalently,  $T_i$ are functions $T_i:\mathbb{I}\to\mathcal{O}$.
 
