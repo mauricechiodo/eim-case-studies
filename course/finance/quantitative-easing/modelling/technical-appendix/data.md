@@ -1,0 +1,4 @@
+---
+Title: Data
+Template: LeafPage
+---
