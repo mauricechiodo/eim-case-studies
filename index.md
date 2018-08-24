@@ -1,6 +1,6 @@
 ---
 Title: Home
-Template: LeafPage
+Template: ListSubPages
 ---
 
 # Cambridge University Ethics in Maths Project
