@@ -1,6 +1,6 @@
 ---
 Title: Wallace's Irrelevance Theorem
-Templante: LeafPage
+Templante: ListSubPages
 ---
 
 $3$
