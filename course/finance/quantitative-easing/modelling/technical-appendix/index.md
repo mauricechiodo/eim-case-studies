@@ -35,6 +35,6 @@ $\F{1}$ The government continued to buy smaller amounts of assets, $30 a month, 
 
 $\c{1}$ Han Chen, Vasco Curdia and Andrea Ferrero. “The Macroeconomic Effects of Large-Scale Asset Purchase Programs: Technical Appendix”. en. In: SSRN Electronic Journal (2011). issn: 1556-5068. doi: 10.2139/ssrn.1976319. url: http://www.ssrn.com/abstract=1976319 (visited on 2018-07-31).
 
----
-
 $\c{2}$ Wallace, Neil. "A Modigliani-Miller Theorem for Open-Market Operations." The American Economic Review 71, no. 3 (1981): 267-74. http://www.jstor.org/stable/1802777.
+
+---
