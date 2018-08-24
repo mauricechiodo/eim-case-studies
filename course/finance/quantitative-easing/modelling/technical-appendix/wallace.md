@@ -13,7 +13,7 @@ In his 1981 paper$\c{1}$ Niel Wallace showed that government intervention in tim
 
 By making certain key assumptions that alter Wallace's DSGE model, MELP predicted that LSAP will have minor, but lasting effects on the economy's health - GDP growth, real value of bonds etc. The most keen variable of interest is $\omega\\_u$ - the proportion of *unrestricted* [households](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/households). The distinction between restricted and unrestricted households is used to create a friction that breaks the irrelevance theorem.
 
----Wallace
+---
 
 # Bibliography
 
