@@ -10,9 +10,9 @@ While Black-Scholes is in some sense theoretically sound, the Gaussian copula mo
 
 The assumption of normality recurs in financial mathematics, presumably because it has many convenient properties and is at least somewhat 'physical' as a distribution. Unfortunately for financial mathematicians, in many key cases there is little empirical evidence for this normal behaviour; indeed, Benoit Mandelbrot (of all people) identified as early as 1963 that the distributions of price changes are much too 'peaked' to be normal, and instead identifies them as following a Levy distribution. This follows the probability density function 
 
-$f(x) = \\sqrt{c/2\\pi}\\dfrac{\\exp({{-\\dfrac{c}{2(x-\\mu)}}})}{(x-\\mu)^{3/2}}$  
+$$f(x) = \\sqrt{c/2\\pi}\\dfrac{\\exp({{-\\dfrac{c}{2(x-\\mu)}}})}{(x-\\mu)^{3/2}}$$
 
-for a real scale parameter $$c$$ and location parameter $$\mu$$ (note that, despite using the variable $$\mu$$, the Levy distribution in fact lacks a finite mean). This is fat-tailed, in that it drops off similarly to $$(x-\mu)^{-3/2}$$ towards infinity.  Notably, this distribution, as with the normal distribution, is 'stable': add together several variables following Levy distributions, and their sum also follows a Levy distribution.
+for a real scale parameter $c$ and location parameter $\mu$ (note that, despite using the variable $\mu$, the Levy distribution in fact lacks a finite mean). This is fat-tailed, in that it drops off similarly to $(x-\mu)^{-3/2}$ towards infinity.  Notably, this distribution, as with the normal distribution, is 'stable': add together several variables following Levy distributions, and their sum also follows a Levy distribution.
 
 The problem, however, is that the Levy distribution has infinite standard deviation, which means that models predicated on the use of the normal distribution (of finite standard deviation) cannot easily be altered to use it instead. One wonders how much of the criticism, however, is really just standard human psychology, an unwillingness to leave behind ideas that one is used to. To quote one of the fathers of modern statistics, Ronald Fisher: "The statistician cannot evade the responsibility for understanding the process he applies or recommends." 
 
