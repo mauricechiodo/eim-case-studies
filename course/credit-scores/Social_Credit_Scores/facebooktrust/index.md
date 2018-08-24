@@ -8,9 +8,9 @@ On August 21 2018, the Washington Post revealed that over the last year Facebook
 
 In order to calculate this score, Facebook is tracking users' behaviour across the website. Facebook told The Sun how this system works:
   - In order to fight against fake news, Facebook has started to use machine learning systems in order to predict articles that human fact-checkers should review;
-	- They have now developed a process that protects against people who flag news as fake simply people they do not agree with it;
-	- One of the indicators used in this process is how people report articles as false. For example, if someone gave Facebook feedback that an article was false and this was confirmed by a human fact-checker, then that person's future feedback would be weighted more positively;
-	- This is all reflected in an **invisible score or rating**.
+  - They have now developed a process that protects against people who flag news as fake simply people they do not agree with it;
+  - One of the indicators used in this process is how people report articles as false. For example, if someone gave Facebook feedback that an article was false and this was confirmed by a human fact-checker, then that person's future feedback would be weighted more positively;
+  - This is all reflected in an **invisible score or rating**.
 
 Online commentators are already comparing this the the [Chinese social credit system](http://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china). 
 
