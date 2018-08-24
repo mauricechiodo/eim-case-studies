@@ -2,8 +2,6 @@
 Template: LeafPage
 ---
 
-#Brownian motion#
-
 ---
 
  - *Standard Brownian motion:* A stochastic process $\lbrace X(t), ~ t \geqslant 0 \rbrace$ is said to be a standard Brownian motion process if
