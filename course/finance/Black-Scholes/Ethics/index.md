@@ -12,19 +12,7 @@ Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed th
 
 # The Ethics
 
-- Consider the following:  
- - Who takes responsibilty for mathematical tools, that is who *takes credit* for them?  
- - Who is responsible for *the use* of mathematical tools?  
- - Who is responsible when a mathematical tool is *misused* ?  
-
-Something to note here is how we should classify *misuse* - in order for something to be *misused*, we need to prescribed what is *proper use*, for example use that doesn't exceed the limits of reasonable accuracy of a model - and how this should be conveyed to non-mathematicians using the mathematical tools - for example, what is *reasonable* accuracy?
-
-
 > "Was an equation to blame for the financial crash then?  
-> An equation is a tool, and liek any tool, it has to be wielded by someone who knows how to use it, and for the right purpose. The Black-Scholes equation may have contributed to the crash, but only because it was abused. It was no more responsible for the disaster than a trader's computer would have been if its use led to a catastrophic loss. The blame for the failure of tools should rest with those who are responsible for their use. There is a danger that the financial sector may turn its back on mathematical analysis, when what it actually needs is a better range of models, and - crucially - a solid understanding of their limitations. The financial system is too complex to be run on human hunches and vague reasoning. It desperately needs *more* mathematics, not less. But it also needs to learn how to use mathematics intelligently, rather than as some kind of magical talisman."  
+> An equation is a tool, and like any tool, it has to be wielded by someone who knows how to use it, and for the right purpose. The Black-Scholes equation may have contributed to the crash, but only because it was abused. It was no more responsible for the disaster than a trader's computer would have been if its use led to a catastrophic loss. The blame for the failure of tools should rest with those who are responsible for their use. There is a danger that the financial sector may turn its back on mathematical analysis, when what it actually needs is a better range of models, and - crucially - a solid understanding of their limitations. The financial system is too complex to be run on human hunches and vague reasoning. It desperately needs *more* mathematics, not less. But it also needs to learn how to use mathematics intelligently, rather than as some kind of magical talisman."  
 
 Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
-
-
-- Finally, Consider the story of Cassandra, the mythological Greek prophet with the gift of perfect prophecy, but cursed so that she was never believed.  
-As a collective, mathematicians have an awesome potential for prediction with mathematical models; but this is meaningless unless people believe the models, that is unless people *trust* them. Mathematicians therefore have a duty to ... 
