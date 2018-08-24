@@ -9,6 +9,21 @@ Consider a tree that tries to determine if a number is prime. The sample has bee
 
 # TABLE OF INPUTS GOES HERE
 
+$\begin{tabular}{|l|l|}
+\hline
+Table \ref{table1} & \\ \hline
+Amount (billions of GBP) & YY/MM \\ \hline
+75 & 09/03 \\
+125 & 09/05 \\
+175 & 09/08 \\
+200 & 09/11 \\
+275 & 11/10 \\
+325 & 12/02 \\
+375 & 12/07 \\
+475 & 16/08 \\
+\hline
+\end{tabular}$
+
 ## Formulae
 
 $$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
