@@ -28,10 +28,6 @@ Quarterly data from the United States from 1987 to 2009 is used for
 5. Nominal effective Federal funds rate
 6. 10-year Treasury constant maturity yield
 
-The random variables, $X$, were given the distribution of either gamma ($X\in[0,\infty)$), beta ($x\in[0,1]$) or inverse-gamma\footnote{For shock innovations only.} ($X\in[0,\infty]$).
-
-The authors used Bayesian methods for analysing the data, deciding a prior distribution and using experimental results to alter that. The stability of their data is tested by using data ending not only in 2009q3, but also 2007q2, 2008q3 and 2011q2. The parameters remained comparable throughout the data changes.
-
 ## Simulating LSAP II
 
 The first round of LSAP, QE1, in which the US government began purchasing securities from late November 2008 until June 2010.$\F{1}$ The second round of LSAP, QE2 (in MELP it is called LSAP II), was announced in November 2010 which ended by June 2011. MELP, originally released December 2011, seeks to emulate the effects of LSAP II. An assumption made is that the government will purchase assets over 2 years, hold for 2 years and then sell assets over 2 years. However, this is not what happened. QE3, also called QE$\infty$, is an open-ended asset purchase program that currently includes purchasing $85 billion of assets per month indefinitely.
