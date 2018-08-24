@@ -18,3 +18,5 @@ Here we detail some of the particular risks overlooked by the assumptions of the
 ---
 
 So, [why does this matter](course/finance/Black-Scholes/Ethics)?
+
+---
