@@ -9,6 +9,26 @@ Consider a tree that tries to determine if a number is prime. The sample has bee
 
 ![Training data](http://cueimps.soc.srcf.net/course/media/calliope/training-data.png)
 
+<!---
+Training data produced in TeX with the following code
+\begin{tabular}{|l|l|l|l|l|}
+	\hline
+Number & Prime? & Even? & $\leq$8? & $=9$? \\ \hline
+1 & N & N & Y & N \\
+2 & Y & Y & Y & N \\
+2 & Y & Y & Y & N \\
+4 & N & Y & Y & N \\
+7 & Y & N & Y & N \\
+9 & N & N & N & Y \\
+9 & N & N & N & Y \\
+9 & N & N & N & Y \\
+13 & Y & N & N & N \\
+16 & N & Y & N & N \\
+17 & Y & N & N & N \\
+\hline
+\end{tabular}
+-->
+
 ## Formulae
 
 $$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
