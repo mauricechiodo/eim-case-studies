@@ -121,7 +121,7 @@ V(S,t) - U(S,t) &= \frac{c e^{-r(T-t)} }{\sqrt{2\pi}} \int\_{\infty}^{\infty} \l
 
 (where $\alpha$ and $\beta$ are as before) and so, using the identity $1 - \Phi(z) = \Phi(-z)$, we get the Black-Scholes formula for a European put option:
 
-> $$ U(S,t) = -S \Phi (-d\_1) + ce^{-r(T-t)} \Phi (-d\_2) ~, $$
+$$ U(S,t) = -S \Phi (-d\_1) + ce^{-r(T-t)} \Phi (-d\_2) ~, $$
 
 where $d\_1$ and $d\_2$ are as above.
 
