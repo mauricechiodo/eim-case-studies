@@ -11,7 +11,7 @@ In February 2018, a paper titled ["Deep neural networks can detect sexual orient
 
 The testing methodology was, broadly speaking, as follows:
 
-- The images used were self-taken images obtained from online dating websites; the reasons given are that these images can be collected in large numbers, from more representative samples and at a lower cost.
+- The images used were self-contributed images obtained from online dating websites; the reasons given are that these images can be collected in large numbers, from more representative samples and at a lower cost.
 
 - Face++, a widely used face-detection software, was used to identify the location of the face, outline elements and identify the head orientation. This was used to remove unsuitable images, such as those where there were multiple faces in the picture, or where the person was not directly facing the camera.
 
