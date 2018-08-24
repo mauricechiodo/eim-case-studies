@@ -5,7 +5,7 @@ Template: LeafPage
 
 # The Black-Scholes Formula
 
-After [deriving the Black-Scholes equation](2Equation),
+After [deriving the Black-Scholes equation](course/finance/Black-Scholes/2Equation),
 
 $$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0 ~, $$
 
@@ -127,9 +127,9 @@ where $d\_1$ and $d\_2$ are as above.
 
 ---
 
-Conceptually, the Black-Scholes formula is a powerful tool in financial mathematics: if we accept the [Black-Scholes model](1Model) for the market, and the assumptions about the trading strategies of agents in the markets, the formula takes a **stochastic** model for the market and produces a **deterministic** formula for how to price certain items in the market. Not only that, but the formula is somewhat simple.
+Conceptually, the Black-Scholes formula is a powerful tool in financial mathematics: if we accept the [Black-Scholes model](course/finance/Black-Scholes/1Model) for the market, and the assumptions about the trading strategies of agents in the markets, the formula takes a **stochastic** model for the market and produces a **deterministic** formula for how to price certain items in the market. Not only that, but the formula is somewhat simple.
 
-This is another place where problems can arise: in order to *use* this formula, all one needs is a scientific calculator, and some values for the interest rate $r$ and volatility $\sigma$. In order to *interpret* the [Black-Scholes equation](2Equation) or the formula one needs to have some knowledge of economics, the concepts of portfolio hedging and 'moneyness', and the behaviour of the stock market. But in order to fully *understand* the formula, one must have knowledge of the derivation; and this requires some advanced mathematics: (among other things) stochastic calculus and the diffusion equation.
+This is another place where problems can arise: in order to *use* this formula, all one needs is a scientific calculator, and some values for the interest rate $r$ and volatility $\sigma$. In order to *interpret* the [Black-Scholes equation](course/finance/Black-Scholes/2Equation) or the formula one needs to have some knowledge of economics, the concepts of portfolio hedging and 'moneyness', and the behaviour of the stock market. But in order to fully *understand* the formula, one must have knowledge of the derivation; and this requires some advanced mathematics: (among other things) stochastic calculus and the diffusion equation.
 
 As a principle
 > If we don't know the **derivation**,  
