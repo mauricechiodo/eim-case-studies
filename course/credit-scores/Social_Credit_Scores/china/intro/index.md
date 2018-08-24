@@ -13,6 +13,7 @@ The aim of the Chinese Government is to establish a "system of laws and standard
 A social credit score can be defined as a rating for the consumer calculated by their "position in a social structure based on esteem that is bestowed by others."
 </details>
 
+
 The key focus of the Chinese social credit score will be a person's trustworthiness as well as their "guanxi" (social relation), and hence measure a person's overall *goodness*.
 
 Above we mentioned a plan released in 2014 by the Chinese Government that laid out goals to be met by 2020 in order to build the SCS. In the [next section](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan), we discover the details of this plan. 
