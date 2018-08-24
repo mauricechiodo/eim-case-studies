@@ -32,5 +32,5 @@ Another point to note is that Black and Scholes arrived at their famous equation
 
 ---
 
-To read about the Black Scholes equation and how it can be derived, check out [the equation](2Equation).  
-To read more about the risks of the model, the equation, and the formula, check out [the risks](4Risks).
+To read about the Black Scholes equation and how it can be derived, check out [the equation](course/finance/Black-Scholes/2Equation).  
+To read more about the risks of the model, the equation, and the formula, check out [the risks](course/finance/Black-Scholes/4Risks).
