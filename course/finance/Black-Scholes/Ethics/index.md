@@ -19,6 +19,8 @@ consider the following:
 - Who is responsible for the *misuse* of mathematical tools?  
  - Something to note here is how we might classify *misuse:* in order for something to be *misused*, we need to prescribed what is *proper use*, for example not exceeding the limits of accuracy of a mathematical model.
 
+
+
  -
 
 > "Was an equation to blame for the financial crash then?  
@@ -27,5 +29,5 @@ consider the following:
 Professor Ian Stewart ~ "In pursuit of the Unknown: 17 Equations That Changed the World"
 
 
-- Consider the story of Cassandra, the mythological Greek prophet with the gift of perfect prophecy, but cursed so that she was never believed.  
+- Finally, Consider the story of Cassandra, the mythological Greek prophet with the gift of perfect prophecy, but cursed so that she was never believed.  
 As a collective, mathematicians have an awesome potential for prediction with mathematical models; but this is meaningless unless people believe the models, that is unless people *trust* them. Mathematicians therefore have a duty to ... 
