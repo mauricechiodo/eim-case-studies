@@ -18,7 +18,7 @@ The key focus of the Chinese social credit score will be a person's trustworthin
 
 Above we mentioned a plan released in 2014 by the Chinese Government that laid out goals to be met by 2020 in order to build the SCS. In the [next section](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan), we discover the details of this plan. 
 
-Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/summary) for a summary on the Social Credit System.
+Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/summary) for a summary of the Social Credit System.
 
 ##References
 
