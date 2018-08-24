@@ -15,18 +15,7 @@ The model is an attempt to disprove [Wallace's Irrelevance Theorem](/course/cour
 
 ## [Agents and their governing equations](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents)
 
-## Empirical Analysis
-
-## [Data](/course/course/finance/quantitative-easing/modelling/technical-appendix/data)
-
-Quarterly data from the United States from 1987 to 2009 is used for
-
-1. Real GDP per capita
-2. Hours worked
-3. Real wages
-4. Core personal consumption expenditures deflator
-5. Nominal effective Federal funds rate
-6. 10-year Treasury constant maturity yield
+## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
 ## Simulating LSAP II
 
@@ -47,15 +36,3 @@ $\F{1}$ The government continued to buy smaller amounts of assets, $30 a month, 
 $\c{1}$ Han Chen, Vasco Curdia and Andrea Ferrero. “The Macroeconomic Effects of Large-Scale Asset Purchase Programs: Technical Appendix”. en. In: SSRN Electronic Journal (2011). issn: 1556-5068. doi: 10.2139/ssrn.1976319. url: http://www.ssrn.com/abstract=1976319 (visited on 2018-07-31).
 
 $\c{2}$ Wallace, Neil. "A Modigliani-Miller Theorem for Open-Market Operations." The American Economic Review 71, no. 3 (1981): 267-74. http://www.jstor.org/stable/1802777.
-
-$\c{3}$ 
-
-$\c{4}$ 
-
-$\c{5}$ 
-
-$\c{6}$ 
-
-$\c{7}$ 
-
-$\c{8}$ 
