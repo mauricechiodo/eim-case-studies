@@ -13,7 +13,7 @@ Agents are DSGE's representation of real-world active bodies - companies, househ
 
 Households are meant to be literally houses, representing workers that monopolistically supply labour, consume and enjoy leisure. Households also invest in bonds. Unrestricted households ($u$) can invest in both long- and short-term bonds, but suffer a transaction cost $\zeta\_t$ for every unit of long-term bond they purchase. Restricted households ($r$) can only invest in long-term bonds, but suffer no such transaction cost.
 
-Each household supplies labour, the type of which is indexed as a continuum $i\in[0,1]$. They each have their own preferences (for working hours, types of items consumed etc), their own habit and aversion to risk. The households have utility at each time step, a budget constraint$\F{1}$ and $\hat{HI MARK}$ and a wage they want to optimise. The supply of their labour type and elasticity of it informs labour agencies about how to price labour.
+Each household supplies labour, the type of which is indexed as a continuum $i\in[0,1]$. They each have their own preferences (for working hours, types of items consumed etc), their own habit and aversion to risk. The households have utility at each time step, a budget constraint$\F{1}$ and a wage they want to optimise. The supply of their labour type and elasticity of it informs labour agencies about how to price labour.
 
 ## [Labour Agencies](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/labour-agencies)
 
