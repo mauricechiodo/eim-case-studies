@@ -47,8 +47,6 @@ The other key parameter, according to the authors, is the elasticity of the risk
 
 ---
 
----
-
 # Footnotes
 
 $\F{1}$ For shock innovations only
