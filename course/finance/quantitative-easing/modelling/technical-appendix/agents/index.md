@@ -3,10 +3,8 @@ Title: Agents and the Equations that Govern them
 Template: ListSubPages
 ---
 
-$\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
-
 # Agents
-
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 Agents are DSGE's representation of real-world active bodies - companies, households and government. They act according to their own needs, restrictions and with a goal in mind - typically the goal of maximising money made.
 
 ## [Households](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/households)
@@ -15,19 +13,19 @@ Households are meant to be literally houses, representing workers that monopolis
 
 Each household supplies labour, the type of which is indexed as a continuum $i\in[0,1]$. They each have their own preferences (for working hours, types of items consumed etc), their own habit and aversion to risk. The households have utility at each time step, a budget constraint$\F{1}$ and a wage they want to optimise. The supply of their labour type and elasticity of it informs labour agencies about how to price labour.
 
-## [Labour Agencies](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/labour-agencies)
+## [Labour Agencies](course/finance/quantitative-easing/modelling/technical-appendix/agents/labour-agencies)
 
 ### Wage Setting
 
-## [Capital Producers](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/capital-producers)
+## [Capital Producers](course/finance/quantitative-easing/modelling/technical-appendix/agents/capital-producers)
 
-## [Goods Producers](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/goods-producers)
+## [Goods Producers](course/finance/quantitative-easing/modelling/technical-appendix/agents/goods-producers)
 
 ### Intermediate Goods Producers
 
 ### Final Goods Producers
 
-## [Government Policies](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/government)
+## [Government Policies](course/finance/quantitative-easing/modelling/technical-appendix/agents/government)
 
 ---
 
