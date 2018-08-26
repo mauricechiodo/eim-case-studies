@@ -7,7 +7,7 @@ Template: ListSubPages
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 Agents are DSGE's representation of real-world active bodies - companies, households and government. They act according to their own needs, restrictions and with a goal in mind - typically the goal of maximising money made.
 
-## [Households](course/course/finance/quantitative-easing/modelling/technical-appendix/agents/households)
+## [Households](course/finance/quantitative-easing/modelling/technical-appendix/agents/households)
 
 Households are meant to be literally houses, representing workers that monopolistically supply labour, consume and enjoy leisure. Households also invest in bonds. Unrestricted households ($u$) can invest in both long- and short-term bonds, but suffer a transaction cost $\zeta\_t$ for every unit of long-term bond they purchase. Restricted households ($r$) can only invest in long-term bonds, but suffer no such transaction cost.
 
