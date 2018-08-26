@@ -29,4 +29,12 @@ Each household supplies labour, the type of which is indexed as a continuum $i\i
 
 ---
 
+# Footnotes
+
 $\F{1}$ The constraint of having a finite amount of wealth while existing is costly.
+
+---
+
+# Bibliography
+
+---
