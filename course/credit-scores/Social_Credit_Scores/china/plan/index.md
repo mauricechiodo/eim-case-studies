@@ -14,6 +14,8 @@ The Plan reveals that the SCS has two main components:
   
 Over 30 local governmets have already started [piloting social credit systems](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/pilots), although they use different approaches to calculate the scores. Furthermore, large Internet companies have also been given licenses to run their own pilots, the most widely used being Alibaba's [Seasame Credit](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit).
 
+But what are the consequences of the SCS? Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/consequences) to find out. 
+
 ##References
 
 [1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progrss or a Threat to Privacy? *Peterson Institute for International Economics,* June 2018. 
