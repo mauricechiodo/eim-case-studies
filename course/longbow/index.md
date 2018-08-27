@@ -1,6 +1,7 @@
 ---
 Title: Longbow
 Template: LeafPage
+GridImage: media/archers-thumbnail.png
 ---
 
 # Archers and Mathematicians
