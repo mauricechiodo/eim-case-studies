@@ -1,7 +1,7 @@
 ---
 Title: Finance and the Economic Crash
 Template: ListSubPages
-GridImage: http://cueimps.soc.srcf.net/course/media/grid_image_test.png
+GridImage: course/media/finance.png
 ---
 
 # Finance and the Economic Crash
