@@ -1,11 +1,7 @@
 ---
-
 Title: Artificial Intelligence
-
 Template: ListSubPages
-
-GridImage: http://cueimps.soc.srcf.net/course/media/robot1.png
-
+GridImage: media/ai-thumbnail.png
 ---
 
 
