@@ -38,5 +38,6 @@ According to the Encyclopaedia Britannica:
 
 Henry ordered the slaughter of perhaps several thousand French prisoners, and a slaughter did ensue. The knights found it contrary to chivalry (and against their interests to kill valuable hostages, who would usually be ransomed). But Henry threatened to hang whoever did not obey his orders, and the archers obeyed, with the number of French knights killed likely reaching the hundreds before the reserves fled the field and Henry called an end to the slaughter.
 
+---
 
-{Things about mathematicians - also coming soon}
+Compare the training and upbringing of a longbow archer to that of a mathematician, which also requires focused practice from a young age. Mathematics also pervasively changes the way your mind functions and how you consider the world. And mathematics is taught with such abstraction from the real world that its effects are rarely considered: it is done with no code of conduct.
