@@ -9,6 +9,8 @@ The system devised in Rongcheng assigns 1,000 points at the beginning to each of
 
 <p>
     <img src="http://cueimps.soc.srcf.net/course/media/Rongcheng.png" Map of Rongcheng>
+</p>
+<p>
     <em>Map Data © 2018 Google, SK Telecom.</em>
 </p>
 
