@@ -28,4 +28,4 @@ This has the potential to have disastrous consequences for those who *"challenge
 
 [1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progress or a Threat to Privacy? *Peterson Institute for International Economics*, June 2018. 
 
-[2] Stefam Brehm and Nicholas Loubere. The Global Age of Algorithm: Social Credit and the Financialisation of Governance in China. *Made in China*, 3(1):38-40, March 2018. 
+[2] Stefam Brehm and Nicholas Loubere. The Global Age of Algorithm: Social Credit and the Financialisation of Governance in China. *Made in China*, 3(1):38-43, March 2018. 
