@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 #Facebook Trustworthiness Score
 
-On August 21 2018, the Washington Post revealed that over the last year Facebook has developed a rating system to rate users on a scale from 0 to 1 that determines if they have a good or bad reputation. Facebook confirmed this to *The Sun*. This score is completely hidden from users. As stated by Tessa Lyons, the product manager who is in charge of fighting misinformation, Facebook has developed this in an effort to fight against *fake news*. 
+On August 21 2018, the *Washington Post* revealed that over the last year Facebook has developed a rating system to rate users on a scale from 0 to 1 that determines if they have a good or bad reputation. Facebook confirmed this to *The Sun*. This score is completely hidden from users. As stated by Tessa Lyons, the product manager who is in charge of fighting misinformation, Facebook has developed this in an effort to fight against 'fake news'. 
 
 In order to calculate this score, Facebook is tracking users' behaviour across the website. Facebook told *The Sun* how this system works:
 
@@ -24,7 +24,7 @@ Samidh Chakrabarti, who is in charge of civic engagement at Facebook, states tha
 
 So, Facebook is now determining how *trustworthy* we are, using data from how we interact with their website. Worst of all, we have no ability to know what our individual score is. So far, it is only being used as one signal among many that the company feeds into more algorithms to help it decide which stories should be reviewed. However, this number can be applied to many other areas, and as a result Facebook can sell it to, for example, credit scorers, employers, or even dating apps. As well as a huge breach in our privacy, this will certainly have certain legal ramifications – if we don't know what our score is, let alone what factors Facebook is using to calculate this score, **how can we possibly challenge it?** 
 
-Another problem is the protection of this data. Suppose that this score is stored with an accuracy of three decimal places. This data will be around 2TB, which is small enough to fit on a memory stick. As a result, a data leak is entirely possible. And what on Earth happens if this data is leaked? This information could be directly used against individuals, or even sold to third parties to be used in third-party scoring models. Although this is all a hypothesis, we cannot neglect the possibility of such an event in order to take measures to make sure it doesn't happen. 
+Another problem is the protection of this data. Suppose that this score is stored with an accuracy of three decimal places. The overall data will be around 2TB, which is small enough to fit on a memory stick. As a result, a data leak is entirely possible. And what on Earth happens if this data is leaked? This information could be directly used against individuals, or even sold to third parties to be used in third-party scoring models. Although this is all a hypothesis, we cannot neglect the possibility of such an event in order to take measures to make sure it doesn't happen. 
 
 ##References
 
