@@ -9,7 +9,7 @@ On January 28, 2015, Ant Financial released a press statement introducing its ne
 Its scoring system is based on online and offline data to generate individual credit scores for consumers and small business owners.
 They state in the press release that:
 
->*"By tapping into Alibaba’s vast online ecosystem, Sesame Credit is able to collect data from more than 300 million real-name registered users and 37 million small businesses that buy and sell on Alibaba Group marketplaces including Taobao Marketplace and Tmall.com. Payment histories are also available from Alipay, a subsidiary of Ant Financial that is China’s largest online payment provider. Sesame Credit is also working actively with public agencies, financial institutions, and various types of merchants to obtain more data that can effectively reflect consumers’ creditworthiness."
+>*"By tapping into Alibaba’s vast online ecosystem, Sesame Credit is able to collect data from more than 300 million real-name registered users and 37 million small businesses that buy and sell on Alibaba Group marketplaces including Taobao Marketplace and Tmall.com. Payment histories are also available from Alipay, a subsidiary of Ant Financial that is China’s largest online payment provider. Sesame Credit is also working actively with public agencies, financial institutions, and various types of merchants to obtain more data that can effectively reflect consumers’ creditworthiness."*
 
 The Sesame score ranges from 250 to 950 points, and they are calculated using five different factors, each of which have different weightings that can vary from person to person.
   1. **Credit History** reflects a user's past payment history and indebtness, for example credit card repayment and utility bill payments. 
