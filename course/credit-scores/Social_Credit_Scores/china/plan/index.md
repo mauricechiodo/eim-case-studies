@@ -14,6 +14,6 @@ The Plan reveals that the SCS has two main components:
   
 ##References
 
-[1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progrss or a Threat to Privacy? *Peterso Institute for International Economics,* June 2018. 
+[1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progrss or a Threat to Privacy? *Peterson Institute for International Economics,* June 2018. 
 
 [2] Rogier Creemers. Planning Outline for the Construction of a Social Credit System (2014-2020), April 2015. 
