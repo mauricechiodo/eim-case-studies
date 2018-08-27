@@ -5,7 +5,7 @@ Template: LeafPage
 
 #Other Copulas
 
-There are a variety of different classes of copulas. The ones presented below have been taken from chapter 1 of 'Mathematical Risk Analysis' by Rüschendorf (2013) and others were discussed by Li (2000) before he ultimately choose to use the Gaussian copula.
+There are a variety of different classes of copulas. The ones presented below have been taken from Chapter 1 of 'Mathematical Risk Analysis' by Rüschendorf (2013), and others were discussed by Li (2000) before he ultimately choose to use the Gaussian copula.
 
 ##Farlie--Gumbel--Morfenstern (FGM) Copula
 
@@ -20,8 +20,11 @@ There are also its generalised versions - EFGM copulas, which are extensions of 
       for suitable $\alpha_T \in \mathbb{R}^1.$
 
 Some examples of applications of this family of copulas is discussed by Lai and Balakrishnan in 'Distributions Expressed as Copulas': 
+
   - fitting data on the joint occurrence of certain trace elements in water;
+  
   - a starting point when considering how a population probability distribution function is altered in the surviving and nonsurviving groups by a risk function;
+  
   - reanalysing datasets on the effects of mixtures of poisons.
 
 ##Archimedean Copulas
@@ -42,7 +45,7 @@ When $\Phi_\delta(t) = -\frac{1}{\delta}\log(1 - (1-e^{-\delta})e^{-t})$ we get 
 
       $C_\delta(u) = -\frac{1}{\delta}\log(1 + \frac{\prod_{i = 1}^n(e^{-\delta u_i}-1)}{(e^{-\delta}-1)^{n-1}})$
 
-Archimedean copulas are popular in practivce as they allow modeling dependence in arbitrarily high dimensions with only one parameter that determines the strength of dependence.
+Archimedean copulas are popular in practice as they allow modelling dependence in arbitrarily high dimensions with only one parameter that determines the strength of dependence.
 
 ##Bivariate Normal
 
