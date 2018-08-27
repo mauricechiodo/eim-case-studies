@@ -40,4 +40,6 @@ Henry ordered the slaughter of perhaps several thousand French prisoners, and a 
 
 ---
 
+## Mathematicians
+
 Compare the training and upbringing of a longbow archer to that of a mathematician, which also requires focused practice from a young age. Mathematics also pervasively changes the way your mind functions and how you consider the world. And mathematics is taught with such abstraction from the real world that its effects are rarely considered: it is done with no code of conduct.
