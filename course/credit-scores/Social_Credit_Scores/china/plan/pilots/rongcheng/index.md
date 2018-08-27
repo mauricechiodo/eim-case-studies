@@ -7,6 +7,11 @@ Template: LeafPage
 
 The system devised in Rongcheng assigns 1,000 points at the beginning to each of the 740,000 adult residents. A citizen can then either win or lose points depending on the actions they take. 
 
+<p>
+    <img src="http://cueimps.soc.srcf.net/course/media/Rongcheng.png" Map of Rongcheng>
+    <em>Map Data © 2018 Google, SK Telecom.</em>
+</p>
+
 For example, if the person gets a traffic ticket, they lose 5 points; conversely, they can earn credit by donating to charity or by volunteering in the city's program. 
 
 According to government officials, this is one of the most successful pilots so far, largely due to the fact that the community has embraced it. 
