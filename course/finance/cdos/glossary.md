@@ -6,6 +6,7 @@ Template: LeafPage
 #Glossary
 
   - **Subprime Mortgage:** A subprime mortgage is a type of loan given to people with a poor credit score and who therefore do not qualify for conventional mortgages. As subprime borrowers are higher risk, the subprime mortgages charge a greater interest rate.
+  
   - **Credit Default Swap:** A Credit Default Swap (CDS) is a financial swap agreement that says that the seller will compensate the buyer in the event of a debt default or other credit event. In other words, the seller of the CDS insures the buyer against the asset defaulting. 
   - **Tranche:** A portion of something, especially money.
   - **Write-down:** A reduction in the estimated or nominal value of an asset.
