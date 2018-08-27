@@ -13,5 +13,8 @@ A list of the currently available topics is below.
 
 Test footnote[^2]
 
+Test reference[ref123]
+
 [^1]: Footnote test1
 [^2]: Footnote test2
+[ref123]: www.google.com "Test Title"
