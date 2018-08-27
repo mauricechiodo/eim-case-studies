@@ -26,5 +26,5 @@ Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Cre
 
 [2] Rogier Creemers. Planning Outline for the Construction of a Social Credit System (2014 - 2020), April 2015. 
 
-[3] Stefan Brehm and Nicholas Loubere. The Global Age of Algorithm: Social Credit and the Financialisation of Governance in China. *Made in China*, 3(1):38-40, March 2018. 
+[3] Stefan Brehm and Nicholas Loubere. The Global Age of Algorithm: Social Credit and the Financialisation of Governance in China. *Made in China*, 3(1):38-43, March 2018. 
 
