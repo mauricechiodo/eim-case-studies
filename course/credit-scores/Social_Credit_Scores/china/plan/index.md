@@ -12,8 +12,12 @@ The Plan reveals that the SCS has two main components:
 - [Data Collection](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/datacollection) 
 - [Generation of Social Credit Scores](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring)
   
+Over 30 local governmets have already started [piloting social credit systems](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/pilots), although they use different approaches to calculate the scores. Furthermore, large Internet companies have also been given licenses to run their own pilots, the most widely used being Alibaba's [Seasame Credit](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit).
+
 ##References
 
 [1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progrss or a Threat to Privacy? *Peterson Institute for International Economics,* June 2018. 
 
 [2] Rogier Creemers. Planning Outline for the Construction of a Social Credit System (2014-2020), April 2015. 
+
+[3] Stefan Brehm and Nicholas Loubere. The Global Age of Algorithm: Social Credit and the Financialisation of Governance in China. Made in China. 3(1):38-43, March 2018.
