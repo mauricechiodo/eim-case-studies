@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 #The Credit Reference Center of the PBOC
 
-This was established in 2004, but it meant to become a very important credit rating authority under the SCS: "It can be expected that the Credit Reference Center... will take a vital role in rating companies under the Social Credit System" (Meissner).
+This was established in 2004, but it was meant to become a very important credit rating authority under the SCS: "It can be expected that the Credit Reference Center... will take a vital role in rating companies under the Social Credit System" (Meissner).
 
 ##References
 
