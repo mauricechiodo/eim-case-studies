@@ -12,7 +12,7 @@ The Plan reveals that the SCS has two main components:
 - [Data Collection](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/datacollection) 
 - [Generation of Social Credit Scores](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring)
   
-Over 30 local governmets have already started [piloting social credit systems](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/pilots), although they use different approaches to calculate the scores. Furthermore, large Internet companies have also been given licenses to run their own pilots, the most widely used being Alibaba's [Seasame Credit](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit).
+Over 30 local governmets have already started [piloting social credit systems](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/pilots), although they use different approaches to calculate the scores. Furthermore, large Internet companies have also been given licenses to run their own pilots, the most widely used being Alibaba's [Seasame Credit](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit).
 
 But what are the consequences of the SCS? Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/consequences) to find out. 
 
