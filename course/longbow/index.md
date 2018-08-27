@@ -18,7 +18,7 @@ Template: LeafPage
 
 In the 14th and 15th centuries, the English kings heavily encouraged boys and men to practise archery, to the extent of banning all other sports because they diverted time from archery. Archers were known to be valuable in a war, and were used to great effect on the battlefields of Crécy, Poitiers, and Agincourt (to name but a few); in each battle the English armies were outnumbered but still gained victory, thanks in part to skillful use of their longbow archers. And fielding great numbers of archers for a war was far easier to do when every boy from a young age was obliged to practise at least once a week - with competitions adding monetary incentives to turn this practice into training.
 
-An important point to this is that bows (especially longbows) were not weapons that just anyone could use. An account from 12th century Wales illustrates just how powerful they were:
+An important point to this is that bows - especially longbows - were not weapons that just anyone could use. An account from 12th-century Wales illustrates just how powerful they were:
 
 > one of the men of arms was struck by an arrow shot at him by a Welshman. It went right through his thigh, high up, where it was protected inside and outside the leg by his iron cuirasses, and then though the skirt of his leather tunic; next it penetrated that part of the saddle which is called the alva or seat; and finally it lodged in his horse, driving so deep that it killed the animal
 
