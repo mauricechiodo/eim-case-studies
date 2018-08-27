@@ -17,6 +17,8 @@ Before proving the result we first define a **distributional transform**:
 
     We call $U := F(Y, V)$ the **distributional transform** of Y. 
 
+For continuous distribution functions $F$ , $F(x, \lambda)$ for all $\lambda$, and $U = F(Y)$ has distribution U(0,1).
+
 ##Proposition
 
 Let U  = F(Y,V) be the distributional transform of Y. Then $U := U(0,1)$ and $Y = F^{-1}(U)$ almost surely.
