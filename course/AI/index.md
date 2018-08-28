@@ -48,12 +48,12 @@ Those creating AI algorithms not only need to be careful about the intended uses
 
  <div id=grid>
  
- <a href="https://cueimps.soc.srcf.net/course/course/AI/HBRarticle">
- <img src="http://cueimps.soc.srcf.net/course/media/Lara/HBRimage.png"/>
+ <a href="https://cueimps.soc.srcf.net/course/course/AI/Bias">
+ <img src="http://cueimps.soc.srcf.net/course/media/Lara/BiasImage.png"/>
  </a>
  
-  <a href="https://cueimps.soc.srcf.net/course/course/AI/NYtimesReview">
- <img src="http://cueimps.soc.srcf.net/course/media/Lara/NYTimageSmall.jpg"/>
+  <a href="https://cueimps.soc.srcf.net/course/course/AI/kosinski">
+ <img src="http://cueimps.soc.srcf.net/course/media/Lara/kosinskiImage.jpg"/>
  </a>
  
 
