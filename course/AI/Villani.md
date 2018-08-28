@@ -1,7 +1,7 @@
 ---
 Title: For a Meaningful Artificial Intelligence
 Template: ListSubPages
-GridImage: media/Lara/kosinskiImage.jpg
+GridImage: media/Lara/VillaniImage.jpg
 ---
 
 # For a Meaningful Artificial Intelligence
