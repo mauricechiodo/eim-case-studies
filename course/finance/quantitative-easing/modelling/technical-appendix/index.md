@@ -33,8 +33,6 @@ The model is estimated with Bayesian methods.$\F{2}$ The likelyhood is construct
 
 The first round of LSAP, QE1, in which the US government began purchasing securities from late November 2008 until June 2010.$\F{1}$ The second round of LSAP, QE2 (in MELP it is called LSAP II), was announced in November 2010 which ended by June 2011. MELP, originally released December 2011, seeks to emulate the effects of LSAP II. An assumption made is that the government will purchase assets over 2 years, hold for 2 years and then sell assets over 2 years. However, this is not what happened. QE3, also called QE$\infty$, is an open-ended asset purchase program that currently includes purchasing $85 billion of assets per month indefinitely.
 
-## Conclusions
-
 ---
 
 # Footnotes
