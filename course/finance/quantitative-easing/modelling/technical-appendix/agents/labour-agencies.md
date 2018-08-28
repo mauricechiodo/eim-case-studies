@@ -75,3 +75,9 @@ household does not declare what they will charge and then demand this
 from their boss. Rather, this optimisation is the understanding that
 generally a household will implicitly do this by choosing where to work.
 When there are billions of households this becomes the general trend.
+
+---
+
+# Footnotes
+
+$\F{1}$ A sticky wage keeps the same nominal value or close to the same nominal value despite inflation.
