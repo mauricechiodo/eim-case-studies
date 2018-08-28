@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 # Households
-$\newcommand{\F}[1]{$^{\text{F}#1}$}$
+$\newcommand{\F}[1]{^{\text{F}#1}}$
 * A household is the monopolistic supplier of labour in the market, they can be restricted ($r$), or unrestricted ($u$), let $j\in\\{u,r\\}$ – a restricted household cannot trade in short-term bonds.
 * $C\_t^j$ is a household’s **consumption** relative to **productivity** $Z\_t$, how many resources (food clothes etc) that the household consumes. This is relative to the total productivity of the economy.
 * $L\_t^j$ is a household’s hours worked per unit time.
