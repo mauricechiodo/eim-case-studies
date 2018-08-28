@@ -115,3 +115,14 @@ money they have available.
 # Footnotes
 
 $\F{1}$ A risk-averse person will favour a guaranteed £10, whereas one who is not risk averse will go for the £20. In extreme cases you have risk-loving and risk-fearing people, who will suffer some cost to $\mathbb{E}$(money) in order to take or not take risks. A risk-loving person may chose to get £15 50% of the time over £10 100% of the time.
+
+$\F{2}$ Nominal is in terms of actual £s, rather than in terms of its actual value in the market.
+
+---
+
+# Bibliography
+
+$\c{1}$ Han Chen, Vasco Curdia and Andrea Ferrero. “The Macroeconomic Effects
+of Large-Scale Asset Purchase Programs: Technical Appendix”. en. In: SSRN
+Electronic Journal (2011). issn: 1556-5068. doi: 10.2139/ssrn.1976319. url:
+http://www.ssrn.com/abstract=1976319 (visited on 2018-07-31).
