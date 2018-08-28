@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 # Government policies
-
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 -   $\Pi\_t\equiv\frac{P\_t}{P\_{t-1}}$ is the **inflation rate**.
 
 -   $\epsilon\_{m,t}$ is an **iid innovation**, where $m\in\{B,T\}$.
