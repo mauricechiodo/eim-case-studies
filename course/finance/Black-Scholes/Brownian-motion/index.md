@@ -2,7 +2,7 @@
 Template: LeafPage
 ---
 
-#Brownian motion
+#Brownian
  
 ---
 
