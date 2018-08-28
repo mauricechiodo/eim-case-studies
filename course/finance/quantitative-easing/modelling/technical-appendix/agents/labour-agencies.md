@@ -54,6 +54,8 @@ $i^{th}$ household.
 
 $$W\_t=\left[\int\_0^1W\_t(i)^{-\frac{1}{\lambda\_w}}di\right]^{-\lambda\_w}$$
 
+## Wage Setting
+
 Households have a monopoly on labour input, and set wages on a staggered
 basis. In each period, the probability of resetting the wage is
 $1-\zeta\_w$, and if the wage is not reset it automatically increases by
