@@ -72,3 +72,12 @@ $$P\_t=\left[\int\_0^1P\_t(f)^{-\frac{1}{\lambda\_f}}df\right]^{-\lambda\_f}$$
 Meaning that final goods producers ultimately take a continuum of
 intermediate goods and create some final good for which the price is
 $P\_t$.
+
+---
+
+# Bibliography
+
+$\c{1}$ Han Chen, Vasco Curdia and Andrea Ferrero. “The Macroeconomic Effects
+of Large-Scale Asset Purchase Programs: Technical Appendix”. en. In: SSRN
+Electronic Journal (2011). issn: 1556-5068. doi: 10.2139/ssrn.1976319. url:
+http://www.ssrn.com/abstract=1976319 (visited on 2018-07-31).
