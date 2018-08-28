@@ -45,7 +45,7 @@ To maximise profit, the demand for the $i^{th}$ labour input becomes
 
 $$L\_t(i)=\left[\frac{W\_t(i)}{W\_t}\right]^{-\frac{1+\lambda\_w}{\lambda\_w}}L\_t$$
 
-Labour agencies have a [**zero profit condition**]{}, which means that
+Labour agencies have a **zero profit condition**, which means that
 there is a very low cost of entry into the business such that there is a
 large supply into the business and so the market becomes perfectly
 competitive. The most famous example is the gold rushes. Under this
