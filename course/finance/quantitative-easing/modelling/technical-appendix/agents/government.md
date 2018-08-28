@@ -13,7 +13,7 @@ Template: LeafPage
 -   $G\_t$ is **taxes of a perpetuity**, costs associated with
     perpetuities manifest by this variable.
 
-The government has an interest rate that feeds back on itself[^13], the
+The government has an interest rate that feeds back on itself$\F{1}$, the
 returns $R\_t$ on bonds follows the equation
 
 $$\frac{R\_t}{R}=\left(\frac{R\_{t-1}}{R}\right)^{\rho\_m}\left[\left(\frac{\Pi\_t}{\Pi}\right)^{\phi\_\pi}\left(\frac{Y\_t/Y\_{t-4}}{e^{4\gamma}}\right)^{\phi\_y}\right]^{1-\rho\_m}e^{\epsilon\_{m,t}}$$
