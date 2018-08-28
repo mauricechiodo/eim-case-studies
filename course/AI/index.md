@@ -27,8 +27,8 @@ they are replacing." This is a very dangerous claim to make. Algorithms can make
  <img src="http://cueimps.soc.srcf.net/course/media/Lara/HBRimage.png"/>
  </a>
  
-  <a href="https://cueimps.soc.srcf.net/course/course/AI/HBRarticle">
- <img src="http://cueimps.soc.srcf.net/course/media/Lara/UBERimage.png"/>
+  <a href="https://cueimps.soc.srcf.net/course/course/AI">
+ <img src="http://cueimps.soc.srcf.net/course/media/Lara/BostromImageSmall.jpg"/>
  </a>
  
  </div>
