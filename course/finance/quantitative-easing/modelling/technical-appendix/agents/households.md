@@ -18,7 +18,7 @@ $\newcommand{\F}[1]{$^{\text{F}#1}$}$
 
 The lifetime utility of a household is given as the equation
 
-$$\mathbb{E}_t\sum_{s=0}^\infty\beta_j^s b_{t+s}^j \left[ \frac{1}{1-\sigma_j} \left( \frac{C_{t+s}^j}{Z_{t+s}}-h\frac{C_{t+s-1}^j}{Z_{t+s-1}} \right)^{1-\sigma_j} - \frac{\varphi_{t+s}^j(L_{t+s}^j(i))^{1+\nu}}{1+\nu} \right]$$
+$$\mathbb{E}\_t\sum\_{s=0}^\infty\beta\_j^s b\_{t+s}^j\left[\frac{1}{1-\sigma\_j}\left(\frac{C\_{t+s}^j}{Z\_{t+s}}-h\frac{C\_{t+s-1}^j}{Z\_{t+s-1}}\right)^{1-\sigma\_j}-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
 ---
 
