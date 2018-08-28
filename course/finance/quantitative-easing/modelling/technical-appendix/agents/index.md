@@ -62,7 +62,3 @@ $\F{5}$ This is modelled as a *global* resource constraint under the assumption 
 $\F{6}$ The budget constraint inequality becomes an equality.
 
 ---
-
-# Bibliography
-
----
