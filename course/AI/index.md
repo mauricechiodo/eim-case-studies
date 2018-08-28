@@ -22,6 +22,12 @@ they are replacing." This is a very dangerous claim to make. Algorithms can make
  
  [![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/HBRimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)[![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/UBERimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)
  
+ <div id=grid>
+ 
+ [![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/UBERimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)
+ 
+ </div>
+ 
  
 
 One of the major issues which a lot of the material on ethics in AI aimed at the general public seems to neglect is the concept that AI is still susceptible to human error. In March 2018, an autonomous vehicle killed a pedestrian for the first time. Many issues led to this catastrophic event, like the car's emergency breaking system being disabled, thus relying on the (distracted) car 'driver' to brake should it be required in an emergency. In decision-making algorithms, bias is a huge issue. In the case of deep neural networks (a branch of machine learning), it is currently not possible to see why an algorithm made a specific decision. These deep neural networks make decisions based on a set of training data, where it is give what the outcome should be. It 'learns' what values certain parameters should have based on this data, and subsequently uses these parameters to make decisions based on other input data. Any bias in the training data leads to bias in the algorithms decisions. A group at MIT created an 'AI-powered psychopath' in 2018 to prove this point. This makes it dangerous to use these algorithms in, for example, prison sentencing, where historic bias could lead to bias in the training data leading to bias in the decision made by the algorithm.
