@@ -19,6 +19,8 @@ Black and Scholes' market consists of one risky asset (the 'stock') and one risk
 - *It is possible to borrow any fraction of the price of a security to buy it or to hold it, at the short-term interest rate.*
 - *There are no penalties to short selling. A seller who does not own a security will simply accept the price of the security from a buyer, and will agree to settle with the buyer on some future date by paying him an amount equal to the price of the security on that date.*
 
+ ~ Fischer Black and Myron Scholes, *The Pricing of Options and Corporate Liabilities*, Journal of Political Economy, May 1973.
+
 ---
 
 Many of these assumptions are for mathematical simplicity: for example, not all options are European, but the restriction that a European option may only be exercised at its maturity date allows for an equation - for an ['American' option](course/finance/Black-Scholes/Options), which may be exercised any time *up to* and including its maturity, the Black-Scholes' equation becomes an inequality.
