@@ -1,6 +1,6 @@
 ---
 Title: Artificial Intelligence
-Template: ListSubPages
+Template: SubPageGrid
 GridImage: media/ai-thumbnail.png
 ---
 
