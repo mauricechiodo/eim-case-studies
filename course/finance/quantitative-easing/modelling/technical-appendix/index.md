@@ -25,6 +25,8 @@ There are 6 main agents at work in the DSGE model, these are
 
 They each have different constraints (in the form of (in)equalities) and their own goals (in the form of optimisation goals). Each link goes to the sub-page for that agent, or click the header for the mathematical overview of each.
 
+## [Equilibrium and Solution Strategy](/course/course/finance/quantitative-easing/techincal-appendix/equilibrium)
+
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
 The model is estimated with Bayesian methods.$\F{2}$ The likelyhood is constructed using the 'Kalman filter', based on the state space representation of the rational expectations solution of the model. The [data](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis) is obtained from after the end of WWII until the third quarter of 2009, although other end points are used to gauge the stability of the model. Once the model is run, [posterior distribution](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis/posterior-distribution)s are created and the outcome is used to forecast the economy.
