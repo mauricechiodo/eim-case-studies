@@ -11,7 +11,7 @@ GridImage: media/ai-thumbnail.png
 
 
 
-Artifcial intelligence (AI) broadly incorporates simulated intelligence in machines. An
+Artifcial Intelligence (AI) broadly incorporates simulated intelligence in machines. An
 exact definition is not straightforward to give, as it depends on whether we want a system to *act* 
 intelligently or *think* intelligently, and on whether we want the system to do this like a *human* or
  *rationally*.
