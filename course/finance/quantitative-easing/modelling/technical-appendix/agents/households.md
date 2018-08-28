@@ -28,8 +28,6 @@ Then at each step the total utility is devalued by $\beta\_j^s$ (recall $\beta\_
 
 This is summed over all time, creating the total utility.
 
----
-
 ## Budget Constraint
 
 -   **Short-term bonds** are purchased for $B_t$ at time $t$ and
