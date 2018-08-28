@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 # Households
-$\newcommand{\F}[1]{^{\text{F}#1}}$
+$\newcommand{\F}[1]{^{[\text{F}#1]}}\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 ## Utility
 
 * A household is the monopolistic supplier of labour in the market, they can be restricted ($r$), or unrestricted ($u$), let $j\in\\{u,r\\}$ – a restricted household cannot trade in short-term bonds.
@@ -30,12 +30,12 @@ This is summed over all time, creating the total utility.
 
 ---
 
-#### Budget Constraint
+## Budget Constraint
 
--   [**Short-term bonds**]{} are purchased for $B_t$ at time $t$ and
-    have a nominal[^11] return of $R_t$ at time $t+1$
+-   **Short-term bonds** are purchased for $B_t$ at time $t$ and
+    have a nominal$\F{2}$ return of $R_t$ at time $t+1$
 
--   [**Long-term bonds**]{} are perpetuities (bonds that last forever)
+-   **Long-term bonds** are perpetuities (bonds that last forever)
     that cost $P_{L,t}$ at time $t$ and make returns proportional to
     $\kappa^s$ at time $t+s+1$, $\kappa\in(0,1]$ so at each stage the
     returns they make decays and tends to 0.
@@ -43,23 +43,23 @@ This is summed over all time, creating the total utility.
 -   $\omega_u$ is the proportion of unrestricted households,
     $\omega_r=1-\omega_u$.
 
--   $\zeta_t$ is the [**transaction cost per unit**]{} of long-term
+-   $\zeta_t$ is the **transaction cost per unit** of long-term
     bonds purchased by unrestricted households, so the amount it costs
     an unrestricted household to purchase a long-term bond. This may be
     fees from, say, a hedge-fund manager.
 
--   $P_t$ is the price of the [**final consumption good**]{}. This is
+-   $P_t$ is the price of the **final consumption good**. This is
     the simplification of all consumption costs, food, medicine, rent
     etc. To find the amount spent on consumption by a household the
     expression would be $P_tC_t^j$.
 
--   $W_t^j(i)$ is the [**wage**]{} set by a household of type $j$ who
+-   $W_t^j(i)$ is the **wage** set by a household of type $j$ who
     supplies labour of type $i$, that is to say the wage of that
     household. Different types of labour and different types of
     household will have different wages - doctors make different amounts
     to teachers.
 
--   $\mathcal{P}_t^j$ and $\mathcal{P}_t^{cp,j}$ are [**profits**]{}
+-   $\mathcal{P}\_t^j$ and $\mathcal{P}_t^{cp,j}$ are [**profits**]{}
     from ownership of [**intermediate goods producers**]{} and
     [**capital producers**]{} respectively. If a household happens to
     have stake in capital producers (factories, businesses) then this is
@@ -67,38 +67,38 @@ This is summed over all time, creating the total utility.
 
 -   $T_t^j$ are lump-sum taxes.
 
--   $R_{L,t}$ is the [**gross yield to maturity**]{} at a time $t$ on
+-   $R_{L,t}$ is the **gross yield to maturity** at a time $t$ on
     the long term bond, the total money made before the bond matures.
-    $R_{L,t}=\frac{1}{P_{L,t}}+\kappa$ is derived in the technical
-    appendix.[@chen_technical_2011]
+    $R\_{L,t}=\frac{1}{P\_{L,t}}+\kappa$ is derived in the technical
+    appendix.$\c{1}$
 
 A budget constraint is the fundamental constraint of budgetting. If you
 only have assets worth $K$ and $\exists$ a set of assets indexed by
 $i\in\mathbb{A}$, and $\forall i\in\mathbb{A}, i$ costs $c_i$ and you
-purchase $n_i$ units of $i$, then necessarily
-$$K\leq \sum_{i\in\mathbb{A}}c_in_i$$
+purchase $n\_i$ units of $i$, then necessarily
+$$K\leq \sum\_{i\in\mathbb{A}}c\in i$$
 
 Budget constraints differ based on if a household is restricted or
 unrestricted. Unrestricted households can trade in both short and
-long-term bonds, but pay $\zeta_t$ per-unit of long-term bond purchased,
+long-term bonds, but pay $\zeta\_t$ per-unit of long-term bond purchased,
 so the flow budget constraint is:
 
-$$P_tC_t^u+B_t^u+(1+\zeta_t)P_{L,t}B_t^{L,u}\leq R_{t-1}B_{t-1}^u+\left(\sum_{s=1}^\infty\kappa^{s-1}B_{t-s}^{L,u}\right)+W_t^u(i)L_t^u(i)+\mathcal{P}_t^u+\mathcal{P}_t^{cp,u}-T_t^u$$
+$$P\_tC\_t^u+B\_t^u+(1+\zeta\_t)P\_{L,t}B\_t^{L,u}\leq R\_{t-1}B\_{t-1}^u+\left(\sum\_{s=1}^\infty\kappa^{s-1}B\_{t-s}^{L,u}\right)+W\_t^u(i)L\_t^u(i)+\mathcal{P}\_t^u+\mathcal{P}\_t^{cp,u}-T\_t^u$$
 
 For a restricted household that can only trade in long-term securities
 and does not pay transaction costs, the flow budget constraint is:
 
 $$P_tC_t^r+P_{L,t}B_t^{L,r}\leq\left(\sum_{s=1}^\infty\kappa^{s-1}B_{t-s}^{L,r}\right)+\mathcal{P}_t^r+\mathcal{P}_t^{cp,r}+W_t^r(i)L_t^r(i)-T_t^r$$
 
-> One advantage of assuming that the entire stock of long-term
-> government bonds consists of perpetuities is that the price in a
-> period $t$ of a bond issued $s$ periods ago $P_{L,t-s}$ is a function
-> of the coupon and the current price
+One advantage of assuming that the entire stock of long-term
+government bonds consists of perpetuities is that the price in a
+period $t$ of a bond issued $s$ periods ago $P_{L,t-s}$ is a function
+of the coupon and the current price
 
-$$P_{L,t-s}=\kappa^sP_{L,t}$$
+$$P\_{L,t-s}=\kappa^sP\_{L,t}$$
 
 This relation gives rise to a recursive formula, for which $\exists$ a
-derivation.[@chen_technical_2011 Section A.4, p.8] The budget
+derivation.$\Ci{1}{Section A.4, p.8} The budget
 constraints become:
 
 $$P_tC_t^u+B_t^u+(1+\zeta_t)P_{L,t}B_t^{L,u}\leq R_{t-1}B_{t-1}^u+P_{L,t}R_{L,t}B_{t-1}^{L,u}+W_t^u(i)L_t^u(i)+\mathcal{P}_t^u+\mathcal{P}_t^{cp,u}-T_t^u$$
