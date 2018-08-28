@@ -11,4 +11,8 @@ As a mathematician, you will almost certainly encounter areas of life where you 
 
 <a href="http://google.com" target="_blank">new tab?</a>
 
+1. item 1
+1. item 2
+1. item 3
+
 A list of the currently available topics is below:
