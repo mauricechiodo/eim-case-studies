@@ -5,7 +5,7 @@ Template: LeafPage
 
 **Introduction**
 
-In 2017, a judge ruled that two military psychologists, James Mitchell and John Bruce Jessen, could face trial for their actions in the alleged torture of terrorism suspects in the wake of 9/11. Interestingly, however, they had never encountered the defendants, nor had they taken any active role in the alleged torture. Their involvement consisted of the drafting of a list of possible 'enhanced interrogation' methods, for which they received substantial remuneration as contractors. 
+In 2017, a judge ruled that two military psychologists, James Mitchell and John Bruce Jessen, could face trial for their actions in the alleged torture of terrorism suspects in the wake of 9/11. Interestingly, however, they had never encountered the defendants, nor had they taken any active role in the alleged torture. Their involvement consisted of the drafting of a list of possible 'enhanced interrogation' methods for the CIA, for which they received substantial remuneration as contractors. 
 
 Interestingly, as recounted in a *New York Times* article in July 2017, both sides drew reference to legal decisions made during the aftermath of the Holocaust. For instance, the defendants raised the story of a high-level technician working at the firm which supplied Zyklon B to the death camps, who was acquitted by postwar judges since they had no credible method of individually stopping the supply; since the psychologists had at most provided the 'raw materials', as it were, for the torture, rather actually enacting it, they argued that they could not be held criminally liable.
 
