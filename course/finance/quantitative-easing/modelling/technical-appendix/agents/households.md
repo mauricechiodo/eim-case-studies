@@ -20,6 +20,12 @@ The lifetime utility of a household is given as the equation
 
 $$\mathbb{E}\_t\sum\_{s=0}^\infty\beta\_j^s b\_{t+s}^j\left[\frac{1}{1-\sigma\_j}\left(\frac{C\_{t+s}^j}{Z\_{t+s}}-h\frac{C\_{t+s-1}^j}{Z\_{t+s-1}}\right)^{1-\sigma\_j}-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
 
+This equation is composed of several, individually simple parts summed over time. At each time interval it looks at the consumption relative to productivity the household performs, minus the habit parameter times last time interval's consumption (this is the waking up hungrier). That function is then modified dependant on how risk-averse the household is. It then subtracts the amount of labour provided in hours worked (with some function related to the elasticity applied) that is multiplied by the shock of labour supply.
+
+Then at each step the total utility is devalued by $\beta\_j^s$ (recall $\beta\_j\in(0,1)$ so $\beta\_j^s\to0$ as $s\to\infty$) and multiplied by the preference shock at that time.
+
+This is summed over all time, creating the total utility.
+
 ---
 
 # Footnotes
