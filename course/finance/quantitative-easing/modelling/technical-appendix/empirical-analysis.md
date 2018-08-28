@@ -7,7 +7,7 @@ Template: ListSubPages
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 The model is estimated with Bayesian methods 6 The likelyhood is constructed using the ‘Kalman filter’, based on the state space representation of the rational expectations solution of the model.
 
-## [Data](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis/data)
+## Data
 
 Quarterly data from the United States from 1987 to 2009 is used for
 
