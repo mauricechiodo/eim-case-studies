@@ -16,7 +16,7 @@ Template: ListSubPages
 
 In 1973, Fischer Black and Myron Scholes derived an equation for pricing options; the equation describes how the price should evolve as a function of time and the current market price of the stock. It also takes into account the 'risk-free interest rate' of the market, and the 'volatility' of the stock.
 
-Black and Scholes were by no means the first to apply mathematics to the stock market - that claim lies with Louis Bachelier, a french mathematician who in 1900 wrote his PhD thesis, *Théorie de la spéculation*, on the behaviour of stock prices and how to price derivative contracts - nor were they the first to create options pricing formulae: in their own paper, they reference multiple papers predating theirs, each giving some form of valuation formula.
+Black and Scholes were by no means the first to apply mathematics to the stock market - that claim lies with Louis Bachelier, a french mathematician who in 1900 wrote his PhD thesis, *Théorie de la spéculation* \[1\], on the behaviour of stock prices and how to price derivative contracts - nor were they the first to create options pricing formulae: in their own paper, they reference multiple papers predating theirs, each giving some form of valuation formula.
 
 What was revolutionary about Black and Scholes' formula was that it was, in some sense, 'complete'.  
 For example, Black and Scholes write
@@ -33,6 +33,10 @@ For example, Black and Scholes write
  ~ Fischer Black and Myron Scholes, *The Pricing of Options and Corporate Liabilities*, Journal of Political Economy, May 1973.
 
 The Black-Scholes' formula is identical in form to Sprenkle's, except that Black and Scholes derived explicit expressions for $k$ and $k^\*$.
+
+---
+
+\[1\] - L. Bachelier, *Théorie de la spéculation*, Annales scientiﬁques de l’École normale supérieure, 17:21–86, 1900.
 
 ---
 
