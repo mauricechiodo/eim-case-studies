@@ -31,9 +31,15 @@ Capital Producers are agents that imperfectly manage a real amount of capital $\
 
 ## [Goods Producers](course/finance/quantitative-easing/modelling/technical-appendix/agents/goods-producers)
 
+Goods producers take a continuum of inputs (indexed by $i\in[0,1]$) and aggregate them into some good. Each is attempting to maximise profits and has a resource constraint based on the total resources available in the economy.$\F{5}$
+
 ### Intermediate Goods Producers
 
+Intermediate goods producers, indexed by $f\in[0,1]$, takes a single type of labour input (from households that supply labour type $f$) and transform it in a technology-augmented process into an intermediate good of type $f$. The intermediate goods producer also sets prices on a staggered basis (as with household's wages) with probability $1-\zeta\_p$ in order to maximise expected profits over all time.
+
 ### Final Goods Producers
+
+Final goods producers take the entire continuum of intermediate goods and combine it into a homogenous final good that is consumed by households. The aggregate price index can be calculated based on the demands for different intermediate goods and the supply of each one.
 
 ## [Government Policies](course/finance/quantitative-easing/modelling/technical-appendix/agents/government)
 
@@ -48,6 +54,8 @@ $\F{2}$ Imagine if a company changed the wages of every employee every day to ac
 $\F{3}$ $\Pi e^\gamma$ is the amount of inflation and the rate at which products are growning.
 
 $\F{4}$ Exclusively households.
+
+$\F{5}$ This is modelled as a *global* resource constraint under the assumption that goods producers will use all available resources in the whole system.
 
 ---
 
