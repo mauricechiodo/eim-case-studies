@@ -88,7 +88,7 @@ $$P\_tC\_t^u+B\_t^u+(1+\zeta\_t)P\_{L,t}B\_t^{L,u}\leq R\_{t-1}B\_{t-1}^u+\left(
 For a restricted household that can only trade in long-term securities
 and does not pay transaction costs, the flow budget constraint is:
 
-$$P\_tC\_t^r+P\_{L,t}B\_t^{L,r}\leq\left(\sum\_{s=1}^\infty\kappa^{s-1}B\_{t-s}^{L,r}\right)+\mathcal{P}\_t^r+\mathcal{P}\_t^{cp,r}+W\_t^r(i)L\_t^r(i)-T\_t^r$$
+$$P\_tC\_t^r+P\_{L,t}B\\_t^{L,r}\leq\left(\sum\_{s=1}^\infty\kappa^{s-1}B\_{t-s}^{L,r}\right)+\mathcal{P}\_t^r+\mathcal{P}\_t^{cp,r}+W\_t^r(i)L\_t^r(i)-T\_t^r$$
 
 One advantage of assuming that the entire stock of long-term
 government bonds consists of perpetuities is that the price in a
