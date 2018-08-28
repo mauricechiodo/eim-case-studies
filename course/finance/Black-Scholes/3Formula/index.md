@@ -139,7 +139,7 @@ And this is quite pervasive in mathematical modelling: making assumptions allows
 
 ---
 
-To read about some real world phenomena that the Black-Scholes model doesn't account for equation, check out [the risks](course/finance/Black-Scholes/4Risks).
+To read about some real world phenomena that the Black-Scholes model doesn't account for, check out [the risks](course/finance/Black-Scholes/4Risks).
 
 ---
 
