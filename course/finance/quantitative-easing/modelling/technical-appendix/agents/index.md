@@ -27,6 +27,8 @@ While households do not literally set their own wages in the real world, this is
 
 ## [Capital Producers](course/finance/quantitative-easing/modelling/technical-appendix/agents/capital-producers)
 
+Capital Producers are agents that imperfectly manage a real amount of capital $\bar{K}\_t$ and use it, on behalf of their shareholders.$\F{4}$ They generate capital by investing an amount in the market. It is assumed that adjusting investment is costly and that any real capital not invested is depreciated at each time step. The objective of capital producers is to maximise the expected dividends to their shareholders over all time (which is implicitly the most profitable course for them).
+
 ## [Goods Producers](course/finance/quantitative-easing/modelling/technical-appendix/agents/goods-producers)
 
 ### Intermediate Goods Producers
@@ -44,6 +46,8 @@ $\F{1}$ The constraint of having a finite amount of wealth while existing is cos
 $\F{2}$ Imagine if a company changed the wages of every employee every day to account for demand, labour elasticity and so forth - the administrative force required would be huge, and costly.
 
 $\F{3}$ $\Pi e^\gamma$ is the amount of inflation and the rate at which products are growning.
+
+$\F{4}$ Exclusively households.
 
 ---
 
