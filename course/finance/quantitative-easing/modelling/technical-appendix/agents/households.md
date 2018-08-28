@@ -59,15 +59,15 @@ This is summed over all time, creating the total utility.
     household will have different wages - doctors make different amounts
     to teachers.
 
--   $\mathcal{P}\_t^j$ and $\mathcal{P}_t^{cp,j}$ are [**profits**]{}
-    from ownership of [**intermediate goods producers**]{} and
-    [**capital producers**]{} respectively. If a household happens to
+-   $\mathcal{P}\_t^j$ and $\mathcal{P}\_t^{cp,j}$ are **profits**
+    from ownership of **intermediate goods producers** and
+    **capital producers** respectively. If a household happens to
     have stake in capital producers (factories, businesses) then this is
     the profit from that.
 
--   $T_t^j$ are lump-sum taxes.
+-   $T\_t^j$ are lump-sum taxes.
 
--   $R_{L,t}$ is the **gross yield to maturity** at a time $t$ on
+-   $R\_{L,t}$ is the **gross yield to maturity** at a time $t$ on
     the long term bond, the total money made before the bond matures.
     $R\_{L,t}=\frac{1}{P\_{L,t}}+\kappa$ is derived in the technical
     appendix.$\c{1}$
@@ -101,11 +101,11 @@ This relation gives rise to a recursive formula, for which $\exists$ a
 derivation.$\Ci{1}{Section A.4, p.8} The budget
 constraints become:
 
-$$P_tC_t^u+B_t^u+(1+\zeta_t)P_{L,t}B_t^{L,u}\leq R_{t-1}B_{t-1}^u+P_{L,t}R_{L,t}B_{t-1}^{L,u}+W_t^u(i)L_t^u(i)+\mathcal{P}_t^u+\mathcal{P}_t^{cp,u}-T_t^u$$
+$$P\_tC\_t^u+B\_t^u+(1+\zeta\_t)P\_{L,t}B\_t^{L,u}\leq R\_{t-1}B\_{t-1}^u+P\_{L,t}R\_{L,t}B\_{t-1}^{L,u}+W\_t^u(i)L\_t^u(i)+\mathcal{P}\_t^u+\mathcal{P}\_t^{cp,u}-T\_t^u$$
 
 and
 
-$$P_tC_t^r+P_{L,t}B_t^{L,r}\leq P_{L,t}R_{L,t}B_{t-1}^{L,r}+\mathcal{P}_t^r+\mathcal{P}_t^{cp,r}+W_t^r(i)L_t^r(i)-T_t^r$$
+$$P\_tC\_t^r+P\_{L,t}B\_t^{L,r}\leq P\_{L,t}R\_{L,t}B\_{t-1}^{L,r}+\mathcal{P}\_t^r+\mathcal{P}\_t^{cp,r}+W\_t^r(i)L\_t^r(i)-T\_t^r$$
 
 These dictate how many assets a household can buy based on how much
 money they have available.
