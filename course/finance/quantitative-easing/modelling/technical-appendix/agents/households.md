@@ -16,6 +16,10 @@ $\newcommand{\F}[1]{$^{\text{F}#1}}$
 * $\nu\geq0$ is the inverse elasticity of labour supply - labour being elastic ($\nu\ll1$) implies that labour will come and go as compensation changes. An inelastic job would have the same workforce even with wage changes.
 * $\varphi\_t^j$ is a labour supply shock - unexpected changes in labour supplied.
 
+The lifetime utility of a household is given as the equation
+
+$$\mathbb{E}_t\sum_{s=0}^\infty\beta_j^s b_{t+s}^j \left[ \frac{1}{1-\sigma_j} \left( \frac{C_{t+s}^j}{Z_{t+s}}-h\frac{C_{t+s-1}^j}{Z_{t+s-1}} \right)^{1-\sigma_j} - \frac{\varphi_{t+s}^j(L_{t+s}^j(i))^{1+\nu}}{1+\nu} \right]$$
+
 ---
 
 # Footnotes
