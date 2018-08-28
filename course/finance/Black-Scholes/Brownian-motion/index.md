@@ -28,5 +28,5 @@ An equaivalent definition is to let $\lbrace B(t), ~ t \geqslant 0 \rbrace$ be s
  
 ---
 
- ~ *Reference:* Sheldon M. Ross, *Introduction to Probability Models*, Academic Press, Amsterdam; Boston, 10th ed edition
+ \~ *Reference:* Sheldon M. Ross, *Introduction to Probability Models*, Academic Press, Amsterdam; Boston, 10th ed edition
  Academic Press, Amsterdam ; Boston, 10th ed edition, 2010.
