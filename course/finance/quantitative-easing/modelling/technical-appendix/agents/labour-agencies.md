@@ -6,7 +6,7 @@ Template: LeafPage
 # Labour Agencies and Wage Setting Decision
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 -   $\lambda\_w\geq0$ is the **steady state wage markup** - the
-    amount that a non-sticky$\c{1}$ wage would be increased during
+    amount that a non-sticky$\F{1}$ wage would be increased during
     constant inflation. “Steady state" refers to the assumption that
     there is a constant stock of physical wealth and a constant
     population.
