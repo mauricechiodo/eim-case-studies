@@ -19,8 +19,7 @@ intelligently or *think* intelligently, and on whether we want the system to do 
 Unlike many of the other topics covered by Ethics in Maths, the ethics of AI is widely talked about and discussed, although generally this isn't aimed at mathematicians. ["Want Less-Biased Decisions? Use Algorithms."](https://hbr.org/2018/07/want-less-biased-decisions-use-algorithms), and article in the *Harvard Business Review*, claims that "Algorithms are less biased and more accurate than the humans
 they are replacing." This is a very dangerous claim to make. Algorithms can make mistakes, and we are definitely not at the stage where they are ready to be replacing any human decision-makers.  ["The Real Threat of Artificial Intelligence"](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html) by the *New York Times*
  says that AI is "poised to bring about a wide-scale decimation of jobs." While this is an issue worth considering, it suggests a naive view on the current state of intelligence, especially since a lot of AI is being designed to assist humans in their jobs, not take their jobs away. The book *Superintelligence: Paths, Dangers, Strategies*, by Oxford philosopher Nick Bostrom, talks about the "intelligence explosion" that will occur if (or rather when) machines which are more intelligent than humans begin to design machines of their own. This book contains many important philosophical points, but ultimately is purely speculative and difficult to take seriously. The ethics in AI is a serious issue which needs to be discussed as such.
- 
- [![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/HBRimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)[![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/UBERimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)
+
  
  <div id=grid>
  
