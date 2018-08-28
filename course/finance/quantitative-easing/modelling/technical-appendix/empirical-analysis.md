@@ -1,6 +1,6 @@
 ---
 Title: Empirical Analysis
-Template: ListSubPages
+Template: LeafPage
 ---
 
 # Empirical Analysis
