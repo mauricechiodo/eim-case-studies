@@ -45,3 +45,9 @@ $$\frac{T\_t}{P\_tZ\_t}-\frac{G\_t}{Z\_t}=\Phi\left(\frac{P\_{L,t-1}B\_{t-1}^L}{
 
 The constant $\Phi$ is chosen such that this is identically true in
 steady state. $\phi\_T>0$
+
+---
+
+# Footnotes
+
+$\F{1}$ That is to say the interest rate today influences the interest rate tomorrow.
