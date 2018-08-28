@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 # Intermediate goods producers
-
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 -   $Z\_t$ is a **labour-augmented technological process** - a method
     by which technology increases the amount of value created. (Consider
     how much more efficient labour is with the advent of computers)
