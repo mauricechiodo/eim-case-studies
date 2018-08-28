@@ -25,7 +25,7 @@ An equaivalent definition is to let $\lbrace B(t), ~ t \geqslant 0 \rbrace$ be s
 ---
 
  - *Geometric Brownian motion:* If $\lbrace Y(t), ~ t \geqslant 0 \rbrace$ is a Brownian motion process (possibly with non-standard drift and variance parameter), then the process $\lbrace X(t), ~ t \geqslant 0 \rbrace$ defined by $X(t) = e^{Y(t)}$ is called geometric Brownian motion.
-
+ 
 ---
 
  ~ *Reference:* Sheldon M. Ross, *Introduction to Probability Models*, Academic Press, Amsterdam; Boston, 10th ed edition
