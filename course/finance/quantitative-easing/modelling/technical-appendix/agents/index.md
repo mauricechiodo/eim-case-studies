@@ -43,6 +43,8 @@ Final goods producers take the entire continuum of intermediate goods and combin
 
 ## [Government Policies](course/finance/quantitative-easing/modelling/technical-appendix/agents/government)
 
+The government represents the central bank and the influence that has on the market. It is assumed that the government can affect interest rates and spends all money available to them.$\F{6}$ The government also supplies all long-term bonds.
+
 ---
 
 # Footnotes
@@ -56,6 +58,8 @@ $\F{3}$ $\Pi e^\gamma$ is the amount of inflation and the rate at which products
 $\F{4}$ Exclusively households.
 
 $\F{5}$ This is modelled as a *global* resource constraint under the assumption that goods producers will use all available resources in the whole system.
+
+$\F{6}$ The budget constraint inequality becomes an equality.
 
 ---
 
