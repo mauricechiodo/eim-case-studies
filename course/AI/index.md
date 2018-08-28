@@ -24,7 +24,7 @@ they are replacing." This is a very dangerous claim to make. Algorithms can make
  
  <div id=grid>
  
- [![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/UBERimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)
+ [![HBRimage](http://cueimps.soc.srcf.net/course/media/Lara/HBRimage.png)](https://cueimps.soc.srcf.net/course/course/AI/HBRarticle)
  
  </div>
  
