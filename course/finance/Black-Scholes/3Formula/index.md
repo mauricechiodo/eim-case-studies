@@ -62,7 +62,7 @@ c \exp \left( \frac{\frac{1}{2} \sigma^2 \xi}{r - \frac{1}{2} \sigma^2} \right) 
 0 & \text{if } \xi < 0
 \end{cases} ~. $$
 
-Black and Scholes use the solution to this particular boundary value problem given by Churchill {reference}:
+Black and Scholes use the solution to this particular boundary value problem given by Churchill \[1\] (pp. 120, 121):
 
 $$ \begin{aligned}
 y(\xi,\eta) &= \frac{1}{\sqrt{\pi}} \int\_{-\infty}^{\infty} y(\xi + 2x \sqrt{\eta}, 0) e^{-x^2} dx \\\\
@@ -140,3 +140,7 @@ And this is quite pervasive in mathematical modelling: making assumptions allows
 ---
 
 To read about some real world phenomena that the Black-Scholes model doesn't account for equation, check out [the risks](course/finance/Black-Scholes/4Risks).
+
+---
+
+\[1\] - Ruel V. Churchill, *Fourier Series and Boundary Value Problems*, McGraw-Hill book company, New York, London, 1st ed. edition, 1941.
