@@ -21,7 +21,7 @@ The model's underlying assumption is that the portfolio of a country's assets wi
 
 The model used by the MPC takes into account imperfect arbitrage, so there were additional considerations for the existence of arbitrage, perhaps in the form of shocks (random, unexpected changes to the economic system such as from government scandals or extreme weather) or other new variables.
 
-## Dynamic Stochastic General Equilibrium
+## [Dynamic Stochastic General Equilibrium](course/finance/quantitative-easing/modelling/technical-appendix)
 
 The Macroeconomic Effects of Large-Scale Asset Purchase (MELP) is a 2011 paper published as a staff report from the Federal Reserve.$\c{5}$ It was released originally just after the Federal Reserve announced their QE2 program, a second wave of LSAP after the first didn't sufficiently stimulate the economy. The point of the paper was to prove that LSAP would have a meaningful impact on the economy, to try and counter the argument made in Wallace's 1981 paper$\c{6}$ that postulates that under certain conditions, central banks buying securities won't affect the economy.
 
