@@ -60,7 +60,7 @@ $$Y\_t = \left[ \int\_0^1 Y\_t(f)^{\frac{1}{1+\lambda\_f}}df\right]^{1+\lambda\_
 Therefore, the demand for the $f^{th}$ intermediate good is (relative to
 aggregate price index $P\_t$ and the price set by the $f^{th}$
 intermediate goods producer) derived to be the
-following[@chen\_technical\_2011]
+following.$\c{1}$
 
 $$Y\_t(f)=\left[\frac{P\_t(f)}{P\_t}\right]^{-\frac{1+\lambda\_f}{\lambda\_f}}Y\_t$$
 
