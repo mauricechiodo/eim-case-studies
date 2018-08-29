@@ -19,6 +19,7 @@ PredPol’s website background$\c{1}$ shows an example
 of what this might look like.
 
 ![image](cueimps.soc.srcf.net/course/media/calliope/predpol-home-screencap.png)
+
 *The fade shown here is part of the image on the PredPol website*
 
 A glaring issue to be found with PredPol is that it has the potential to
