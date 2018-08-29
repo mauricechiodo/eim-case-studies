@@ -3,8 +3,7 @@ Title: PredPol
 Template: LeafPage
 ---
 
-PredPol
-=======
+# PredPol
 $\newcommand{\F}[1]{^{[\text{F}#1]}} \newcommand{\c}[1]{^{[#1]}} \newcommand{\C}[2]{^{[#1\text{, p.#2}]}} \newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 PredPol is a predictive policing tool make by PredPol, Inc. It seeks to
 optimise resources used by a police force by predicting hotspots of
@@ -21,7 +20,7 @@ grid on Google maps to show where it predicts crime will occur.
 PredPol’s website background$\c{1}$ shows an example
 of what this might look like.
 
-![image](/media/calliope/predpol-home-screencap.png)
+![image](cueimps.soc.srcf.net/course/media/calliope/predpol-home-screencap.png)
 *The fade shown here is part of the image on the PredPol website*
 
 A glaring issue to be found with PredPol is that it has the potential to
