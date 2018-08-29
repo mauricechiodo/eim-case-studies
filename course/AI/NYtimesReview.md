@@ -18,5 +18,6 @@ applications of AI are not trying to replace doctors' they are trying to create 
 efficient, improving quality of care." It is important to note that algorithms are not void of human interaction, they require human input
 in gathering the data the machine learning algorithm requires to learn, deciding what decisions need to be made and how these decisions are
 used in the real world, and importantly we need humans to act as a mediator. We need to understand the limitation of the algorithms and
-know when and where AI can and should be used. AI will change the way the jobs and employment market looks but at the moment, AI is
+know when and where AI can and should be used. AI will change the way the jobs and employment market looks and there are cetainly issues
+that governments should consider within this (France has already thought about this a great deal - read ['For a Meaningful Artificial Intelligence'](https://www.aiforhumanity.fr/pdfs/MissionVillani_Report_ENG-VF.pdf) for more details). However, in its current state AI is
 certainly not "poised" to take over, as the New York Times might suggest. 
