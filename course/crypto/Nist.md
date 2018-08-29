@@ -5,7 +5,7 @@ Template: ListSubPages
 
 # Elliptic Curve Cryptography and NIST
 
-The National Institute of Standards and Technology (NIST) is a US government organisation that aims to "to promote US innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life."
+The National Institute of Standards and Technology (NIST) is a US government organisation that aims "to promote US innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life."
 
 They are a physical laboratory who have published a large variety of technical documents, which include details on how people should use elliptic curve cryptography. This has sparked controversy because they have been found to support and standardise unsafe cryptography. We will start by discussing what elliptic curve cryptography is before going into some of the unsavoury things that NIST have done.
 
