@@ -14,7 +14,7 @@ with their own individual constraints. The resource constraint is
 
 $$Y\_t=\omega\_uC\_t^u+\omega\_rC\_t^r+I\_t+G\_t+a(u\_t)\bar{K}\_{t-1}$$
 
-This says that the amount of homogenous final good at any moment must be
+This says that the amount of a homogenous final good at any moment must be
 the amount consumed by households plus the amount invested in other
 places.\
 Since unrestricted households are the only ones to trade in short-term
@@ -25,9 +25,9 @@ $$1=\beta\_u\mathbb{E}\_t\left[e^{-\gamma-z\_{t+1}}\frac{\Xi\_{t+1}^u}{\Xi\_t^u}
 Both restricted and unrestricted households trade in long-term bonds,
 the pricing of these for a household $j$ is
 
-$$(1+\zeta\_t\mathbb{I}\_{\{j=u\}})=\beta\_j\mathbb{E}\_t\left[e^{-\gamma-z\_{t+1}}\frac{\Xi\_{t+1}^j}{\Xi\_t^j}\frac{P\_{L,t+1}}{P\_{L,t}}\frac{R\_{L,t+1}}{\Pi\_{t+1}}\right]$$
+$$(1+\zeta\_t\mathbb{I}\_{\{j=u\}})=\beta\_j\mathbb{E}\_t\left[e^{-\gamma-z\_{t+1}}\frac{\Xi\_{t+1}^j}{\Xi\_t^j}\frac{P\_{L,t+1}}{P\_{L,t}}\frac{R\_{L,t+1}}{\Pi\_{t+1}}\right]$$,
 
-Where $\mathbb{I}$ is the indicator function.
+where $\mathbb{I}$ is the indicator function.
 
 ## Transaction cost and the risk premium
 
@@ -45,7 +45,7 @@ measured to a first order approximation between the two yields up to
 maturity
 
 $$\label{riskpremium}
-    \hat{R}\_{L,t}-\hat{R}\_{L,t}^{EH}=\frac{1}{D\_L}\sum\_{s=0}^\infty\left(\frac{D\_L-1}{D\_L}\right)^s\mathbb{E}\_t\zeta\_{t+s}$$
+    \hat{R}\_{L,t}-\hat{R}\_{L,t}^{EH}=\frac{1}{D\_L}\sum\_{s=0}^\infty\left(\frac{D\_L-1}{D\_L}\right)^s\mathbb{E}\_t\zeta\_{t+s}$$.
 
 The cost of transaction $\zeta\_t$ is not given an explicit form, but is
 a function $\zeta$ of $P\_{L,t},B\_{z,t}^L$ and the error term
