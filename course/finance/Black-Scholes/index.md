@@ -1,6 +1,6 @@
 ---
 Title: Option Pricing
-Template: ListSubPages
+Template: LeafPage
 ---
 
 > "How did the biggest financial train wreck in human history come about?  
@@ -36,8 +36,28 @@ The Black-Scholes' formula is identical in form to Sprenkle's, except that Black
 
 ---
 
-\[1\] - L. Bachelier, *Théorie de la spéculation*, Annales scientiﬁques de l’École normale supérieure, 17:21–86, 1900.
+Read more about the Black-Scholes model for financial markets, the equation they derived, the formula that solves it, and some of the risks behind all of these:
+
+ <div id=grid>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/1Model">
+ <img src="http://cueimps.soc.srcf.net/course/media/Fraser/Model.jpg"/>
+ </a>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/2Equation">
+ <img src="http://cueimps.soc.srcf.net/course/media/Fraser/Equation.jpg"/>
+ </a>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/3Formula">
+ <img src="http://cueimps.soc.srcf.net/course/media/Fraser/Formula.jpg"/>
+ </a>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/4Risks">
+ <img src="http://cueimps.soc.srcf.net/course/media/Fraser/Risks.jpg"/>
+ </a>
+
+ </div>
 
 ---
 
-Read more about the Black-Scholes model for financial markets, the equation they derived, the formula that solves it, and some of the risks behind all of these:
+\[1\] - L. Bachelier, *Théorie de la spéculation*, Annales scientiﬁques de l’École normale supérieure, 17:21–86, 1900.
