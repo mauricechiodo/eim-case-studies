@@ -1,13 +1,13 @@
 ---
 
-Title: Autonomous Cars
+Title: Self Driving Cars
 Template: ListSubPages
 
 ---
 
 
 
-# Autonomous Cars
+# Self Driving Cars
 
 The concept of the autonomous vehicle has been around for a long time; examples such as aircraft autopilot (1933) or cruise control (1945) have been in existence for decades [1]. However, the world's firms are currently racing to build a fully autonomous car, and this involves the use of artificial intelligence. 
 
