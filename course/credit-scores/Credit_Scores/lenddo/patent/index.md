@@ -18,9 +18,13 @@ After the user has applied for a loan, the system searches their social graph (a
 User data is then blended with the data gathered from the online social footprint and other data required by the specified predictive model. 
 
 The next action is to either fulfill the loan request by supplying the requested funds to the user or requiring the user to take actions to improve his score to qualify for the funds, which include:
+
 	- Completing interactive training content about financial responsibility;
+	
 	- Providing more personal data and increased access to the user's social graph;
+	
 	- Securing more endorsements from friends and affiliates in a network;
+	
 	- Resolving outstanding perceived negative conditions that hurt his credit score.
 
 The invention also supports the collection treatment of the loan if the borrower can't make timely payments towards the repayment of the loan, or failing to meet the agreed terms and condtitions. This collection treatement can include publishing news of a user's loan default or delinquency to various social networks as well as the user's network. Furthermore, a treatment action can also reflecting negative associations, such as affiliations with *troubled* borrowers or users, on individual's online social footprint. This could encourage the use of "peer pressure" to get a delinquent user to make their payments on time, effectively "providing an informal joint guarantee on the user's loan."
@@ -38,10 +42,15 @@ When applying for the loan, the user inputs the loan information that indicates 
 It is highlighted that insights obtained from available personal data and data gathered online can aid pattern recognition between those who repay debt and those who don't. *"Good sources for pattern recognition include word combinations in text indicating deceptive use of loan funds, or in contrast, corroborating text that affirms the intended use of the funds".*
 
 Other sources of 'insight' about people's behaviour towards loans to determine credit worthiness used are:
+
 	- geospacial data, including location, places of frequent activity etc. *"An individual who is frequently spending time in a location common to other individuals who do repay loans provides such insightful geospacial data.*
+	
   - Visual evidence, either by photograph or video.
+  
 	- Biometric information, such as typing habits, verbal audio content, and body images including photos
+	
 	- Aspects of the computing device, such as time setting, browser type, browser history, borwser settings
+	
 	- Other characteristics, including friendship, affiliatiates, attitude, habits, purchasing trends, travel patterns, long term goals, extracurricular involvement and stability of an individual (i.e. the duration of time in which the person has lived in the same place).
 
 This mass surveillance of an individual borders on **spying**. 
