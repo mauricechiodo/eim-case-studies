@@ -56,6 +56,4 @@ sent there and so more crime is found – the cycle continues. O’Niel
 $\c{1}$ Predict Crime — Predictive Policing Software. PredPol. url: http:
 //www.predpol.com/ (visited on 2018-08-28).
 
-$\c{2}$ Cathy O’Neil. Weapons of math destruction: how big data increases
-inequality and threatens democracy. First edition. New York: Crown,
-2016. 259 pp. isbn: 978-0-553-41881-1 978-0-553-41883-5.
+$\c{2}$ Cathy O’Neil. Weapons of math destruction: how big data increases inequality and threatens democracy. First edition. New York: Crown, 2016. 259 pp. isbn: 978-0-553-41881-1 978-0-553-41883-5.
