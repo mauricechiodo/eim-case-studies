@@ -41,7 +41,7 @@ In MELP the authors summarize the prior choices of each distribution.$\Ci{1}{Tab
 
 ## Posterior Distribution
 
-The posterior distributions were generated using the ‘Metropolis random walk Markov Chain Monte Carlo’ (MCMC) simulation method$\C{1}{23}$, which from what I can gather this is hundreds of thousands of samples. The results emerges that the market segmentation is very small, with $\omega\_u\in(0.72,0.99)$ approximately, with a median of 0.934 and a mode of 0.987. Since the data ends in 2009q3, the authors check the stability of this estimate by considering alternative endings, having the last data be from 2007q2$\F{2}$ , 2008q3$\F{3}$ and 20011q2.$\F{4}$ The parameters remained comparable throughout these data changes.
+The posterior distributions were generated using the ‘Metropolis random walk Markov Chain Monte Carlo’ (MCMC) simulation method$\C{1}{23}$; from what I can gather this includes hundreds of thousands of samples. The result emerges that the market segmentation is very small, with $\omega\_u\in(0.72,0.99)$ approximately, with a median of 0.934 and a mode of 0.987. Since the data ends in the third quarter of 2009, the authors check the stability of this estimate by considering alternative endings, having the last data be from 2007q2$\F{2}$ , 2008q3$\F{3}$ and 20011q2.$\F{4}$ The parameters remained comparable throughout these data changes.
 
 The other key parameter, according to the authors, is the elasticity of the risk premium to asset purchases $\zeta'$ . If the elasticity was 0, asset purchases wouldn’t affect risk premium or real economy. The prior and posterior distributions for this are very similar, suggesting the data do not affect $\zeta'$ very much.
 
