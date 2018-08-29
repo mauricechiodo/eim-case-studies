@@ -32,4 +32,5 @@ more details about this.
 ### References
 
 [1] [Norman, by MIT Media Lab](http://norman-ai.mit.edu)
+
 [2] [Algorithms in decision-making](https://publications.parliament.uk/pa/cm201719/cmselect/cmsctech/351/351.pdf) *UK Science and Technology Committee - Ordered by the House of Commons*
