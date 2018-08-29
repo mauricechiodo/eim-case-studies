@@ -7,7 +7,7 @@ Template: LeafPage
 
 **[Insert Video with containing the information below]**
 
-There was one main limitation in Li's work: in practical applications, no analytical solution could be found, so computationally-intensive Monte Carlo simulation was needed. This had major consequences in investment banking.
+There was one main limitation in Li's work: in practical applications, no analytical solution could be found, so computationally-intensive Monte Carlo simulation was needed. This had major consequences for investment banking.
 
 In the early 2000s, new versions of CDOs became popular. These new versions of CDOs included 'synthetic' single-tranche CDOs, which were simply bilateral contracts between an investment bank and a client that mimicked the returns and risks of a CDO tranche (rather than consisting of a special-purpose legal vehicle that bought a pool of debt instruments).
 	
