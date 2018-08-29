@@ -64,6 +64,6 @@ Those creating AI algorithms not only need to be careful about the intended uses
  </div>
 
 
-
+Click the picture links to find out more!
 
 
