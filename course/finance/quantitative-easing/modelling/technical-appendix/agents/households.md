@@ -7,13 +7,13 @@ Template: LeafPage
 $\newcommand{\F}[1]{^{[\text{F}#1]}}\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 ## Utility
 
-* A household is the monopolistic supplier of labour in the market, they can be restricted ($r$), or unrestricted ($u$), let $j\in\\{u,r\\}$ – a restricted household cannot trade in short-term bonds.
-* $C\_t^j$ is a household’s **consumption** relative to **productivity** $Z\_t$, how many resources (food clothes etc) that the household consumes. This is relative to the total productivity of the economy.
+* A household is the monopolistic supplier of labour in the market; they can be restricted ($r$), or unrestricted ($u$). Let $j\in\\{u,r\\}$ – a restricted household cannot trade in short-term bonds.
+* $C\_t^j$ is a household’s **consumption** relative to **productivity** $Z\_t$: how many resources (food clothes etc) that the household consumes. This is relative to the total productivity of the economy.
 * $L\_t^j$ is a household’s hours worked per unit time.
 * Households supply differentiated labour inputs indexed by i, that is to say the different types of labour required are modelled as a continuum, $i\in[0,1]$.
 * $\beta\_j\in(0,1)$ is the individual discount factor - this is the devaluing of an asset’s future income, accounting for having to wait for the asset to mature.
-* $b\_t^j$ is a preference shock - a shock is an unexpected change, and a preference shock is an individual choosing one thing over another suddenly, eg consumption over leisure. This will alter utility and so is represented by a random variable at each timestep.
-* $\sigma\_j>0$ is the coefficient of relative risk aversion, a higher $\sigma\_j$ indicates that the household is more risk-averse, eg they would prefer to be given £10 100% of the time rather that £20 50% of the time.$\F{1}$
+* $b\_t^j$ is a preference shock - a shock is an unexpected change, and a preference shock is an individual choosing one thing over another suddenly, e.g. consumption over leisure. This will alter utility and so is represented by a random variable at each time step.
+* $\sigma\_j>0$ is the coefficient of relative risk aversion. A higher $\sigma\_j$ indicates that the household is more risk-averse, eg they would prefer to be given £10 100% of the time rather that £20 50% of the time.$\F{1}$
 * $h\in(0,1)$ is the habit parameter - an increase in current consumption lowers the marginal utility of consumption in the current period and increases it in the next period. Intuitively, the more the consumer eats today, the hungrier they wake up tomorrow.
 * $\nu\geq0$ is the inverse elasticity of labour supply - labour being elastic ($\nu\ll1$) implies that labour will come and go as compensation changes. An inelastic job would have the same workforce even with wage changes.
 * $\varphi\_t^j$ is a labour supply shock - unexpected changes in labour supplied.
@@ -70,11 +70,11 @@ This is summed over all time, creating the total utility.
     $R\_{L,t}=\frac{1}{P\_{L,t}}+\kappa$ is derived in the technical
     appendix.$\c{1}$
 
-A budget constraint is the fundamental constraint of budgetting. If you
+A budget constraint is the fundamental constraint of budgeting. If you
 only have assets worth $K$ and $\exists$ a set of assets indexed by
 $i\in\mathbb{A}$, and $\forall i\in\mathbb{A}, i$ costs $c_i$ and you
 purchase $n\_i$ units of $i$, then necessarily
-$$K\leq \sum\_{i\in\mathbb{A}}c\in i$$
+$$K\leq \sum\_{i\in\mathbb{A}}c\in i$$.
 
 Budget constraints differ based on if a household is restricted or
 unrestricted. Unrestricted households can trade in both short and
@@ -103,7 +103,7 @@ $$P\_tC\_t^u+B\_t^u+(1+\zeta\_t)P\_{L,t}B\_t^{L,u}\leq R\_{t-1}B\_{t-1}^u+P\_{L,
 
 and
 
-$$P\_tC\_t^r+P\_{L,t}B\_t^{L,r}\leq P\_{L,t}R\_{L,t}B\_{t-1}^{L,r}+\mathcal{P}\_t^r+\mathcal{P}\_t^{cp,r}+W\_t^r(i)L\_t^r(i)-T\_t^r$$
+$$P\_tC\_t^r+P\_{L,t}B\_t^{L,r}\leq P\_{L,t}R\_{L,t}B\_{t-1}^{L,r}+\mathcal{P}\_t^r+\mathcal{P}\_t^{cp,r}+W\_t^r(i)L\_t^r(i)-T\_t^r$$.
 
 These dictate how many assets a household can buy based on how much
 money they have available.
