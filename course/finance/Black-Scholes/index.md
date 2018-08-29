@@ -41,19 +41,19 @@ Read more about the Black-Scholes model for financial markets, the equation they
  <div id=grid>
  
  <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/1Model">
- <img src="http://cueimps.soc.srcf.net/course/media/Fraser/1Model.jpg"/>
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/1Model.jpg"/>
  </a>
  
  <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/2Equation">
- <img src="http://cueimps.soc.srcf.net/course/media/Fraser/2Equation.jpg"/>
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/2Equation.jpg"/>
  </a>
  
  <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/3Formula">
- <img src="http://cueimps.soc.srcf.net/course/media/Fraser/3Formula.jpg"/>
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/3Formula.jpg"/>
  </a>
  
  <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/4Risks">
- <img src="http://cueimps.soc.srcf.net/course/media/Fraser/4Risks.jpg"/>
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/4Risks.jpg"/>
  </a>
 
  </div>
