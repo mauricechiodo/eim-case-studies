@@ -20,3 +20,5 @@ Algorithms more and more are being used in policing situations, from the allocat
 $\F{1}$ Especially in countries such as the United States, in which racial segregation in housing is huge.
 
 $\F{2}$ Non-recidivism, recidivism and violent recidivism.
+
+---
