@@ -14,7 +14,7 @@ $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$
 -   $L\_t$ is the **homogenous labour composite**, the collection of
     labour as an abstract force.
 
--   $W\_t$ is the **aggregate wage index**, this is approximately the
+-   $W\_t$ is the **aggregate wage index**; this is approximately the
     average wage.
 
 -   $\Pi$ is the steady state **rates of inflation**
@@ -61,13 +61,13 @@ basis. In each period, the probability of resetting the wage is
 $1-\zeta\_w$, and if the wage is not reset it automatically increases by
 $\Pi e^\gamma$. Thus
 
-$$W\_{t+s}^j(i)=(\Pi e^\gamma)\tilde{W}\_t^j(i)$$
+$$W\_{t+s}^j(i)=(\Pi e^\gamma)\tilde{W}\_t^j(i)$$.
 
 The household will chose $\tilde{W}\_t^j(i)$ to maximise the expression
 
-$$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$
+$$\mathbb{E}\_t\sum\_{s=0}^\infty(\beta\_j\zeta\_w)^s\left[\Xi\_{t+s}^{j,p}\tilde{W}\_t^j(i)L\_{t+s}^j(i)-\frac{\varphi\_{t+s}^j(L\_{t+s}^j(i))^{1+\nu}}{1+\nu}\right]$$,
 
-That is to say, they will maximise the wage as much as possible while
+that is to say, they will maximise the wage as much as possible while
 not overcharging for their labour. If the household works a particularly
 elastic job, they will set their wage to be less than if they worked a
 very inelastic job. Of course, in the real world each individual
