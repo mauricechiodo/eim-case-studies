@@ -7,11 +7,11 @@ Template: LeafPage
 
 **[Insert Video with containing the information below]**
 
-There was one main limitation in Li's work: in practical applications, no analytical solution could be found, so computationally-intensive Monte Carlo simulation was needed. This had major consequences in investment banking.
+There was one main limitation in Li's work: in practical applications, no analytical solution could be found, so computationally-intensive Monte Carlo simulation was needed. This had major consequences for investment banking.
 
-In the early 2000s, new versions of CDOs became popular. These new versions of CDOs included 'synthetic' single-tranch CDOs, which were simply bilateral contracts between an investment bank and a client that mimicked the returns and risks of a CDO tranche (rather than consisting of a special-purpose legal vehicle that bought a pool of debt instruments).
+In the early 2000s, new versions of CDOs became popular. These new versions of CDOs included 'synthetic' single-tranche CDOs, which were simply bilateral contracts between an investment bank and a client that mimicked the returns and risks of a CDO tranche (rather than consisting of a special-purpose legal vehicle that bought a pool of debt instruments).
 	
-As the bank didn't own the pool of loans or bonds underpinning the contract, they had to find other ways of protecting against the losses throughout the contract's lifetime. This involved using credit default swaps (see glossary) on each of the corporations whose debts made up the pool. The hedge ratios that were needed in these credit default swaps were called 'deltas'.
+As the bank didn't own the pool of loans or bonds underpinning the contract, they had to find other ways of protecting against the losses throughout the contract's lifetime. This involved using credit default swaps (see the glossary) on each of the corporations whose debts made up the pool. The hedge ratios that were needed in these credit default swaps were called 'deltas'.
 
 Investment bankers needed to recalculate these deltas daily, meaning that the computational demands of Monte Carlo simulation were a major problem. Hence, investment bankers became very interested in creating full-fledged copula formulations.
 	
@@ -19,7 +19,7 @@ In an effort to develop 'semi-analytical' versions of the Gaussian and other cop
 
 >*"The advantage of doing this was that given a particular value of the underlying factor, defaults by different corporations could then be treated as statistically independent events, simplifying the mathematics, avoiding Monte Carlo simulation and greatly reducing computation times."* [4]
 
-So, in order to be able to trade CDOs, they had to make lots of simplifications to Li's original model until computational times were low enough so that they could trade. Yes, this simplified model gave a mathematically true answer, but did it still have any meaning in the real world? Did the simplified model still price CDOs appropriately? The financial crisis of 2007/2008 exposed that this model clearly did not work.
+So, in order to be able to trade CDOs, they had to make lots of simplifications to Li's original model until computational times were low enough so that they could trade. Yes, this simplified model gave a mathematically correct answer, but did it still have any meaning in the real world? Did the simplified model still price CDOs appropriately? The financial crisis of 2007/2008 exposed that this model clearly did not work.
 
 Reducing the number of factors became a common technique used by quants. As a result single-factor, semi-analytical Gaussian copula models became very widely used in investment banking. 
 
@@ -37,7 +37,7 @@ There was still one problem with this. Running the Gaussian copula model backwar
 
 This could be avoided if the **base correlation method** was used. 
 
-Before we discuss what the base correlation method was I will describe the basic structure of a CDO, as explained by Marcantoni in 'Collateralized Debt Obligations'
+Before we discuss what the base correlation method was I will describe the basic structure of a CDO, as explained by Marcantoni in 'Collateralized Debt Obligations'.
 Each CDO is split into tranches. Each tranche is characterised by a lower limit called the *attachment point* and an upper limit called the *detachment point*. These express the percentage of the total portfolio loss covered by the tranches. Usually the equity tranche is
 characterized by an attachment point at zero. The detachment point for each tranche overlaps with the attachment point of the subsequent (in terms of degree of seniority) tranche. Consider a tranche with attachment and detachment point at $L$ and $U$ respectively. The holder of the tranche will responsible for the asset pool losses exceeding $L$ and then up to $U$. Due to this, they will not suffer any loss when the total portfolio losses are lower than $L$ and will not be liable for the part of losses greater than $U$. 
 

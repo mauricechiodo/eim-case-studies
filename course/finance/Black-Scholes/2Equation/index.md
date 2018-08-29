@@ -12,7 +12,7 @@ Template: LeafPage
 
 ## Derivation:
 
-The key assumption to Black and Scholes' work is that the underlying stock price $S$ follows a [geometric Brownian motion](course/finance/Black-Scholes/Brownian-motion) with drift $\mu$ and variance parameter $\sigma^2$. In the language of stochastic calculus, this states that
+The key assumption to Black and Scholes' work is that the underlying stock price $S$ follows a <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/Brownian-motion" target="_blank">geometric Brownian motion</a> with drift $\mu$ and variance parameter $\sigma^2$. In the language of stochastic calculus, this states that
 
 $$ dS = \mu S dt + \sigma S dW $$
 
@@ -20,7 +20,7 @@ where $W$ is a Brownian motion. Note that $W$ (and hence $dW$) is the only sourc
 
 $$ dV = \left( \frac{\partial V}{\partial t} + \mu S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial ^2 V}{\partial S^2}\right) dt + \sigma S \frac{\partial V}{\partial S} dW ~. $$
 
-Now we introduce a hedged portfolio that is [short](course/finance/Black-Scholes/Positions) one option (with value $V$), and [long](course/finance/Black-Scholes/Positions) $\frac{\partial V}{\partial S}$ shares at time $t$, the value $\Pi$ of these holdings is
+Now we introduce a hedged portfolio that is <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/Positions" target="_blank">short</a> one option (with value $V$), and <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/Positions" target="_blank">long</a> $\frac{\partial V}{\partial S}$ shares at time $t$, the value $\Pi$ of these holdings is
 
 $$ \Pi = -V + \frac{\partial V}{\partial S} S ~, $$
 
@@ -57,3 +57,11 @@ $$ \frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{
 ---
 
 To read about the solution to this differential equation, check out [the formula](course/finance/Black-Scholes/3Formula).
+
+ <div id=grid>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/3Formula">
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/3Formula.jpg"/>
+ </a>
+ 
+ </div>

@@ -7,7 +7,7 @@ Template: LeafPage
 
 >*"In the world of finance, too many quants see only the numbers before them and forget about the concrete reality the figures are supposed to represent."* - Salmon in 'Recipe for Disaster: The Formula that Killed Wall Street'
 
-Li made one big simplification in his model. He didn't just drastically decrease the difficulty of calculating correlations, he decided not to calculate all the relationships between the various loans that made up the underlying pool. In Li's model, the only thing that mattered was the final correlation number.
+Li made one big simplification in his model. He didn't just drastically decrease the difficulty of calculating correlations; furthermore, he decided not to calculate all the relationships between the various loans that made up the underlying pool. In Li's model, the only thing that mattered was the final correlation number.
  
 >*"The effect on the securization market was electric."* - Salmon in 'Recipe for Disaster: The Formula that Killed Wall Street'
 
@@ -37,7 +37,7 @@ The figure below shows the writedowns of top CDO issuers since mid 2007 until Fe
 
 ![Top CDO issuers and their writedowns as of February 2009](http://cueimps.soc.srcf.net/course/media/Figure3.png "Top CDO issuers and their writedowns as of February 2009")
 
-These write-downs happened as a result of the high volume of subprime mortgages issued recklessly to households with a low credit scores in the US. The mortgages were securitised into mortgage back securities (MBS) and then sold to institutional investors. As a result, the credit risk of the mortgages was spread to the whole financial sector. Then, after some mortgage defaults the institutions involved were extremely affected, some of them even defaulting, such as Lehman Brothers or US mortgage agencies Fannie Mae and Freddie Mac. As stated by Calabria in 'Fannie, Freddie, and the Subprime Mortgage Market', these two mortgage agencies were so heavily affected because during the housing bubble in 2003-2004, when the level of private-label securitizations increased by over 50%, they owned almost 40% of newly issued private-label subprime securities, making them the largest single source of liquidity for this market .
+These write-downs happened as a result of the high volume of subprime mortgages issued recklessly to households with a low credit scores in the US. The mortgages were securitised into mortgage back securities (MBS) and then sold to institutional investors. As a result, the credit risk of the mortgages was spread to the whole financial sector. Then, after some mortgage defaults the institutions involved were extremely affected, some of them even defaulting, such as Lehman Brothers or US mortgage agencies Fannie Mae and Freddie Mac. As stated by Calabria in 'Fannie, Freddie, and the Subprime Mortgage Market', these two mortgage agencies were so heavily affected because during the housing bubble in 2003-2004, when the level of private-label securitisations increased by over 50%, they owned almost 40% of newly issued private-label subprime securities, making them the largest single source of liquidity for this market .
 
 >*"Because of high interdependence within a financial sector and its strong link to all business sectors, a series of problems of underlying companies led to a serious financial crisis the world is now experiencing."* -Teplý and Benesova in 'The Dark Side of Collateralized Debt Obligation's Valuation during the 2008/2009 Financial Crisis'.
 

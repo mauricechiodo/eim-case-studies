@@ -5,9 +5,9 @@ Template: LeafPage
 
 #Why the Gaussian Copula?
 
-In "The Formula That Killed Wall Street’: The Gaussian Copula and Modelling Practices in Investment Banking' (2014) [2], MacKezie discusses events that occured before Li's 2000 paper [1], which help us to see why the Gaussian Copula was chosen. 
+In "The Formula That Killed Wall Street: The Gaussian Copula and Modelling Practices in Investment Banking" (2014) [2], MacKenzie discusses events that occured before Li's 2000 paper [1], which help us to see why the Gaussian Copula was chosen. 
 
-Previous to Li, Vasicek (a probability theorist) formulated an analytically-solvable special case: a pool of a large number of equally-sized loans, all due at the same time with the same probability of default and the same correlation between the values of the assets of any pair of borrowers (these features are why Vasicek’s special case is often called the 'large homogeneous pool' model). 
+Previous to Li, Vasicek – a probability theorist – formulated an analytically-solvable special case: a pool of a large number of equally-sized loans, all due at the same time with the same probability of default and the same correlation between the values of the assets of any pair of borrowers (these features are why Vasicek’s special case is often called the 'large homogeneous pool' model). 
 
 There was almost no direct empirical data to guide his modelling so he used the standard model of asset-value fluctuations - geometric Brownian motion - and the mathematically most familiar correlation structure - the multivariate Gaussian distribution.
 

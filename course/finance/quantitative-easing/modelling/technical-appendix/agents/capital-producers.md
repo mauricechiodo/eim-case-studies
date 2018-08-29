@@ -5,15 +5,15 @@ Template: LeafPage
 
 # Capital producers
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
--   $u\_t$ is the **utilization rate**, how efficiently a company can
+-   $u\_t$ is the **utilisation rate**, how efficiently a company can
     use their capital.
 
 -   $K\_t$ is **effective capital**, their capital having considered
-    utilization rate. If a company is only 50% efficient with their
+    utilisation rate. If a company is only 50% efficient with their
     money then having £100 is as good as a 100% efficient company having
     £50.
 
--   $\delta\in(0,1)$ is the **depreciation rate**, indication how
+-   $\delta\in(0,1)$ is the **depreciation rate**, an indication of how
     quickly real capital becomes devalued.
 
 -   $\mu\_t$ is an **investment specific technology shock**, a shock
@@ -49,6 +49,6 @@ shareholders (households) is identically:
 $$\Xi\_{t+s}^p\equiv\omega\_u\beta\_u^s\Xi\_{t+s}^{u,p}+\omega\_r\beta\_r^s\Xi\_{t+s}^{r,p}$$
 
 Capital producers maximise the expected discounted stream of dividends
-to their shareholders which is:
+to their shareholders, which is:
 
 $$\mathbb{E}\_t \sum\_{s=0}^\infty\Xi\_{t+s}^p\left[R\_{t+s}^k u\_{t+s} \bar{K}\_{t+s-1}-P\_{t+s}a\left(u\_{t+s}\right)\bar{K}\_{t+s-1}-P\_{t+s}I\_{t+s}\right]$$

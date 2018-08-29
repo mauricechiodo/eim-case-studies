@@ -48,7 +48,7 @@ There are two types:
 
 ##Traditional Models
 
-Traditional models, such as the standard FICO score, use baseline credit data. The FICO score is calculated using 5 main categories of data: payment history (35%), amounts owed (30%), length of credit history (15%), new credit (10%) and credit mix (10%) [1].
+Traditional models, such as the standard FICO score, use baseline credit data. The FICO score is calculated using five main categories of data: payment history (35%), amounts owed (30%), length of credit history (15%), new credit (10%) and credit mix (10%) [1].
 
 ##Mainstream Alternative Models
 
@@ -74,11 +74,11 @@ These models consider fringe credit data.
 
 ##Problem with Traditional Models
 
-Traditional credit scoring only consider a relatively limited set of data points, they may not accurately predict the creditworthiness of many *thin-file* consumers. Thin-file consumers are people who have a limited credit history, for example a consumer who has had few or no loans or credit cards.
+Traditional credit scoring only considers a relatively limited set of data points, which may not accurately predict the creditworthiness of many *thin-file* consumers. Thin-file consumers are people who have a limited credit history, for example a consumer who has had few or no loans or credit cards.
 
 In 'Big Data, a Big Disappointment for Scoring Consumer Creditworthiness', Yu, McLaughlin and Levy state that 
 
->*"Problems exist with the traditional credit scoring system. First, credit scores cannot predict if any particular person will actually engage in the behavior. In fact, often the probability is greater that a particular low-scoring person will not engage in the behavior. Second, many low-income consumers have low credit scores simply because they have either a "thin file” or "no file”... A denial of credit to these consumers is based on the absence of credit history rather than anything negative in their credit histories.*
+>*"problems exist with the traditional credit scoring system. First, credit scores cannot predict if any particular person will actually engage in the behavior. In fact, often the probability is greater that a particular low-scoring person will not engage in the behavior. Second, many low-income consumers have low credit scores simply because they have either a "thin file” or "no file”... A denial of credit to these consumers is based on the absence of credit history rather than anything negative in their credit histories."*
 
 In order to overcome these problems there are currently a number of companies that are developing fringe alternative models. The following list is taken from 'On Social Credit and the Right to be Unnetworked' by Packin and Lev-Aretz:
 

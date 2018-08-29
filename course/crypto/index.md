@@ -11,3 +11,5 @@ Cryptography is the method by which this is achieved, a branch of number theory.
 Many agents have a vested interest in being able to read encrypted internet traffic, be these government intellegence agencies like the NSA or terror units that have an interest in using the internet and private files to spread a message. It has been [hypothesised](course/crypto/nfs) that commonly used parameters in the key exchanges preceding encrypted communications may permit a sufficiently motivated and resourced attacker to decipher communications in real time.
 
 Mathematicians are working every day on making the internet more secure, or on breaking that security. Regardless of who should be able to read internet traffic, or if one deserves online privacy, these are poignant ethical questions that mathematicians are being faced with all the time.
+
+Link to introduction on [ECC and NIST](https://cueimps.soc.srcf.net/course/course/crypto/Nist) - it contains links to the more detailed ECC and NIST pages.

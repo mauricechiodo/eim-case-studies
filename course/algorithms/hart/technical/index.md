@@ -8,8 +8,8 @@ $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$
 
 Let
 
-* $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'} be the outputs of HART
-* $\mathbb{I}=\prod_{i=1}^{34} I_i$ be the space of all inputs, with each $I_i$ being an input
+* $\mathcal{O}=${'High-risk','Medium-risk','Low-risk'} be the outputs of HART, and
+* $\mathbb{I}=\prod_{i=1}^{34} I_i$ be the space of all inputs, with each $I_i$ being an input.
 
 In most cases, $I_i\simeq\mathbb{N}$ (eg for age), $I_i\simeq${$0,1$} (for instance, for gender or for Booleans) or $I_i\simeq[n]$ for some $n$ (eg with ```CustodyPostcodeOutwardTop24```)$\F{1}$.
  
@@ -25,7 +25,7 @@ ie each of the trees vote on which category the suspect should be classed in and
 
 There are 34 predictors used in HART$\F{3}$ that trees can use to predict the categorisation of a suspect. The trees are based on the designs in Berk et al 2016$\c{1}$ which describe the tree creation process as being
 
-1. From the set of training data $D$ of size $|D|=N$, take $N$ samples **with replacement**. Call this sample $S$. Let $S^\complement=D\backslash S$
+1. From the set of training data $D$ of size $|D|=N$, take $N$ samples **with replacement**. Call this sample $S$. Let $S^\complement=D\backslash S$.
 2. Take a random sample **without replacement** of the predictors of known size (eg 5), call this set $P\subseteq \mathbb{I}$
 3. Construct the first branch of the tree using some generation process that takes $S$ and $P$ as inputs. This process will be elaborated on.
 4. GOTO step 2 for each branch generated until the tree is as large as desired (usually until all inputs have been incorporated or until the tree has categorised all its training data).
@@ -36,9 +36,9 @@ To predict the accuracy of the random forest, for each $d\in D$, take the set of
 
 ## Generating branches
 
-To generate a branch of a tree,$\F{4}$ several concepts need to be introduced.
+To generate a branch of a tree $\F{4}$, several concepts need to be introduced.
 
-$$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$
+$$\text{Entropy}(S)=-p\_\oplus\log\_2(p\_\oplus)-p\_\ominus\log\_2(p\_\ominus)$$.
 
 Where $S$ is some collection containing positive and negative examples of something (such as if someone does or does not recidivate). $p\_\oplus$ represents the proportion of positive examples, and $p\_\ominus=1-p\_\oplus$. This is a measure of *uncertainty* about your data. $\text{Entropy}(S)\in[0,1]$ is maximised ($=1$) when $p\_\oplus=0.5$ and minimized ($=0$) when $p\_\oplus\in\{0,1\}$.
 

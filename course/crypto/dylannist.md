@@ -91,7 +91,7 @@ In 2015 NIST updated their recommendation paper for cryptographic random number 
 - "Dual EC DRBG is extremely slow, and seemed unlikely to see much use; so putting a trapdoor in seemed kind-of pointless."
   - However, it did eventually see a fair amount of use in some places.
   
-- "NSA claimed to have existing customers who were using the DRBG, and wanted to be able to get FIPS validation"
+- "NSA claimed to have existing customers who were using the DRBG, and wanted to be able to get FIPS validation."
 
 - "We didn’t believe a backdoor in this algorithm was likely."
   - But evaluating security based on speculation seems foolish at best.

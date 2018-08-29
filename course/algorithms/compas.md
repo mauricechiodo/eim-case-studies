@@ -6,7 +6,7 @@ Template: LeafPage
 ### COMPAS
 $\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}\newcommand{\F}[1]{^{[\text{F}#1]}}$
 COMPAS is a risk assessment tool originally created by Tim Brennan in 1988.$\c{1}$ It takes data from both a questionnaire presented to an arrested individual and an interview performed with them$\c{2}$ to output recidivism risk in deciles.$\c{1}$
-Originally intended to be used as a tool to help determine probation periods$\c{3}$, COMPAS is now employed in several states to augment a judge's decision determining sentence lengths, notably in Wisconsin.$\c{4}$
+Originally intended to be used as a tool to help determine probation periods$\c{3}$, COMPAS is now employed in several states to augment a judge's decision determining sentence lengths, perhaps most notably in Wisconsin.$\c{4}$
 
 ### Accuracy
 
@@ -46,7 +46,7 @@ In 2013, Eric Loomis was arrested and accused of driving a car that had been use
 * It violated his right to an individualised sentence as it relied on information about the characteristics of a larger group to make an inference about his personal likelihood to commit future crimes
 * It used gender as a variable improperly in calculating the score
 
-Ultimately, the court rejected Loomis's claims$\c{9}$ and held that COMPAS could be used for sentencing, but prescribed key limitations for its use: The score can help a judge understand a defendant's situation but should not be used to determine a length or severity of punishment, and should definitely not be used as "an official aggravating factor"$^8$ in the sentencing decision. Judge Shirley Abrahamson noted that the lack of understanding about COMPAS and how it works was a "significant problem" in the case.
+Ultimately, the court rejected Loomis's claims$\c{9}$ and held that COMPAS could be used for sentencing, but prescribed key limitations for its use: The score can help a judge understand a defendant's situation but should not be used to determine a length or severity of punishment, and should definitely not be used as "an official aggravating factor"$\c{8}$ in the sentencing decision. Judge Shirley Abrahamson noted that the lack of understanding about COMPAS and how it works was a "significant problem" in the case.
 
 ---
 

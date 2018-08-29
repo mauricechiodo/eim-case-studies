@@ -7,7 +7,7 @@ Template: LeafPage
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 -   $\Pi\_t\equiv\frac{P\_t}{P\_{t-1}}$ is the **inflation rate**.
 
--   $\epsilon\_{m,t}$ is an **iid innovation**, where $m\in\{B,T\}$.
+-   $\epsilon\_{m,t}$ is an **i.i.d. innovation**, where $m\in\{B,T\}$.
     This dictates a shock increase in some of the following equations.
 
 -   $G\_t$ is **taxes of a perpetuity**, costs associated with
