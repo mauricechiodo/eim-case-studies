@@ -18,7 +18,7 @@ grid on Google maps to show where it predicts crime will occur.
 PredPol’s website background$\c{1}$ shows an example
 of what this might look like.
 
-![image](cueimps.soc.srcf.net/course/media/calliope/predpol-home-screencap.png)
+![image](/media/calliope/predpol-home-screencap.png)
 
 *The fade shown here is part of the image on the PredPol website*
 
