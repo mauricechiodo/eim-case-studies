@@ -30,7 +30,7 @@ issues demonstrated here is the danger of semi-autonomous vehicles. Humans aren'
 in this case, are likely to underestimate the how much attention they need to pay to the surroundings [4]. There is also the problem
 that multiple (primarily human) failings led to a disastrous outcome. The individual failings wouldn't necessarily have resulted in the
 same outcome, but the errors compounded to produce a devastating but unpredictable event. This shows how careful we need to be about new
-technology, and maybe a 'race' to get autonomous vehicles into the public domain isn't the safest way to go about this technological
+technology; indeed, maybe a 'race' to get autonomous vehicles into the public sphere isn't the safest way to go about this technological
 advancement. 
 
 ### References
