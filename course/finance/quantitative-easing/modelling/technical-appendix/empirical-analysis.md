@@ -5,7 +5,7 @@ Template: LeafPage
 
 # Empirical Analysis
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
-The model is estimated with Bayesian methods 6 The likelyhood is constructed using the ‘Kalman filter’, based on the state space representation of the rational expectations solution of the model.
+The model is estimated with Bayesian methods. The likelihood is constructed using the ‘Kalman filter’, based on the state space representation of the rational expectations solution of the model.
 
 ## Data
 
