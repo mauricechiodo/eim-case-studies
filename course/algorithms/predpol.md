@@ -19,9 +19,11 @@ crime. It uses only exactly the data points of
 It then plots several $150\text{m}\times150{\text m}$ red boxes on a
 grid on Google maps to show where it predicts crime will occur.
 PredPol’s website background$\c{1}$ shows an example
-of what this might look like.\
+of what this might look like.
+
 ![image](/media/calliope/predpol-home-screencap.png)
 *The fade shown here is part of the image on the PredPol website*
+
 A glaring issue to be found with PredPol is that it has the potential to
 create a feedback loop that punishes against already targetted areas and
 minorities. A police force that has historically found a lot of crime in
