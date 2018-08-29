@@ -141,6 +141,14 @@ And this is quite pervasive in mathematical modelling: making assumptions allows
 
 To read about some real world phenomena that the Black-Scholes model doesn't account for, check out [the risks](course/finance/Black-Scholes/4Risks).
 
+ <div id=grid>
+ 
+ <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/4Risks">
+ <img src="http://cueimps.soc.srcf.net/course/media/B-S/4Risks.jpg"/>
+ </a>
+
+ </div>
+
 ---
 
 \[1\] - Ruel V. Churchill, *Fourier Series and Boundary Value Problems*, McGraw-Hill book company, New York, London, 1st ed. edition, 1941.
