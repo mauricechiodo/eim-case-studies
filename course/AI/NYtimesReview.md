@@ -12,7 +12,7 @@ Template: ListSubPages
 ### A review on the article by the New York Times
 
 This article claims that AI is "poised to bring about a wide-scale decimation of jobs." Whilst this is an important issue to consider, it
-suggests a naive view on the current state of AI. Rachel Thoms from [fast.ai](www.fast.ai) makes the point that the 'Human's vs. Machines'
+suggests a naive view on the current state of AI. Rachel Thomas from [fast.ai](www.fast.ai) makes the point that the 'Human's vs. Machines'
 argument is not a very constructive framework to think of AI. She gives a particularly poignant example, "Most people working on medical
 applications of AI are not trying to replace doctors' they are trying to create tools that will allow doctors to be more accurate and more
 efficient, improving quality of care." It is important to note that algorithms are not void of human interaction, they require human input
