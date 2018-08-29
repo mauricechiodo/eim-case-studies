@@ -9,13 +9,13 @@ The United Kingdom announced its austerity plan in its June 2010 budget report$^
 
 The UK fiscal report makes reference to the Office for Budget Responsibility (OBR), which was founded in 2010/05/17$^{[3\text{ Sect 1.1}]}$ by the chancellor$^{[\text{F}2]}$ following the general election$^{[\text{F}3]}$ in order to act as an independent organisation that would inform financial decisions by forecasting the economy. The pre-budget report$^{[3]}$ details how they predict the economy will evolve with no change in fiscal policy.
 
-The current macroeconomic model used by the obr is detailed on their website and is the same one that was used at the inception of the obr in 2010.$^{[4]}$ The model’s code (as of 2013/10) is dissected in ‘Briefing Paper No. 5’ (BP5)$^{[5]}$ the latest source code for the model is available on their website, written in Winsolve.$^{[\text{F}4]}$ $^{[6]}$ There is no explanation written mathematically for the code, so while reverse engineering the code into readable mathematical equations would be possible it would be extremely time-consuming.
+The current macroeconomic model used by the OBR is detailed on their website and is the same one that was used at the inception of the OBR in 2010.$^{[4]}$ The model’s code (as of 2013/10) is dissected in ‘Briefing Paper No. 5’ (BP5)$^{[5]}$. The latest source code for the model is available on their website, written in Winsolve $^{[\text{F}4]}$ $^{[6]}$. There is no explanation written mathematically for the code, so while reverse-engineering the code into readable mathematical equations would be possible it would be extremely time-consuming.
 
 In October 2013, the time of writing BP5, austerity had already started to be implemented and the deficit had seen a slight improvement, reducing to £99.9 billion, 5.6% of gdp.$^{[2\text{, p.8, Table 2}]}$
 
 ## In the Eurozone
 
-According to the Treaty on the Functioning of the European Union, a member state’s budget deficit may not exceed 3% of their GDP$^{[10\text{, p.53-56, Article 126}]}$ Since the financial crash, several members of the EU have fallen into having a large deficit, and so have had to implement radical action to try and offset this debt.
+According to the Treaty on the Functioning of the European Union, a member state’s budget deficit may not exceed 3% of their GDP$^{[10\text{, p.53-56, Article 126}]}$. Since the financial crash, several members of the EU have fallen into having a large deficit, and so have had to implement radical action to try and offset this debt.
 
 ---
 # Footnotes
