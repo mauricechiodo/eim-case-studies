@@ -25,7 +25,7 @@ choose the goals that the algorithm aims to achieve. Moreover, algorithmic devel
 shown, reducing bias in the development team can potentially lead to a reduction in bias through the training data the algorithm is given.
 Related to this is a suggestion made in that technical people working on AI algorithms are not suciently trained in ethics to deal with
 the Analysing the fairness of an algorithm is also a contentious topic. As part of this Ethics in Mathematics Series, there has been some
-discussion on this topic. The section [Fairness and Decision Making]()
+discussion on this topic. The section [Fairness and Decision Making](https://cueimps.soc.srcf.net/course/course/algorithms) has more details about this. 
 
 ### References
 
