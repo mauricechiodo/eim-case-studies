@@ -10,9 +10,7 @@ optimise resources used by a police force by predicting hotspots of
 crime. It uses only exactly the data points of
 
 -   Crime type
-
 -   Crime location
-
 -   Crime date & time
 
 It then plots several $150\text{m}\times150{\text m}$ red boxes on a
