@@ -7,6 +7,7 @@ Template: ListSubPages
 ---
 
 
+
 In February 2018, a paper titled ["Deep neural networks can detect sexual orientation from faces"](https://psyarxiv.com/hv28a/) was published in the *Journal of Personality and Social Psychology*. The authors were Michal Kosinski and Yilun Wang, both associated with Stanford University at the time the paper was written. The pair fed 35,326 facial images into a deep neural network to extract features from them. These features were then entered into a logistic regression with the aim of classifying sexual orientation. With just five facial images, the algorithm was accurate in 91% of cases for men, and in 83% for women. Human judges had respective accuracies of 61% and 54% according to the study. The implications of this are dangerous. The paper itself recognises that the study performed poses a threat to the safety and privacy of gay men and women.
 
 The testing methodology was, broadly speaking, as follows:
