@@ -5,11 +5,11 @@ Template: LeafPage
 
 # The Economy
 $\newcommand{\c}[1]{^{[#1]}}\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
-The economy is, for now, doing well. On 2018/08/02, the MPC voted unanimously to increase the bank rate from $0.5\%$ to $0.75\%$, the highest it has been since Febuary of 2009, nearly a decade ago.$\c{1}$ The UK's GDP has been increasing since 2013 at approximately $0.5\%$ per year.$\c{2}$ The nominative modal hourly wage has gone up by only $£1.90$ from $£5.50$ (in 2007) to $£7.40$ (in 2016)$\c{3}$, a change of 34.5%, while the cost of living has increased by only 26.0%.$\c{4}$
+The economy is, for now, doing well. On 2018/08/02, the MPC voted unanimously to increase the bank rate from $0.5\%$ to $0.75\%$, the highest it has been since Febuary of 2009, nearly a decade ago.$\c{1}$ The UK's GDP has been increasing since 2013 at approximately $0.5\%$ per year.$\c{2}$ The nominative modal hourly wage has gone up by only £1.90 from £5.50 (in 2007) to £7.40 (in 2016)$\c{3}$, a change of $34.5\%$, while the cost of living has increased by only $26.0\%$.$\c{4}$
 
-However, homelessness has hugely increased. The number of rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28bp of the population), but in 2018 that number had increased to 4751 (0.72bp).$\c{5}$
+However, homelessness has hugely increased. The number of rough sleepers (a small subsection of the homeless population) has more than doubled since 2010. In 2010 the rough sleeper population was estimated to be 1768 (0.28bp of the population), but in 2018 that number had increased to 4751 (0.72bp), a **increase** (per capita) of $150\%$.$\c{5}$
 
-The cost of housing has also gone up significantly. From 2016 to 2017, the median nominative cost of housing in England went up by almost 5% while the median nominative wage only went up by less than 2.5%.$\C{6}{4}$ In fact, the CPI between June 2016 to June 2017 increased by 2.7%,$\c{7}$ more than the amount wages were increasing.
+The cost of housing has also gone up significantly. From 2016 to 2017, the median nominative cost of housing in England went up by almost $5\%$ while the median nominative wage only went up by less than $2.5\%$.$\C{6}{4}$ In fact, the CPI between June 2016 to June 2017 increased by $2.7\%$,$\c{7}$ more than the amount wages were increasing.
 
 Despite the economy doing so well, it is getting harder for people to afford things.
 
