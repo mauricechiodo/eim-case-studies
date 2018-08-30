@@ -11,6 +11,10 @@ The aim of the Chinese Government is to establish a "system of laws and standard
 <details markdown="1">
 <summary>What is a Social Credit Score?</summary>
 A social credit score can be defined as a rating for the consumer calculated by their "position in a social structure based on esteem that is bestowed by others."
+
+Social credit represents the ultimate marketisation of political control as it gives incentives to people for them to maximise their citizen value through "politically and commercially aligned social behaviour" - Loubere and Brehm (2018)
+
+Social credit represents the ultimate marketisation of political control as it gives incentives to people for them to maximise their citizen value through "politically and commercially aligned social behaviour". With this new system, it would no longer be necessary to change the law to influence people's behaviour - just change the weights in the algorithm. 
 </details>
  <br /> 
 
