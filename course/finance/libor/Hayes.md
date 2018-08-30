@@ -5,9 +5,11 @@ Template: ListSubPages
 
 # Tom Hayes
 
-Tom Hayes was a Nottingham maths and engineering graduate who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to manipulating the Yen Libor rate. 
+Tom Hayes was a Nottingham maths and engineering graduate who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was
+sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to manipulating the Yen Libor rate. 
 
-Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to have paid out more than \pounds 330,000 in bribes in a single year \cite{garsideTomHayesRingmaster2015}.
+Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to
+have paid out more than \pounds 330,000 in bribes in a single year \cite{garsideTomHayesRingmaster2015}.
 
 Often the Libor submitters for the different banks would be unsure how to determine the value that they should submit. One broker, Colin Goodman of ICAP, would give daily emails, or 'run-throughs,' where he gave his predictions for the Libor values. If there was a mistake in his 'run-throughs,' these were often simply copied by some Libor-setters, and only corrected the next day when Goodman would give his next set of predictions. This shows that many submitters didn't care what value of Libor was submitted. 
 
