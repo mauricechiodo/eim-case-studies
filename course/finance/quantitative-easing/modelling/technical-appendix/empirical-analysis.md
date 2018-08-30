@@ -62,5 +62,3 @@ $\F{4}$ Most recent data at time of authors writing
 # Bibliography
 
 $\c{1}$ Han Chen, Vasco Curdia and Andrea Ferrero. “The Macroeconomic Effects of Large-Scale Asset Purchase Programs”. en. In: SSRN Electronic Journal (2011). issn: 1556-5068. doi: 10.2139/ssrn.1976319. url: http://www.ssrn.com/abstract=1976319 (visited on 2018-07-19).
-
----
