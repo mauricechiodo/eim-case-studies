@@ -16,8 +16,7 @@ BBA to a private organisation. Therefore, in April 2013, Libor came under the ad
 the FCA. Soon after, in February 2014, ICE Benchmark Administration Limited (“IBA”) was recommended 
 and accepted as the new administrator. 
 
-It is important to note that there were complaints about the inaccuracy of Libor as early as
-2007. The Commodity Futures Trading Commission (CFTC), a US regulator, 
+It is important to note that there were complaints about the inaccuracy of Libor as early as 2007. The Commodity Futures Trading Commission (CFTC), a US regulator, 
 started investigating in May 2008. In spring 2010, the UK Financial Conduct Authority got involved. 
 Barclays was the first bank to be fined in 2012 [3]. Hayes 
 didn't have his trial until 2015. Libor will still be in use until at least 2021. This shows how
