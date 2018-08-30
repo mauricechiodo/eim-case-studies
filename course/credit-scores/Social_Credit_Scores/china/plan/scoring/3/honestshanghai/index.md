@@ -13,9 +13,13 @@ The rating, however, is not done by the government. It is done by a third party 
 
 The users of the app sign up with their government-issued ID number and facial recognition software to have access to their personal data, drawn from police records and the social security bureau. The data used includes, for example, where the user works and whether or not they have a passport or a driver's licence.
 
+The app is built to reward Chinese citizens who exhibit good behavior. Citizens with good ratings will earn discounts on expensive items such as  airline tickets and those with a bad public score can expect it to be more difficult to find travel accommodations and getting loan approvals.
+
 ##References
 
 [1] Rob Schmitz. What's Your 'Public Credit Score'? The Shanghai Government Can Tell You. *Morning Edition*. NPR. January 2017.
 
 [2] Sarah O'Meara. New App Rates Shanghai Citizens' Honesty. *Sixth Tone.* November 2016.
+
+[3] CyberPolicy. Honest Shanghai: The App the Chinese Government Use to Track "Honest" Citizens, 2016.
 
