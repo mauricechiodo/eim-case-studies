@@ -12,7 +12,7 @@ floating-rate payments based on Libor [1]. Vanilla swaps constitute the vast maj
 The 'swap rate' is the fixed interest rate that the receiver demands in exchange for the uncertainty 
 of having to pay the short-term Libor (floating) rate over time.
 
-![Swap rate](http://cueimps.soc.srcf.net/course/media/Lara/SwapRate.png)
+![Swap rate](http://cueimps.soc.srcf.net/course/media/Lara/SwapRate.PNG)
 The diagram shows a simple depiction of swap rates [1].
 
 ### References
