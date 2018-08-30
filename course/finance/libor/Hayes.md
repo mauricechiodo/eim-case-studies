@@ -48,16 +48,10 @@ It is also a note of caution - if you think something is wrong in the work you'r
 there are probably related laws that can be used against you.
 
 Note on the Tom Hayes case: Hayes was initially charged by the U.S. for his contribution to rigging Libor. In order to get charged by
-the U.K., to avoid the harsher prison system in the U.S., Hayes gave 82 hours worth of recorded interviews \cite[p.~2]{enrichLiborMastermindUnraveling} with the Serious Fraud Office (SFO) in the U.K. stating what he had done, and admitted that it was
-dishonest (even though he refused to admit this in his trial). This made Hayes' case very easy for the prosecution and could be one of
-the reasons that he was the only person who went to prison for rigging Libor. Three of the brokers who worked with Hayes to rig Libor
-were taken to trial and acquitted because they never admitted that they did anything wrong. One of the reasons Hayes stopped cooperating
-with the SFO was that he didn't want to name others involved in his 'network,' like the brokers. None of Hayes' coworkers shared the
-same sentiments. As an example, Mirhat Alykulov was Hayes' mentee in UBS. After Alykulov was suspended for potentially being involved in
-Libor rigging, he went to meet FBI agents and Justice Department prosecutors. Under the instruction of the FBI, he telephoned Hayes to
-try to get some sort of confession out of him \footnote{The FBI made it look like the phone call was coming from Alykulov's native
-country, so that Hayes believed he was talking in confidence to a friend.}. Evidence obtained from this phone call was later used
-against Hayes in his trial \cite{enrichTrapTrader2017}.
+the U.K., to avoid the harsher prison system in the U.S., Hayes gave 82 hours worth of recorded interviews [5,p.2] with the Serious Fraud Office (SFO) in the U.K. stating what he had done, and admitted that it was dishonest (even though he refused to admit this in his trial). This made Hayes' case very easy for the prosecution and could be one of the reasons that he was the only person who went to prison for rigging Libor. Three of the brokers who worked with Hayes to rig Libor were taken to trial and acquitted because they never admitted that they did anything wrong. One of the reasons Hayes stopped cooperating with the SFO was that he didn't want to name others involved in his 'network,' like the brokers. None of Hayes' coworkers shared the same sentiments. As an example, Mirhat Alykulov was Hayes' mentee in UBS. After Alykulov was suspended for potentially being involved in Libor rigging, he went to meet FBI agents and Justice Department prosecutors. Under the instruction of the FBI, he telephoned Hayes to
+try to get some sort of confession out of him (the FBI made it look like the phone call was coming from Alykulov's native
+country, so that Hayes believed he was talking in confidence to a friend). Evidence obtained from this phone call was later used
+against Hayes in his trial [6].
 
 ### References
 [1] [Who is Tom Hayes](https://www.bbc.com/news/business-33635340)
@@ -69,3 +63,5 @@ against Hayes in his trial \cite{enrichTrapTrader2017}.
 [4] [Libor and the Law](https://lewisnedas.co.uk/libor-and-the-law.html)
 
 [5] [Libor's Mastermind: the Unraveling of Tom Hayes](http://graphics.wsj.com/libor-unraveling-tom-hayes/1)
+
+[6] [A Trap for a Trader](https://www.wsj.com/articles/a-trap-for-tom-hayes-1489760139)
