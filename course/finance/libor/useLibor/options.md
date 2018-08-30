@@ -18,7 +18,7 @@ date, depending on the type of option being traded). \cite{OptionsPricingBasics2
 Often a closed-form pricing formula either does not exist or is difficult to derive and therefore
 numerical procedures are often used for valuing options.
 
-A paper called ``A numerical method for pricing spread options on LIBOR rates with a PDE 
+A paper called "A numerical method for pricing spread options on LIBOR rates with a PDE 
 model \cite{suarez-taboadaNumericalMethodPricing2010}" suggests one method for pricing spread options. 
 
 A spread option is a type of option that derives its value from the difference, or spread, 
@@ -28,11 +28,11 @@ focusses on the statement of a PDE model for pricing a spread option contract wh
 by using the Feynman–Kac theorem \footnote{This is a theorem which establishes a link between
 parabolic partial differential equations and stochastic processes.} and goes on to provide 
 numerical methods for solving this model to obtain an approximation for the spread options 
-pricing. They state ``The main advantage of PDE based pricing methods with respect to alternative
+pricing. They state "The main advantage of PDE based pricing methods with respect to alternative
 general purpose Monte Carlo ones is that they are computationally faster." 
 
 We will now give an example of pricing options using a Monte Carlo method as described by 
-a document entitled ``Pricing complex options using a simple Monte Carlo 
+a document entitled "Pricing complex options using a simple Monte Carlo 
 Simulation \cite{finkPricingComplexOptions2004}" by Peter Fink. 
 
 Once a basic pricing model has been constructed, it can be applied to different options 
@@ -84,4 +84,4 @@ $$p(s,t)=\frac{1}{1+\theta_{st}L}$$
 where $\theta_{st}$ is known as the accural factor for the interval $[s,t]$. 
 For $t<T_1<T_2$ the forward Libor rate $L^f(t;T_1,T_2)$ at $t$ for period $[T_1,T_2]$ is
 
-$$L^f(t;T_1,T_2) = \frac{1}{\theta_{T_1T_2}}\left(\frac{p(t,T_1)}{p(t,T_2)}-1\right)$$
+$$L^f(t;T_1,T_2) = \frac{1}{\theta_{T_1T_2}}(\frac{p(t,T_1)}{p(t,T_2)}-1)$$
