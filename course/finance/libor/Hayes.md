@@ -24,7 +24,10 @@ small change for banks like UBS), but otherwise they didn't lose anything from t
 
 In the Case Analysis dated 21st December 2015, the summary states:
 
-*"The extent to which a banker had acted dishonestly in manipulating financial markets was to be judged by the ordinary standards of reasonable and honest people, not by the standards of the market or a group of traders. Moreover, a message had to be sent to the banking world that those who involved themselves in the fraudulent manipulation of financial markets had to expect severe sentences of imprisonment."*
+*"The extent to which a banker had acted dishonestly in manipulating financial markets was to be judged by the ordinary standards of
+reasonable and honest people, not by the standards of the market or a group of traders. Moreover, a message had to be sent to the
+banking world that those who involved themselves in the fraudulent manipulation of financial markets had to expect severe sentences of
+imprisonment."*
 
 
 Importantly he was judged against what normal people considered to be acceptable, not what those in the business consider normal. The Case Analysis also stated:
