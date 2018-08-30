@@ -83,4 +83,11 @@ $$p(s,t)=\frac{1}{1+\theta_{st}L}$$
 
 where $\theta_{st}$ is known as the accural factor for the interval $[s,t]$. 
 
+### References
+[1] [Options Pricing](https://www.investopedia.com/university/options-pricing/pricing-basics.asp)
 
+[2] [A Numerical Method for Pricing Options](http://linkinghub.elsevier.com/retrieve/pii/S089571771000141X)
+
+[3] Pricing Complex Options Using a Simple Monte Carlo Simulation, Peter Fink, *Sumitomo Mitsui Banking Corporation*, 2004. 
+
+[4] [Fixed Income](http://wwwf.imperial.ac.uk/~mdavis/course_material/MOP/FIXED_INCOME.PDF)
