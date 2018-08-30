@@ -23,9 +23,9 @@ anticipates it will require a \$100 million loan for a 90-day period beginning i
 on the 3-month Libor value, plus a fixed premium. We can calculate the Basis Point Value (BPV) as follows:
 
 
-$$Basis Point Value = Face Value x \frac{\text{days}}{360}) x 0.0001$$ 
+$$Basis Point Value = Face Value \times \frac{\text{days}}{360}) \times 0.0001$$ 
 
-$$= $100,000,000 x \frac{90}{360} x0.0001$$ 
+$$= $100,000,000 \times \frac{90}{360} \times 0.0001$$ 
 
 $$= $2500$$
 
