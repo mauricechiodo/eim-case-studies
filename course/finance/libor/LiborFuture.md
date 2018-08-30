@@ -5,7 +5,7 @@ Template: ListSubPages
 
 # The Future of Libor
 
-A document entitled ``ICE Libor Evolution" published April 25, 2018 gives detail on how Libor 
+A document entitled "ICE Libor Evolution" published April 25, 2018 gives detail on how Libor 
 has changed since 2008 [1]. 
 
 After the financial scandal involving Libor in 2008, HM Treasury commissioned Martin Wheatley, 
@@ -38,7 +38,7 @@ Most recently IBA appears to be focussing on the submission stage of the Libor p
 The diagram shows IBA's Libor reform [1]. Note that steps two and beyond are the same.
 
 
-The idea behind the new `Waterfall Methodology' is that if a panel bank has sufficient eligible
+The idea behind the new 'Waterfall Methodology' is that if a panel bank has sufficient eligible
 transactions, a volume weighted average price will be calculated and used for their submission,
 this is known as a level 1 submission. If a panel banks doesn't have sufficient eligible transactions 
 to make a level 1 submission, they will make a submission based on transaction-derived data, known as 
@@ -53,7 +53,7 @@ beyond this time [1]. In June 2017, the Alternative Reference Rate Committee
 (ARRC) identified the Secured Overnight Financing Rate (SOFR) as its preferred alternative to USD 
 Libor [4]. One of the issues with replacing Libor is that there
 are a large number of financial contracts which rely on Libor and come into maturity after 2021. 
-Therefore IBA hopes continue to publish the LIBOR rates alongside the alternative `risk-free rates'
+Therefore IBA hopes continue to publish the LIBOR rates alongside the alternative 'risk-free rates'
 that are being developed.
 
 SOFR is a broad measure of overnight Treasury financing transactions and according to the Federal 
@@ -72,7 +72,7 @@ unsecured rate [5]. This is important because Libor is used to reflect the unsec
 rates of banks, the secured borrowing rates are lower than the unsecured rates. Secondly, SOFR is only an
 overnight rate, whereas Libor currently covers 7 different loan periods. The Federal Reserve will start publishing 
 SOFR rates this year. I think more research is required to make a judgement on whether or not it is likely to be
-the `fix' that is required, but it appears that it will be more robust, if less useful. 
+the 'fix' that is required, but it appears that it will be more robust, if less useful. 
 
 Additionally, it is not just London that has an interbank offered rate, in Brussels there is Eurobor 
 (based on the Euro), Japan uses Tibor, Hong Kong has Hibor, Singapore has Sibor, Hungary has Bubor and 
