@@ -5,7 +5,7 @@ Template: LeafPage
 
 # Equilibrium and Solution Strategy
 
--   $\Xi\_t^u$ is the [**marginal utility of detrended consumption**]{}
+-   $\Xi\_t^u$ is the **marginal utility of detrended consumption**
     in real terms, the amount that the utility of consumption will
     change when $t\mapsto t+1$ in real terms.
 
@@ -31,11 +31,11 @@ where $\mathbb{I}$ is the indicator function.
 
 ## Transaction cost and the risk premium
 
--   $R\_{L,t}^{E H}$ is the [**counterfactual yield to maturity**]{} on a
+-   $R\_{L,t}^{E H}$ is the **counterfactual yield to maturity** on a
     long-term bond in the absence of transaction costs
 
 -   $D\_L$, in the context of equation (\[riskpremium\]), is the steady
-    state [**duration**]{} of $\hat{R}\_{L,t}$ and $\hat{R}\_{L,t}^{EH}$
+    state **duration** of $\hat{R}\_{L,t}$ and $\hat{R}\_{L,t}^{EH}$
 
 -   $\zeta\_t$ is the
 
@@ -57,7 +57,7 @@ $$\zeta\_t\equiv\zeta(P\_{L,t}B\_{z,t}^L,\epsilon\_{\zeta,t})$$
 ## Limits to arbitrage
 
 The concept of the restricted household is introduced in this paper in
-order to try and break [*Wallace’s Irrelevance Theorem*]{}, which states
+order to try and break *Wallace’s Irrelevance Theorem*, which states
 that in certain conditions, central banks buying securities won’t affect
 the economy.[@wallace\_modigliani-miller\_1981]\
 Restricted households are the observation that there is a fraction of
