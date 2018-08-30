@@ -30,7 +30,7 @@ However, some of these implicitly make assumptions on human behaviour and societ
 And here we see a potential problem of mathematical models on financial markets:
 >  ***The act of modelling the market may affect the market.***
 
-Another point to note is that Black and Scholes arrived at their famous equation by assuming that market agents take a particular type of 'hedged position', where (having bought or sold an option) they buy and sell the underlying stock in just the right quantities, such that their total portfolio value remains unaffected by changes in the stock price. This is a second assumption on the behaviour of traders, and may not be compatible with the distribution assumption.
+Another point to note is that Black and Scholes arrived at their equation by assuming that market agents take a particular type of 'hedged position', where (having bought or sold an option) they buy and sell the underlying stock in just the right quantities, such that their total portfolio value is unaffected by changes in the stock price. This is a second assumption on the behaviour of traders, and may not be compatible with the distribution assumption.
 
 ---
 
