@@ -37,14 +37,13 @@ give the Libor fixing for that pair [1,p.1].
 
 In his 2008 article entitled "What's in a number?" [6], David MacKenzie said
 
-\begin{center}
-	\textit{Note the conditional: a Libor input is what a bank could do, not what it has done. So judgment is involved.
+
+  *Note the conditional: a Libor input is what a bank could do, not what it has done. So judgment is involved.
   A bank might not have borrowed anything in the minutes before 11 a.m. Deals for longer than overnight are intermittent,
   and there is little borrowing at some of the time periods involved, such as 11 months. ‘Reasonable market size’ is 
   deliberately not defined exactly: it will vary from currency to currency and according to time period and market conditions. 
   The need for judgement is why the information provided by brokers is important to the calculation of Libor. It helps a bank’s
-  traders to estimate the rate at which they could borrow money, even if they’re not trying to do so.}
-\end{center}
+  traders to estimate the rate at which they could borrow money, even if they’re not trying to do so.*
 
 After the scale of the Libor scandal was revealed, there was a call for make the definition on Libor less ambiguous, namely 
 from a document entitled "Recommendations for Enhancing the Credibility of LIBOR" by "FRBNY Markets and Research and
