@@ -64,10 +64,7 @@ from \footnote{The Wiener process $z(t)$ is a continuous-time stochastic process
 The notation $dz=\epsilon \sqrt{dt}$ is used to simplify the expression of a series of normal distributions, 
 which is a Wiener process.}.
 
-For a time interval starting at time $t$ and ending at time $T$, the generating formula for $L$ is given by 
-
-
-$$L_{T}=L_{t} \times \frac{\text{Foward LIBOR}_{T}}{\text{Forward LIBOR}_{t}} \times \exp{\left({\left(-\frac{1}{2}\sigma^2\right)(T-t)+\sigma\epsilon\sqrt{T-t}}}\right)$$
+For a time interval starting at time $t$ and ending at time $T$, the generating formula for $L$ is given by $L_{T}=L_{t} \times \frac{\text{Foward LIBOR}_{T}}{\text{Forward LIBOR}_{t}} \times \exp{\left({\left(-\frac{1}{2}\sigma^2\right)(T-t)+\sigma\epsilon\sqrt{T-t}}}\right)$
 
 
 where we have used the fact that $\mu=\exp\left({\frac{\text{ Foward LIBOR}_T}{\text{Forward LIBOR}_t}}\right)$ for 
