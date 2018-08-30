@@ -33,9 +33,9 @@ One of the main issues with Libor is that it relies on banks telling the truth. 
 report a high interest rate, then they tip off others that they are in desperate need of cash, and makes them 
 look weak compared to their competitors. 
 
-![Libor Graph](![Elliptic Curve](http://cueimps.soc.srcf.net/course/media/Lara/LiborGraph.png))
+![Libor Graph](http://cueimps.soc.srcf.net/course/media/Lara/LiborGraph.png)
 
-![3 month Libor Graph](![Elliptic Curve](http://cueimps.soc.srcf.net/course/media//Lara/3monthLiborGraph.png))
+![3 month Libor Graph](http://cueimps.soc.srcf.net/course/media//Lara/3monthLiborGraph.png)
 
 The first graph illustrates the change in the USD Libor rates of different maturities over 30 years [7]. 
 The second graph shows the USD Libor rate spanning the time of the financial crash in 2008 [8] - the Libor rates rise when banks
