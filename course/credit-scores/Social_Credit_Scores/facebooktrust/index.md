@@ -26,6 +26,9 @@ So, Facebook is now determining how *trustworthy* we are, using data from how we
 
 Another problem is the protection of this data. Suppose that this score is stored with an accuracy of three decimal places. The overall data will be around two terabytes, which is small enough to fit on a memory stick. As a result, a data leak is entirely possible. And what on Earth happens if this data is leaked? This information could be directly used against individuals, or even sold to third parties to be used in third-party scoring models. Although this is all a hypothesis, we cannot neglect the possibility of such an event in order to take measures to make sure it doesn't happen. 
 
+And what occurs when this data leaks? This data could be used against individuals, or even be assigned for other uses, as described above. Furthermore, the problem is intensified by the fact that the size of all this data is extremely small and could even possibly fit on a USB stick, meaning the risk of a leak is extremely high.
+
+
 ##References
 
 [1] Elizabeth Dwoskin. Facebook is rating the trustworthiness of its users on a scale from zero to 1. *The Washington Post*, August 2018.
