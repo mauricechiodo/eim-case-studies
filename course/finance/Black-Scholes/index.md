@@ -32,7 +32,7 @@ For example, Black and Scholes write
 
  ~ Fischer Black and Myron Scholes, *The Pricing of Options and Corporate Liabilities*, Journal of Political Economy, May 1973.
 
-The Black-Scholes' formula is identical in form to Sprenkle's, except that Black and Scholes derived explicit expressions for $k$ and $k^\*$.
+The Black-Scholes' formula is in fact identical in form to Sprenkle's, except that Black and Scholes derived explicit expressions for $k$ and $k^\*$.
 
 ---
 
