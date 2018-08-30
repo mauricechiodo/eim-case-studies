@@ -48,3 +48,23 @@ as discussed earlier. "In more recent times, there was a temptation to rig rates
 huge derivatives market with billions and billions of pounds of trades linked to Libor," explains David Potter, 
 a former Midland Bank and Samuel Montagu director whose long career in finance goes back to the 1960s. 
 "So with just a 0.001 percent tweak, that can make serious money [9]."
+
+### References
+
+[1] [Libor: Origins, Economics, Crisis, Scandal, and Reform](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr667.pdf)
+
+[2] [The Libor Scandal](https://www.investopedia.com/terms/l/libor-scandal.asp)
+
+[3] [Deutsche Bank hit by record $2.5bn Libor-rigging fine](http://www.theguardian.com/business/2015/apr/23/deutsche-bank-hit-by-record-25bn-libor-rigging-fine)
+
+[4] Is Libor Broken? Scott Peng, Chintan Gandhi, Alexander Tyo, *Citigroup Global Markets*, April 2008 
+
+[5] David Enrich, *The Spider Network*, WH Allen, 2017
+
+[6] [Libor Fog](http://global.factiva.com/redir/default.aspx?P=sa&an=J000000020080416e44g00036&cat=a&ep=ASE)
+
+[7] [Libor Graph](https://www.macrotrends.net/1433/historical-libor-rates-chart)
+
+[8] [3 month Libor Graph](https://www.macrotrends.net/2520/3-month-libor-rate-historical-chart)
+
+[9] [History of the Libor rate](http://www.businessinsider.com/history-of-the-libor-rate-2012-8)
