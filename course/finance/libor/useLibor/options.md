@@ -82,7 +82,4 @@ $$p(s,t)=\frac{1}{1+\theta_{st}L}$$
 
 
 where $\theta_{st}$ is known as the accural factor for the interval $[s,t]$. 
-For $t<T_1<T_2$ the forward Libor rate $L^f(t;T_1,T_2)$ at $t$ for period $[T_1,T_2]$ is
-
-$$L^f(t;T_1,T_2) =$$ 
-$$\frac{1}{\theta_{T_1T_2}}(\frac{p(t,T_1)}{p(t,T_2)}-1)$$
+For $t<T_1<T_2$ the forward Libor rate $L^f(t;T_1,T_2)$ at $t$ for period $[T_1,T_2]$ is $L^f(t;T_1,T_2) = \frac{1}{\theta_{T_1T_2}}(\frac{p(t,T_1)}{p(t,T_2)}-1)$.
