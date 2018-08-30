@@ -1,1 +1,1 @@
-Blank
+This page is super broken don't use it when the website starts working /blah/wallace/ won't appear as a valid subpage and it'll be removed leaving only /blah/wallaces/, which has a bad title and will need to be changed when the time comes.
