@@ -11,7 +11,10 @@ sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to mani
 Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to
 have paid out more than \pounds 330,000 in bribes in a single year \cite{garsideTomHayesRingmaster2015}.
 
-Often the Libor submitters for the different banks would be unsure how to determine the value that they should submit. One broker, Colin Goodman of ICAP, would give daily emails, or 'run-throughs,' where he gave his predictions for the Libor values. If there was a mistake in his 'run-throughs,' these were often simply copied by some Libor-setters, and only corrected the next day when Goodman would give his next set of predictions. This shows that many submitters didn't care what value of Libor was submitted. 
+Often the Libor submitters for the different banks would be unsure how to determine the value that they should submit. One broker, Colin
+Goodman of ICAP, would give daily emails, or 'run-throughs,' where he gave his predictions for the Libor values. If there was a mistake
+in his 'run-throughs,' these were often simply copied by some Libor-setters, and only corrected the next day when Goodman would give his
+next set of predictions. This shows that many submitters didn't care what value of Libor was submitted. 
 
 Hayes would use brokers' relationships with Libor setters from other banks to try to manipulate their Libor values, as well as the Libor value supplied by his own bank. To ensure he could do this, he would bribe the brokers in the form of switch trades. This involved bank A selling $x$ shares of company $y$ to bank B, and then half an hour later, bank B would sell $x$ shares of company $y$ back to bank A. The broker in the middle who 'set up the trade' would get a fat sum in commissions. Either bank A or B would have to pay this (which is small change for banks like UBS), but otherwise they didn't lose anything from the trade. 
 
