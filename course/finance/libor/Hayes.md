@@ -30,12 +30,15 @@ banking world that those who involved themselves in the fraudulent manipulation 
 imprisonment."*
 
 
-Importantly he was judged against what normal people considered to be acceptable, not what those in the business consider normal. The Case Analysis also stated:
+Importantly he was judged against what normal people considered to be acceptable, not what those in the business consider normal. The
+Case Analysis also stated:
 
-*"At trial, he asserted that he had not acted dishonestly, that what he had done was common practice and regarded as legitimate in the banking industry, and that it had been encouraged by his managers."*
+*"At trial, he asserted that he had not acted dishonestly, that what he had done was common practice and regarded as legitimate in the
+banking industry, and that it had been encouraged by his managers."*
 
 
-Here we see the case of a man who believed he wasn't doing anything wrong. His work, which was encouraged by his managers, landed him 14 years in prison. 
+Here we see the case of a man who believed he wasn't doing anything wrong. His work, which was encouraged by his managers, landed him 14
+years in prison. 
 
 It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it \cite{LIBORLaw2018}; it was made a criminal offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010 \cite{enrichLiborMastermindUnraveling}. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating yen Libor. This means that in the future it will be much easier to convict someone for rigging Libor, now that it has been made a law. It is also a note of caution - if you think something is wrong in the work you're doing but there isn't an explicit law against it, there are probably related laws that can be used against you.
 
