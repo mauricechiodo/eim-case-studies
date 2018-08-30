@@ -9,7 +9,7 @@ Tom Hayes was a Nottingham maths and engineering graduate [1] who became a trade
 sentenced to 14 years in prison [2] for his contribution to manipulating the Yen Libor rate. 
 
 Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to
-have paid out more than \pounds 330,000 in bribes in a single year \cite{garsideTomHayesRingmaster2015}.
+have paid out more than £330,000 in bribes in a single year [3].
 
 Often the Libor submitters for the different banks would be unsure how to determine the value that they should submit. One broker, Colin
 Goodman of ICAP, would give daily emails, or 'run-throughs,' where he gave his predictions for the Libor values. If there was a mistake
@@ -63,3 +63,5 @@ against Hayes in his trial \cite{enrichTrapTrader2017}.
 [1] [Who is Tom Hayes](https://www.bbc.com/news/business-33635340)
 
 [2] R v Tom Hayes, Sentencing Remarks of Mr Justice Cooke, 3rd August 2015
+
+[3] [Tom Hayes, 'ringmaster' of Libor fraud, given $2.5m to stay at UBS, court hears](http://www.theguardian.com/business/2015/may/28/tom-hayes-ringmaster-libor-25m-ubs-court)
