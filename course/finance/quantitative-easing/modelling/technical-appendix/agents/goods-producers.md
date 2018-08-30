@@ -28,16 +28,16 @@ $$Y\_t(f)=K\_t(f)^\alpha(Z\_tL\_t(f))^{1-\alpha}$$
 
 The labour-augmented technology evolves with the difference equation
 
-$$log\left(\frac{Z\_t}{Z\_{t-1}}\right)=(1-\rho\_z)\gamma+\rho\_zlog\left(\frac{Z\_{t-1}}{Z\_{t-2}}\right)+\epsilon\_{z,t}$$,
+$$log\left(\frac{Z\_t}{Z\_{t-1}}\right)=(1-\rho\_z)\gamma+\rho\_zlog\left(\frac{Z\_{t-1}}{Z\_{t-2}}\right)+\epsilon\_{z,t}$$
 
 that is to say,
 
-$$Z\_t=e^{(1-\rho\_z)\gamma+\rho\_z+\epsilon\_{z,t}}\frac{Z\_{t-1}^2}{Z\_{t-2}}$$.
+$$Z\_t=e^{(1-\rho\_z)\gamma+\rho\_z+\epsilon\_{z,t}}\frac{Z\_{t-1}^2}{Z\_{t-2}}$$
 
 The marginal cost, the increase in cost per unit time, can be deduced
 from aggregate variables
 
-$$MC(f)\_t=MC\_t=\frac{(R\_t^k)^\alpha W\_t^{1-\alpha}}{\alpha^\alpha (1-\alpha)^{1-\alpha}Z\_t^{1-\alpha}}$$.
+$$MC(f)\_t=MC\_t=\frac{(R\_t^k)^\alpha W\_t^{1-\alpha}}{\alpha^\alpha (1-\alpha)^{1-\alpha}Z\_t^{1-\alpha}}$$
 
 A firm can set prices on a staggering basis with probability $1-\zeta\_p$
 independantly of past successes. When a firm can adjust, they will
@@ -62,12 +62,12 @@ aggregate price index $P\_t$ and the price set by the $f^{th}$
 intermediate goods producer) derived to be the
 following:$\c{1}$
 
-$$Y\_t(f)=\left[\frac{P\_t(f)}{P\_t}\right]^{-\frac{1+\lambda\_f}{\lambda\_f}}Y\_t$$.
+$$Y\_t(f)=\left[\frac{P\_t(f)}{P\_t}\right]^{-\frac{1+\lambda\_f}{\lambda\_f}}Y\_t$$
 
 From the zero-profit condition for intermediate goods producers the
 aggregate price index $P\_t$ is as follows:
 
-$$P\_t=\left[\int\_0^1P\_t(f)^{-\frac{1}{\lambda\_f}}df\right]^{-\lambda\_f}$$,
+$$P\_t=\left[\int\_0^1P\_t(f)^{-\frac{1}{\lambda\_f}}df\right]^{-\lambda\_f}$$
 
 meaning that final goods producers ultimately take a continuum of
 intermediate goods and create some final good for which the price is
