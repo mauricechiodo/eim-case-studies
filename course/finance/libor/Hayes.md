@@ -40,7 +40,7 @@ banking industry, and that it had been encouraged by his managers."*
 Here we see the case of a man who believed he wasn't doing anything wrong. His work, which was encouraged by his managers, landed him 14
 years in prison. 
 
-It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it \cite{LIBORLaw2018}; it was
+It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it [4]; it was
 made a criminal offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010
 \cite{enrichLiborMastermindUnraveling}. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating
 Yen Libor. This means that in the future it will be much easier to convict someone for rigging Libor, now that it has been made a law.
@@ -65,3 +65,5 @@ against Hayes in his trial \cite{enrichTrapTrader2017}.
 [2] R v Tom Hayes, Sentencing Remarks of Mr Justice Cooke, 3rd August 2015
 
 [3] [Tom Hayes, 'ringmaster' of Libor fraud, given $2.5m to stay at UBS, court hears](http://www.theguardian.com/business/2015/may/28/tom-hayes-ringmaster-libor-25m-ubs-court)
+
+[4] [Libor and the Law](https://lewisnedas.co.uk/libor-and-the-law.html)
