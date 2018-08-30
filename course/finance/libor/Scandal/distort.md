@@ -18,3 +18,6 @@ The document notes that manipulation would not have been possible if it had just
 bank attempting to change the Libor rate because only the middle 50% of submissions are 
 used to determine Libor's value. It is clear that many of the banks contributing to Libor 
 were also contributing to its manipulation.
+
+
+
