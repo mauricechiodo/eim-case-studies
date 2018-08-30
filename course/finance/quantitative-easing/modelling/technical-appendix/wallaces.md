@@ -1,5 +1,5 @@
 ---
-Title: Wallace 2
+Title: Wallace's Irrelevance Theorem (Use this one the other one is broken)
 Template: ListSubPages
 ---
 
