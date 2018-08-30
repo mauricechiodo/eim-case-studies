@@ -25,7 +25,7 @@ There are 6 main agents at work in the DSGE model, these are
 
 They each have different constraints (in the form of (in)equalities) and their own goals (in the form of optimisation goals). Each link goes to the sub-page for that agent, or click the header for the mathematical overview of each.
 
-## [Equilibrium and Solution Strategy](/course/course/finance/quantitative-easing/techincal-appendix/equilibrium)
+## [Equilibrium and Solution Strategy](/course/course/finance/quantitative-easing/modelling/techincal-appendix/equilibrium)
 
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
