@@ -13,27 +13,27 @@ the buyer to exercise the right any time up to a specified date.
 The price, or cost, of an option is an amount of money known as the premium. The buyer pays the
 premium to the seller in exchange for the right granted by the option. The buyer can then exercise
 the option before the expiration date, or let the option expire (or it must be exercised on the expiration
-date, depending on the type of option being traded). \cite{OptionsPricingBasics2012}.
+date, depending on the type of option being traded) [1].
 
 Often a closed-form pricing formula either does not exist or is difficult to derive and therefore
 numerical procedures are often used for valuing options.
 
 A paper called "A numerical method for pricing spread options on LIBOR rates with a PDE 
-model \cite{suarez-taboadaNumericalMethodPricing2010}" suggests one method for pricing spread options. 
+model [2]" suggests one method for pricing spread options. 
 
 A spread option is a type of option that derives its value from the difference, or spread, 
 between the prices of two or more assets. In the paper, they present a new numerical method 
 for solving a Black-Scholes type of model for pricing spread options based on Libor. The paper 
 focusses on the statement of a PDE model for pricing a spread option contract which is obtained 
-by using the Feynman–Kac theorem \footnote{This is a theorem which establishes a link between
-parabolic partial differential equations and stochastic processes.} and goes on to provide 
+by using the Feynman–Kac theorem (this is a theorem which establishes a link between
+parabolic partial differential equations and stochastic processes) and goes on to provide 
 numerical methods for solving this model to obtain an approximation for the spread options 
 pricing. They state "The main advantage of PDE based pricing methods with respect to alternative
 general purpose Monte Carlo ones is that they are computationally faster." 
 
 We will now give an example of pricing options using a Monte Carlo method as described by 
 a document entitled "Pricing complex options using a simple Monte Carlo 
-Simulation \cite{finkPricingComplexOptions2004}" by Peter Fink. 
+Simulation [3]" by Peter Fink. 
 
 Once a basic pricing model has been constructed, it can be applied to different options 
 simply by changing the pay-out function of the Libor variable $L$. There is no further 
@@ -73,7 +73,7 @@ $$L_{T}=L_{t} \times \frac{\text{ Foward LIBOR}_T}{\text{Forward LIBOR}_t} \time
 where we have used the fact that $\mu=\exp\left({\frac{\text{ Foward LIBOR}_T}{\text{Forward LIBOR}_t}}\right)$ for 
 the Libor rate. Using this formula the pricing spreadsheet can now be assembled. 
 
-This is how forward Libor rates are calculated \cite{davisFIXEDINCOMEPdf2002}:
+This is how forward Libor rates are calculated [4]:
 First we define $p(s,t)$ which is equivalent to a simple interest payment of the 
 Libor rate $L$ for the period $[s,t]$ by
 
@@ -82,3 +82,5 @@ $$p(s,t)=\frac{1}{1+\theta_{st}L}$$
 
 
 where $\theta_{st}$ is known as the accural factor for the interval $[s,t]$. 
+
+
