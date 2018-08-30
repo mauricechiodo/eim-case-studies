@@ -14,7 +14,7 @@ Most of the document is an exhaustive list of areas in which "credit" or "sincer
 	- Finance;
 	- Health, etc. 
 
-The database will consist of data on both individuals and legal entities like non-governmental organizations and businesses. The SCS aims to make this data public. 
+The database will consist of data on both individuals and legal entities like non-governmental organizations and businesses. The SCS aims to make this data public. However, you can easily 'reset' a company, but a person cannot do this. Hence, any system that measures them in the same way will be unfairly harsh on the individual person. 
 
 Considering how fast data is being digitised in China, there is big potential for data collection by real-time monitoring:
 
