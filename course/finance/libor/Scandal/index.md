@@ -21,10 +21,10 @@ bank Citigroup as a researcher where he wrote the report. On 16th April 2008, ju
 entitled "Libor Fog: Bankers Cast Doubt On Key Rate Amid Crisis" was published by Wall street 
 Journal [6]. The article opens with:
 
-	*"One of the most important barometers of the world's financial health could be sending false signals. 
+  *"One of the most important barometers of the world's financial health could be sending false signals. 
   In a development that has implications for borrowers everywhere, from Russian oil producers to homeowners
   in Detroit, bankers and traders are expressing concerns that the London inter-bank offered rate, known as
-  Libor, is becoming unreliable.*
+  Libor, is becoming unreliable."*
 
 
 This was the first time the public were made aware that there was an issue with Libor.
