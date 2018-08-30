@@ -12,7 +12,7 @@ U.S and other foreign regulators found that banks were purposefully influencing 
 market appear to be healthier than it actually was. Deutsche Bank, Barclays, UBS, Rabobank, HSBC, Bank of America, Citigroup, 
 JPMorgan Chase, the Bank of Tokyo Mitsubishi, Credit Suisse, Lloyds, WestLB, and the Royal Bank of Scotland were prominent 
 banks in the scandal, among others [2]. Deutsche Bank paid the largest fine for Libor rigging, 
-which amounted to \$2.5bn (£1.7bn) [3].
+which amounted to $2.5bn (£1.7bn) [3].
 
 Regarding the 2008 scandal, Scott Peng was the first within the financial business to publish a report questioning the 
 integrity of Libor. He wrote "Is Libor Broken?" [4] on 10th April 2008. He started out creating 
