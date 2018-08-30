@@ -42,7 +42,7 @@ years in prison.
 
 It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it [4]; it was
 made a criminal offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010
-\cite{enrichLiborMastermindUnraveling}. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating
+[5]. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating
 Yen Libor. This means that in the future it will be much easier to convict someone for rigging Libor, now that it has been made a law.
 It is also a note of caution - if you think something is wrong in the work you're doing but there isn't an explicit law against it,
 there are probably related laws that can be used against you.
@@ -67,3 +67,5 @@ against Hayes in his trial \cite{enrichTrapTrader2017}.
 [3] [Tom Hayes, 'ringmaster' of Libor fraud, given $2.5m to stay at UBS, court hears](http://www.theguardian.com/business/2015/may/28/tom-hayes-ringmaster-libor-25m-ubs-court)
 
 [4] [Libor and the Law](https://lewisnedas.co.uk/libor-and-the-law.html)
+
+[5] [Libor's Mastermind: the Unraveling of Tom Hayes](http://graphics.wsj.com/libor-unraveling-tom-hayes/1)
