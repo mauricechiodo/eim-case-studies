@@ -20,6 +20,8 @@ Considering how fast data is being digitised in China, there is big potential fo
 
 "E-commerce platforms could provide the Social Credit System with data on companies’ reliability during online business activities, for example, with regard to payments, delivery, product quality, and customer satisfaction. Particularly for companies active in the automobile, transportation, and logistics industries, real-time monitoring of cars via traffc systems and on-board units will provide the basis for their future social credit ratings." (Meissner)
 
+Although this data can be used if someone had the intention to target specific people or companies, it is largely useless on its own. However, we must recognise that the processing of this data (mathematical work) adds value to it, giving the entity who processed it a lot of power as they can make inferences about human behaviour. 
+
 ##References
 
 [1] Martin Chorzempa and Samm Sacks. Policy Brief 18-14: China's Social Credit System: A Mark of Progress or a Threat to Privacy? *Peterson Institute for International Economics*, June 2018.
