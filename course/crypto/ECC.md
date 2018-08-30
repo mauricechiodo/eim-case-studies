@@ -33,9 +33,18 @@ $$y_r=\lambda(x_p-x_r)-y_p$$
 where
 $$\lambda = \frac{y_q-y_p}{x_q-x_p}.$$
 
+When $P$ and $Q$ are the same, the addition is similar, but there is no well-defined line through $P$ and $Q$. Therefore, we do the
+calculation as above except we use:
+$$\lambda = \frac{3{x_p}^2+a}{2y_p}$$
+where $a$ is from the equation defining the elliptic curve $E$, $y^2=x^3+ax+b$. 
+
 Using this as the group addition operation, we have made a finite additive group using the elliptic curve, call it $E(\mathbb{F}_q)$. 
 
-Using elliptic curves in cryptography relies on the discrete logarithm problem being difficult. The problem is the following: given a group G and elements $P$ and $Q$, find an integer k such that $kP = Q$ (given such a k exists). By choosing $q=p^n$ for a prime $p$ in our finite field, the discrete logarithm problem for our elliptic curve is found to be difficult, and hence a good trap door function. The discrete logarithm problem using the elliptic group $E(\mathbb{F}_q)$ is orders of magnitude harder than the corresponding cyclic group of order $p$ [3, p.7].
+Using elliptic curves in cryptography relies on the discrete logarithm problem being difficult. The problem is the following: given a
+group G and elements $P$ and $Q$, find an integer k such that $kP = Q$ (given such a k exists). By choosing $q=p^n$ for a prime $p$ in
+our finite field, the discrete logarithm problem for our elliptic curve is found to be difficult, and hence a good trap door function.
+The discrete logarithm problem using the elliptic group $E(\mathbb{F}_q)$ is orders of magnitude harder than the corresponding cyclic
+group of order $p$ [3, p.7].
 
 ![Graph](http://cueimps.soc.srcf.net/course/media/ellipticVsConv.jpg)
 
@@ -62,17 +71,25 @@ Consider an elliptic curve $E$ over $\mathbb{F}_q$ with group order $n=$#$E(\mat
 
 
 In order for the elliptic curve $E$ to make the discrete logarithm problem as hard as it can be, we require the following criteria to hold [5, p.8]:
-- The group should have a subgroup of large prime order $r$ which is of several hundred bits in length, as of 1999 160 bits was considered to be the minimum. This prevents the Pollard-$\rho$-attack (not discussed). 
+- The group should have a subgroup of large prime order $r$ which is of several hundred bits in length, as of 1999 160 bits was
+considered to be the minimum. This prevents the Pollard-$\rho$-attack (not discussed). 
 - The curve should not be anomalous i.e $q=n=p$ a prime. This prevents a Semaev-Smart-Satoh-Araki attack (not discussed).
 - To prevent a MOV attack, we need to ensure that the order of $P$ does not divide $q^k-1$ for all $k$ such that $1\leq k \leq C$, where $C$ is sufficiently large such that the discrete logarithm problem on $\mathbb{F}_{q^C}^{\times}$ is difficult to solve.  
 
 
 
-One of the main approaches for finding a suitable curve is to generate random curves and compute their group orders until an appropriate one is found [3, p.101]. If we pick a curve $E(\mathbb{F}_q):y^2=x^3+ax+b$ by randomly selecting $a,b \in \mathbb{F}_q$ such that $4a^3+27b^2 \neq 0$ if $q$ is odd and $b \neq 0$ if $q$ is a power of 2 then it turns out that a large fraction of the time, the above conditions are satisfied [5, p.9]. 
+One of the main approaches for finding a suitable curve is to generate random curves and compute their group orders until an appropriate
+one is found [3, p.101]. If we pick a curve $E(\mathbb{F}_q):y^2=x^3+ax+b$ by randomly selecting $a,b \in \mathbb{F}_q$ such that
+$4a^3+27b^2 \neq 0$ if $q$ is odd and $b \neq 0$ if $q$ is a power of 2 then it turns out that a large fraction of the time, the above
+conditions are satisfied [5, p.9]. 
 
-There are a few ways that the elliptic curve can be used to encrypt. One method is to use a Diffie-Hellman method; instead of using the cyclic group corresponding to $\mathbb{F}_q$, we use our new elliptic curve group; the private key ($priv$) is the number of times we dot a public point with itself and the public key is the public point dotted with itself $priv$ times. To make the shared secret, Alice and Bob do the following [3, p.3]:
+There are a few ways that the elliptic curve can be used to encrypt. One method is to use a Diffie-Hellman method; instead of using the
+cyclic group corresponding to $\mathbb{F}_q$, we use our new elliptic curve group; the private key ($priv$) is the number of times we
+dot a public point with itself and the public key is the public point dotted with itself $priv$ times. To make the shared secret, Alice
+and Bob do the following [3, p.3]:
 
-- Alice and Bob agree on an elliptic curve E over a finite field $\mathbb{F}_q$, chosen so that the discrete logarithm problem is difficult, and a public point $P$ on the curve.
+- Alice and Bob agree on an elliptic curve E over a finite field $\mathbb{F}_q$, chosen so that the discrete logarithm problem is
+difficult, and a public point $P$ on the curve.
 
 - Alice chooses a secret number $a$ and sends Bob $aP$ with the appropriate elliptic group multiplication, $E(\mathbb{F}_q$).
 
@@ -81,13 +98,15 @@ There are a few ways that the elliptic curve can be used to encrypt. One method 
 - They can then both calculate $(a+b)P$ which becomes their secret key. 
 
 
-Another method is known as Massey-Omera Encryption; the concept is that if Alice wants to send Bob a message securely, Alice sends Bob a box with her lock on it, Bob adds his lock and sends the box back to Alice, who removes her lock and then sends the box back to Bob who can remove his lock and open the box [5, p.10]:
+Another method is known as Massey-Omera Encryption; the concept is that if Alice wants to send Bob a message securely, Alice sends Bob a
+box with her lock on it, Bob adds his lock and sends the box back to Alice, who removes her lock and then sends the box back to Bob who
+can remove his lock and open the box [5, p.10]:
 
 - Once again, Alice and Bob agree on a curve $E(\mathbb{F}_q)$ chosen so that the discrete logarithm problem is hard. Let $n=$#$E(\mathbb{F}_q)$.
 
 - Alice represents her message by $P \in E(\mathbb{F}_q)$.
 
-- Alice choose a secret $a \in \mathbb{Z}$ such that gcd$(b,n)=1$, computes $aP$ and sends it to Bob. 
+- Alice choose a secret $a \in \mathbb{Z}$ such that gcd$(a,n)=1$, computes $aP$ and sends it to Bob. 
 
 - Bob chooses a secret $b \in Z$ such that gcd$(b,n)=1$, computes $b(aP)=baP$, and sends it to Alice.
 
@@ -95,7 +114,10 @@ Another method is known as Massey-Omera Encryption; the concept is that if Alice
 
 - Bob finds $b^{-1} \in \mathbb{Z}_n$, computes $b^{-1}(a^{-1}baP)=b^{-1}a^{-1}baP$, and takes the result to be the message.
 
-This is valid because $b^{-1}a^{-1}baP=P$. To show this, it is enough to show that $a^{-1}aR=R$ for $R \in E(\mathbb{F}_q)$ as the $a$'s and $b$'s commute and are symmetric. We chose $a$ such that gcd$(a,n)=1$, so we know that $a^{-1}$ exists and that $a^{-1}a \equiv 1$. Therefore $a^{-1}a = 1 +kn$ for some $k$. The group order is $n$ so $R$ has order which divides $n$, i.e $nR=\mathcal{O}$. Therefore $a^{-1}aR=(1+kn)R=R+k\mathcal{O}=R$ as required.
+This is valid because $b^{-1}a^{-1}baP=P$. To show this, it is enough to show that $a^{-1}aR=R$ for $R \in E(\mathbb{F}_q)$ as the $a$'s
+and $b$'s commute and are symmetric. We chose $a$ such that gcd$(a,n)=1$, so we know that $a^{-1}$ exists and that $a^{-1}a \equiv 1$.
+Therefore $a^{-1}a = 1 +kn$ for some $k$. The group order is $n$ so $R$ has order which divides $n$, i.e $nR=\mathcal{O}$. Therefore
+$a^{-1}aR=(1+kn)R=R+k\mathcal{O}=R$ as required.
 
 
 # References
