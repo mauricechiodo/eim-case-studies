@@ -5,7 +5,7 @@ Template: ListSubPages
 
 # Tom Hayes
 
-Tom Hayes was a Nottingham maths and engineering graduate who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was
+Tom Hayes was a Nottingham maths and engineering graduate [1] who became a trader for UBS, and later Citigroup. In 2015, Tom Hayes was
 sentenced to 14 years in prison \cite{TOMHAYES2015} for his contribution to manipulating the Yen Libor rate. 
 
 Although many people are said to have rigged Libor, Hayes was the only one who used a network of traders to rig rates. He is said to
@@ -59,4 +59,5 @@ try to get some sort of confession out of him \footnote{The FBI made it look lik
 country, so that Hayes believed he was talking in confidence to a friend.}. Evidence obtained from this phone call was later used
 against Hayes in his trial \cite{enrichTrapTrader2017}.
 
-**Need to sort out references**
+### References
+[1] [Who is Tom Hayes](https://www.bbc.com/news/business-33635340)
