@@ -51,8 +51,7 @@ from a document entitled "Recommendations for Enhancing the Credibility of LIBOR
 Statistics Groups" [8]. As well as recommending a revision of the
 definition of Libor, they suggest eliminating incentive to misreport results by not publicising banks whose reports fall 
 above or below the midrange. This means that nobody would know whether a bank fell in the top or bottom quarter, therefore
-making it less clear whether the bank is struggling or not. Later on in this document, we discuss changes that have been
-made to Libor, what the future of Libor looks like and its potential replacements.
+making it less clear whether the bank is struggling or not. 
 
 ### References
 [1] [Libor: Origins, Economics, Crisis, Scandal and Reform.](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr667.pdf)
