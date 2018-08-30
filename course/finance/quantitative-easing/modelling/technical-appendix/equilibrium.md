@@ -4,7 +4,7 @@ Template: LeafPage
 ---
 
 # Equilibrium and Solution Strategy
-
+$\newcommand{\F}[1]{^{[\text{F}#1]}}$$\newcommand{\C}[2]{^{[#1\text{, p.#2}]}}$$\newcommand{\c}[1]{^{[#1]}}$$\newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 -   $\Xi\_t^u$ is the **marginal utility of detrended consumption**
     in real terms, the amount that the utility of consumption will
     change when $t\mapsto t+1$ in real terms.
