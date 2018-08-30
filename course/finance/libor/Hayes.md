@@ -16,7 +16,11 @@ Goodman of ICAP, would give daily emails, or 'run-throughs,' where he gave his p
 in his 'run-throughs,' these were often simply copied by some Libor-setters, and only corrected the next day when Goodman would give his
 next set of predictions. This shows that many submitters didn't care what value of Libor was submitted. 
 
-Hayes would use brokers' relationships with Libor setters from other banks to try to manipulate their Libor values, as well as the Libor value supplied by his own bank. To ensure he could do this, he would bribe the brokers in the form of switch trades. This involved bank A selling $x$ shares of company $y$ to bank B, and then half an hour later, bank B would sell $x$ shares of company $y$ back to bank A. The broker in the middle who 'set up the trade' would get a fat sum in commissions. Either bank A or B would have to pay this (which is small change for banks like UBS), but otherwise they didn't lose anything from the trade. 
+Hayes would use brokers' relationships with Libor setters from other banks to try to manipulate their Libor values, as well as the Libor
+value supplied by his own bank. To ensure he could do this, he would bribe the brokers in the form of switch trades. This involved bank
+A selling $x$ shares of company $y$ to bank B, and then half an hour later, bank B would sell $x$ shares of company $y$ back to bank A.
+The broker in the middle who 'set up the trade' would get a fat sum in commissions. Either bank A or B would have to pay this (which is
+small change for banks like UBS), but otherwise they didn't lose anything from the trade. 
 
 In the Case Analysis dated 21st December 2015, the summary states:
 
