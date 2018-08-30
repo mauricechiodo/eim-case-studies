@@ -24,7 +24,7 @@ Residents hold a grade from A+++ to D depending on their score bracket. People w
 The paragraphs above highlight the possibility of **buying** credit. Those who can afford to donate to a charity, will obtain more credit. Those who have a highly ranked job and can afford to take a day off, can volunteer and gain more credit. This favours middle-to-upper class citizens and may result in a selection of the population *spiralling up*, whereas others who are not in this section of society may *spiral down* and be *trapped*. Not only this, but having more credit may have a monetary reward (for example obtaining a \$50 heating discount), meaning it may be possible to 'buy' credit for a certain amount of money and then receiving more money than initially 'invested' as a  *reward*. 
 
 However, according to Mistream (2018), although the scoring system extends to every part of someone's life, **many of the city's residents don't even know it exists**, until they want to, for example, buy a house or apply for an academic title.
-This is quite scary: the government in collecting a massive amount of information about each individual, calculating a score to determine how *trustworthy* the person is, and many aren't even aware that this is even happening, nor do they get the choice to *opt-out*. 
+This is quite scary: the government in collecting a massive amount of information about each individual, calculating a score to determine how *trustworthy* the person is, and many aren't even aware that this is even happening, nor do they get the choice to *opt-out*. They only find out they're being judged until it's too late.
 
 ##References
 
