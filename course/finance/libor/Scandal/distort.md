@@ -10,8 +10,8 @@ are that Libor was largely accurate prior to the financial crisis starting in
 late 2007, but was since distorted downwards by eight basis points, which amounts to 0.08%. 
 This is considered to be a substantial change given the volume of contracts affected. 
 Those manipulating also consistently made large profits due to single basis point changes. 
-An an example U.S municipalities held $500 billion worth of interest rate swaps in 2010, 
-bought with taxpayer money. Youle calculates they would have lost $455 million from this 
+An an example U.S municipalities held $\$500$ billion worth of interest rate swaps in 2010, 
+bought with taxpayer money. Youle calculates they would have lost $\$455$ million from this 
 eight basis point shift over the sample period used.
 
 The document notes that manipulation would not have been possible if it had just been one 
