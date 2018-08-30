@@ -11,7 +11,7 @@ equities and so on, but trade in the same manner as commodity futures. \cite{cho
 
 One common type of futures contract is a Eurodollars futures contract. Eurodollars are time deposits 
 denominated in U.S. dollars and held at banks outside the United States. A time deposit is an 
-interest-yielding bank deposit with a specified date of maturity. The paper ``Understanding Eurodollar Futures" 
+interest-yielding bank deposit with a specified date of maturity. The paper "Understanding Eurodollar Futures" 
 helps us to see how Libor and eurodollar futures are related \cite{labuszewskiUnderstandingEurodollarFutures}. 
 The example the paper gives on page 10 is as follows:
 
@@ -23,11 +23,11 @@ anticipates it will require a \$100 million loan for a 90-day period beginning i
 on the 3-month Libor value, plus a fixed premium. We can calculate the Basis Point Value (BPV) as follows:
 
 
-$$\text{Basis Point Value} = \text{Face Value}\times(\frac{\text{days}}{360})\times0.0001 
+$$Basis Point Value = Face Value x \frac{\text{days}}{360}) x 0.0001 
 
-= \$100,000,000 \times \frac{90}{360} \times 0.0001 
+= $100,000,000 x \frac{90}{360} x0.0001 
 
-= \$2500$$
+= $2500$$
 
 where $0.0001 = 0.01\% = 1\text{BP}$. Therefore the interest is $\text{Libor}\times\$2500+\text{premium}$. The corporation is concerned that rates may rise before the loan is needed and that it will be required to pay higher interest rates. This exposure may be hedged by selling Eurodollar futures that mature in six months from the current date. One Eurodollar future is based on \$1 million face-value, 3-month maturity Eurodollar Time Deposit. If the value of the futures contract should change by one basis point, this equates to \$25 movement in the contract value:
 
