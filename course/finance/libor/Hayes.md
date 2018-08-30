@@ -40,15 +40,21 @@ banking industry, and that it had been encouraged by his managers."*
 Here we see the case of a man who believed he wasn't doing anything wrong. His work, which was encouraged by his managers, landed him 14
 years in prison. 
 
-It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it [4]; it was
-made a criminal offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010
-[5]. He was instead convicted of eight counts of conspiracy to defraud in relation to manipulating
-Yen Libor. This means that in the future it will be much easier to convict someone for rigging Libor, now that it has been made a law.
-It is also a note of caution - if you think something is wrong in the work you're doing but there isn't an explicit law against it,
-there are probably related laws that can be used against you.
+It's worth noting that the specific act of 'rigging Libor' wasn't a crime at the time Hayes was doing it [4]; it was made a criminal
+offense in 2012. Hayes' Libor rigging ended when he was fired from Citigroup in 2010 [5]. He was instead convicted of eight counts of
+conspiracy to defraud in relation to manipulating Yen Libor. This means that in the future it will be much easier to convict someone for
+rigging Libor, now that it has been made a law. It is also a note of caution - if you think something is wrong in the work you're doing
+but there isn't an explicit law against it, there are probably related laws that can be used against you.
 
 Note on the Tom Hayes case: Hayes was initially charged by the U.S. for his contribution to rigging Libor. In order to get charged by
-the U.K., to avoid the harsher prison system in the U.S., Hayes gave 82 hours worth of recorded interviews [5,p.2] with the Serious Fraud Office (SFO) in the U.K. stating what he had done, and admitted that it was dishonest (even though he refused to admit this in his trial). This made Hayes' case very easy for the prosecution and could be one of the reasons that he was the only person who went to prison for rigging Libor. Three of the brokers who worked with Hayes to rig Libor were taken to trial and acquitted because they never admitted that they did anything wrong. One of the reasons Hayes stopped cooperating with the SFO was that he didn't want to name others involved in his 'network,' like the brokers. None of Hayes' coworkers shared the same sentiments. As an example, Mirhat Alykulov was Hayes' mentee in UBS. After Alykulov was suspended for potentially being involved in Libor rigging, he went to meet FBI agents and Justice Department prosecutors. Under the instruction of the FBI, he telephoned Hayes to
+the U.K., to avoid the harsher prison system in the U.S., Hayes gave 82 hours worth of recorded interviews [5,p.2] with the Serious
+Fraud Office (SFO) in the U.K. stating what he had done, and admitted that it was dishonest (even though he refused to admit this in his
+trial). This made Hayes' case very easy for the prosecution and could be one of the reasons that he was the only person who went to
+prison for rigging Libor. Three of the brokers who worked with Hayes to rig Libor were taken to trial and acquitted because they never
+admitted that they did anything wrong. One of the reasons Hayes stopped cooperating with the SFO was that he didn't want to name others
+involved in his 'network,' like the brokers. None of Hayes' coworkers shared the same sentiments. As an example, Mirhat Alykulov was
+Hayes' mentee in UBS. After Alykulov was suspended for potentially being involved in Libor rigging, he went to meet FBI agents and
+Justice Department prosecutors. Under the instruction of the FBI, he telephoned Hayes to
 try to get some sort of confession out of him (the FBI made it look like the phone call was coming from Alykulov's native
 country, so that Hayes believed he was talking in confidence to a friend). Evidence obtained from this phone call was later used
 against Hayes in his trial [6].
