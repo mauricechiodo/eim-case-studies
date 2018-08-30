@@ -27,6 +27,8 @@ They each have different constraints (in the form of (in)equalities) and their o
 
 ## [Equilibrium and Solution Strategy](/course/course/finance/quantitative-easing/modelling/technical-appendix/equilibrium)
 
+Under this page is equations relating to the pricing of long- and short-term investments and how that relates to the transaction cost found with unrestricted [households](/course/course/finance/quantitative-easing/modelling/technical-appendix/agents/households) and risk premium universally found in marketing.
+
 ## [Empirical Analysis](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis)
 
 The model is estimated with Bayesian methods.$\F{2}$ The likelyhood is constructed using the 'Kalman filter', based on the state space representation of the rational expectations solution of the model. The [data](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis) is obtained from after the end of WWII until the third quarter of 2009, although other end points are used to gauge the stability of the model. Once the model is run, [posterior distribution](/course/course/finance/quantitative-easing/modelling/technical-appendix/empirical-analysis/posterior-distribution)s are created and the outcome is used to forecast the economy.
