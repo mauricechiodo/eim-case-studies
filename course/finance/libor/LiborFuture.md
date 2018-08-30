@@ -78,3 +78,14 @@ Additionally, it is not just London that has an interbank offered rate, in Bruss
 (based on the Euro), Japan uses Tibor, Hong Kong has Hibor, Singapore has Sibor, Hungary has Bubor and 
 South Africa has Jibor, just to name a few. These work in a very similar way to Libor. This begs the question, 
 are these rates undergoing the same problems as Libor has done in the last decade?
+
+### References
+[1] [ICE Libor Evolution](https://www.theice.com/publicdocs/ICE_LIBOR_Evolution_Report_25_April_2018.pdf)
+
+[2] The Wheatley Review of Libor: Final Report, 2012
+
+[3] [Libor Rigging Fines](http://www.theguardian.com/business/2015/apr/23/libor-rigging-fines-a-timeline)
+
+[4] Introducing the Secured Overnight Financing Rate (SOFR), Joshua Frost, *Federal Reserve Bank of New York*
+
+[5] [From Libor to SOFR](https://bankingjournal.aba.com/2018/02/from-libor-to-sofr/)
