@@ -7,12 +7,12 @@ Template: ListSubPages
 
 A futures contract is a contract between two parties where both parties agree to buy and sell a particular 
 asset at a specified time in the future.  Financial futures fix the price for interest rates, bonds, 
-equities and so on, but trade in the same manner as commodity futures. \cite{choudhryInterestRateFutures2004}.
+equities and so on, but trade in the same manner as commodity futures [1].
 
 One common type of futures contract is a Eurodollars futures contract. Eurodollars are time deposits 
 denominated in U.S. dollars and held at banks outside the United States. A time deposit is an 
 interest-yielding bank deposit with a specified date of maturity. The paper "Understanding Eurodollar Futures" 
-helps us to see how Libor and eurodollar futures are related \cite{labuszewskiUnderstandingEurodollarFutures}. 
+helps us to see how Libor and eurodollar futures are related [2]. 
 The example the paper gives on page 10 is as follows:
 
 A corporation may arrange a commercial bank loan at Libor rates plus some (fixed) premium that reflects 
@@ -45,3 +45,8 @@ $$\text{Price of Eurodollar Future}=$(100-\text{Libor})$$
 
 
 Say an investor buys a Eurodollar future when Libor is at 4%, so one future costs $96. If Libor changes to 3.98% so that the value of the future is now $96.02, Libor has changed by two basis points, meaning the investor has gained $50 from the interest in the time deposit. As discussed later, it has been suggested that the value of Libor was manipulated by 8 basis points. It is not difficult to see how much this will have affected the Eurodollars futures market. 
+
+### References
+[1] Interest Rate Futures Contracts, Moorad Chourdhry, 2004
+
+[2] Understanding Eurodollar Futures, John W Labuszewski, *CME Group*
