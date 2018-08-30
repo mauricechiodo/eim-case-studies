@@ -55,4 +55,6 @@ making it less clear whether the bank is struggling or not. Later on in this doc
 made to Libor, what the future of Libor looks like and its potential replacements.
 
 ### References
-[1]
+[1] [Libor: Origins, Economics, Crisis, Scandal and Reform.](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr667.pdf)
+
+
