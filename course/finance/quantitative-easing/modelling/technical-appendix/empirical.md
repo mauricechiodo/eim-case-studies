@@ -22,7 +22,7 @@ All data were extracted from the Federal Reserve Economic Data, data which is ma
 
 $$\Delta Y\_t^{obs}=100\left(\gamma+\hat{Y}\_{z,t}-\hat{Y}\_{z,t-1}+\hat{z}\_t\right)$$
 $$L\_t^{obs}=100\left(L+\hat{L}\_t\right)$$
-$$\Delta w\_t^{obs}=100\left(\gamma+\hat{w}\_{z,t}-\hat{w}\_{z,t-1}+\hat{z}\_t$$
+$$\Delta w\_t^{obs}=100\left(\gamma+\hat{w}\_{z,t}-\hat{w}\_{z,t-1}+\hat{z}\_t\right)$$
 $$\pi\_t^{obs}=100\left(\pi+\hat{\pi}\_t\right)$$
 $$r\_t^{obs}=100\left(r+\hat{r}\_t\right)$$
 $$r\_{L,t}^{obs}=100\left(r\_{L,t}+\hat{r}\_{L,t}\right)$$
