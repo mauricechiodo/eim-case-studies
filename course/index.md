@@ -11,4 +11,4 @@ As a mathematician, you will almost certainly encounter areas of life where you 
 
 It is often difficult to see how mathematical work is directly impacting the world around us, and where exactly mathematicians can be producing output. This is challenging even for mathematicians; for the lay public, it is practically impossible. Over the last few years, we have build up a collection of "case studies", where mathematicians have done work that raises some (sometimes very serious) ethical questions. We have collected these here, by topic, to help you explore and understand what mathematicians do, and how this might be the source of societal harm.
 
-A list of the currently available topics is below:
+We've collected together these case studies by topic. By clicking on one of the images below, you can see the set of case studies we've compiled in that topic.
