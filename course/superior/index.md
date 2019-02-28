@@ -1,5 +1,5 @@
 ---
-Title: Superior Orders
+Title: Following Orders
 Template: ListSubPages
 GridImage: media/superior-orders-thumbnail.png
 ---
