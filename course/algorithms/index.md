@@ -1,8 +1,10 @@
 ---
-Title: Algorithmic Policing and Decision Making
+Title: Algorithmic Decision Making and Fairness
 Template: ListSubPages
 GridImage: media/fairness-thumbnail.png
 ---
+
+# Algorithmic Decision Making and Fairness
 
 $\newcommand{\F}[1]{^{[\text{F}#1]}}$
 Algorithms more and more are being used in policing situations, from the allocation of police resources to the sentencing of individuals for time in prison. Should they be effective, an algorithm would be a marvellous way to efficiently employ a just system of control over a population, able to churn through years of data to spot patterns that humans would never find. However, algorithms made with arbitrary humans are **not** impartial. Mathematicians producing algorithms that will have such a huge impact on people's lives as this need to be aware of and think about the decisions they are implicitly making by producing such algorithms.
