@@ -1,5 +1,5 @@
 ---
-Title: Credit Scoring
+Title: Alternate Credit Scoring
 Template: LeafPage
 ---
 
