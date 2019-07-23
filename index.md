@@ -9,5 +9,4 @@ Template: ListSubPages
 
 [Main page link](/course/course).
 
-
-Is this checking
+Hello world.
