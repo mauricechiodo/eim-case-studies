@@ -10,4 +10,4 @@ Template: ListSubPages
 [Main page link](/course/course).
 
 
-No longer checking
+Is this checking
