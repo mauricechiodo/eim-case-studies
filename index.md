@@ -8,5 +8,3 @@ Template: ListSubPages
 **Test site**
 
 [Main page link](/course/course)
-
-test
