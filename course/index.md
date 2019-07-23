@@ -5,6 +5,8 @@ Template: SubPageGrid
 #Ethics in Mathematics: A collection of case studies
 $\newcommand{\EiM}{\mathbb{E}\text{i}\mathbb{M}}$
 
+TEST TEXT
+
 Welcome to our collection of case studies relating to Ethics in Mathematics ($\EiM$). We hope these will be of use to anyone trying to design and delier their own $\EiM$ course. This website is dedicated to providing case studies of areas of the world in which mathematics has had ethical consequences, and where mathematicians have had to make ethical choices.
 
 As a mathematician, you will almost certainly encounter areas of life where you are called to do mathematics with ethical impacts – perhaps scheduling workers, or optimising public works, or sending rockets into space. Whatever this may be, we hope to give you the opportunity to think about how you should act in these scenarios.
