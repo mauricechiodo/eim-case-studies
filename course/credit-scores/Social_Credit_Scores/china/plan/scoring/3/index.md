@@ -23,9 +23,9 @@ This may result in some regional bias - someone in Beijing or Shanghai don't nec
 
 According to Meissner, some companies have even reportedly signed contracts for sharing credit information with the state’s data platform. 
 
-Sesame Credit is the credit rating system developed by Alibaba. Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit) to find out more about it.
+Sesame Credit is the credit rating system developed by Alibaba. Click [here](/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/sesamecredit) to find out more about it.
 
-If you want to find out about Honest Shanghai, one of the three-dozen social credit systems run by local governments throughout China, click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/honestshanghai).
+If you want to find out about Honest Shanghai, one of the three-dozen social credit systems run by local governments throughout China, click [here](/course/course/credit-scores/Social_Credit_Scores/china/plan/scoring/3/honestshanghai).
 
 
 ##References

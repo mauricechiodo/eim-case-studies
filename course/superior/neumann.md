@@ -5,7 +5,7 @@ Template: LeafPage
 
 Von Neumann, one of the greatest intellectuals to grace the dull Earth with his presence, was in the same instant hawkish, detachedly bloodthirsty, and utterly desirous for war. The combination is unusual, yes – we are by now used to an academic culture in which to be baying for war is unthinkable (perhaps more because it would be seen as impolite, rather than being seen as immoral). Yet, at its core, his logic seems unimpeachable; his motivations seem, if slightly naive, fundamentally consistent. He was one of the greatest mathematicians of the twentieth century, and achieved the greatest political influence of all of them, by far. It will be instructive to consider him. 
 
-![John von Neumann](http://cueimps.soc.srcf.net/course/media/vonneumann.gif "John von Neumann")
+![John von Neumann](/course/media/vonneumann.gif "John von Neumann")
 
 Von Neumann was, of course, one of the foremost scientists working on the Manhattan Project, doing mathematics in the full knowledge that it would be used to create and utilise the nuclear bomb. In this he is a long way from unique. Yet, unusually among the scientists on the project, he was not at all repentant; he made no attempt to hide from the consequences of his actions. He was on the target selection committee, on which he suggested the highly-populated cultural capital of Kyoto, and went to great pains to maximise the effectiveness of the bomb, for instance optimising the height at which the bomb exploded to maximise fallout. He alone was responsible for countless deaths. When asked later about his unwavering commitment to the bomb, he retorted that "sometimes someone confesses a sin in order to take credit for it".
 

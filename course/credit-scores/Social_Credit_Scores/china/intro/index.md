@@ -20,9 +20,9 @@ Social credit represents the ultimate marketisation of political control as it g
 
 The key focus of the Chinese social credit score will be a person's trustworthiness as well as their "guanxi" (social relation), and hence measure a person's overall *goodness*.
 
-Above we mentioned a plan released in 2014 by the Chinese Government that laid out goals to be met by 2020 in order to build the SCS. In the [next section](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/plan), we discover the details of this plan. 
+Above we mentioned a plan released in 2014 by the Chinese Government that laid out goals to be met by 2020 in order to build the SCS. In the [next section](/course/course/credit-scores/Social_Credit_Scores/china/plan), we discover the details of this plan. 
 
-Click [here](https://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/summary) for a summary of the Social Credit System.
+Click [here](/course/course/credit-scores/Social_Credit_Scores/china/summary) for a summary of the Social Credit System.
 
 ##References
 

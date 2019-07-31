@@ -20,7 +20,7 @@ that might be created for decision making are likely to be made by a private com
 therefore the algorithm itself is proprietary software, and kept away from public scrutiny. This makes it difficult to appeal any result
 that the algorithm gives, because this would require the inner workings to be publicly known. 
 
-For more detail about bias in algorithms and potential solutions, visit the [Bias page](https://cueimps.soc.srcf.net/course/course/AI/Bias)
+For more detail about bias in algorithms and potential solutions, visit the [Bias page](/course/course/AI/Bias)
 on this website.
 
 

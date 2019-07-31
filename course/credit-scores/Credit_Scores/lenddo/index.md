@@ -7,11 +7,11 @@ Template: LeafPage
 
 ##Timeline
 
-![Lenddo Timeline](http://cueimps.soc.srcf.net/course/media/LenddoTimeline.png "Lenddo Timeline")
+![Lenddo Timeline](/course/media/LenddoTimeline.png "Lenddo Timeline")
 
 ##Patent
 
-In January 2012, Lenddo filed a patent entitled 'Systems and methods for using online social footprint for affecting lending performance and credit scoring'. It was issued in April, 2014. Click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/lenddo/patent) to find out more about the details of the patent.
+In January 2012, Lenddo filed a patent entitled 'Systems and methods for using online social footprint for affecting lending performance and credit scoring'. It was issued in April, 2014. Click [here](/course/course/credit-scores/Credit_Scores/lenddo/patent) to find out more about the details of the patent.
 
 ##References
 

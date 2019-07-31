@@ -23,13 +23,13 @@ In January 2015, ZestFinance was granted a patent entitled 'System and method fo
 	
 	5. Finally, each of the models then "vote" with weightings related to their individual importance, and they are then  assembled into a final score. There are many ways to perform this assembly of scores using machine learning or statistical algorithms. A simple example is shown in page 5 of the patent document [2]. 
 
-![ZestFinance's modelling and scoring process](http://cueimps.soc.srcf.net/course/media/ZestFinance.png "ZestFinance's modelling and scoring process [5]")
+![ZestFinance's modelling and scoring process](/course/media/ZestFinance.png "ZestFinance's modelling and scoring process [5]")
 
 Looking at the detailed description of the method, and as observed by Hardy in an article in the *New York Times* entitled 'Big Data for the Poor', we can see that the ZestFinance model also considers the spending habits in the context of a borrower's geographic location. 
 
 For example, *"paying half of one's income [on rent] in an expensive city like San Francisco might be a sign of conventional spending, while paying the same amount in cheaper Fresno could indicate profligacy".* (Profligacy: reckless extravagance or wastefulness in the use of resources.)
 
-**But, why should we care about this?** Click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/zestfinance/patent/discussion).
+**But, why should we care about this?** Click [here](/course/course/credit-scores/Credit_Scores/zestfinance/patent/discussion).
 
 ##References
 

@@ -20,10 +20,10 @@ y^2 = x^3 + ax + b
  
 The basic idea behind elliptic curve cryptography is that if we add a point together with itself in the sense shown in the diagram $n$ times then given the values of $P_0$ and $P_n$, $n$ is very difficult to determine. 
 
-![Elliptic Curve](http://cueimps.soc.srcf.net/course/media/curve1.png)
+![Elliptic Curve](/course/media/curve1.png)
 
-[Click here](http://cueimps.soc.srcf.net/course/course/crypto/ECC) to find out how elliptic curves are used in cryptography. The essential idea is that we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
+[Click here](/course/course/crypto/ECC) to find out how elliptic curves are used in cryptography. The essential idea is that we can make a finite group using the curve. Addition of points work in very much the same way as illustrated in the diagram. What makes this useful for cryptography is that finding $n$ from $P_0$ and $P_n$ requires solving the discrete logarithm problem for elliptic curves - it is a much more difficult problem than the the normal discrete logarithm we met when discussing Diffie-Hellman.
 
-Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves... [click here](http://cueimps.soc.srcf.net/course/course/crypto/dylannist) to find out more.
+Certain elliptic curves make the discrete logarithm problem particularly difficult. These depend on the finite group that we can construct from the curve, so we save these details for the notes. The fact that certain curves are better than others means that many people rely on companies like NIST to provide them with safe curves... [click here](/course/course/crypto/dylannist) to find out more.
 
 

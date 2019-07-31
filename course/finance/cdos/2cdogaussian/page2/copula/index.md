@@ -15,9 +15,9 @@ A copula is a multivariate probability distribution function with uniform margin
 	- the individual marginal distributions;
 	- the joint dependency structure between these one-dimensional random variables. 
 
-Click [here](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/page2/copula/formal) for the formal definition.
+Click [here](/course/course/finance/cdos/2cdogaussian/page2/copula/formal) for the formal definition.
 
-Li (2000) describes [how copula functions can be used to link marginal distributions with a joint distribution](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/page2/copula/marginaltojoint). 
+Li (2000) describes [how copula functions can be used to link marginal distributions with a joint distribution](/course/course/finance/cdos/2cdogaussian/page2/copula/marginaltojoint). 
 
 In 1959, Sklar established a very important result: 
 
@@ -25,9 +25,9 @@ In 1959, Sklar established a very important result:
     
     there exists a copula that will map these individual marginal distributions into a joint distribution.
 
-Click [here](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/page2/copula/proof) for the proof of this result. 
+Click [here](/course/course/finance/cdos/2cdogaussian/page2/copula/proof) for the proof of this result. 
 
-We should emphasize that Sklar's theorem **only** ensures the exsistence of a copula, but the [appropriate choice of a copula function](http://cueimps.soc.srcf.net/course/course/finance/cdos/2cdogaussian/page2/modelappropriate) which matches the specific model requirements is fraught with risk. 
+We should emphasize that Sklar's theorem **only** ensures the exsistence of a copula, but the [appropriate choice of a copula function](/course/course/finance/cdos/2cdogaussian/page2/modelappropriate) which matches the specific model requirements is fraught with risk. 
 
 ##References
 

@@ -7,7 +7,7 @@ template: LeafPage
 
 Consider a tree that tries to determine if a number is prime. The sample has been picked (with replacement) from a large database of integers and the attributes shown are those that have been picked (without replacement) from the set of attributes in the integer database.
 
-![Training data](http://cueimps.soc.srcf.net/course/media/calliope/training-data.png)
+![Training data](/course/media/calliope/training-data.png)
 
 <!---
 Training data produced in TeX with the following code

@@ -143,8 +143,8 @@ To read about some real world phenomena that the Black-Scholes model doesn't acc
 
  <div id=grid>
  
- <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/4Risks">
- <img src="http://cueimps.soc.srcf.net/course/media/B-S/4Risks.jpg"/>
+ <a href="/course/course/finance/Black-Scholes/4Risks">
+ <img src="/course/media/B-S/4Risks.jpg"/>
  </a>
 
  </div>

@@ -12,7 +12,7 @@ Template: LeafPage
 
 # Option Pricing: The Black Scholes Equation
 
- - <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/Options" target="_blank">*Option:*</a> A type of financial derivative sold by an option writer to an option buyer. It is a contract offering the buyer the right, but not the obligation, to buy (if it is a *call* option) or to sell (if it is a *put* option) a particular underlying asset (or 'stock') at an agreed-upon price, during a certain period of time, or on a specific date. The agreed upon price is called the *strike price*. If the buyer chooses to utilise their right to buy or to sell the underlying asset, we say the option is *exercised*.
+ - <a href="/course/course/finance/Black-Scholes/Options" target="_blank">*Option:*</a> A type of financial derivative sold by an option writer to an option buyer. It is a contract offering the buyer the right, but not the obligation, to buy (if it is a *call* option) or to sell (if it is a *put* option) a particular underlying asset (or 'stock') at an agreed-upon price, during a certain period of time, or on a specific date. The agreed upon price is called the *strike price*. If the buyer chooses to utilise their right to buy or to sell the underlying asset, we say the option is *exercised*.
 
 In 1973, Fischer Black and Myron Scholes derived an equation for pricing options; the equation describes how the price should evolve as a function of time and the current market price of the stock. It also takes into account the 'risk-free interest rate' of the market, and the 'volatility' of the stock.
 
@@ -40,20 +40,20 @@ Read more about the Black-Scholes model for financial markets, the equation they
 
  <div id=grid>
  
- <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/1Model">
- <img src="http://cueimps.soc.srcf.net/course/media/B-S/1Model.jpg"/>
+ <a href="/course/course/finance/Black-Scholes/1Model">
+ <img src="/course/media/B-S/1Model.jpg"/>
  </a>
  
- <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/2Equation">
- <img src="http://cueimps.soc.srcf.net/course/media/B-S/2Equation.jpg"/>
+ <a href="/course/course/finance/Black-Scholes/2Equation">
+ <img src="/course/media/B-S/2Equation.jpg"/>
  </a>
  
- <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/3Formula">
- <img src="http://cueimps.soc.srcf.net/course/media/B-S/3Formula.jpg"/>
+ <a href="/course/course/finance/Black-Scholes/3Formula">
+ <img src="/course/media/B-S/3Formula.jpg"/>
  </a>
  
- <a href="https://cueimps.soc.srcf.net/course/course/finance/Black-Scholes/4Risks">
- <img src="http://cueimps.soc.srcf.net/course/media/B-S/4Risks.jpg"/>
+ <a href="/course/course/finance/Black-Scholes/4Risks">
+ <img src="/course/media/B-S/4Risks.jpg"/>
  </a>
 
  </div>

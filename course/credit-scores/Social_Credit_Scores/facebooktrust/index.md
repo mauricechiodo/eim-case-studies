@@ -16,7 +16,7 @@ In order to calculate this score, Facebook is tracking users' behaviour across t
   
   - This is all reflected in an **invisible score or rating**.
 
-Online commentators are already comparing this the the [Chinese social credit system](http://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china). 
+Online commentators are already comparing this the the [Chinese social credit system](/course/course/credit-scores/Social_Credit_Scores/china). 
 
 As highlighted by Claire Wardle, director of First Draft (a research lab within the Harvard Kennedy School), “not knowing how [Facebook is] judging us is what makes us uncomfortable”. However, ironically, they can't tell us how we're being judged because if they do, the system can be gamed.
 

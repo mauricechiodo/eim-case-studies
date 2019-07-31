@@ -4,9 +4,9 @@ Template: LeafPage
 ---
 #China Social Credit Score
 
-![China Social Score Timeline](http://cueimps.soc.srcf.net/course/media/chinatimeline.png "China Social Score Timeline")
+![China Social Score Timeline](/course/media/chinatimeline.png "China Social Score Timeline")
 
-To find out about the China Social Credit Score, click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Social_Credit_Scores/china/intro).
+To find out about the China Social Credit Score, click [here](/course/course/credit-scores/Social_Credit_Scores/china/intro).
 
 ##References
 

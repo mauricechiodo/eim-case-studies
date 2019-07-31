@@ -17,13 +17,13 @@ Furthermore, they could even take lower rated tranches of CDOs to create a CDO. 
 
 Although CDOs were first presented in the 1980s, there was a massive growth in their issuance from 2001. This was when rating agencies became more familiar with CDOs, and so they started to receive ratings. In 2004 the worldwide CDO issuance was \$97 billion, peaking in 2006 when it totaled to \$445 billion. And, at the heart of it all was Li's formula. Below is a graph depicting CDO issuance according to primary collateral type (USD millions).
 
-![CDO issuance according to primary collateral type (USD millions)](http://cueimps.soc.srcf.net/course/media/Figure5.png "CDO issuance according to primary collateral type (USD millions)")
+![CDO issuance according to primary collateral type (USD millions)](/course/media/Figure5.png "CDO issuance according to primary collateral type (USD millions)")
 
 Li's model could be applied anywhere, for anything and so was quickly adopted by, not only banks who wanted to package new bonds, but also hedge funds who wanted to make complex trades between those bonds. 
 
 As the copula function used credit default swap prices to calculate correlation, it could only get data from the period of time when credit default swaps existed, which was less than a decade. During this period, the default correlations were very low. Bilginsoy (2014) highlights how when *The Economist* in 2003, and other print media, questioned whether the US housing market was experiencing a bubble and whether higher prices were sustainable, experts assured that a "generalized price bubble and implosion were unlikely".
 
-However, the bubble eventually burst. The supply of houses caught up with speculative demand causing a decline in the value of homes. Futher, the honeymoon period of adjustable-rate mortgages (see [glossary](http://cueimps.soc.srcf.net/course/course/finance/cdos/glossary) had passed, which resulted in many borrowers facing large increases in their mortgage payments as the interest rates were reset [4]. This caused many homeowners to have a mortgage debt that was greater than the value of their home. As a result, correlations skyrocketed. 
+However, the bubble eventually burst. The supply of houses caught up with speculative demand causing a decline in the value of homes. Futher, the honeymoon period of adjustable-rate mortgages (see [glossary](/course/course/finance/cdos/glossary) had passed, which resulted in many borrowers facing large increases in their mortgage payments as the interest rates were reset [4]. This caused many homeowners to have a mortgage debt that was greater than the value of their home. As a result, correlations skyrocketed. 
 
 >*"Everyone was pinning their hopes on house prices continuing to rise"* - Kai Gilkes of CreditSights, a credit research firm. 
 
@@ -35,7 +35,7 @@ Problems with the CDO market started when mortgage backed securities investors s
 
 The figure below shows the writedowns of top CDO issuers since mid 2007 until Februray 2009, taken from 'Crashes and collateralized lending' by Jurek and Stafford. 
 
-![Top CDO issuers and their writedowns as of February 2009](http://cueimps.soc.srcf.net/course/media/Figure3.png "Top CDO issuers and their writedowns as of February 2009")
+![Top CDO issuers and their writedowns as of February 2009](/course/media/Figure3.png "Top CDO issuers and their writedowns as of February 2009")
 
 These write-downs happened as a result of the high volume of subprime mortgages issued recklessly to households with a low credit scores in the US. The mortgages were securitised into mortgage back securities (MBS) and then sold to institutional investors. As a result, the credit risk of the mortgages was spread to the whole financial sector. Then, after some mortgage defaults the institutions involved were extremely affected, some of them even defaulting, such as Lehman Brothers or US mortgage agencies Fannie Mae and Freddie Mac. As stated by Calabria in 'Fannie, Freddie, and the Subprime Mortgage Market', these two mortgage agencies were so heavily affected because during the housing bubble in 2003-2004, when the level of private-label securitisations increased by over 50%, they owned almost 40% of newly issued private-label subprime securities, making them the largest single source of liquidity for this market .
 

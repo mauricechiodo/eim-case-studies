@@ -7,7 +7,7 @@ Template: ListSubPages
 $\newcommand{\F}[1]{^{[\text{F}#1]}} \newcommand{\c}[1]{^{[#1]}} \newcommand{\C}[2]{^{[#1\text{, p.#2}]}} \newcommand{\Ci}[2]{^{[#1\text{, #2}]}}$
 Quantitative Easing (QE) is the implementation of **Large-Scale Asset Purchase**, a system by which the central bank of a country prints physical or electronic money to purchase assets from the private sector. This increases the amount of money in circulation, encouraging investment and boosting the economy (Table 1). This is an unconventional method of stimulating the economy, and is employed as a solution to the **Zero Lower Bound Problem** (ZLBP).
 
-![Table 1](http://cueimps.soc.srcf.net/course/media/calliope/table1.png)
+![Table 1](/course/media/calliope/table1.png)
 Table 1$\c{1}$
 
 ### The Zero Lower Bound Problem

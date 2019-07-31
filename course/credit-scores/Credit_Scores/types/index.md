@@ -82,9 +82,9 @@ In 'Big Data, a Big Disappointment for Scoring Consumer Creditworthiness', Yu, M
 
 In order to overcome these problems there are currently a number of companies that are developing fringe alternative models. The following list is taken from 'On Social Credit and the Right to be Unnetworked' by Packin and Lev-Aretz:
 
-	- **Lenddo:** To apply for a loan, users authorise Lenddo to access their social media profiles, from which Lenddo's model calculates a score that determines whtehr the applicant can receive a loan and the terms under which such a loan will be granted. Rather than actually lending money, Lenddo has started selling its algorithmic services to businesses inside and outside the financial sector. To find out more about Lenddo, click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/lenddo). 
+	- **Lenddo:** To apply for a loan, users authorise Lenddo to access their social media profiles, from which Lenddo's model calculates a score that determines whtehr the applicant can receive a loan and the terms under which such a loan will be granted. Rather than actually lending money, Lenddo has started selling its algorithmic services to businesses inside and outside the financial sector. To find out more about Lenddo, click [here](/course/course/credit-scores/Credit_Scores/lenddo). 
 	
-	- **ZestFinance:** Founded by the ex-CIO of Google, Douglas Merrill, ZestFinance have created ZAML Platform, which uses machine learning to analyse thousands of non-traditional and traditional variables to score borrowers. To find out more about ZestFinance, click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/zestfinance).
+	- **ZestFinance:** Founded by the ex-CIO of Google, Douglas Merrill, ZestFinance have created ZAML Platform, which uses machine learning to analyse thousands of non-traditional and traditional variables to score borrowers. To find out more about ZestFinance, click [here](/course/course/credit-scores/Credit_Scores/zestfinance).
 	
 	- **LendUp:** Mixes data from credit bureaus with reputation information taken from the user's social networks. Unlike Lendoo, it is not mandatory for the user to connect their social network, although they are encouraged to fully disclose their social information because "the more they reveal, the better their chances of approval", as highlighted by Armour in the article 'Borrowers Hit Social-Media Hurdles' in the Wall Street Journal.
 	
@@ -101,7 +101,7 @@ In order to overcome these problems there are currently a number of companies th
 	- **Hello Soda:** Their product, PROFILE, lets lenders determine the creditworthiness of people by identifying their personality attributes from language used in their social media. 
 	
 
-Facebook has also recently filed a patent that could be applied to credit scoring. In order to learn more about this, click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/facebookpatent).
+Facebook has also recently filed a patent that could be applied to credit scoring. In order to learn more about this, click [here](/course/course/credit-scores/Credit_Scores/facebookpatent).
 
 ##References:
 

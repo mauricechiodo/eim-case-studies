@@ -8,7 +8,7 @@ Template: LeafPage
 The system devised in Rongcheng assigns 1,000 points at the beginning to each of the 740,000 adult residents. A citizen can then either win or lose points depending on the actions they take. 
 
 <p>
-    <img src="http://cueimps.soc.srcf.net/course/media/Rongcheng.png" Map of Rongcheng>
+    <img src="/course/media/Rongcheng.png" Map of Rongcheng>
 </p>
 <p>
     <em>Map Data © 2018 Google, SK Telecom.</em>

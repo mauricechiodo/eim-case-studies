@@ -32,7 +32,7 @@ a subjective value.
 
 Most recently IBA appears to be focussing on the submission stage of the Libor process.
 
-![Libor Evolve](http://cueimps.soc.srcf.net/course/media/Lara/LiborEvolve.png)
+![Libor Evolve](/course/media/Lara/LiborEvolve.png)
 
 The diagram shows IBA's Libor reform [1]. Note that steps two and beyond are the same.
 

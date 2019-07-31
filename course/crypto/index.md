@@ -1,7 +1,7 @@
 ---
 Title: Cryptography and Mass Surveillance
 Template: ListSubPages
-GridImage: http://cueimps.soc.srcf.net/course/media/lock1.png
+GridImage: /course/media/lock1.png
 ---
 
 # Cryptography and Mass Surveillance
@@ -14,4 +14,4 @@ Many agents have a vested interest in being able to read encrypted internet traf
 
 Mathematicians are working every day on making the internet more secure, or on breaking that security. Regardless of who should be able to read internet traffic, or if one deserves online privacy, these are poignant ethical questions that mathematicians are being faced with all the time.
 
-Link to introduction on [ECC and NIST](https://cueimps.soc.srcf.net/course/course/crypto/Nist) - it contains links to the more detailed ECC and NIST pages.
+Link to introduction on [ECC and NIST](/course/course/crypto/Nist) - it contains links to the more detailed ECC and NIST pages.

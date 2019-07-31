@@ -11,4 +11,4 @@ Due to this it is of immense importance that they are calculated as accurately a
 
 No single credit score exists, but there are three main credit reference agencies used in the UK: Experian, Equifax and TransUnion (formerly Callcredit).
 
-What types of models exist, and what types of data are put in these models? Click [here](http://cueimps.soc.srcf.net/course/course/credit-scores/Credit_Scores/types) to find out. 
+What types of models exist, and what types of data are put in these models? Click [here](/course/course/credit-scores/Credit_Scores/types) to find out. 
