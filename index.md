@@ -9,4 +9,4 @@ Template: ListSubPages
 
 [Main page link](/course/course).
 
-Hello world.
+Work in progress...
