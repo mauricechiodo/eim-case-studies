@@ -9,6 +9,8 @@ GridImage: media/finance.png
 In recent years, mathematics has come to play a central role in finance. Far from simply *adding up the numbers*, mathematicians and their work are deeply involved in the production and trading of complex financial products. However, this is not without its drawbacks. By allowing individuals to trade more products, at greater (automated) speed, and of greater complexity, mathematicians have now found themselves as part of the cause of several financial catastrophes, each worse than the last.
 
 
+The [Libor scandal](/course/course/finance/libor)
+
 
 
 OLD SUMMARY=======
