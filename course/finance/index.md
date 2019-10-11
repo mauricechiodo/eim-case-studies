@@ -13,6 +13,7 @@ The [Libor scandal](/course/course/finance/libor) is an egregious example of mat
 
 The over-use and mis-use of [Collateralised debt obligations](/course/course/finance/cdos) (CDOs), a mathematicial construct which re-packaged interest-bearing debts in such as way as to "increase their value" led to the worst financial crashe in living memory; the 2008 Global Financial Crisis, the effects of which we still feel today.
 
+The [Black-Scholes equation](/course/course/finance/Black-Scholes) for options pricing was hailed as a spectacular interdisciplinary achievement in mathematics and economics, which for the first time enabled the market to use uniform method for pricing options that always worked. Except when it didn't. 
 
 
 
