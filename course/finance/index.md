@@ -9,7 +9,10 @@ GridImage: media/finance.png
 In recent years, mathematics has come to play a central role in finance. Far from simply *adding up the numbers*, mathematicians and their work are deeply involved in the production and trading of complex financial products. However, this is not without its drawbacks. By allowing individuals to trade more products, at greater (automated) speed, and of greater complexity, mathematicians have now found themselves as part of the cause of several financial catastrophes, each worse than the last.
 
 
-The [Libor scandal](/course/course/finance/libor)
+The [Libor scandal](/course/course/finance/libor) is an egregious example of mathematicians working in finance who were consumed by greed and used their position to intentionally rig the financial market in their favour.
+
+The over-use and mis-use of [Collateralised debt obligations](/course/course/finance/cdos) (CDOs), a mathematicial construct which re-packaged interest-bearing debts in such as way as to "increase their value" led to the worst financial crashe in living memory; the 2008 Global Financial Crisis, the effects of which we still feel today.
+
 
 
 
