@@ -1,6 +1,6 @@
 ---
 Title: Case Studies
-Template: SubPageGrid
+Template: ListSubPages <!---SubPageGrid--->
 ---
 #Ethics in Mathematics: A collection of case studies
 $\newcommand{\EiM}{\mathbb{E}\text{i}\mathbb{M}}$
