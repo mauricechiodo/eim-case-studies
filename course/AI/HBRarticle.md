@@ -11,7 +11,7 @@ Template: ListSubPages
 ### A review on the article by the Harvard Business Review
 
 The article claims that "algorithms are less biased and more accurate than the humans they are replacing". This is a dangerous statement to
-make. Rachel Thomas of [fast.ai](http://www.fast.ai/) has written about what HBR fails to mention in their article. She makes many
+make. Rachel Thomas of [fast.ai](http://www.fast.ai/) has [written about](http://www.fast.ai/2018/08/07/hbr-bias-algorithms/) what HBR fails to mention in their article. She makes many
 important points, one such point being the issue that the people using the algorithms are unlikely to have very much understanding about how
 they work, and therefore they may feel uncomfortable overriding a decision that an algorithm might make, even if the output seems strange.
 Additionally, algorithms are often used on a much larger scale than human decision-makers, so is likely to affect a much larger proportion
